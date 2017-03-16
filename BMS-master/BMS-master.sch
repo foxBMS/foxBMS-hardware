@@ -5847,72 +5847,20 @@ Source: AVX .. aphvc.pdf</description>
 <library name="custom_passiv">
 <packages>
 <package name="0603">
-<wire x1="-0.3556" y1="0.254" x2="0.3556" y2="0.254" width="0.127" layer="21"/>
-<wire x1="0.3556" y1="-0.254" x2="-0.3556" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.3556" y1="0.254" x2="0.3556" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.3556" y1="0.254" x2="-0.3556" y2="-0.254" width="0.127" layer="21"/>
 <wire x1="-1.2954" y1="0.6096" x2="1.2954" y2="0.6096" width="0" layer="39"/>
 <wire x1="1.2954" y1="0.6096" x2="1.2954" y2="-0.6096" width="0" layer="39"/>
 <wire x1="1.2954" y1="-0.6096" x2="-1.2954" y2="-0.6096" width="0" layer="39"/>
 <wire x1="-1.2954" y1="-0.6096" x2="-1.2954" y2="0.6096" width="0" layer="39"/>
-<smd name="2" x="0.7874" y="0" dx="0.762" dy="0.9652" layer="1"/>
-<smd name="1" x="-0.7874" y="0" dx="0.762" dy="0.9652" layer="1"/>
+<smd name="2" x="0.7" y="0" dx="0.75" dy="0.9" layer="1"/>
+<smd name="1" x="-0.7" y="0" dx="0.75" dy="0.9" layer="1"/>
 <text x="-1.4748" y="-1.2605" size="0.508" layer="27">&gt;VALUE</text>
 <text x="-1.4335" y="0.6795" size="0.508" layer="25">&gt;NAME</text>
-<rectangle x1="-0.762" y1="-0.4064" x2="-0.4064" y2="0.4064" layer="21"/>
-<rectangle x1="0.4064" y1="-0.4064" x2="0.762" y2="0.4064" layer="21"/>
-<rectangle x1="-0.762" y1="-0.4064" x2="-0.4064" y2="0.4064" layer="21"/>
-<rectangle x1="0.4064" y1="-0.4064" x2="0.762" y2="0.4064" layer="21"/>
-</package>
-<package name="0805">
-<wire x1="-0.3556" y1="0.4572" x2="0.3556" y2="0.4572" width="0.127" layer="21"/>
-<wire x1="0.3556" y1="-0.4572" x2="-0.3556" y2="-0.4572" width="0.127" layer="21"/>
-<wire x1="0.3556" y1="0.4572" x2="0.3556" y2="-0.4572" width="0.127" layer="21"/>
-<wire x1="-0.3556" y1="0.4572" x2="-0.3556" y2="-0.4572" width="0.127" layer="21"/>
-<wire x1="-1.6018" y1="-0.8144" x2="-1.6018" y2="0.8144" width="0" layer="39"/>
-<wire x1="-1.6018" y1="0.8144" x2="1.6018" y2="0.8144" width="0" layer="39"/>
-<wire x1="1.6018" y1="0.8144" x2="1.6018" y2="-0.8144" width="0" layer="39"/>
-<wire x1="1.6018" y1="-0.8144" x2="-1.6018" y2="-0.8144" width="0" layer="39"/>
-<smd name="2" x="0.9398" y="0" dx="1.0922" dy="1.397" layer="1"/>
-<smd name="1" x="-0.9398" y="0" dx="1.0922" dy="1.397" layer="1"/>
-<text x="-1.8097" y="-1.4288" size="0.6096" layer="27">&gt;VALUE</text>
-<text x="-1.6827" y="0.9207" size="0.6096" layer="25">&gt;NAME</text>
-<rectangle x1="0.4064" y1="-0.6096" x2="0.9144" y2="0.6096" layer="21"/>
-<rectangle x1="-0.9144" y1="-0.6096" x2="-0.4064" y2="0.6096" layer="21"/>
-</package>
-<package name="1210">
-<wire x1="-0.8636" y1="1.0922" x2="0.8636" y2="1.0922" width="0.127" layer="21"/>
-<wire x1="-0.8636" y1="-1.0922" x2="0.8636" y2="-1.0922" width="0.127" layer="21"/>
-<wire x1="0.8636" y1="1.0922" x2="0.8636" y2="-1.0922" width="0.127" layer="21"/>
-<wire x1="-0.8636" y1="-1.0922" x2="-0.8636" y2="1.0922" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="-1.397" x2="2.413" y2="-1.397" width="0" layer="39"/>
-<wire x1="2.413" y1="-1.397" x2="2.413" y2="1.397" width="0" layer="39"/>
-<wire x1="2.413" y1="1.397" x2="-2.413" y2="1.397" width="0" layer="39"/>
-<wire x1="-2.413" y1="1.397" x2="-2.413" y2="-1.397" width="0" layer="39"/>
-<smd name="2" x="1.6002" y="0" dx="1.397" dy="2.5908" layer="1"/>
-<smd name="1" x="-1.6002" y="0" dx="1.397" dy="2.5908" layer="1"/>
-<text x="-2.286" y="-1.143" size="1.016" layer="27">&gt;VALUE</text>
-<text x="-2.159" y="0.254" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.937" y="1.778" size="1.778" layer="111">&gt;NAME</text>
-<rectangle x1="-1.4224" y1="-1.2446" x2="-0.9144" y2="1.2446" layer="21"/>
-<rectangle x1="0.9144" y1="-1.2446" x2="1.4224" y2="1.2446" layer="21"/>
-</package>
-<package name="1812">
-<wire x1="-1.3462" y1="1.4478" x2="1.3462" y2="1.4478" width="0.127" layer="21"/>
-<wire x1="1.3462" y1="-1.4478" x2="-1.3462" y2="-1.4478" width="0.127" layer="21"/>
-<wire x1="1.3462" y1="1.4478" x2="1.3462" y2="-1.4478" width="0.127" layer="21"/>
-<wire x1="-1.3462" y1="1.4478" x2="-1.3462" y2="-1.4478" width="0.127" layer="21"/>
-<wire x1="-3.2004" y1="-1.7526" x2="3.2004" y2="-1.7526" width="0" layer="39"/>
-<wire x1="3.2004" y1="-1.7526" x2="3.2004" y2="1.7526" width="0" layer="39"/>
-<wire x1="3.2004" y1="1.7526" x2="-3.2004" y2="1.7526" width="0" layer="39"/>
-<wire x1="-3.2004" y1="1.7526" x2="-3.2004" y2="-1.7526" width="0" layer="39"/>
-<smd name="2" x="2.2352" y="0" dx="1.7018" dy="3.302" layer="1"/>
-<smd name="1" x="-2.2352" y="0" dx="1.7018" dy="3.302" layer="1"/>
-<text x="-3.175" y="-1.397" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-2.921" y="0" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.921" y="2.54" size="1.778" layer="111">&gt;NAME</text>
-<rectangle x1="-2.0066" y1="-1.6002" x2="-1.397" y2="1.6002" layer="21"/>
-<rectangle x1="1.397" y1="-1.6002" x2="2.0066" y2="1.6002" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="51"/>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
 <package name="1210_V">
 <description>1210 hochkant</description>
@@ -6577,27 +6525,6 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-1.27" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.296" y="3.721" size="1.27" layer="111">&gt;NAME</text>
 </package>
-<package name="2220-DOPPELSTOCK">
-<smd name="P$1" x="2.2" y="0" dx="5.2" dy="1.8" layer="1" rot="R90"/>
-<smd name="P$2" x="-2.2" y="0" dx="5.2" dy="1.8" layer="1" rot="R90"/>
-<wire x1="-3.3" y1="-2.8" x2="3.3" y2="-2.8" width="0" layer="39"/>
-<wire x1="3.3" y1="-2.8" x2="3.3" y2="2.8" width="0" layer="39"/>
-<wire x1="3.3" y1="2.8" x2="-3.3" y2="2.8" width="0" layer="39"/>
-<wire x1="-3.3" y1="2.8" x2="-3.3" y2="-2.8" width="0" layer="39"/>
-<wire x1="-2.9" y1="2.4" x2="2.9" y2="2.4" width="0.2" layer="21"/>
-<wire x1="2.9" y1="2.4" x2="2.9" y2="0" width="0.2" layer="21"/>
-<wire x1="2.9" y1="0" x2="2.9" y2="-2.4" width="0.2" layer="21"/>
-<wire x1="2.9" y1="-2.4" x2="-2.9" y2="-2.4" width="0.2" layer="21"/>
-<wire x1="-2.9" y1="-2.4" x2="-2.9" y2="0" width="0.2" layer="21"/>
-<wire x1="-2.9" y1="0" x2="-2.9" y2="2.4" width="0.2" layer="21"/>
-<wire x1="0.3" y1="0.9" x2="0.3" y2="0" width="0.2" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="-0.9" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="0.9" x2="-0.3" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="0" x2="-0.3" y2="-0.9" width="0.2" layer="21"/>
-<wire x1="0.3" y1="0" x2="2.9" y2="0" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="0" x2="-2.9" y2="0" width="0.2" layer="21"/>
-<text x="-0.9" y="1.3" size="0.3" layer="21" font="vector" ratio="20">(C) Otto</text>
-</package>
 <package name="MM-RE">
 <wire x1="-0.8636" y1="0.635" x2="0.8636" y2="0.635" width="0.127" layer="21"/>
 <wire x1="-0.8636" y1="-0.635" x2="0.8636" y2="-0.635" width="0.127" layer="21"/>
@@ -6834,42 +6761,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="4" y1="-2.7" x2="-4" y2="-2.7" width="0" layer="39"/>
 <wire x1="-4" y1="-2.7" x2="-4" y2="2.7" width="0" layer="39"/>
 </package>
-<package name="1020">
-<smd name="P$1" x="0" y="1.05" dx="5.2" dy="1.5" layer="1"/>
-<smd name="P$2" x="0" y="-1.05" dx="5.2" dy="1.5" layer="1"/>
-<wire x1="-2.75" y1="1.95" x2="2.75" y2="1.95" width="0" layer="39"/>
-<wire x1="2.75" y1="1.95" x2="2.75" y2="-1.95" width="0" layer="39"/>
-<wire x1="2.75" y1="-1.95" x2="-2.75" y2="-1.95" width="0" layer="39"/>
-<wire x1="-2.75" y1="-1.95" x2="-2.75" y2="1.95" width="0" layer="39"/>
-<wire x1="-2.5" y1="1.25" x2="2.5" y2="1.25" width="0.2" layer="21"/>
-<wire x1="2.5" y1="1.25" x2="2.5" y2="-1.25" width="0.2" layer="21"/>
-<wire x1="2.5" y1="-1.25" x2="-2.5" y2="-1.25" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="1.25" width="0.2" layer="21"/>
-<text x="-2.05" y="-0.6" size="1.27" layer="21">1020</text>
-</package>
-<package name="0402-EPCOS">
-<description>Pad Layout nach Epcos Datenblatt</description>
-<wire x1="-0.5" y1="0.25" x2="-0.3" y2="0.25" width="0.025" layer="21"/>
-<wire x1="-0.3" y1="0.25" x2="0.3" y2="0.25" width="0.025" layer="21"/>
-<wire x1="0.3" y1="0.25" x2="0.5" y2="0.25" width="0.025" layer="21"/>
-<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="0.5" y1="-0.25" x2="0.3" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="0.3" y1="-0.25" x2="-0.3" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="-0.3" y1="-0.25" x2="-0.5" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.025" layer="21"/>
-<wire x1="-0.3" y1="0.25" x2="-0.3" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="0.3" y1="0.25" x2="0.3" y2="-0.25" width="0.025" layer="21"/>
-<wire x1="-0.95" y1="0.4" x2="-0.95" y2="-0.4" width="0" layer="39"/>
-<wire x1="-0.95" y1="-0.4" x2="0.95" y2="-0.4" width="0" layer="39"/>
-<wire x1="0.95" y1="-0.4" x2="0.95" y2="0.4" width="0" layer="39"/>
-<wire x1="0.95" y1="0.4" x2="-0.95" y2="0.4" width="0" layer="39"/>
-<smd name="P$1" x="-0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="P$2" x="0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="-0.65" y="0.05" size="0.254" layer="25">&gt;NAME</text>
-<text x="-0.65" y="-0.3" size="0.254" layer="25">&gt;VALUE</text>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="21"/>
-<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
-</package>
 <package name="1812_HV">
 <wire x1="1.3462" y1="1.4478" x2="1.3462" y2="-1.4478" width="0.127" layer="21"/>
 <wire x1="-1.3462" y1="1.4478" x2="-1.3462" y2="-1.4478" width="0.127" layer="21"/>
@@ -6891,9 +6782,95 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-0.5" y1="-1.5" x2="-0.5" y2="1.5" width="0.0254" layer="20"/>
 <wire x1="-0.5" y1="1.5" x2="0" y2="2" width="0.0254" layer="20" curve="-90"/>
 </package>
+<package name="0805">
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1.6018" y1="-0.8144" x2="-1.6018" y2="0.8144" width="0" layer="39"/>
+<wire x1="-1.6018" y1="0.8144" x2="1.6018" y2="0.8144" width="0" layer="39"/>
+<wire x1="1.6018" y1="0.8144" x2="1.6018" y2="-0.8144" width="0" layer="39"/>
+<wire x1="1.6018" y1="-0.8144" x2="-1.6018" y2="-0.8144" width="0" layer="39"/>
+<smd name="2" x="0.9" y="0" dx="1.15" dy="1.45" layer="1"/>
+<smd name="1" x="-0.9" y="0" dx="1.15" dy="1.45" layer="1"/>
+<text x="-1.8097" y="-1.4288" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-1.6827" y="0.9207" size="0.6096" layer="25">&gt;NAME</text>
+<rectangle x1="0.5064" y1="-0.6096" x2="1.0144" y2="0.6096" layer="51"/>
+<rectangle x1="-1.0144" y1="-0.6096" x2="-0.5064" y2="0.6096" layer="51"/>
+</package>
+<package name="1206">
+<description>Höhe 1,6mm</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="2.1352" y1="1.0414" x2="-2.1352" y2="1.0414" width="0" layer="39"/>
+<wire x1="-2.1352" y1="1.0414" x2="-2.1352" y2="-1.0414" width="0" layer="39"/>
+<wire x1="-2.1352" y1="-1.0414" x2="2.1352" y2="-1.0414" width="0" layer="39"/>
+<wire x1="2.1352" y1="-1.0414" x2="2.1352" y2="1.0414" width="0" layer="39"/>
+<smd name="2" x="1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.2" dy="1.8" layer="1"/>
+<text x="-2.159" y="-2.0956" size="0.75" layer="27">&gt;VALUE</text>
+<text x="-2.159" y="1.0796" size="0.75" layer="25">&gt;NAME</text>
+<rectangle x1="-1.5224" y1="-0.7874" x2="-1.0144" y2="0.7874" layer="51"/>
+<rectangle x1="1.0144" y1="-0.7874" x2="1.5224" y2="0.7874" layer="51"/>
+</package>
+<package name="0402-EPCOS">
+<description>Pad Layout nach Epcos Datenblatt</description>
+<wire x1="-0.5" y1="0.25" x2="-0.3" y2="0.25" width="0.025" layer="21"/>
+<wire x1="-0.3" y1="0.25" x2="0.3" y2="0.25" width="0.025" layer="21"/>
+<wire x1="0.3" y1="0.25" x2="0.5" y2="0.25" width="0.025" layer="21"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="0.5" y1="-0.25" x2="0.3" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="0.3" y1="-0.25" x2="-0.3" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="-0.3" y1="-0.25" x2="-0.5" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.025" layer="21"/>
+<wire x1="-0.3" y1="0.25" x2="-0.3" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="0.3" y1="0.25" x2="0.3" y2="-0.25" width="0.025" layer="21"/>
+<wire x1="-0.95" y1="0.4" x2="-0.95" y2="-0.4" width="0" layer="39"/>
+<wire x1="-0.95" y1="-0.4" x2="0.95" y2="-0.4" width="0" layer="39"/>
+<wire x1="0.95" y1="-0.4" x2="0.95" y2="0.4" width="0" layer="39"/>
+<wire x1="0.95" y1="0.4" x2="-0.95" y2="0.4" width="0" layer="39"/>
+<smd name="P$1" x="-0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="P$2" x="0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.65" y="0.685" size="0.254" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-0.3" size="0.254" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="21"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
+</package>
+<package name="1812">
+<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.3" layer="21"/>
+<wire x1="2.25" y1="-1.6" x2="-2.25" y2="-1.6" width="0.3" layer="21"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.3" layer="21"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.3" layer="21"/>
+<wire x1="-3.0004" y1="-1.9526" x2="3.0004" y2="-1.9526" width="0" layer="39"/>
+<wire x1="3.0004" y1="-1.9526" x2="3.0004" y2="1.9526" width="0" layer="39"/>
+<wire x1="3.0004" y1="1.9526" x2="-3.0004" y2="1.9526" width="0" layer="39"/>
+<wire x1="-3.0004" y1="1.9526" x2="-3.0004" y2="-1.9526" width="0" layer="39"/>
+<smd name="2" x="2" y="0" dx="1.4" dy="3.5" layer="1"/>
+<smd name="1" x="-2" y="0" dx="1.4" dy="3.5" layer="1"/>
+<text x="-3.175" y="-1.397" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.921" y="0" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-2.1066" y1="-1.6002" x2="-1.497" y2="1.6002" layer="21"/>
+<rectangle x1="1.497" y1="-1.6002" x2="2.1066" y2="1.6002" layer="21"/>
+</package>
+<package name="1020">
+<smd name="P$1" x="0" y="1.05" dx="5.2" dy="1.5" layer="1"/>
+<smd name="P$2" x="0" y="-1.05" dx="5.2" dy="1.5" layer="1"/>
+<wire x1="-2.75" y1="1.95" x2="2.75" y2="1.95" width="0" layer="39"/>
+<wire x1="2.75" y1="1.95" x2="2.75" y2="-1.95" width="0" layer="39"/>
+<wire x1="2.75" y1="-1.95" x2="-2.75" y2="-1.95" width="0" layer="39"/>
+<wire x1="-2.75" y1="-1.95" x2="-2.75" y2="1.95" width="0" layer="39"/>
+<wire x1="-2.5" y1="1.25" x2="2.5" y2="1.25" width="0.2" layer="51"/>
+<wire x1="2.5" y1="1.25" x2="2.5" y2="-1.25" width="0.2" layer="51"/>
+<wire x1="2.5" y1="-1.25" x2="-2.5" y2="-1.25" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="1.25" width="0.2" layer="51"/>
+<text x="-2.05" y="-0.6" size="1.27" layer="51">1020</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;Name</text>
+</package>
 <package name="1206_HV">
 <smd name="P$1" x="-1.55" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
-<smd name="P$2" x="1.55" y="0.02" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="P$2" x="1.55" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
 <wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.1" layer="21"/>
 <wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.1" layer="21"/>
 <wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.1" layer="21"/>
@@ -6902,6 +6879,22 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-3.13" y="3.15" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.15" y="1.45" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1210">
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="1.6" y2="-1.25" width="0.2" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.2" layer="51"/>
+<wire x1="-2.313" y1="-1.497" x2="2.313" y2="-1.497" width="0" layer="39"/>
+<wire x1="2.313" y1="-1.497" x2="2.313" y2="1.497" width="0" layer="39"/>
+<wire x1="2.313" y1="1.497" x2="-2.313" y2="1.497" width="0" layer="39"/>
+<wire x1="-2.313" y1="1.497" x2="-2.313" y2="-1.497" width="0" layer="39"/>
+<smd name="2" x="1.5" y="0" dx="1.2" dy="2.7" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="1.2" dy="2.7" layer="1"/>
+<text x="-2.286" y="-2.613" size="1.016" layer="27">&gt;VALUE</text>
+<text x="-2.159" y="1.724" size="1.016" layer="25">&gt;NAME</text>
+<rectangle x1="-1.5224" y1="-1.2446" x2="-1.0144" y2="1.2446" layer="51"/>
+<rectangle x1="1.0144" y1="-1.2446" x2="1.5224" y2="1.2446" layer="51"/>
+</package>
 <package name="1206_WIDE">
 <smd name="P$1" x="0" y="0" dx="3.4" dy="0.7" layer="1" rot="R90"/>
 <smd name="P$2" x="1.2" y="0" dx="3.4" dy="0.7" layer="1" rot="R90"/>
@@ -6909,46 +6902,109 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="1.2" y1="1.6" x2="1.2" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="1.2" y1="-1.6" x2="0" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="0" y1="-1.6" x2="0" y2="1.6" width="0.127" layer="21"/>
-<text x="-0.5" y="2" size="1.27" layer="21">&gt;Name</text>
-<text x="-0.5" y="-3" size="1.27" layer="21">&gt;Value</text>
+<text x="-0.5" y="2" size="1.27" layer="25">&gt;Name</text>
+<text x="-0.5" y="-3" size="1.27" layer="27">&gt;Value</text>
 <wire x1="-0.5" y1="1.8" x2="1.7" y2="1.8" width="0" layer="39"/>
 <wire x1="1.7" y1="1.8" x2="1.7" y2="-1.8" width="0" layer="39"/>
 <wire x1="1.7" y1="-1.8" x2="-0.5" y2="-1.8" width="0" layer="39"/>
 <wire x1="-0.5" y1="-1.8" x2="-0.5" y2="1.8" width="0" layer="39"/>
 </package>
-<package name="1206">
-<description>Höhe 1,6mm</description>
-<wire x1="-0.8636" y1="0.635" x2="0.8636" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.8636" y1="-0.635" x2="0.8636" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0.8636" y1="0.635" x2="0.8636" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-0.8636" y1="0.635" x2="-0.8636" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="2.1352" y1="0.9414" x2="-2.1352" y2="0.9414" width="0" layer="39"/>
-<wire x1="-2.1352" y1="0.9414" x2="-2.1352" y2="-0.9414" width="0" layer="39"/>
-<wire x1="-2.1352" y1="-0.9414" x2="2.1352" y2="-0.9414" width="0" layer="39"/>
-<wire x1="2.1352" y1="-0.9414" x2="2.1352" y2="0.9414" width="0" layer="39"/>
-<smd name="2" x="1.4732" y="0" dx="1.143" dy="1.7018" layer="1"/>
-<smd name="1" x="-1.4732" y="0" dx="1.143" dy="1.7018" layer="1"/>
-<text x="-2.159" y="-2.0956" size="1.016" layer="27">&gt;VALUE</text>
-<text x="-2.159" y="1.0796" size="1.016" layer="25">&gt;NAME</text>
-<rectangle x1="-1.4224" y1="-0.7874" x2="-0.9144" y2="0.7874" layer="21"/>
-<rectangle x1="0.9144" y1="-0.7874" x2="1.4224" y2="0.7874" layer="21"/>
+<package name="0402">
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.9182" y1="0.4092" x2="0.9182" y2="0.4092" width="0" layer="39"/>
+<wire x1="0.9182" y1="0.4092" x2="0.9182" y2="-0.4092" width="0" layer="39"/>
+<wire x1="0.9182" y1="-0.4092" x2="-0.9182" y2="-0.4092" width="0" layer="39"/>
+<wire x1="-0.9182" y1="-0.4092" x2="-0.9182" y2="0.4092" width="0" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-1.005" y="0.485" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.095" y="-0.895" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.5" y1="0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
+<rectangle x1="0.25" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+</package>
+<package name="VLP">
+<smd name="1" x="0" y="1.125" dx="1.1" dy="5.5" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-1.125" dx="1.1" dy="5.5" layer="1" rot="R270"/>
+<wire x1="2.6" y1="1.3" x2="2.6" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-1.3" x2="-2.6" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="1.3" x2="2.6" y2="1.3" width="0.1" layer="51"/>
+<text x="-1.9" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.9" y="3.3" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0" layer="39" pour="hatch">
+<vertex x="-2.7" y="1.4"/>
+<vertex x="2.7" y="1.4"/>
+<vertex x="2.7" y="-1.4"/>
+<vertex x="-2.7" y="-1.4"/>
+</polygon>
 </package>
 <package name="2220">
 <description>Hoehe: 5mm</description>
-<wire x1="-1.9558" y1="-2.3368" x2="1.9558" y2="-2.3368" width="0.127" layer="21"/>
-<wire x1="1.9558" y1="2.3368" x2="-1.9558" y2="2.3368" width="0.127" layer="21"/>
-<wire x1="1.9558" y1="2.3368" x2="1.9558" y2="-2.3368" width="0.127" layer="21"/>
-<wire x1="-1.9558" y1="2.3368" x2="-1.9558" y2="-2.3368" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="2.667" x2="3.81" y2="2.667" width="0" layer="39"/>
-<wire x1="3.81" y1="2.667" x2="3.81" y2="-2.667" width="0" layer="39"/>
-<wire x1="3.81" y1="-2.667" x2="-3.81" y2="-2.667" width="0" layer="39"/>
-<wire x1="-3.81" y1="-2.667" x2="-3.81" y2="2.667" width="0" layer="39"/>
-<smd name="2" x="2.8448" y="0" dx="1.7018" dy="5.1054" layer="1"/>
-<smd name="1" x="-2.8448" y="0" dx="1.7018" dy="5.1054" layer="1"/>
+<wire x1="-2.85" y1="-2.5" x2="2.85" y2="-2.5" width="0.4" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="-2.85" y2="2.5" width="0.4" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.4" layer="21"/>
+<wire x1="-2.85" y1="2.5" x2="-2.85" y2="-2.5" width="0.4" layer="21"/>
+<wire x1="-3.61" y1="2.867" x2="3.61" y2="2.867" width="0" layer="39"/>
+<wire x1="3.61" y1="2.867" x2="3.61" y2="-2.867" width="0" layer="39"/>
+<wire x1="3.61" y1="-2.867" x2="-3.61" y2="-2.867" width="0" layer="39"/>
+<wire x1="-3.61" y1="-2.867" x2="-3.61" y2="2.867" width="0" layer="39"/>
+<smd name="2" x="2.65" y="0" dx="1.5" dy="5.4" layer="1"/>
+<smd name="1" x="-2.65" y="0" dx="1.5" dy="5.4" layer="1"/>
 <text x="-3.302" y="-1.524" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.175" y="0.381" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-2.6162" y1="-2.4892" x2="-2.0066" y2="2.4892" layer="21"/>
-<rectangle x1="2.0066" y1="-2.4892" x2="2.6162" y2="2.4892" layer="21"/>
+<rectangle x1="-2.7162" y1="-2.4892" x2="-2.1066" y2="2.4892" layer="21"/>
+<rectangle x1="2.1066" y1="-2.4892" x2="2.7162" y2="2.4892" layer="21"/>
+</package>
+<package name="2220-DOPPELSTOCK">
+<description>Wave solder</description>
+<smd name="P$1" x="2.2" y="0" dx="5.2" dy="1.8" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.2" y="0" dx="5.2" dy="1.8" layer="1" rot="R90"/>
+<wire x1="-3.3" y1="-2.8" x2="3.3" y2="-2.8" width="0" layer="39"/>
+<wire x1="3.3" y1="-2.8" x2="3.3" y2="2.8" width="0" layer="39"/>
+<wire x1="3.3" y1="2.8" x2="-3.3" y2="2.8" width="0" layer="39"/>
+<wire x1="-3.3" y1="2.8" x2="-3.3" y2="-2.8" width="0" layer="39"/>
+<wire x1="-2.9" y1="2.4" x2="2.9" y2="2.4" width="0.2" layer="21"/>
+<wire x1="2.9" y1="2.4" x2="2.9" y2="0" width="0.2" layer="21"/>
+<wire x1="2.9" y1="0" x2="2.9" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="2.9" y1="-2.4" x2="-2.9" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="-2.4" x2="-2.9" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="0" x2="-2.9" y2="2.4" width="0.2" layer="21"/>
+<text x="-0.9" y="1.3" size="0.3" layer="21" font="vector" ratio="20">(C) Otto</text>
+</package>
+<package name="2220-DOPPEL-R">
+<description>Reflow solder</description>
+<smd name="P$1" x="2.5" y="0" dx="5.1" dy="2.4" layer="1" rot="R90"/>
+<smd name="P$2" x="-2.5" y="0" dx="5.1" dy="2.4" layer="1" rot="R90"/>
+<wire x1="-3.2" y1="-2.75" x2="3.3" y2="-2.75" width="0" layer="39"/>
+<wire x1="3.3" y1="-2.75" x2="3.3" y2="2.75" width="0" layer="39"/>
+<wire x1="3.3" y1="2.75" x2="-3.2" y2="2.75" width="0" layer="39"/>
+<wire x1="-3.2" y1="2.75" x2="-3.2" y2="-2.75" width="0" layer="39"/>
+<wire x1="-2.9" y1="2.4" x2="2.9" y2="2.4" width="0.2" layer="21"/>
+<wire x1="2.9" y1="2.4" x2="2.9" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="2.9" y1="-2.4" x2="-2.9" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="-2.9" y1="-2.4" x2="-2.9" y2="2.4" width="0.2" layer="21"/>
+<text x="0.52" y="-2.58" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="-3.06" y="-4.36" size="1.27" layer="25">&gt;Value</text>
+</package>
+<package name="1913">
+<smd name="P$1" x="2.15" y="0" dx="1.3" dy="3" layer="1"/>
+<smd name="P$2" x="-2.15" y="0" dx="1.3" dy="3" layer="1"/>
+<rectangle x1="-2.4" y1="-1.65" x2="2.4" y2="1.65" layer="21"/>
+<wire x1="-2.69" y1="1.89" x2="2.69" y2="1.89" width="0" layer="39"/>
+<wire x1="2.89" y1="1.79" x2="2.89" y2="-1.79" width="0" layer="39"/>
+<wire x1="2.69" y1="-1.89" x2="-2.69" y2="-1.89" width="0" layer="39"/>
+<wire x1="-2.89" y1="-1.79" x2="-2.89" y2="1.79" width="0" layer="39"/>
+<wire x1="-2.69" y1="-1.79" x2="-2.89" y2="-1.79" width="0" layer="39"/>
+<wire x1="-2.69" y1="-1.89" x2="-2.69" y2="-1.79" width="0" layer="39"/>
+<wire x1="2.89" y1="-1.79" x2="2.69" y2="-1.79" width="0" layer="39"/>
+<wire x1="2.69" y1="-1.79" x2="2.69" y2="-1.89" width="0" layer="39"/>
+<wire x1="-2.89" y1="1.79" x2="-2.69" y2="1.79" width="0" layer="39"/>
+<wire x1="2.69" y1="1.79" x2="2.89" y2="1.79" width="0" layer="39"/>
+<wire x1="-2.69" y1="1.79" x2="-2.69" y2="1.89" width="0" layer="39"/>
+<wire x1="2.69" y1="1.89" x2="2.69" y2="1.79" width="0" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -7246,7 +7302,7 @@ Source: AVX .. aphvc.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402" package="0402-EPCOS">
+<device name="0402-ECOS" package="0402-EPCOS">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -7325,6 +7381,33 @@ Source: AVX .. aphvc.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2220-DOPPEL-R" package="2220-DOPPEL-R">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1913HVKONDENSATOR" package="1913">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7432,7 +7515,7 @@ MET_E96_MINIMELF: #536</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402" package="0402-EPCOS">
+<device name="0402-EPCOS" package="0402-EPCOS">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
@@ -7564,6 +7647,24 @@ MET_E96_MINIMELF: #536</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VLP" package="VLP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -7572,19 +7673,19 @@ MET_E96_MINIMELF: #536</description>
 <packages>
 <package name="SOD323">
 <description>Höhe: 1,1mm</description>
-<wire x1="-0.846" y1="0.446" x2="0.846" y2="0.446" width="0.2032" layer="21"/>
-<wire x1="0.846" y1="0.446" x2="0.846" y2="-0.446" width="0.2032" layer="21"/>
-<wire x1="0.846" y1="-0.446" x2="-0.846" y2="-0.446" width="0.2032" layer="21"/>
-<wire x1="-0.846" y1="-0.446" x2="-0.846" y2="0.446" width="0.2032" layer="21"/>
-<wire x1="1.5748" y1="0.508" x2="-1.5748" y2="0.508" width="0" layer="39"/>
-<wire x1="-1.5748" y1="0.508" x2="-1.5748" y2="-0.508" width="0" layer="39"/>
-<wire x1="-1.5748" y1="-0.508" x2="1.5748" y2="-0.508" width="0" layer="39"/>
-<wire x1="1.5748" y1="-0.508" x2="1.5748" y2="0.508" width="0" layer="39"/>
+<wire x1="-0.846" y1="0.525" x2="0.846" y2="0.525" width="0.2032" layer="21"/>
+<wire x1="0.846" y1="0.525" x2="0.846" y2="-0.525" width="0.2032" layer="21"/>
+<wire x1="0.846" y1="-0.525" x2="-0.846" y2="-0.525" width="0.2032" layer="21"/>
+<wire x1="-0.846" y1="-0.525" x2="-0.846" y2="0.525" width="0.2032" layer="21"/>
+<wire x1="1.5748" y1="0.65" x2="-1.5748" y2="0.65" width="0" layer="39"/>
+<wire x1="-1.5748" y1="0.65" x2="-1.5748" y2="-0.65" width="0" layer="39"/>
+<wire x1="-1.5748" y1="-0.65" x2="1.5748" y2="-0.65" width="0" layer="39"/>
+<wire x1="1.5748" y1="-0.65" x2="1.5748" y2="0.65" width="0" layer="39"/>
 <smd name="C" x="-1.138" y="0" dx="0.635" dy="0.8382" layer="1"/>
 <smd name="A" x="1.138" y="0" dx="0.635" dy="0.8382" layer="1"/>
 <text x="-1.354" y="-1.284" size="0.6096" layer="27">&gt;VALUE</text>
 <text x="-1.354" y="0.619" size="0.6096" layer="25">&gt;NAME</text>
-<rectangle x1="-0.832" y1="-0.45" x2="-0.082" y2="0.4" layer="51"/>
+<rectangle x1="-0.832" y1="-0.424" x2="-0.082" y2="0.426" layer="21"/>
 <rectangle x1="0.889" y1="-0.381" x2="1.397" y2="0.381" layer="21"/>
 <rectangle x1="-1.397" y1="-0.381" x2="-0.762" y2="0.381" layer="21"/>
 </package>
@@ -22981,13 +23082,13 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
 ------------------------------------------------------------------------------------------&lt;br&gt;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;25.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<pad name="2" x="-11.43" y="-7.62" drill="1" shape="offset" rot="R270"/>
-<pad name="3" x="-8.89" y="-7.62" drill="1" shape="offset" rot="R270"/>
-<pad name="11" x="11.43" y="-7.62" drill="1" shape="offset" rot="R270"/>
-<pad name="14" x="11.43" y="7.62" drill="1" shape="offset" rot="R90"/>
-<pad name="16" x="6.35" y="7.62" drill="1" shape="offset" rot="R90"/>
-<pad name="22" x="-8.89" y="7.62" drill="1" shape="offset" rot="R90"/>
-<pad name="23" x="-11.43" y="7.62" drill="1" shape="offset" rot="R90"/>
+<pad name="2" x="-11.43" y="-7.62" drill="1" rot="R270"/>
+<pad name="3" x="-8.89" y="-7.62" drill="1" rot="R270"/>
+<pad name="11" x="11.43" y="-7.62" drill="1" rot="R270"/>
+<pad name="14" x="11.43" y="7.62" drill="1" rot="R90"/>
+<pad name="16" x="6.35" y="7.62" drill="1" rot="R90"/>
+<pad name="22" x="-8.89" y="7.62" drill="1" rot="R90"/>
+<pad name="23" x="-11.43" y="7.62" drill="1" rot="R90"/>
 <wire x1="15" y1="-10" x2="-15" y2="-10" width="0.01" layer="51"/>
 <wire x1="-15" y1="-10" x2="-16" y2="-9" width="0.01" layer="51" curve="-90"/>
 <wire x1="-16" y1="-9" x2="-16" y2="9" width="0.01" layer="51"/>
