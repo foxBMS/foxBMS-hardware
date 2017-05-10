@@ -14963,9 +14963,9 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2016-05-20"/>
-<attribute name="TITLE" value="foxBMS BMS-Master Extension"/>
-<attribute name="VERSION" value="1.00"/>
+<attribute name="REL-DATE" value="2017-05-09"/>
+<attribute name="TITLE" value="foxBMS BMS-Extension"/>
+<attribute name="VERSION" value="1.0.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -15293,18 +15293,18 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="F1001" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
 <part name="F1002" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
 <part name="F1003" library="0_LES_SICHERUNG.SMD" deviceset="*_UMT" device="" technology="630MA"/>
-<part name="R1101" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
-<part name="R1102" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
-<part name="R1103" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
+<part name="R1101" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
+<part name="R1102" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
+<part name="R1103" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
 <part name="GND_EXT_4" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
 <part name="GND_EXT_5" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
 <part name="GND_EXT_6" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
-<part name="R1901" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
-<part name="R1902" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
+<part name="R1901" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
+<part name="R1902" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
 <part name="GND_EXT_16" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
 <part name="GND_EXT_18" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
-<part name="R1906" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
-<part name="R1905" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="500"/>
+<part name="R1906" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
+<part name="R1905" library="custom_passiv" deviceset="R*" device="0603" technology="_MET_" value="47"/>
 <part name="GND_EXT_19" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
 <part name="GND_EXT_20" library="foxBMS_custom" deviceset="GND_EXT_0" device=""/>
 <part name="IC803" library="0_LES_SCHNITTSTELLEN-IC.SMD.CAN-TRANSCEIVER" deviceset="TJA1052" device="" technology="IT/1Y"/>
@@ -15546,8 +15546,6 @@ Current Source</text>
 <text x="246.38" y="134.62" size="1.778" layer="105">Isolated Digital</text>
 <wire x1="215.9" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="105"/>
 <wire x1="152.4" y1="238.76" x2="152.4" y2="259.08" width="0.1524" layer="105"/>
-<text x="20.32" y="5.08" size="2.54" layer="105">Please Note: 
-As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master Basic or Extension may include blank pages.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -15562,6 +15560,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>Supply_0 (Primary)</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">SUPPLY_0</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -15576,6 +15575,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>Supply_1 (Secondary)</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">SUPPLY_1</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -15590,6 +15590,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>MCU_0 (Primary)</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">MCU_0 (PRIMARY)</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15604,6 +15605,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>MCU_1 (Secondary)</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">MCU_1 (SECONDARY)</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -15618,6 +15620,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>MCU to MCU Interface</description>
 <plain>
 <text x="336.042" y="24.13" size="2.54" layer="105">MCU_0 to MCU_1 Isolated Interface (SPI)</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0"/>
@@ -15632,6 +15635,7 @@ As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master B
 <description>Bender Interface</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">BENDER Isometer Interface</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -17109,6 +17113,7 @@ and pin compatible LT1785! </text>
 <description>Isolated USB</description>
 <plain>
 <text x="336.042" y="24.13" size="2.54" layer="105">Isolated USB MCU_0 + MCU_1</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME13" gate="G$1" x="0" y="0"/>
@@ -17348,6 +17353,7 @@ and pin compatible LT1785! </text>
 <description>BMS-Interface Interface</description>
 <plain>
 <text x="336.296" y="24.384" size="2.54" layer="105">BMS-Interface Interface</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME15" gate="G$1" x="0" y="0"/>
@@ -17802,6 +17808,7 @@ divider is needed</text>
 <description>SDRAM</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">8MB SDRAM</text>
+<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME17" gate="G$1" x="0" y="0"/>
@@ -17839,10 +17846,10 @@ divider is needed</text>
 <instance part="+3.3V_46" gate="G$1" x="350.52" y="175.26"/>
 <instance part="C1906" gate="G$1" x="312.42" y="154.94" rot="R270"/>
 <instance part="GND_EXT_39" gate="G$1" x="312.42" y="137.16"/>
-<instance part="R1907" gate="G$1" x="299.72" y="81.28" rot="R90"/>
+<instance part="R1907" gate="G$1" x="297.18" y="81.28" rot="R90"/>
 <instance part="R1908" gate="G$1" x="307.34" y="81.28" rot="R90"/>
 <instance part="GND_EXT_41" gate="G$1" x="307.34" y="71.12"/>
-<instance part="GND_EXT_42" gate="G$1" x="299.72" y="66.04"/>
+<instance part="GND_EXT_42" gate="G$1" x="297.18" y="66.04"/>
 <instance part="X1901" gate="G$1" x="231.14" y="226.06" rot="MR0"/>
 <instance part="GND_EXT_30" gate="G$1" x="218.44" y="203.2"/>
 <instance part="C1902" gate="G$1" x="81.28" y="223.52" rot="R270"/>
@@ -17854,12 +17861,12 @@ divider is needed</text>
 <instance part="LSP1907" gate="G$1" x="345.44" y="109.22"/>
 <instance part="LSP1906" gate="G$1" x="345.44" y="101.6"/>
 <instance part="LSP1908" gate="G$1" x="345.44" y="93.98"/>
-<instance part="R1901" gate="G$1" x="68.58" y="99.06" rot="R180"/>
-<instance part="R1902" gate="G$1" x="88.9" y="91.44" rot="R180"/>
+<instance part="R1901" gate="G$1" x="68.58" y="114.3" rot="R180"/>
+<instance part="R1902" gate="G$1" x="88.9" y="106.68" rot="R180"/>
 <instance part="GND_EXT_16" gate="G$1" x="78.74" y="58.42"/>
 <instance part="GND_EXT_18" gate="G$1" x="96.52" y="58.42"/>
-<instance part="R1906" gate="G$1" x="274.32" y="91.44" rot="R180"/>
-<instance part="R1905" gate="G$1" x="256.54" y="99.06" rot="R180"/>
+<instance part="R1906" gate="G$1" x="274.32" y="106.68" rot="R180"/>
+<instance part="R1905" gate="G$1" x="256.54" y="114.3" rot="R180"/>
 <instance part="GND_EXT_19" gate="G$1" x="281.94" y="63.5"/>
 <instance part="GND_EXT_20" gate="G$1" x="264.16" y="63.5"/>
 <instance part="IC1901" gate="G$1" x="99.06" y="231.14"/>
@@ -17933,7 +17940,7 @@ divider is needed</text>
 <segment>
 <pinref part="R1907" gate="G$1" pin="1"/>
 <pinref part="GND_EXT_42" gate="G$1" pin="GND_EXT_0"/>
-<wire x1="299.72" y1="68.58" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="68.58" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="9"/>
@@ -18122,73 +18129,70 @@ divider is needed</text>
 </net>
 <net name="ISO_GPIO_MCU_0_IN_0_EXT" class="0">
 <segment>
-<wire x1="132.08" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
-<label x="55.88" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1904" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="114.3" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<junction x="119.38" y="114.3"/>
-</segment>
-<segment>
 <pinref part="X1901" gate="G$1" pin="5"/>
 <wire x1="238.76" y1="215.9" x2="243.84" y2="215.9" width="0.1524" layer="91"/>
 <label x="243.84" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="58.42" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1901" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="ISO_GPIO_MCU_0_IN_1_EXT" class="0">
-<segment>
-<wire x1="132.08" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
-<label x="55.88" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1903" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="106.68" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
-<junction x="109.22" y="106.68"/>
-<pinref part="IC1902" gate="G$1" pin="VIB"/>
-</segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="6"/>
 <wire x1="223.52" y1="236.22" x2="215.9" y2="236.22" width="0.1524" layer="91"/>
 <label x="215.9" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="58.42" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R1902" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ISO_GPIO_MCU_0_OUT_0_EXT" class="0">
-<segment>
-<label x="55.88" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1901" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="236.22" x2="243.84" y2="236.22" width="0.1524" layer="91"/>
 <label x="243.84" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="58.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1902" gate="G$1" pin="VOC"/>
+<wire x1="58.42" y1="99.06" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R1903" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="86.36" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<junction x="109.22" y="99.06"/>
+</segment>
 </net>
 <net name="ISO_GPIO_MCU_0_OUT_1_EXT" class="0">
-<segment>
-<label x="55.88" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1902" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="231.14" x2="243.84" y2="231.14" width="0.1524" layer="91"/>
 <label x="243.84" y="231.14" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="58.42" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1902" gate="G$1" pin="VOD"/>
+<wire x1="58.42" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R1904" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="86.36" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<junction x="119.38" y="91.44"/>
+</segment>
 </net>
 <net name="ISO_GPIO_MCU_0_IN_2_EXT" class="0">
-<segment>
-<label x="246.38" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1908" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="114.3" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
-<junction x="307.34" y="114.3"/>
-<pinref part="IC1903" gate="G$1" pin="VIA"/>
-<wire x1="307.34" y1="114.3" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="7"/>
 <wire x1="223.52" y1="231.14" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
 <label x="215.9" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="246.38" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="251.46" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1905" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ISO_GPIO_MCU_0_IN_2" class="0">
@@ -18215,30 +18219,30 @@ divider is needed</text>
 </net>
 <net name="ISO_GPIO_MCU_0_IN_3_EXT" class="0">
 <segment>
-<wire x1="317.5" y1="106.68" x2="299.72" y2="106.68" width="0.1524" layer="91"/>
-<label x="246.38" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1907" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="106.68" x2="299.72" y2="86.36" width="0.1524" layer="91"/>
-<junction x="299.72" y="106.68"/>
-<pinref part="IC1903" gate="G$1" pin="VIB"/>
-</segment>
-<segment>
 <pinref part="X1901" gate="G$1" pin="8"/>
 <wire x1="223.52" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
 <label x="215.9" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="246.38" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R1906" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ISO_GPIO_MCU_0_OUT_2_EXT" class="0">
-<segment>
-<label x="246.38" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1905" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="99.06" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="X1901" gate="G$1" pin="3"/>
 <wire x1="238.76" y1="226.06" x2="243.84" y2="226.06" width="0.1524" layer="91"/>
 <label x="243.84" y="226.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="246.38" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="297.18" y1="99.06" x2="317.5" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC1903" gate="G$1" pin="VOC"/>
+<pinref part="R1907" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="86.36" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="99.06" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
+<junction x="297.18" y="99.06"/>
 </segment>
 </net>
 <net name="ISO_GPIO_MCU_0_OUT_2" class="0">
@@ -18265,58 +18269,62 @@ divider is needed</text>
 </net>
 <net name="ISO_GPIO_MCU_0_OUT_3_EXT" class="0">
 <segment>
-<label x="246.38" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R1906" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="91.44" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X1901" gate="G$1" pin="4"/>
 <wire x1="238.76" y1="220.98" x2="243.84" y2="220.98" width="0.1524" layer="91"/>
 <label x="243.84" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="N$24" class="0">
 <segment>
-<pinref part="R1901" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="86.36" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<junction x="78.74" y="99.06"/>
-<pinref part="IC1902" gate="G$1" pin="VOC"/>
-<pinref part="D1901" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="R1902" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="91.44" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="86.36" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
-<junction x="96.52" y="91.44"/>
-<pinref part="IC1902" gate="G$1" pin="VOD"/>
-<pinref part="D1902" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="R1905" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="99.06" x2="264.16" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="99.06" x2="317.5" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="86.36" x2="264.16" y2="99.06" width="0.1524" layer="91"/>
-<junction x="264.16" y="99.06"/>
-<pinref part="IC1903" gate="G$1" pin="VOC"/>
-<pinref part="D1903" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R1906" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="91.44" x2="281.94" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="91.44" x2="279.4" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="86.36" x2="281.94" y2="91.44" width="0.1524" layer="91"/>
-<junction x="281.94" y="91.44"/>
+<label x="246.38" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="317.5" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IC1903" gate="G$1" pin="VOD"/>
+<pinref part="R1908" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="86.36" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
+<junction x="307.34" y="91.44"/>
+</segment>
+</net>
+<net name="N$1111" class="0">
+<segment>
+<wire x1="317.5" y1="114.3" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC1903" gate="G$1" pin="VIA"/>
+<pinref part="R1905" gate="G$1" pin="1"/>
+<pinref part="D1903" gate="G$1" pin="C"/>
+<wire x1="264.16" y1="114.3" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="86.36" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
+<junction x="264.16" y="114.3"/>
+</segment>
+</net>
+<net name="N$5555" class="0">
+<segment>
+<pinref part="D1901" gate="G$1" pin="C"/>
+<wire x1="78.74" y1="86.36" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1901" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="IC1902" gate="G$1" pin="VIA"/>
+<wire x1="132.08" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
+<junction x="78.74" y="114.3"/>
+</segment>
+</net>
+<net name="N$7555" class="0">
+<segment>
+<wire x1="132.08" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1902" gate="G$1" pin="VIB"/>
+<pinref part="D1902" gate="G$1" pin="C"/>
+<wire x1="96.52" y1="86.36" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R1902" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="106.68" x2="96.52" y2="106.68" width="0.1524" layer="91"/>
+<junction x="96.52" y="106.68"/>
+</segment>
+</net>
+<net name="N$254548" class="0">
+<segment>
+<wire x1="317.5" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="IC1903" gate="G$1" pin="VIB"/>
+<pinref part="R1906" gate="G$1" pin="1"/>
 <pinref part="D1904" gate="G$1" pin="C"/>
+<wire x1="281.94" y1="106.68" x2="279.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="86.36" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
+<junction x="281.94" y="106.68"/>
 </segment>
 </net>
 </nets>
@@ -19034,8 +19042,9 @@ divider is needed</text>
 </nets>
 </sheet>
 <sheet>
+<description>Connector BMS-Master to BMS-Extension</description>
 <plain>
-<text x="336.042" y="24.13" size="2.54" layer="105">Connectors to Basic Board</text>
+<text x="336.042" y="24.13" size="2.54" layer="105">Connectors to BMS-Master</text>
 </plain>
 <instances>
 <instance part="JP2201" gate="A" x="208.28" y="190.5"/>

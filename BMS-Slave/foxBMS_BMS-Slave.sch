@@ -8400,9 +8400,9 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2016-05-20"/>
+<attribute name="REL-DATE" value="2017-05-09"/>
 <attribute name="TITLE" value="foxBMS BMS-Slave"/>
-<attribute name="VERSION" value="1.00"/>
+<attribute name="VERSION" value="1.0.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>

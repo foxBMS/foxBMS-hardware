@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -145,7 +145,9 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="253" name="Insertarea2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="yes"/>
+<layer number="255" name="HELP" color="11" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -322,10 +324,6 @@ LTC6804-1</text>
 <vertex x="3.3528" y="96.9264"/>
 <vertex x="4.036903125" y="97.3836"/>
 </polygon>
-<text x="119.1768" y="27.3558" size="0.8128" layer="1" font="vector" rot="R90">Fraunhofer IISB
-L21556</text>
-<text x="119.1768" y="27.3558" size="0.8128" layer="29" font="vector" rot="R90">Fraunhofer IISB
-L21556</text>
 <polygon width="0.0254" layer="25">
 <vertex x="3.394309375" y="54.27186875"/>
 <vertex x="3.43013125" y="54.47606875"/>
@@ -820,7 +818,7 @@ L21556</text>
 <vertex x="119.3292" y="8.9916"/>
 <vertex x="112.4712" y="8.9916"/>
 </polygon>
-<text x="111.8616" y="9.7536" size="0.8128" layer="25" rot="R90">foxBMS BMS-Slave V1.00</text>
+<text x="111.8616" y="9.7536" size="0.8128" layer="25" rot="R90">foxBMS BMS-Slave V1.0.1</text>
 <text x="118.5672" y="78.6384" size="2.286" layer="25" rot="R90">foxBMS.org</text>
 <polygon width="0.0254" layer="25">
 <vertex x="1.220921875" y="12.390771875"/>
@@ -2596,6 +2594,18 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <vertex x="6.7" y="-4.4"/>
 <vertex x="-6.7" y="-4.4"/>
 </polygon>
+</package>
+</packages>
+</library>
+<library name="foxBMS_BMS-Slave_12cell">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Slave_12cell.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs-replace2.ulp</description>
+<packages>
+<package name="FIDUCIAL_1MM">
+<circle x="0" y="0" radius="0.5" width="1" layer="1"/>
+<circle x="0" y="0" radius="0.3162" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="0.1" layer="41"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5590,6 +5600,9 @@ Your Multi-CB Team
 <attribute name="UTMAX" value="125°C" x="24.8412" y="46.3296" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.526" y="48.3108" size="0.7112" layer="25" font="vector" ratio="10" rot="R270" align="center"/>
 </element>
+<element name="U$50" library="foxBMS_BMS-Slave_12cell" package="FIDUCIAL_1MM" value="" x="3.175" y="21.2725"/>
+<element name="U$52" library="foxBMS_BMS-Slave_12cell" package="FIDUCIAL_1MM" value="" x="117.475" y="74.6125"/>
+<element name="U$62" library="foxBMS_BMS-Slave_12cell" package="FIDUCIAL_1MM" value="" x="81.28" y="107.315"/>
 </elements>
 <signals>
 <signal name="N$13">

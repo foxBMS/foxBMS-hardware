@@ -9,7 +9,7 @@
 <grid distance="6" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="GND" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="2" name="GND" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -145,7 +145,9 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="253" name="Insertarea2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="yes"/>
+<layer number="255" name="HELP" color="11" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -2856,11 +2858,7 @@
 <vertex x="41.3004" y="99.06"/>
 <vertex x="41.3004" y="84.1248"/>
 </polygon>
-<text x="40.5384" y="81.2292" size="0.8128" layer="25" rot="R90">foxBMS BMS-Interface V1.00</text>
-<text x="47.3964" y="29.1084" size="0.8128" layer="1" rot="R90">Fraunhofer IISB
-L21586</text>
-<text x="47.3964" y="29.1084" size="0.8128" layer="29" rot="R90">Fraunhofer IISB
-L21586</text>
+<text x="40.5384" y="81.2292" size="0.8128" layer="25" rot="R90">foxBMS BMS-Interface V1.0.1</text>
 <text x="48.768" y="84.4296" size="1.778" layer="25" rot="R90">foxBMS.org</text>
 <text x="1.524" y="84.1248" size="1.778" layer="26" rot="SMR90">foxBMS.org</text>
 <polygon width="0.0254" layer="26">
@@ -3802,6 +3800,18 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </package>
 </packages>
 </library>
+<library name="foxBMS_BMS-Slave_12cell">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Slave_12cell.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs-replace2.ulp</description>
+<packages>
+<package name="FIDUCIAL_1MM">
+<circle x="0" y="0" radius="0.5" width="1" layer="1"/>
+<circle x="0" y="0" radius="0.3162" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="0.1" layer="41"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4301,6 +4311,8 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <attribute name="UTMAX" value="125°C" x="33.0708" y="43.8912" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.0332" y="43.8912" size="0.7112" layer="25" font="vector" ratio="10" align="center"/>
 </element>
+<element name="U$1" library="foxBMS_BMS-Slave_12cell" package="FIDUCIAL_1MM" value="" x="2.1336" y="10.3632"/>
+<element name="U$2" library="foxBMS_BMS-Slave_12cell" package="FIDUCIAL_1MM" value="" x="35.9664" y="97.2312"/>
 </elements>
 <signals>
 <signal name="N$15">
@@ -4503,7 +4515,7 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <vertex x="22.9024" y="100"/>
 <vertex x="22.9024" y="74.9384"/>
 <vertex x="23.3172" y="74.5236"/>
-<vertex x="50" y="74.6524"/>
+<vertex x="50" y="74.5236"/>
 <vertex x="49.9872" y="77.1144"/>
 <vertex x="50" y="100"/>
 </polygon>
