@@ -5155,7 +5155,7 @@ Your Multi-CB Team
 <attribute name="NAME" x="47.4535" y="68.7975" size="0.7112" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="U$1" library="logo" package="ESD_10.00" value="" x="1.5875" y="-8.89"/>
-<element name="IC803" library="0_LES_SCHNITTSTELLEN-IC.SMD.CAN-TRANSCEIVER" package="IC_SMD_SO16_(SOT162-1)_R_NXP_REV01" value="TJA1052IT/1Y" x="10.541" y="55.0545">
+<element name="IC803" library="0_LES_SCHNITTSTELLEN-IC.SMD.CAN-TRANSCEIVER" package="IC_SMD_SO16_(SOT162-1)_R_NXP_REV01" value="TJA1052IT/1Y" x="10.541" y="55.0545" smashed="yes">
 <attribute name="UKAT" value="I" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
 <attribute name="HERSTELLER" value="NXP" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
 <attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\TJA1052I_NXP.pdf" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
@@ -5173,9 +5173,10 @@ Your Multi-CB Team
 <attribute name="DISTRI_2" value="Mouser" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
 <attribute name="HERSTELLER-NR" value="TJA1052IT/1Y" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRI_1-NR" value="TJA1052IT/1Y-ND" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
-<attribute name="UVAL" value="TJA1052IT/1Y" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
+<attribute name="UVAL" value="TJA1052IT/1Y" x="10.541" y="55.0545" size="1.4224" layer="27" font="vector" align="center"/>
 <attribute name="DISTRI_1-PREIS" value="3,66€" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
 <attribute name="UTMAX" value="125°C" x="10.541" y="55.0545" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="4.318" y="54.991" size="0.7112" layer="25" font="vector" rot="R90" align="center"/>
 </element>
 <element name="IC801" library="0_LES_SPANNUNGSREGLER.SMD.LINEAR.EINZEL" package="IC_SMD_TO-252_(D-PAK)_R_FAIRCHILD_REV01" value="KA7805ERTF" x="15.875" y="71.755" smashed="yes" rot="R180">
 <attribute name="UKAT" value="I" x="15.875" y="71.755" size="1.778" layer="27" rot="R180" display="off"/>
