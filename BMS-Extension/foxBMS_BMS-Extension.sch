@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="5" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="5" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -145,7 +145,9 @@
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="Insertarea2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="HELP" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -10320,1261 +10322,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </deviceset>
 </devicesets>
 </library>
-<library name="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR">
-<packages>
-<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
-<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-SOIC-16- Package&lt;br&gt;&lt;br&gt;
-- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
-- RW-16 (Option)&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
-<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
-<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
-<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
-<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
-<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
-<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
-<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
-<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
-<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
-<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
-<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
-<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
-<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
-<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
-<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
-<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
-<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
-<polygon width="0" layer="39" spacing="20" pour="hatch">
-<vertex x="-5.4" y="4.3"/>
-<vertex x="-4.9" y="4.3"/>
-<vertex x="-4.9" y="5.8"/>
-<vertex x="4.9" y="5.8"/>
-<vertex x="4.9" y="4.3"/>
-<vertex x="5.4" y="4.3"/>
-<vertex x="5.4" y="-4.3"/>
-<vertex x="4.9" y="-4.3"/>
-<vertex x="4.9" y="-5.8"/>
-<vertex x="-4.9" y="-5.8"/>
-<vertex x="-4.9" y="-4.3"/>
-<vertex x="-5.4" y="-4.3"/>
-</polygon>
-<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="IC_7_(ADUM1300)_REV01">
-<description>&lt;b&gt;Schematic symbol for 7-Pin IC (ADUM1300)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VIA" x="-10.16" y="2.54" visible="pad" length="short"/>
-<pin name="VIB" x="-10.16" y="-5.08" visible="pad" length="short"/>
-<pin name="VIC" x="-10.16" y="-12.7" visible="pad" length="short"/>
-<pin name="VOC" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
-<pin name="VOB" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
-<pin name="VOA" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<pin name="VE2" x="10.16" y="12.7" visible="pad" length="short" rot="R180"/>
-<wire x1="-5.588" y1="-13.335" x2="-5.588" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-13.335" x2="-5.207" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-13.335" x2="-5.588" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="-13.335" x2="-5.969" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="-12.065" x2="-5.207" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-12.065" x2="-5.588" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-14.605" x2="-6.35" y2="-10.795" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-10.795" x2="-3.175" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-12.7" x2="-6.35" y2="-14.605" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="-5.715" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-5.715" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-5.715" x2="-5.588" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="-5.715" x2="-5.969" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="-4.445" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-4.445" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-6.985" x2="-6.35" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-3.175" x2="-3.175" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-5.08" x2="-6.35" y2="-6.985" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
-<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
-<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
-<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" align="center-left">VIC</text>
-<text x="6.985" y="-9.525" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOC</text>
-<text x="6.985" y="-1.905" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
-<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-6.985" x2="3.175" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-3.175" x2="6.35" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-5.08" x2="3.175" y2="-6.985" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-14.605" x2="3.175" y2="-10.795" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-10.795" x2="6.35" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-12.7" x2="3.175" y2="-14.605" width="0.1524" layer="94"/>
-<text x="6.985" y="12.7" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
-<text x="0" y="15.875" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
-</symbol>
-<symbol name="NC_1_REV01">
-<description>&lt;b&gt;Schematic symbol for Not Connected&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<text x="0" y="2.54" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
-<pin name="NC$1" x="0" y="-2.54" visible="pad" length="short" direction="nc" rot="R90"/>
-</symbol>
-<symbol name="PWR_4_(VDD1/2-GND1/2)_REV01">
-<description>&lt;b&gt;Schematic symbol for Power-Pins (VDD1/2 - GND1/2)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<pin name="GND1" x="-2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="VDD1" x="-2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="-2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD1</text>
-<text x="-2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND1</text>
-<text x="0" y="0" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
-<pin name="GND2" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="VDD2" x="2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
-<text x="2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND2</text>
-<text x="2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD2</text>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-<symbol name="IC_10_(ADUM1401)_REV01">
-<description>&lt;b&gt;Schematic symbol for 10-Pin IC (ADUM1401)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<wire x1="-7.62" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VIA" x="-10.16" y="10.16" visible="pad" length="short"/>
-<pin name="VIB" x="-10.16" y="2.54" visible="pad" length="short"/>
-<pin name="VID" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
-<pin name="VOD" x="-10.16" y="-12.7" visible="pad" length="short"/>
-<pin name="VOB" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="VOA" x="10.16" y="10.16" visible="pad" length="short" rot="R180"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="17.78" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="22.86" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="VE2" x="10.16" y="20.32" visible="pad" length="short" rot="R180"/>
-<wire x1="5.588" y1="-12.065" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-12.065" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-12.065" x2="5.588" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="5.588" y1="-12.065" x2="5.969" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="4.826" y1="-13.335" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-13.335" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-10.795" x2="6.35" y2="-14.605" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-14.605" x2="3.175" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-12.7" x2="6.35" y2="-10.795" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="9.525" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="9.525" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="9.525" x2="-5.588" y2="9.525" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="9.525" x2="-5.969" y2="9.525" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="10.795" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="10.795" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="8.255" x2="-6.35" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="12.065" x2="-3.175" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="10.16" x2="-6.35" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="8.89" x2="0.635" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="8.89" x2="0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="9.525" x2="0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="10.16" x2="0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="10.795" x2="0.635" y2="11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="11.43" x2="-0.635" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="11.43" x2="-0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="10.795" x2="-0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="10.16" x2="-0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="9.525" x2="-0.635" y2="8.89" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="8.89" x2="-1.27" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
-<text x="-6.35" y="13.335" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
-<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
-<text x="6.731" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VID</text>
-<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOD</text>
-<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
-<text x="6.985" y="13.335" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
-<wire x1="3.175" y1="8.255" x2="3.175" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="12.065" x2="6.35" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="10.16" x2="3.175" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-10.795" x2="-3.175" y2="-14.605" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-14.605" x2="-6.35" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-12.7" x2="-3.175" y2="-10.795" width="0.1524" layer="94"/>
-<text x="6.985" y="20.32" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
-<text x="0" y="23.495" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
-<pin name="VE1" x="-10.16" y="20.32" visible="pad" length="short"/>
-<text x="-6.985" y="20.32" size="1.4224" layer="94" font="vector" align="center-left">VE1</text>
-<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<pin name="VIC" x="-10.16" y="-5.08" visible="pad" length="short"/>
-<pin name="VOC" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.588" y1="-5.715" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-5.715" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-5.715" x2="-5.588" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="-5.715" x2="-5.969" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="-4.445" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="-4.445" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-6.985" x2="-6.35" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-3.175" x2="-3.175" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-5.08" x2="-6.35" y2="-6.985" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" align="center-left">VIC</text>
-<text x="6.985" y="-1.905" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOC</text>
-<wire x1="3.175" y1="-6.985" x2="3.175" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-3.175" x2="6.35" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-5.08" x2="3.175" y2="-6.985" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="IC_10_(ADUM1402)_REV01">
-<description>&lt;b&gt;Schematic symbol for 10-Pin IC (ADUM1402)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<wire x1="-7.62" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="15.24" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<pin name="VIA" x="-10.16" y="10.16" visible="pad" length="short"/>
-<pin name="VIB" x="-10.16" y="2.54" visible="pad" length="short"/>
-<pin name="VIC" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
-<pin name="VOC" x="-10.16" y="-5.08" visible="pad" length="short"/>
-<pin name="VOB" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="VOA" x="10.16" y="10.16" visible="pad" length="short" rot="R180"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="17.78" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="22.86" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="VE2" x="10.16" y="20.32" visible="pad" length="short" rot="R180"/>
-<wire x1="5.588" y1="-4.445" x2="5.588" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-4.445" x2="5.207" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-4.445" x2="5.588" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="5.588" y1="-4.445" x2="5.969" y2="-4.445" width="0.1524" layer="94"/>
-<wire x1="4.826" y1="-5.715" x2="5.207" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-5.715" x2="5.588" y2="-5.715" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-3.175" x2="6.35" y2="-6.985" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-6.985" x2="3.175" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-5.08" x2="6.35" y2="-3.175" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="9.525" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="9.525" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="9.525" x2="-5.588" y2="9.525" width="0.1524" layer="94"/>
-<wire x1="-5.588" y1="9.525" x2="-5.969" y2="9.525" width="0.1524" layer="94"/>
-<wire x1="-4.826" y1="10.795" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-5.207" y1="10.795" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="8.255" x2="-6.35" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="12.065" x2="-3.175" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="10.16" x2="-6.35" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="8.89" x2="0.635" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="8.89" x2="0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="9.525" x2="0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="10.16" x2="0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="10.795" x2="0.635" y2="11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="11.43" x2="-0.635" y2="11.43" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="11.43" x2="-0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="10.795" x2="-0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="10.16" x2="-0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="9.525" x2="-0.635" y2="8.89" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="8.89" x2="-1.27" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
-<text x="-6.35" y="13.335" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
-<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
-<text x="6.731" y="-1.905" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VIC</text>
-<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOC</text>
-<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
-<text x="6.985" y="13.335" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
-<wire x1="3.175" y1="8.255" x2="3.175" y2="12.065" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="12.065" x2="6.35" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="10.16" x2="3.175" y2="8.255" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-3.175" x2="-3.175" y2="-6.985" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-6.985" x2="-6.35" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-5.08" x2="-3.175" y2="-3.175" width="0.1524" layer="94"/>
-<text x="6.985" y="20.32" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
-<text x="0" y="23.495" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
-<pin name="VE1" x="-10.16" y="20.32" visible="pad" length="short"/>
-<text x="-6.985" y="20.32" size="1.4224" layer="94" font="vector" align="center-left">VE1</text>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<pin name="VID" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
-<pin name="VOD" x="-10.16" y="-12.7" visible="pad" length="short"/>
-<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="5.588" y1="-12.065" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-12.065" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-12.065" x2="5.588" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="5.588" y1="-12.065" x2="5.969" y2="-12.065" width="0.1524" layer="94"/>
-<wire x1="4.826" y1="-13.335" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="5.207" y1="-13.335" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-10.795" x2="6.35" y2="-14.605" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-14.605" x2="3.175" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-12.7" x2="6.35" y2="-10.795" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
-<text x="6.731" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VID</text>
-<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOD</text>
-<wire x1="-3.175" y1="-10.795" x2="-3.175" y2="-14.605" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="-14.605" x2="-6.35" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-12.7" x2="-3.175" y2="-10.795" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ADUM1300" prefix="IC">
-<description>&lt;b&gt;ADUM1300 - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-Triple-Channel Digital Isolator&lt;p&gt;
-- Qualified for automotive applications&lt;br&gt;
-- Low power operation&lt;br&gt;
-- 5 V operation:&lt;br&gt;
-- 1.2 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 3.5 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 32 mA per channel maximum at 90 Mbps &lt;br&gt;
-- 3 V operation:&lt;br&gt;
-- 0.8 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 2.2 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 20 mA per channel maximum at 90 Mbps &lt;br&gt;
-- Bidirectional communication &lt;br&gt;
-- 3 V/5 V level translation&lt;br&gt;
-- High temperature operation: 125°C&lt;br&gt;
-- High data rate: dc to 90 Mbps (NRZ)&lt;br&gt;
-- Precise timing characteristics: &lt;br&gt;
-- 2 ns maximum pulse width distortion&lt;br&gt;
-- 2 ns maximum channel-to-channel matching&lt;br&gt;
-- High common-mode transient immunity: &gt;25 kV/μs&lt;br&gt;
-- Output enable function&lt;br&gt;
-- 16-lead SOIC wide body package&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="IC_7_(ADUM1300)_REV01" x="-12.7" y="0"/>
-<gate name="NC1" symbol="NC_1_REV01" x="17.78" y="-2.54" addlevel="request" swaplevel="1"/>
-<gate name="NC2" symbol="NC_1_REV01" x="27.94" y="-2.54" addlevel="request" swaplevel="1"/>
-<gate name="NC3" symbol="NC_1_REV01" x="38.1" y="-2.54" addlevel="request" swaplevel="1"/>
-<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="7.62" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
-<connects>
-<connect gate="G$1" pin="VE2" pad="10"/>
-<connect gate="G$1" pin="VIA" pad="3"/>
-<connect gate="G$1" pin="VIB" pad="4"/>
-<connect gate="G$1" pin="VIC" pad="5"/>
-<connect gate="G$1" pin="VOA" pad="14"/>
-<connect gate="G$1" pin="VOB" pad="13"/>
-<connect gate="G$1" pin="VOC" pad="12"/>
-<connect gate="NC1" pin="NC$1" pad="6"/>
-<connect gate="NC2" pin="NC$1" pad="7"/>
-<connect gate="NC3" pin="NC$1" pad="11"/>
-<connect gate="PWR" pin="GND1" pad="2 8"/>
-<connect gate="PWR" pin="GND2" pad="9 15"/>
-<connect gate="PWR" pin="VDD1" pad="1"/>
-<connect gate="PWR" pin="VDD2" pad="16"/>
-</connects>
-<technologies>
-<technology name="ARW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1300ARW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="3,58€" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300ARW" constant="no"/>
-<attribute name="MARKING" value="ADUM1300ARW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300ARW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="ARWZ">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1226209" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="1,74€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1300ARWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="2,85€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300ARWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1300ARWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300ARWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="BRWZ">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1226210" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="2,70€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1300BRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="4,59€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300BRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1300BRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="50,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300BRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1300CRW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1300CRW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="4,68€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300CRW" constant="no"/>
-<attribute name="MARKING" value="ADUM1300CRW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300CRW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRWZ">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1226211" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="3,92€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1300CRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="5,13€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300CRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1300CRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300CRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WSRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1300WSRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="4,42€" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300WSRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1300WSRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300WSRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WTRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1300WTRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,66€" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300WTRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1300WTRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1300WTRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADUM1401" prefix="IC">
-<description>&lt;b&gt;ADUM1401 - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-Quad-Channel Digital Isolator&lt;p&gt;
-- Qualified for automotive applications&lt;br&gt;
-- Low power operation&lt;br&gt;
-- 5 V operation:&lt;br&gt;
-- 1.0 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 3.5 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 31 mA per channel maximum at 90 Mbps &lt;br&gt;
-- 3 V operation:&lt;br&gt;
-- 0.7 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 2.1 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 20 mA per channel maximum at 90 Mbps &lt;br&gt;
-- Bidirectional communication &lt;br&gt;
-- 3 V/5 V level translation&lt;br&gt;
-- High temperature operation: 125°C&lt;br&gt;
-- High data rate: dc to 90 Mbps (NRZ)&lt;br&gt;
-- Precise timing characteristics: &lt;br&gt;
-- 2 ns maximum pulse width distortion&lt;br&gt;
-- 2 ns maximum channel-to-channel matching&lt;br&gt;
-- High common-mode transient immunity: &gt;25 kV/μs&lt;br&gt;
-- Output enable function&lt;br&gt;
-- 16-lead SOIC wide body package&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="IC_10_(ADUM1401)_REV01" x="-15.24" y="0"/>
-<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="5.08" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
-<connects>
-<connect gate="G$1" pin="VE1" pad="7"/>
-<connect gate="G$1" pin="VE2" pad="10"/>
-<connect gate="G$1" pin="VIA" pad="3"/>
-<connect gate="G$1" pin="VIB" pad="4"/>
-<connect gate="G$1" pin="VIC" pad="5"/>
-<connect gate="G$1" pin="VID" pad="11"/>
-<connect gate="G$1" pin="VOA" pad="14"/>
-<connect gate="G$1" pin="VOB" pad="13"/>
-<connect gate="G$1" pin="VOC" pad="12"/>
-<connect gate="G$1" pin="VOD" pad="6"/>
-<connect gate="PWR" pin="GND1" pad="2 8"/>
-<connect gate="PWR" pin="GND2" pad="9 15"/>
-<connect gate="PWR" pin="VDD1" pad="1"/>
-<connect gate="PWR" pin="VDD2" pad="16"/>
-</connects>
-<technologies>
-<technology name="ARW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401ARW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,08€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401ARW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="3,92€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401ARW" constant="no"/>
-<attribute name="MARKING" value="ADUM1401ARW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401ARW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="ARWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401ARWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="3,84€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401ARWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="3,89€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401ARWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1401ARWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401ARWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="BRW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401BRW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="7,58€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401BRW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="7,66€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401BRW" constant="no"/>
-<attribute name="MARKING" value="ADUM1401BRW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="50,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401BRW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="BRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401BRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="4,96€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401BRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="5,04€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401BRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1401BRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="50,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401BRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401CRW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="8,96€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401CRW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="9,03€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401CRW" constant="no"/>
-<attribute name="MARKING" value="ADUM1401CRW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401CRW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401CRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,20€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401CRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="5,26€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401CRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1401CRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401CRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WSRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401WSRWZ-RLCT-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,21€" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401WSRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1401WSRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401WSRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WTRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401WTRWZ-RLCT-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401WTRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1401WTRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1401WTRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ADUM1402" prefix="IC">
-<description>&lt;b&gt;ADUM1402 - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1400_1401_1402.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-Quad-Channel Digital Isolator&lt;p&gt;
-- Qualified for automotive applications&lt;br&gt;
-- Low power operation&lt;br&gt;
-- 5 V operation:&lt;br&gt;
-- 1.0 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 3.5 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 31 mA per channel maximum at 90 Mbps &lt;br&gt;
-- 3 V operation:&lt;br&gt;
-- 0.7 mA per channel maximum at 0 Mbps to 2 Mbps&lt;br&gt; 
-- 2.1 mA per channel maximum at 10 Mbps &lt;br&gt;
-- 20 mA per channel maximum at 90 Mbps &lt;br&gt;
-- Bidirectional communication &lt;br&gt;
-- 3 V/5 V level translation&lt;br&gt;
-- High temperature operation: 125°C&lt;br&gt;
-- High data rate: dc to 90 Mbps (NRZ)&lt;br&gt;
-- Precise timing characteristics: &lt;br&gt;
-- 2 ns maximum pulse width distortion&lt;br&gt;
-- 2 ns maximum channel-to-channel matching&lt;br&gt;
-- High common-mode transient immunity: &gt;25 kV/μs&lt;br&gt;
-- Output enable function&lt;br&gt;
-- 16-lead SOIC wide body package&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="IC_10_(ADUM1402)_REV01" x="-15.24" y="0"/>
-<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="5.08" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
-<connects>
-<connect gate="G$1" pin="VE1" pad="7"/>
-<connect gate="G$1" pin="VE2" pad="10"/>
-<connect gate="G$1" pin="VIA" pad="3"/>
-<connect gate="G$1" pin="VIB" pad="4"/>
-<connect gate="G$1" pin="VIC" pad="12"/>
-<connect gate="G$1" pin="VID" pad="11"/>
-<connect gate="G$1" pin="VOA" pad="14"/>
-<connect gate="G$1" pin="VOB" pad="13"/>
-<connect gate="G$1" pin="VOC" pad="5"/>
-<connect gate="G$1" pin="VOD" pad="6"/>
-<connect gate="PWR" pin="GND1" pad="2 8"/>
-<connect gate="PWR" pin="GND2" pad="9 15"/>
-<connect gate="PWR" pin="VDD1" pad="1"/>
-<connect gate="PWR" pin="VDD2" pad="16"/>
-</connects>
-<technologies>
-<technology name="ARW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402ARW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,08€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402ARW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="3,92€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402ARW" constant="no"/>
-<attribute name="MARKING" value="ADUM1402ARW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402ARW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="ARWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402ARWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="3,84€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402ARWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="3,89€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402ARWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1402ARWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402ARWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="BRW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402BRW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="7,58€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402BRW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="7,66€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402BRW" constant="no"/>
-<attribute name="MARKING" value="ADUM1402BRW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="50,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402BRW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="BRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402BRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="4,96€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402BRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="5,04€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402BRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1402BRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="50,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402BRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRW">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402CRW-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="7,90128€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402CRW" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="9,03€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402CRW" constant="no"/>
-<attribute name="MARKING" value="ADUM1402CRW" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402CRW" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="CRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402CRWZ-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,20€" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402CRWZ" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="5,26€" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402CRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1402CRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="90,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="2,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="105°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402CRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WSRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402WSRWZ-RLCT-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="5,21€" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402WSRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1402WSRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="1,00Mbps" constant="no"/>
-<attribute name="UDT" value="100ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="40,0ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402WSRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-<technology name="WTRWZ">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402WTRWZ-RLCT-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Analog Devices" constant="no"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402WTRWZ" constant="no"/>
-<attribute name="MARKING" value="ADUM1402WTRWZ" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UDR" value="10,0Mbps" constant="no"/>
-<attribute name="UDT" value="32,0ns" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPWV" value="3,00ns" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="125°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Digital Isolator" constant="no"/>
-<attribute name="UVAL" value="ADUM1402WTRWZ" constant="no"/>
-<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
-<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="0_LES_SCHNITTSTELLEN-IC.SMD.RS485-TRANSCEIVER">
 <packages>
 <package name="IC_SMD_SOIC-8_(S8_REV_G)_R_LINEAR_REV01">
@@ -14960,12 +13707,1046 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </deviceset>
 </devicesets>
 </library>
+<library name="foxBMS_BMS-Master">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Master.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+SOIC-16- Package&lt;br&gt;&lt;br&gt;
+- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
+- RW-16 (Option)&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
+<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
+<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
+<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
+<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
+<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
+<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
+<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
+<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-5.4" y="4.3"/>
+<vertex x="-4.9" y="4.3"/>
+<vertex x="-4.9" y="5.8"/>
+<vertex x="4.9" y="5.8"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="5.4" y="4.3"/>
+<vertex x="5.4" y="-4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="4.9" y="-5.8"/>
+<vertex x="-4.9" y="-5.8"/>
+<vertex x="-4.9" y="-4.3"/>
+<vertex x="-5.4" y="-4.3"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="IC_7_(ADUM1300)_REV01">
+<description>&lt;b&gt;Schematic symbol for 7-Pin IC (ADUM1300)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-13.335" x2="-5.588" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-13.335" x2="-5.207" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-13.335" x2="-5.588" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-13.335" x2="-5.969" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="-12.065" x2="-5.207" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-12.065" x2="-5.588" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-14.605" x2="-6.35" y2="-10.795" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-10.795" x2="-3.175" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-12.7" x2="-6.35" y2="-14.605" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-5.715" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-5.715" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-5.715" x2="-5.588" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-5.715" x2="-5.969" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="-4.445" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-4.445" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-6.985" x2="-6.35" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-3.175" x2="-3.175" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-5.08" x2="-6.35" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-6.985" x2="3.175" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-3.175" x2="6.35" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="3.175" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-14.605" x2="3.175" y2="-10.795" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-10.795" x2="6.35" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-12.7" x2="3.175" y2="-14.605" width="0.1524" layer="94"/>
+<pin name="VE2" x="10.16" y="12.7" visible="pad" length="short" rot="R180"/>
+<pin name="VIA" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="VIB" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="VIC" x="-10.16" y="-12.7" visible="pad" length="short"/>
+<pin name="VOA" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="VOB" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="VOC" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
+<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
+<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
+<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" align="center-left">VIC</text>
+<text x="6.985" y="-9.525" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOC</text>
+<text x="6.985" y="-1.905" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
+<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
+<text x="6.985" y="12.7" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
+<text x="0" y="15.875" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
+</symbol>
+<symbol name="PWR_4_(VDD1/2-GND1/2)_REV01">
+<description>&lt;b&gt;Schematic symbol for Power-Pins (VDD1/2 - GND1/2)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND1" x="-2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="GND2" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VDD1" x="-2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="VDD2" x="2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<text x="-2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD1</text>
+<text x="-2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND1</text>
+<text x="0" y="0" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND2</text>
+<text x="2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD2</text>
+</symbol>
+<symbol name="NC_1_REV01">
+<description>&lt;b&gt;Schematic symbol for Not Connected&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<pin name="NC$1" x="0" y="-2.54" visible="pad" length="short" direction="nc" rot="R90"/>
+<text x="0" y="2.54" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
+</symbol>
+<symbol name="IC_10_(ADUM1401)_REV01">
+<description>&lt;b&gt;Schematic symbol for 10-Pin IC (ADUM1401)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-7.62" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-12.065" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-12.065" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-12.065" x2="5.588" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="5.588" y1="-12.065" x2="5.969" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="4.826" y1="-13.335" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-13.335" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-10.795" x2="6.35" y2="-14.605" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-14.605" x2="3.175" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-12.7" x2="6.35" y2="-10.795" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="9.525" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="9.525" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="9.525" x2="-5.588" y2="9.525" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="9.525" x2="-5.969" y2="9.525" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="10.795" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="10.795" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="8.255" x2="-6.35" y2="12.065" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="12.065" x2="-3.175" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="10.16" x2="-6.35" y2="8.255" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="8.89" x2="0.635" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="8.89" x2="0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="9.525" x2="0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="10.16" x2="0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="10.795" x2="0.635" y2="11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="11.43" x2="-0.635" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="11.43" x2="-0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="10.795" x2="-0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="10.16" x2="-0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="9.525" x2="-0.635" y2="8.89" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="8.89" x2="-1.27" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="8.255" x2="3.175" y2="12.065" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="12.065" x2="6.35" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="10.16" x2="3.175" y2="8.255" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-10.795" x2="-3.175" y2="-14.605" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-14.605" x2="-6.35" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-12.7" x2="-3.175" y2="-10.795" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.588" y1="-5.715" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-5.715" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-5.715" x2="-5.588" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="-5.715" x2="-5.969" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="-4.445" x2="-5.207" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="-4.445" x2="-5.588" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-6.985" x2="-6.35" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-3.175" x2="-3.175" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-5.08" x2="-6.35" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-6.985" x2="3.175" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-3.175" x2="6.35" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="3.175" y2="-6.985" width="0.1524" layer="94"/>
+<pin name="VE1" x="-10.16" y="20.32" visible="pad" length="short"/>
+<pin name="VE2" x="10.16" y="20.32" visible="pad" length="short" rot="R180"/>
+<pin name="VIA" x="-10.16" y="10.16" visible="pad" length="short"/>
+<pin name="VIB" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="VIC" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="VID" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
+<pin name="VOA" x="10.16" y="10.16" visible="pad" length="short" rot="R180"/>
+<pin name="VOB" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="VOC" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="VOD" x="-10.16" y="-12.7" visible="pad" length="short"/>
+<text x="-6.35" y="13.335" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
+<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
+<text x="6.731" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VID</text>
+<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOD</text>
+<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
+<text x="6.985" y="13.335" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
+<text x="6.985" y="20.32" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
+<text x="0" y="23.495" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
+<text x="-6.985" y="20.32" size="1.4224" layer="94" font="vector" align="center-left">VE1</text>
+<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" align="center-left">VIC</text>
+<text x="6.985" y="-1.905" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOC</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADUM3300" prefix="IC">
+<gates>
+<gate name="G$1" symbol="IC_7_(ADUM1300)_REV01" x="-12.7" y="0"/>
+<gate name="NC1" symbol="NC_1_REV01" x="17.78" y="-2.54" addlevel="request" swaplevel="1"/>
+<gate name="NC2" symbol="NC_1_REV01" x="27.94" y="-2.54" addlevel="request" swaplevel="1"/>
+<gate name="NC3" symbol="NC_1_REV01" x="38.1" y="-2.54" addlevel="request" swaplevel="1"/>
+<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="7.62" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<connects>
+<connect gate="G$1" pin="VE2" pad="10"/>
+<connect gate="G$1" pin="VIA" pad="3"/>
+<connect gate="G$1" pin="VIB" pad="4"/>
+<connect gate="G$1" pin="VIC" pad="5"/>
+<connect gate="G$1" pin="VOA" pad="14"/>
+<connect gate="G$1" pin="VOB" pad="13"/>
+<connect gate="G$1" pin="VOC" pad="12"/>
+<connect gate="NC1" pin="NC$1" pad="6"/>
+<connect gate="NC2" pin="NC$1" pad="7"/>
+<connect gate="NC3" pin="NC$1" pad="11"/>
+<connect gate="PWR" pin="GND1" pad="2 8"/>
+<connect gate="PWR" pin="GND2" pad="9 15"/>
+<connect gate="PWR" pin="VDD1" pad="1"/>
+<connect gate="PWR" pin="VDD2" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UDR" value="" constant="no"/>
+<attribute name="UDT" value="" constant="no"/>
+<attribute name="UKAT" value="" constant="no"/>
+<attribute name="UPWV" value="" constant="no"/>
+<attribute name="UTERM" value="" constant="no"/>
+<attribute name="UTMAX" value="" constant="no"/>
+<attribute name="UTMIN" value="" constant="no"/>
+<attribute name="UTYP" value="" constant="no"/>
+<attribute name="UVAL" value="" constant="no"/>
+<attribute name="UVDD_MAX" value="" constant="no"/>
+<attribute name="UVDD_MIN" value="" constant="no"/>
+</technology>
+<technology name="ARW">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300ARW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="ARWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300ARWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="BRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="50,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300BRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRW">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300CRW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRWZ">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300CRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WSRWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300WSRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WTRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3300WTRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADUM3401" prefix="IC">
+<gates>
+<gate name="G$1" symbol="IC_10_(ADUM1401)_REV01" x="-15.24" y="0"/>
+<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="5.08" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<connects>
+<connect gate="G$1" pin="VE1" pad="7"/>
+<connect gate="G$1" pin="VE2" pad="10"/>
+<connect gate="G$1" pin="VIA" pad="3"/>
+<connect gate="G$1" pin="VIB" pad="4"/>
+<connect gate="G$1" pin="VIC" pad="5"/>
+<connect gate="G$1" pin="VID" pad="11"/>
+<connect gate="G$1" pin="VOA" pad="14"/>
+<connect gate="G$1" pin="VOB" pad="13"/>
+<connect gate="G$1" pin="VOC" pad="12"/>
+<connect gate="G$1" pin="VOD" pad="6"/>
+<connect gate="PWR" pin="GND1" pad="2 8"/>
+<connect gate="PWR" pin="GND2" pad="9 15"/>
+<connect gate="PWR" pin="VDD1" pad="1"/>
+<connect gate="PWR" pin="VDD2" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UDR" value="" constant="no"/>
+<attribute name="UDT" value="" constant="no"/>
+<attribute name="UKAT" value="" constant="no"/>
+<attribute name="UPWV" value="" constant="no"/>
+<attribute name="UTERM" value="" constant="no"/>
+<attribute name="UTMAX" value="" constant="no"/>
+<attribute name="UTMIN" value="" constant="no"/>
+<attribute name="UTYP" value="" constant="no"/>
+<attribute name="UVAL" value="" constant="no"/>
+<attribute name="UVDD_MAX" value="" constant="no"/>
+<attribute name="UVDD_MIN" value="" constant="no"/>
+</technology>
+<technology name="ARW">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401ARW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="ARWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401ARWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="BRW">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="50,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401BRW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="BRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="50,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401BRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRW">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401CRW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRWZ">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401CRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WSRWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401WSRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WTRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3401WTRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="foxBMS_BMS-Extension">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Extension.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+SOIC-16- Package&lt;br&gt;&lt;br&gt;
+- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
+- RW-16 (Option)&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
+<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
+<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
+<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
+<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
+<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
+<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
+<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
+<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-5.4" y="4.3"/>
+<vertex x="-4.9" y="4.3"/>
+<vertex x="-4.9" y="5.8"/>
+<vertex x="4.9" y="5.8"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="5.4" y="4.3"/>
+<vertex x="5.4" y="-4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="4.9" y="-5.8"/>
+<vertex x="-4.9" y="-5.8"/>
+<vertex x="-4.9" y="-4.3"/>
+<vertex x="-5.4" y="-4.3"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="IC_10_(ADUM1402)_REV01">
+<description>&lt;b&gt;Schematic symbol for 10-Pin IC (ADUM1402)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;28.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-7.62" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-4.445" x2="5.588" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-4.445" x2="5.207" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-4.445" x2="5.588" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="5.588" y1="-4.445" x2="5.969" y2="-4.445" width="0.1524" layer="94"/>
+<wire x1="4.826" y1="-5.715" x2="5.207" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-5.715" x2="5.588" y2="-5.715" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-3.175" x2="6.35" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-6.985" x2="3.175" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-5.08" x2="6.35" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="1.905" x2="-5.588" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="1.905" x2="-5.969" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="3.175" x2="-5.207" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="3.175" x2="-5.588" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="0.635" x2="-6.35" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="4.445" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="2.54" x2="-6.35" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="9.525" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="9.525" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="9.525" x2="-5.588" y2="9.525" width="0.1524" layer="94"/>
+<wire x1="-5.588" y1="9.525" x2="-5.969" y2="9.525" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="10.795" x2="-5.207" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-5.207" y1="10.795" x2="-5.588" y2="10.795" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="8.255" x2="-6.35" y2="12.065" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="12.065" x2="-3.175" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="10.16" x2="-6.35" y2="8.255" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="8.89" x2="0.635" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="8.89" x2="0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="9.525" x2="0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="10.16" x2="0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="10.795" x2="0.635" y2="11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="11.43" x2="-0.635" y2="11.43" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="11.43" x2="-0.635" y2="10.795" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="10.795" x2="-0.635" y2="10.16" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="10.16" x2="-0.635" y2="9.525" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="9.525" x2="-0.635" y2="8.89" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="8.89" x2="-1.27" y2="8.89" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.175" x2="0.635" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="3.81" x2="1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-0.635" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="3.81" x2="-0.635" y2="3.175" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-6.35" x2="0.635" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-6.35" x2="0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.715" x2="0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-5.08" x2="0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-3.81" x2="1.27" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-3.81" x2="-0.635" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-4.445" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-4.445" x2="-0.635" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.08" x2="-0.635" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-5.715" x2="-0.635" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-6.35" x2="-1.27" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="8.255" x2="3.175" y2="12.065" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="12.065" x2="6.35" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="10.16" x2="3.175" y2="8.255" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="3.175" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="4.445" x2="6.35" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-3.175" x2="-3.175" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-6.985" x2="-6.35" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-5.08" x2="-3.175" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.588" y1="-12.065" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-12.065" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-12.065" x2="5.588" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="5.588" y1="-12.065" x2="5.969" y2="-12.065" width="0.1524" layer="94"/>
+<wire x1="4.826" y1="-13.335" x2="5.207" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="5.207" y1="-13.335" x2="5.588" y2="-13.335" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-10.795" x2="6.35" y2="-14.605" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="-14.605" x2="3.175" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-12.7" x2="6.35" y2="-10.795" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-13.97" x2="0.635" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-13.97" x2="0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-13.335" x2="0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.7" x2="0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-12.065" x2="0.635" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0.635" y1="-11.43" x2="1.27" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-11.43" x2="-0.635" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="-11.43" x2="-0.635" y2="-12.065" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.065" x2="-0.635" y2="-12.7" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-12.7" x2="-0.635" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.335" x2="-0.635" y2="-13.97" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.635" y1="-13.97" x2="-1.27" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-10.795" x2="-3.175" y2="-14.605" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-14.605" x2="-6.35" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-12.7" x2="-3.175" y2="-10.795" width="0.1524" layer="94"/>
+<pin name="VE1" x="-10.16" y="20.32" visible="pad" length="short"/>
+<pin name="VE2" x="10.16" y="20.32" visible="pad" length="short" rot="R180"/>
+<pin name="VIA" x="-10.16" y="10.16" visible="pad" length="short"/>
+<pin name="VIB" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="VIC" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<pin name="VID" x="10.16" y="-12.7" visible="pad" length="short" rot="R180"/>
+<pin name="VOA" x="10.16" y="10.16" visible="pad" length="short" rot="R180"/>
+<pin name="VOB" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
+<pin name="VOC" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="VOD" x="-10.16" y="-12.7" visible="pad" length="short"/>
+<text x="-6.35" y="13.335" size="1.4224" layer="94" font="vector" align="center-left">VIA</text>
+<text x="-6.35" y="5.715" size="1.4224" layer="94" font="vector" align="center-left">VIB</text>
+<text x="6.731" y="-1.905" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VIC</text>
+<text x="-6.35" y="-1.905" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOC</text>
+<text x="6.985" y="5.715" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOB</text>
+<text x="6.985" y="13.335" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VOA</text>
+<text x="6.985" y="20.32" size="1.4224" layer="94" font="vector" rot="R180" align="center-left">VE2</text>
+<text x="0" y="23.495" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-15.875" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
+<text x="-6.985" y="20.32" size="1.4224" layer="94" font="vector" align="center-left">VE1</text>
+<text x="6.731" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR0" align="center-left">VID</text>
+<text x="-6.35" y="-9.525" size="1.4224" layer="94" font="vector" rot="MR180" align="center-left">VOD</text>
+</symbol>
+<symbol name="PWR_4_(VDD1/2-GND1/2)_REV01">
+<description>&lt;b&gt;Schematic symbol for Power-Pins (VDD1/2 - GND1/2)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND1" x="-2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="GND2" x="2.54" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VDD1" x="-2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="VDD2" x="2.54" y="10.16" visible="pad" length="short" direction="pwr" rot="R270"/>
+<text x="-2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD1</text>
+<text x="-2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND1</text>
+<text x="0" y="0" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
+<text x="2.54" y="-6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-left">GND2</text>
+<text x="2.54" y="6.985" size="1.4224" layer="94" font="vector" rot="R90" align="center-right">VDD2</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADUM3402" prefix="IC">
+<gates>
+<gate name="G$1" symbol="IC_10_(ADUM1402)_REV01" x="-15.24" y="0"/>
+<gate name="PWR" symbol="PWR_4_(VDD1/2-GND1/2)_REV01" x="5.08" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<connects>
+<connect gate="G$1" pin="VE1" pad="7"/>
+<connect gate="G$1" pin="VE2" pad="10"/>
+<connect gate="G$1" pin="VIA" pad="3"/>
+<connect gate="G$1" pin="VIB" pad="4"/>
+<connect gate="G$1" pin="VIC" pad="12"/>
+<connect gate="G$1" pin="VID" pad="11"/>
+<connect gate="G$1" pin="VOA" pad="14"/>
+<connect gate="G$1" pin="VOB" pad="13"/>
+<connect gate="G$1" pin="VOC" pad="5"/>
+<connect gate="G$1" pin="VOD" pad="6"/>
+<connect gate="PWR" pin="GND1" pad="2 8"/>
+<connect gate="PWR" pin="GND2" pad="9 15"/>
+<connect gate="PWR" pin="VDD1" pad="1"/>
+<connect gate="PWR" pin="VDD2" pad="16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UDR" value="" constant="no"/>
+<attribute name="UDT" value="" constant="no"/>
+<attribute name="UKAT" value="" constant="no"/>
+<attribute name="UPWV" value="" constant="no"/>
+<attribute name="UTERM" value="" constant="no"/>
+<attribute name="UTMAX" value="" constant="no"/>
+<attribute name="UTMIN" value="" constant="no"/>
+<attribute name="UTYP" value="" constant="no"/>
+<attribute name="UVAL" value="" constant="no"/>
+<attribute name="UVDD_MAX" value="" constant="no"/>
+<attribute name="UVDD_MIN" value="" constant="no"/>
+</technology>
+<technology name="ARW">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402ARW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="ARWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402ARWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="BRW">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="50,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402BRW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="BRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="50,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402BRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRW">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402CRW" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="CRWZ">
+<attribute name="UDR" value="90,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="2,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="105°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402CRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WSRWZ">
+<attribute name="UDR" value="1,00Mbps" constant="no"/>
+<attribute name="UDT" value="100ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="40,0ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402WSRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+<technology name="WTRWZ">
+<attribute name="UDR" value="10,0Mbps" constant="no"/>
+<attribute name="UDT" value="32,0ns" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UPWV" value="3,00ns" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-40°C" constant="no"/>
+<attribute name="UTYP" value="Digital Isolator" constant="no"/>
+<attribute name="UVAL" value="ADUM3402WTRWZ" constant="no"/>
+<attribute name="UVDD_MAX" value="5,50V" constant="no"/>
+<attribute name="UVDD_MIN" value="2,70V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2017-05-09"/>
+<attribute name="REL-DATE" value="2017-05-16"/>
 <attribute name="TITLE" value="foxBMS BMS-Extension"/>
-<attribute name="VERSION" value="1.0.1"/>
+<attribute name="VERSION" value="1.0.2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -15316,14 +15097,14 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="T1002" library="0_LES_TRANSISTOR.SMD.MOS.N-KANAL.NO" deviceset="IR?*" device="LML" technology="0100TRPBF"/>
 <part name="T1003" library="0_LES_TRANSISTOR.SMD.MOS.N-KANAL.NO" deviceset="IR?*" device="LML" technology="0100TRPBF"/>
 <part name="IC1101" library="0_LES_SPANNUNGSREGLER.SMD.LINEAR.EINZEL" deviceset="UA78L*?" device="PK" technology="05AC"/>
-<part name="IC1102" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" deviceset="ADUM1300" device="" technology="ARW"/>
+<part name="IC1102" library="foxBMS_BMS-Master" deviceset="ADUM3300" device="" technology="ARW"/>
 <part name="IC1302" library="0_LES_SCHNITTSTELLEN-IC.SMD.RS485-TRANSCEIVER" deviceset="LTC485" device="S8#PBF" technology="C"/>
-<part name="IC1303" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" deviceset="ADUM1401" device="" technology="ARW"/>
+<part name="IC1303" library="foxBMS_BMS-Master" deviceset="ADUM3401" device="" technology="ARW"/>
 <part name="IC1301" library="0_LES_SPANNUNGSREGLER.SMD.LINEAR.EINZEL" deviceset="UA78L*?" device="PK" technology="05AC"/>
 <part name="IC1701" library="0_LES_VREF.SMD.SERIELL" deviceset="ADR34*" device="" technology="25ARJZ"/>
 <part name="IC1901" library="0_LES_SPANNUNGSREGLER.SMD.LINEAR.EINZEL" deviceset="UA78L*?" device="PK" technology="05AC"/>
-<part name="IC1902" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" deviceset="ADUM1402" device="" technology="ARW"/>
-<part name="IC1903" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" deviceset="ADUM1402" device="" technology="ARW"/>
+<part name="IC1902" library="foxBMS_BMS-Extension" deviceset="ADUM3402" device="" technology="ARW"/>
+<part name="IC1903" library="foxBMS_BMS-Extension" deviceset="ADUM3402" device="" technology="ARW"/>
 <part name="D801" library="0_LES_TVS.SMD.ARRAY" deviceset="PESD" device="" technology="1CAN"/>
 <part name="T901" library="0_LES_TRANSISTOR.SMD.MOS.N-KANAL.NO" deviceset="BUK?*" device="96" technology="4R8-60E"/>
 <part name="SLOT1501" library="0_LES_STECKVERBINDUNG.SMD.SPECIAL" deviceset="MICRO_SD" device=""/>

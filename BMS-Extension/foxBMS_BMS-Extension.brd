@@ -1535,7 +1535,7 @@ CONTROL </text>
 <text x="81.915" y="91.1225" size="0.7112" layer="25">X1201</text>
 <text x="89.2175" y="90.805" size="0.7112" layer="25">X2001</text>
 <text x="112.7125" y="90.805" size="0.7112" layer="25">X1701</text>
-<text x="88.5825" y="-12.7" size="0.8128" layer="25">foxBMS BMS-Extension V1.0.1</text>
+<text x="88.5825" y="-12.7" size="0.8128" layer="25">foxBMS BMS-Extension V1.0.2</text>
 <text x="139.7" y="-17.78" size="1.778" layer="25">foxBMS.org</text>
 <polygon width="0.0254" layer="25">
 <vertex x="147.613821875" y="-10.570828125"/>
@@ -3068,79 +3068,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </package>
 </packages>
 </library>
-<library name="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR">
-<packages>
-<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
-<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-SOIC-16- Package&lt;br&gt;&lt;br&gt;
-- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
-- RW-16 (Option)&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
-<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
-<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
-<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
-<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
-<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
-<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
-<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
-<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
-<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
-<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
-<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
-<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
-<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
-<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
-<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
-<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
-<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
-<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
-<polygon width="0" layer="39" spacing="20" pour="hatch">
-<vertex x="-5.4" y="4.3"/>
-<vertex x="-4.9" y="4.3"/>
-<vertex x="-4.9" y="5.8"/>
-<vertex x="4.9" y="5.8"/>
-<vertex x="4.9" y="4.3"/>
-<vertex x="5.4" y="4.3"/>
-<vertex x="5.4" y="-4.3"/>
-<vertex x="4.9" y="-4.3"/>
-<vertex x="4.9" y="-5.8"/>
-<vertex x="-4.9" y="-5.8"/>
-<vertex x="-4.9" y="-4.3"/>
-<vertex x="-5.4" y="-4.3"/>
-</polygon>
-<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="0_LES_SCHNITTSTELLEN-IC.SMD.RS485-TRANSCEIVER">
 <packages>
 <package name="IC_SMD_SOIC-8_(S8_REV_G)_R_LINEAR_REV01">
@@ -3837,6 +3764,156 @@ by exp-lbrs-replace2.ulp</description>
 <circle x="0" y="0" radius="0.3162" width="1.5" layer="29"/>
 <circle x="0" y="0" radius="1.5" width="0.1" layer="41"/>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="foxBMS_BMS-Master">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Master.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+SOIC-16- Package&lt;br&gt;&lt;br&gt;
+- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
+- RW-16 (Option)&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
+<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
+<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
+<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
+<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
+<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
+<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
+<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
+<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-5.4" y="4.3"/>
+<vertex x="-4.9" y="4.3"/>
+<vertex x="-4.9" y="5.8"/>
+<vertex x="4.9" y="5.8"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="5.4" y="4.3"/>
+<vertex x="5.4" y="-4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="4.9" y="-5.8"/>
+<vertex x="-4.9" y="-5.8"/>
+<vertex x="-4.9" y="-4.3"/>
+<vertex x="-5.4" y="-4.3"/>
+</polygon>
+</package>
+</packages>
+</library>
+<library name="foxBMS_BMS-Extension">
+<description>Generated from &lt;b&gt;foxBMS_BMS-Extension.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01">
+<description>&lt;b&gt;16-Pin SOIC - Analog Devices&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Packages\Analog Devices - Packages\ADUM1300ARW_Analog.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+SOIC-16- Package&lt;br&gt;&lt;br&gt;
+- 16-Pin SOIC (10,50mm x 10,65mm x 2,65mm) Package&lt;br&gt;
+- RW-16 (Option)&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;27.10.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<circle x="-4.445" y="-2.5" radius="0.4" width="0" layer="51"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.01" layer="51"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.01" layer="51"/>
+<wire x1="-5.4" y1="5.8" x2="5.4" y2="5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="5.8" x2="5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="5.4" y1="-5.8" x2="-5.4" y2="-5.8" width="0" layer="21"/>
+<wire x1="-5.4" y1="-5.8" x2="-5.4" y2="5.8" width="0" layer="21"/>
+<rectangle x1="-4.7" y1="3.8" x2="-4.19" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="3.8" x2="4.7" y2="5.325" layer="51"/>
+<rectangle x1="2.92" y1="3.8" x2="3.43" y2="5.325" layer="51"/>
+<rectangle x1="-3.43" y1="3.8" x2="-2.92" y2="5.325" layer="51"/>
+<rectangle x1="-2.16" y1="3.8" x2="-1.65" y2="5.325" layer="51"/>
+<rectangle x1="1.65" y1="3.8" x2="2.16" y2="5.325" layer="51"/>
+<rectangle x1="-0.89" y1="3.8" x2="-0.38" y2="5.325" layer="51"/>
+<rectangle x1="0.38" y1="3.8" x2="0.89" y2="5.325" layer="51"/>
+<rectangle x1="4.19" y1="-5.325" x2="4.7" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-4.7" y1="-5.325" x2="-4.19" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-3.43" y1="-5.325" x2="-2.92" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="2.92" y1="-5.325" x2="3.43" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="1.65" y1="-5.325" x2="2.16" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-2.16" y1="-5.325" x2="-1.65" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="0.38" y1="-5.325" x2="0.89" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-0.89" y1="-5.325" x2="-0.38" y2="-3.8" layer="51" rot="R180"/>
+<smd name="1" x="-4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="2" x="-3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="3" x="-1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="4" x="-0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="5" x="0.635" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="6" x="1.905" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="7" x="3.175" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="8" x="4.445" y="-4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="9" x="4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="10" x="3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="11" x="1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="12" x="0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="13" x="-0.635" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="14" x="-1.905" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="15" x="-3.175" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<smd name="16" x="-4.445" y="4.5275" dx="2.3" dy="0.56" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVAL</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-5.4" y="4.3"/>
+<vertex x="-4.9" y="4.3"/>
+<vertex x="-4.9" y="5.8"/>
+<vertex x="4.9" y="5.8"/>
+<vertex x="4.9" y="4.3"/>
+<vertex x="5.4" y="4.3"/>
+<vertex x="5.4" y="-4.3"/>
+<vertex x="4.9" y="-4.3"/>
+<vertex x="4.9" y="-5.8"/>
+<vertex x="-4.9" y="-5.8"/>
+<vertex x="-4.9" y="-4.3"/>
+<vertex x="-5.4" y="-4.3"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -5367,29 +5444,17 @@ Your Multi-CB Team
 <attribute name="UTMAX" value="125°C" x="85.24875" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="82.2325" y="74.45375" size="0.7112" layer="25" font="vector" rot="R90" align="center"/>
 </element>
-<element name="IC1102" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM1300ARW" x="85.24875" y="54.9275" smashed="yes" rot="R180">
+<element name="IC1102" library="foxBMS_BMS-Master" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM3300ARW" x="85.24875" y="54.9275" smashed="yes" rot="R180">
 <attribute name="UKAT" value="I" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER" value="Analog Devices" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1300_1301_Linear.pdf" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTMIN" value="-40°C" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MARKING" value="ADUM1300ARW" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="SOIC-16" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UPWV" value="40,0ns" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DNI" value="" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MAX" value="5,50V" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MIN" value="2,70V" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTYP" value="Digital Isolator" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-NR" value="" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTERM" value="Sn" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-PREIS" value="" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1" value="Digi-Key" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDR" value="1,00Mbps" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2" value="" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDT" value="100ns" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER-NR" value="ADUM1300ARW" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1-NR" value="ADUM1300ARW-ND" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UVAL" value="ADUM1300ARW" x="85.24875" y="54.9275" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
-<attribute name="DISTRI_1-PREIS" value="3,58€" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="UVAL" value="ADUM3300ARW" x="85.24875" y="54.9275" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
 <attribute name="UTMAX" value="105°C" x="85.24875" y="54.9275" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="91.59875" y="54.61" size="0.7112" layer="25" font="vector" rot="R270" align="center"/>
 </element>
@@ -5416,29 +5481,17 @@ Your Multi-CB Team
 <attribute name="UTMAX" value="70°C" x="28.8925" y="67.31" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.7175" y="67.31" size="0.7112" layer="25" font="vector" rot="R90" align="center"/>
 </element>
-<element name="IC1303" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM1401ARW" x="28.86075" y="55.118" smashed="yes">
+<element name="IC1303" library="foxBMS_BMS-Master" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM3401ARW" x="28.86075" y="55.118" smashed="yes">
 <attribute name="UKAT" value="I" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="HERSTELLER" value="Analog Devices" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UTMIN" value="-40°C" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="MARKING" value="ADUM1401ARW" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="SIZE" value="SOIC-16" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UPWV" value="40,0ns" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DNI" value="" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UVDD_MAX" value="5,50V" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UVDD_MIN" value="2,70V" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UTYP" value="Digital Isolator" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1401ARW" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UTERM" value="Sn" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRI_2-PREIS" value="3,92€" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRI_1" value="Digi-Key" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UDR" value="1,00Mbps" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRI_2" value="Mouser" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="UDT" value="100ns" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="HERSTELLER-NR" value="ADUM1401ARW" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRI_1-NR" value="ADUM1401ARW-ND" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
-<attribute name="UVAL" value="ADUM1401ARW" x="28.86075" y="55.118" size="1.4224" layer="27" font="vector" align="center"/>
-<attribute name="DISTRI_1-PREIS" value="5,08€" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
+<attribute name="UVAL" value="ADUM3401ARW" x="28.86075" y="55.118" size="1.4224" layer="27" font="vector" align="center"/>
 <attribute name="UTMAX" value="105°C" x="28.86075" y="55.118" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="31.9405" y="47.752" size="0.7112" layer="25" font="vector" rot="R180" align="center"/>
 </element>
@@ -5513,55 +5566,31 @@ Your Multi-CB Team
 <attribute name="UTMAX" value="125°C" x="51.27625" y="69.05625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="52.07" y="66.04" size="0.7112" layer="25" font="vector" rot="R180" align="center"/>
 </element>
-<element name="IC1902" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM1402ARW" x="42.545" y="55.08625" smashed="yes" rot="R180">
+<element name="IC1902" library="foxBMS_BMS-Extension" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM3402ARW" x="42.545" y="55.08625" smashed="yes" rot="R180">
 <attribute name="UKAT" value="I" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER" value="Analog Devices" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTMIN" value="-40°C" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MARKING" value="ADUM1402ARW" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="SOIC-16" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UPWV" value="40,0ns" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DNI" value="" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MAX" value="5,50V" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MIN" value="2,70V" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTYP" value="Digital Isolator" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402ARW" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTERM" value="Sn" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-PREIS" value="3,92€" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1" value="Digi-Key" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDR" value="1,00Mbps" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2" value="Mouser" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDT" value="100ns" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402ARW" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402ARW-ND" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UVAL" value="ADUM1402ARW" x="42.545" y="55.08625" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
-<attribute name="DISTRI_1-PREIS" value="5,08€" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="UVAL" value="ADUM3402ARW" x="42.545" y="55.08625" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
 <attribute name="UTMAX" value="105°C" x="42.545" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="39.0525" y="47.78375" size="0.7112" layer="25" font="vector" align="center"/>
 </element>
-<element name="IC1903" library="0_LES_SCHNITTSTELLEN-IC.SMD.ISOLATOR" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM1402ARW" x="53.34" y="55.08625" smashed="yes" rot="R180">
+<element name="IC1903" library="foxBMS_BMS-Extension" package="IC_SMD_SOIC-16_(JEDEC_MS-013-AA)_R_ANALOG_REV01" value="ADUM3402ARW" x="53.34" y="55.08625" smashed="yes" rot="R180">
 <attribute name="UKAT" value="I" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER" value="Analog Devices" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Schnittstellen-IC\ADuM1400_1401_1402_Linear.pdf" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTMIN" value="-40°C" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MARKING" value="ADUM1402ARW" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SIZE" value="SOIC-16" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UPWV" value="40,0ns" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DNI" value="" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MAX" value="5,50V" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UVDD_MIN" value="2,70V" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTYP" value="Digital Isolator" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-NR" value="584-ADUM1402ARW" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UTERM" value="Sn" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2-PREIS" value="3,92€" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1" value="Digi-Key" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDR" value="1,00Mbps" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_2" value="Mouser" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UDT" value="100ns" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HERSTELLER-NR" value="ADUM1402ARW" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTRI_1-NR" value="ADUM1402ARW-ND" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="UVAL" value="ADUM1402ARW" x="53.34" y="55.08625" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
-<attribute name="DISTRI_1-PREIS" value="5,08€" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="UVAL" value="ADUM3402ARW" x="53.34" y="55.08625" size="1.4224" layer="27" font="vector" rot="R180" align="center"/>
 <attribute name="UTMAX" value="105°C" x="53.34" y="55.08625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.165" y="47.625" size="0.7112" layer="25" font="vector" rot="R180" align="center"/>
 </element>
