@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="12.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -34,9 +34,9 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -988,8 +988,8 @@
 <vertex x="17.53994375" y="-49.857571875"/>
 <vertex x="16.86049375" y="-49.858840625"/>
 </polygon>
-<text x="75.2475" y="-101.75875" size="0.7112" layer="1" font="vector">TOP</text>
-<text x="76.99375" y="-102.87" size="0.7112" layer="16" font="vector" rot="MR0">BOT</text>
+<text x="75.2475" y="-101.75875" size="0.7112" layer="1">TOP</text>
+<text x="76.99375" y="-102.87" size="0.7112" layer="16" rot="MR0">BOT</text>
 <rectangle x1="67.31" y1="-110.96625" x2="68.10375" y2="-108.74375" layer="25"/>
 <rectangle x1="56.99125" y1="-85.88375" x2="57.785" y2="-83.66125" layer="25"/>
 <dimension x1="52" y1="0" x2="31.6" y2="-38.735" x3="41.8" y3="10.4775" textsize="1.778" layer="120" dtype="horizontal"/>
@@ -1480,6 +1480,10 @@
 <vertex x="20.833159375" y="-117.249840625"/>
 <vertex x="20.323259375" y="-117.32428125"/>
 </polygon>
+<text x="12.54125" y="-118.4275" size="0.8128" layer="1" rot="R90">Fraunhofer IISB
+L21687</text>
+<text x="12.54125" y="-118.4275" size="0.8128" layer="29" rot="R90">Fraunhofer IISB
+L21584</text>
 <text x="8.09625" y="-118.90375" size="0.7112" layer="25">1</text>
 <text x="10.16" y="-89.69375" size="0.7112" layer="25">1</text>
 <text x="50.165" y="-90.96375" size="0.7112" layer="25">1</text>
@@ -1491,7 +1495,7 @@
 <text x="39.52875" y="-10.4775" size="0.7112" layer="25">16</text>
 <text x="146.685" y="-10.63625" size="0.7112" layer="25">4</text>
 <text x="155.09875" y="-10.63625" size="0.7112" layer="25">6</text>
-<text x="151.60625" y="-118.745" size="0.8128" layer="25" rot="R90">foxBMS BMS-Master V1.0.1</text>
+<text x="151.60625" y="-119.38" size="0.8128" layer="25" rot="R90">foxBMS BMS-Master V1.0.1</text>
 <polygon width="0.4064" layer="25">
 <vertex x="152.24125" y="-99.21875"/>
 <vertex x="157.63875" y="-99.21875"/>
@@ -6505,119 +6509,122 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <clearance class="4" value="0.1524"/>
 </class>
 </classes>
-<designrules name="Multi-CB_4L_125um-Tracks_OL35um-IL35um">
-<description language="de">&lt;b&gt;Multi-CB EAGLE Design Rules für 4 Lagen Standard (ohne Aufpreis)&lt;/b&gt;
-&lt;br&gt;
-125µm Leiter, 0.2mm Drill, ca. 35µm End-Kupfer (18µm Startkupfer)
-&lt;p&gt;
-&lt;b&gt;Bitte beachten:&lt;/b&gt;
-&lt;ul type=&quot;square&quot;&gt;
-	&lt;li&gt;Lagenaufbau nur exemplarisch (kann variieren), kritischen Lagenaufbau bitte immer mit unserer Technik klären.&lt;/li&gt;
-	&lt;li&gt;Vias kleiner/gleich 0.45mm werden mit Lötstopp abgedeckt. Eine Freistellung der Vias kann unter Masks/Limit gesetzt werden.&lt;/li&gt;
-	&lt;li&gt;Bitte nur Vektorschrift verwenden! Im Control-Panel unter Optionen/Benutzeroberfläche: Immer Vektor-Schrift.&lt;/li&gt;
-	&lt;li&gt;Langlöcher im Layer 46 werden als durchkontaktierte Schlitze (DK) gefertigt, falls von Kupfer umgeben. NDK-Langlöcher müssen im Layer 20 definiert sein (Preisvorteil).&lt;/li&gt;
-	&lt;li&gt;Dieses .dru-File ist für Boards mit Fräskontur. Geritzte Kontur erfordert Distance/Copper/Dimension: 0.5mm.&lt;/li&gt;
-	&lt;li&gt;Falls Lötstopp-Brücken im gleichen Netz erwünscht: Clearance/Same Signals anpassen (empfohlen: 8mil)&lt;/li&gt;
-	&lt;li&gt;Supply/ Generate thermals ist standardmäßig aktiviert; kann auch deaktiviert werden.&lt;/li&gt;
-	&lt;li&gt;Zum Reduzieren der Pad-Größe für SMD-Schablonen kann Masks/Cream angepasst werden.&lt;/li&gt;
-&lt;/ul&gt;
-Für kleinere Werte (Leiterbahn, Drill) verwenden Sie bitte ein Advanced .dru-File von Multi-CB.&lt;br&gt;
-Weitere Hinweise finden Sie unter &lt;b&gt;Design-Hilfe&lt;/b&gt; auf unserer Webseite &lt;a href=&quot;http://www.multi-circuit-boards.eu/leiterplatten-design-hilfe/einfuehrung.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-Ihr Multi-CB Team
-&lt;br&gt;&lt;br&gt;
-&lt;em&gt;Alle Angaben ohne Gewähr! Eine perfekte Einstellung der Design-Rules kann verständlicherweise nur durch den Anwender erfolgen.&lt;/em&gt;
-&lt;/p&gt;</description>
-<description language="en">&lt;b&gt;Multi-CB EAGLE Design Rules for 4 layers standard (w/o surcharge)&lt;/b&gt;
-&lt;br&gt;
-125µm tracks, 0.2mm drills, ca. 35µm final copper (18µm start copper)
-&lt;p&gt;
-&lt;b&gt;Please note:&lt;/b&gt;
-&lt;ul type=&quot;square&quot;&gt;
-	&lt;li&gt;Layer buildup only as example (may vary), please always check with our CAM department for critical layer buildup.&lt;/li&gt;
-	&lt;li&gt;Vias less/equal 0.45mm will be covered with solder mask. An exemption of the vias can be placed under Masks / Limit.&lt;/li&gt;
-	&lt;li&gt;Please only use vector fonts! In Control Panel under Options / User Interface: Always vector font.&lt;/li&gt;
-	&lt;li&gt;Oblong holes in the layer 46 are manufactured as plated-through slots (PTH), if surrounded by copper. NPTH-slots must be defined in the layer 20 (price advantage).&lt;/li&gt;
-	&lt;li&gt;This .dru-File is for boards with milling contour. V-scoring contour requires Distance / Copper / Dimension: 0.5mm.&lt;/li&gt;
-	&lt;li&gt;If solder-stop bridges on the same network are desired: Adjust Clearance / Same signal (recommended 8mil)&lt;/li&gt;
-	&lt;li&gt;Supply / Generate thermals is enabled by default; can also be deactivated.&lt;/li&gt;
-	&lt;li&gt;To reduce the pad size for SMD-Stencils: Masks/Cream can be customized.&lt;/li&gt;
-&lt;/ul&gt;
-For smaller values (conductors, drill) please use an Advanced .dru file of Multi-CB.&lt;br&gt;
-For more information, see &lt;b&gt;Design-Aid&lt;/b&gt; on our website &lt;a href=&quot;http://www.multi-circuit-boards.eu/en/pcb-design-aid/introduction.html&quot;&gt;www.multi-cb.de&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-Your Multi-CB Team
-&lt;br&gt;&lt;br&gt;
-&lt;em&gt;All statements without guarantee! A perfect setting of design rules can understandably only be performed by the user.&lt;/em&gt;
-&lt;/p&gt;</description>
+<designrules name="Aetzwerk-DRC 4 Lagen 35µm Cu *">
+<description language="de">&lt;html&gt;
+	&lt;title&gt;&amp;Auml;tzwerk-DRC 4 Lagen 35µm Cu&lt;/title&gt;
+	&lt;style type='text/css'&gt;
+	.gruen
+	{
+		color:#89A40B;
+	}
+	a:link
+	{
+		color:#89A40B;
+		text-decoration: none;
+	}
+	body
+	{
+		color:#003300;
+	}
+	li
+	{
+		margin:3px;
+	}
+	&lt;/style&gt;
+	&lt;body&gt;
+		&lt;h3 class='gruen'&gt;Die &amp;Auml;tzwerk Design Richtlinien f&amp;uuml;r 4 Lagen mit 35 µm Kupfer&lt;/h3&gt;
+		Diese DRU-Datei enthält alle erforderlichen Design Einstellungen, damit Ihre Leiterplatte bei uns  produziert werden kann. Die Reiter &quot;Shapes&quot; und &quot;Misc&quot; sind nicht relevant, der minimale und maximale Wert für Roundness Shapes kann frei gewählt werden.
+		&lt;h4 class='gruen'&gt;Der &amp;Auml;tzwerk Design-Rule-Check (DRC) im &amp;Uuml;berblick&lt;/h4&gt;
+		&lt;ul&gt;
+			&lt;li&gt;Min. Leiterbahnbreite/-abstand: &lt;b&gt;0,15 mm&lt;/b&gt;&lt;br&gt;
+				Schriftz&amp;uuml;ge im Kupfer sollten mindestens 0,2 mm breit sein. Achten Sie auch darauf, dass Sie Vektorschriften aktivieren.&lt;/li&gt;
+			&lt;li&gt;Min. Bohrdurchmesser: &lt;b&gt;0,3 mm&lt;/b&gt;&lt;/li&gt;
+			&lt;li&gt;Min. Restringe bei PTH-Bohrungen
+				&lt;ul&gt;
+					&lt;li&gt;Aussenlagen: &lt;b&gt;0,15 mm&lt;/b&gt;&lt;/li&gt;
+					&lt;li&gt;Innenlagen:  &lt;b&gt;0,2 mm&lt;/b&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;Isolation:&lt;/u&gt;
+				&lt;ul&gt;
+					&lt;li&gt;Innenlagen: &lt;b&gt;0,20 mm&lt;/b&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;Min. Strichst&amp;auml;rke des Best&amp;uuml;ckungsdrucks: &lt;b&gt;0,18 mm&lt;/b&gt;&lt;/li&gt;
+			&lt;li&gt;Im Reiter &quot;Masks&quot; k&amp;ouml;nnen Sie die &amp;Uuml;bergroße der L&amp;ouml;tstopmaske einstellen. Sollten sich auf Ihre Leiterplatte finepitch SMD oder BGA Komponenten befinden sollte die Maske auf 2mil verkleinert werden und evtl. die Vias vom L&amp;ouml;tstoplack abgedeckt werden. Bitte halten Sie diesbez&amp;uuml;glich R&amp;uuml;cksprache mit Ihrem Best&amp;uuml;cker.&lt;/li&gt;
+			&lt;li&gt;Polygone sollten mit einer Strichst&amp;auml;rke von min. 0,2 mm  gef&amp;uuml;llt werden.&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;br&gt;
+		&lt;br&gt;Weitere Information zu Leiterplatten und Design finden Sie unter: &lt;b&gt;&lt;a href='http://www.aetzwerk.de'&gt;www.aetzwerk.de&lt;/a&gt;&lt;/b&gt;
+		&lt;br&gt;Gerne beantworten wir Ihre Fragen rund um die Technik auch per eMail: &lt;b&gt;&lt;a href='mailto:technik@aetzwerk.de'&gt;technik@aetzwerk.de&lt;/a&gt;&lt;/b&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</description>
 <param name="layerSetup" value="(1+2*3+16)"/>
 <param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
-<param name="mtIsolate" value="0.36mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.125mm"/>
-<param name="mdWirePad" value="0.125mm"/>
-<param name="mdWireVia" value="0.125mm"/>
-<param name="mdPadPad" value="0.125mm"/>
-<param name="mdPadVia" value="0.125mm"/>
-<param name="mdViaVia" value="0.125mm"/>
-<param name="mdSmdPad" value="0mil"/>
-<param name="mdSmdVia" value="0mil"/>
-<param name="mdSmdSmd" value="0mil"/>
-<param name="mdViaViaSameLayer" value="0.2mm"/>
+<param name="mtIsolate" value="0.36mm 0.71mm 0.36mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.36mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="0.2mm"/>
-<param name="mdDrill" value="0.2mm"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="0.125mm"/>
-<param name="msDrill" value="0.2mm"/>
-<param name="msMicroVia" value="0.2mm"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="999mil"/>
 <param name="msBlindViaRatio" value="1"/>
-<param name="rvPadTop" value="0.25"/>
-<param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
-<param name="rvViaInner" value="0.25"/>
+<param name="rvPadTop" value="0"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
 <param name="rvMicroViaOuter" value="0"/>
 <param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="0.125mm"/>
-<param name="rlMaxPadTop" value="0.75mm"/>
-<param name="rlMinPadInner" value="0.125mm"/>
-<param name="rlMaxPadInner" value="0.75mm"/>
-<param name="rlMinPadBottom" value="0.125mm"/>
-<param name="rlMaxPadBottom" value="0.75mm"/>
-<param name="rlMinViaOuter" value="0.125mm"/>
-<param name="rlMaxViaOuter" value="0.75mm"/>
-<param name="rlMinViaInner" value="0.125mm"/>
-<param name="rlMaxViaInner" value="0.75mm"/>
-<param name="rlMinMicroViaOuter" value="0.125mm"/>
-<param name="rlMaxMicroViaOuter" value="0.75mm"/>
-<param name="rlMinMicroViaInner" value="0.125mm"/>
-<param name="rlMaxMicroViaInner" value="0.75mm"/>
+<param name="rlMinPadTop" value="8mil"/>
+<param name="rlMaxPadTop" value="100mil"/>
+<param name="rlMinPadInner" value="8mil"/>
+<param name="rlMaxPadInner" value="100mil"/>
+<param name="rlMinPadBottom" value="8mil"/>
+<param name="rlMaxPadBottom" value="100mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxViaOuter" value="100mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="100mil"/>
+<param name="rlMinMicroViaOuter" value="99mil"/>
+<param name="rlMaxMicroViaOuter" value="999mil"/>
+<param name="rlMinMicroViaInner" value="99mil"/>
+<param name="rlMaxMicroViaInner" value="999mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="-1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
-<param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0.45mm"/>
+<param name="mlMaxCreamFrame" value="8mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0.2mm"/>
-<param name="slThermalsForVias" value="1"/>
+<param name="slThermalIsolate" value="8mil"/>
+<param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
-<param name="checkFont" value="1"/>
+<param name="checkFont" value="0"/>
 <param name="checkRestrict" value="1"/>
-<param name="useDiameter" value="31"/>
+<param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
@@ -7457,7 +7464,7 @@ Your Multi-CB Team
 <attribute name="UUIN_MAX" value="36,0V" x="147.6375" y="-49.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C201" library="foxBMS_BMS-Master" package="C0805" value="2.2µ" x="150.01875" y="-30.63875" smashed="yes" rot="R90">
-<attribute name="NAME" x="149.70125" y="-28.575" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="150.33625" y="-28.575" size="0.7112" layer="25" rot="R90"/>
 </element>
 <element name="C207" library="foxBMS_BMS-Master" package="C0603" value="1µ" x="136.2075" y="-58.57875" smashed="yes" rot="R90">
 <attribute name="NAME" x="136.68375" y="-62.865" size="0.7112" layer="25" rot="R90"/>
@@ -8016,20 +8023,20 @@ Your Multi-CB Team
 <attribute name="NAME" x="58.039" y="-96.36125" size="0.7112" layer="25" rot="R270"/>
 <attribute name="NAME" x="57.8485" y="-95.885" size="1.27" layer="111" rot="R270"/>
 </element>
-<element name="X402" library="foxBMS_BMS-Master" package="MA02-1" value="MA02-1" x="67.46875" y="-68.73875" smashed="yes">
-<attribute name="NAME" x="71.02475" y="-70.00875" size="0.7112" layer="25" rot="R90"/>
-<attribute name="NAME" x="64.92875" y="-67.08775" size="1.27" layer="111"/>
+<element name="X402" library="foxBMS_BMS-Master" package="MA02-1" value="MA02-1" x="67.46875" y="-68.8975" smashed="yes">
+<attribute name="NAME" x="71.02475" y="-70.1675" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="64.92875" y="-67.2465" size="1.27" layer="111"/>
 </element>
-<element name="X401" library="foxBMS_BMS-Master" package="MA03-1" value="" x="57.94375" y="-68.73875" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.435" y="-68.961" size="0.7112" layer="25"/>
-<attribute name="NAME" x="60.48375" y="-70.38975" size="1.27" layer="111" rot="R180"/>
-<attribute name="OC_NEWARK" value="unknown" x="57.94375" y="-68.73875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="57.94375" y="-68.73875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="57.94375" y="-68.73875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="57.94375" y="-68.73875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="X401" library="foxBMS_BMS-Master" package="MA03-1" value="" x="57.94375" y="-68.8975" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.435" y="-69.11975" size="0.7112" layer="25"/>
+<attribute name="NAME" x="60.48375" y="-70.5485" size="1.27" layer="111" rot="R180"/>
+<attribute name="OC_NEWARK" value="unknown" x="57.94375" y="-68.8975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="57.94375" y="-68.8975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="" x="57.94375" y="-68.8975" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="57.94375" y="-68.8975" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C203" library="foxBMS_BMS-Master" package="C0805" value="2.2µ" x="145.57375" y="-30.63875" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.52625" y="-28.575" size="0.7112" layer="25" rot="R90"/>
+<attribute name="NAME" x="145.89125" y="-28.575" size="0.7112" layer="25" rot="R90"/>
 </element>
 <element name="C204" library="foxBMS_BMS-Master" package="C0805" value="2.2µ" x="147.79625" y="-30.63875" smashed="yes" rot="R90">
 <attribute name="NAME" x="148.11375" y="-28.575" size="0.7112" layer="25" rot="R90"/>
@@ -9709,15 +9716,13 @@ Your Multi-CB Team
 </signal>
 <signal name="CONTACTOR_0_CONTROL">
 <contactref element="R1001" pad="2"/>
-<wire x1="62.60375" y1="-63.8175" x2="62.60375" y2="-65.46125" width="0.1524" layer="1"/>
-<wire x1="62.60375" y1="-65.46125" x2="63.02375" y2="-65.88125" width="0.1524" layer="1"/>
+<wire x1="62.60375" y1="-63.8175" x2="62.60375" y2="-65.77875" width="0.1524" layer="1"/>
+<wire x1="62.60375" y1="-65.77875" x2="63.02375" y2="-66.19875" width="0.1524" layer="1"/>
 <wire x1="92.23375" y1="-65.56375" x2="92.55125" y2="-65.88125" width="0.1524" layer="1"/>
 <wire x1="92.55125" y1="-65.88125" x2="92.55125" y2="-68.10375" width="0.1524" layer="1"/>
 <wire x1="92.55125" y1="-68.10375" x2="92.23375" y2="-68.42125" width="0.1524" layer="1"/>
 <wire x1="92.23375" y1="-68.42125" x2="91.1175" y2="-68.42125" width="0.1524" layer="1"/>
-<wire x1="63.02375" y1="-65.88125" x2="72.23125" y2="-65.88125" width="0.1524" layer="1"/>
-<wire x1="72.23125" y1="-65.88125" x2="72.54875" y2="-66.19875" width="0.1524" layer="1"/>
-<wire x1="72.54875" y1="-66.19875" x2="89.05875" y2="-66.19875" width="0.1524" layer="1"/>
+<wire x1="63.02375" y1="-66.19875" x2="89.05875" y2="-66.19875" width="0.1524" layer="1"/>
 <wire x1="89.05875" y1="-66.19875" x2="89.69375" y2="-65.56375" width="0.1524" layer="1"/>
 <wire x1="89.69375" y1="-65.56375" x2="92.23375" y2="-65.56375" width="0.1524" layer="1"/>
 <contactref element="IC402" pad="133"/>
@@ -9889,10 +9894,7 @@ Your Multi-CB Team
 <wire x1="97.0725" y1="-68.0275" x2="96.99625" y2="-68.10375" width="0.1524" layer="1"/>
 </signal>
 <signal name="MCU_TO_MCU_INTERFACE_MCU_0_MOSI">
-<wire x1="49.68875" y1="-66.19875" x2="62.865" y2="-66.19875" width="0.1524" layer="1"/>
-<wire x1="62.865" y1="-66.19875" x2="72.0725" y2="-66.19875" width="0.1524" layer="1"/>
-<wire x1="72.0725" y1="-66.19875" x2="72.39" y2="-66.51625" width="0.1524" layer="1"/>
-<wire x1="72.39" y1="-66.51625" x2="89.2175" y2="-66.51625" width="0.1524" layer="1"/>
+<wire x1="49.68875" y1="-66.51625" x2="89.2175" y2="-66.51625" width="0.1524" layer="1"/>
 <wire x1="89.2175" y1="-66.51625" x2="89.8525" y2="-65.88125" width="0.1524" layer="1"/>
 <wire x1="89.8525" y1="-65.88125" x2="91.59875" y2="-65.88125" width="0.1524" layer="1"/>
 <wire x1="91.59875" y1="-65.88125" x2="91.91625" y2="-66.19875" width="0.1524" layer="1"/>
@@ -9904,8 +9906,8 @@ Your Multi-CB Team
 <via x="111.4425" y="-64.92875" extent="1-16" drill="0.3"/>
 <wire x1="111.4425" y1="-64.92875" x2="111.60125" y2="-65.0875" width="0.1524" layer="1"/>
 <wire x1="111.60125" y1="-65.0875" x2="111.60125" y2="-66.4375" width="0.1524" layer="1"/>
-<wire x1="49.68875" y1="-66.19875" x2="48.73625" y2="-65.24625" width="0.1524" layer="1"/>
-<wire x1="48.73625" y1="-65.24625" x2="48.73625" y2="-62.38875" width="0.1524" layer="1"/>
+<wire x1="49.68875" y1="-66.51625" x2="48.73625" y2="-65.56375" width="0.1524" layer="1"/>
+<wire x1="48.73625" y1="-65.56375" x2="48.73625" y2="-62.38875" width="0.1524" layer="1"/>
 <wire x1="48.73625" y1="-62.38875" x2="48.41875" y2="-62.07125" width="0.1524" layer="1"/>
 <contactref element="IC601" pad="14"/>
 <wire x1="45.405625" y1="-62.07125" x2="48.41875" y2="-62.07125" width="0.1524" layer="1"/>
@@ -9913,15 +9915,15 @@ Your Multi-CB Team
 <wire x1="111.60125" y1="-66.4375" x2="111.5725" y2="-66.46625" width="0.1524" layer="1"/>
 </signal>
 <signal name="MCU_TO_MCU_INTERFACE_MCU_0_SCK">
-<via x="48.10125" y="-64.4525" extent="1-16" drill="0.3"/>
+<via x="48.10125" y="-65.405" extent="1-16" drill="0.3"/>
 <via x="79.53375" y="-73.81875" extent="1-16" drill="0.3"/>
 <wire x1="79.53375" y1="-73.81875" x2="79.53375" y2="-68.58" width="0.1524" layer="16"/>
 <wire x1="79.53375" y1="-68.58" x2="77.7875" y2="-66.83375" width="0.1524" layer="16"/>
 <wire x1="77.7875" y1="-66.83375" x2="48.41875" y2="-66.83375" width="0.1524" layer="16"/>
 <wire x1="48.41875" y1="-66.83375" x2="48.10125" y2="-66.51625" width="0.1524" layer="16"/>
-<wire x1="48.10125" y1="-66.51625" x2="48.10125" y2="-64.4525" width="0.1524" layer="16"/>
+<wire x1="48.10125" y1="-66.51625" x2="48.10125" y2="-65.405" width="0.1524" layer="16"/>
 <wire x1="47.625" y1="-63.34125" x2="48.10125" y2="-63.8175" width="0.1524" layer="1"/>
-<wire x1="48.10125" y1="-63.8175" x2="48.10125" y2="-64.4525" width="0.1524" layer="1"/>
+<wire x1="48.10125" y1="-63.8175" x2="48.10125" y2="-65.405" width="0.1524" layer="1"/>
 <wire x1="79.705" y1="-74.46625" x2="79.53375" y2="-74.295" width="0.1524" layer="1"/>
 <wire x1="79.53375" y1="-74.295" x2="79.53375" y2="-73.81875" width="0.1524" layer="1"/>
 <contactref element="IC601" pad="13"/>
@@ -9953,7 +9955,7 @@ Your Multi-CB Team
 <wire x1="69.215" y1="-73.81875" x2="68.73875" y2="-74.295" width="0.1524" layer="16"/>
 <wire x1="68.73875" y1="-74.295" x2="59.055" y2="-74.295" width="0.1524" layer="16"/>
 <wire x1="59.055" y1="-74.295" x2="57.94375" y2="-73.025" width="0.1524" layer="16"/>
-<wire x1="57.94375" y1="-73.025" x2="57.94375" y2="-68.73875" width="0.1524" layer="16"/>
+<wire x1="57.94375" y1="-73.025" x2="57.94375" y2="-68.8975" width="0.1524" layer="16"/>
 <contactref element="IC402" pad="40"/>
 <wire x1="112.5725" y1="-91.96625" x2="112.5725" y2="-93.64375" width="0.1524" layer="1"/>
 </signal>
@@ -10033,15 +10035,15 @@ Your Multi-CB Team
 <contactref element="X402" pad="2"/>
 <wire x1="71.79" y1="-84.96625" x2="71.27875" y2="-84.455" width="0.1524" layer="1"/>
 <via x="71.27875" y="-84.455" extent="1-16" drill="0.3"/>
-<wire x1="71.27875" y1="-84.455" x2="71.27875" y2="-69.215" width="0.1524" layer="16"/>
-<wire x1="71.27875" y1="-69.215" x2="70.8025" y2="-68.73875" width="0.1524" layer="16"/>
-<wire x1="70.8025" y1="-68.73875" x2="68.73875" y2="-68.73875" width="0.1524" layer="16"/>
+<wire x1="71.27875" y1="-84.455" x2="71.27875" y2="-69.37375" width="0.1524" layer="16"/>
+<wire x1="71.27875" y1="-69.37375" x2="70.8025" y2="-68.8975" width="0.1524" layer="16"/>
+<wire x1="70.8025" y1="-68.8975" x2="68.73875" y2="-68.8975" width="0.1524" layer="16"/>
 <contactref element="R401" pad="2"/>
 <wire x1="71.79" y1="-84.96625" x2="83.5025" y2="-84.96625" width="0.1524" layer="1"/>
 <wire x1="83.5025" y1="-84.96625" x2="83.5025" y2="-85.1925" width="0.1524" layer="1"/>
 <contactref element="T401" pad="3"/>
 <wire x1="72.08375" y1="-68.8975" x2="68.73905" y2="-68.8972" width="0.1524" layer="1"/>
-<wire x1="68.73905" y1="-68.8972" x2="68.73875" y2="-68.73875" width="0.1524" layer="1"/>
+<wire x1="68.73905" y1="-68.8972" x2="68.73875" y2="-68.8975" width="0.1524" layer="1"/>
 <contactref element="IC402" pad="166"/>
 <wire x1="91.0725" y1="-84.96625" x2="83.72875" y2="-84.96625" width="0.1524" layer="1"/>
 <wire x1="83.72875" y1="-84.96625" x2="83.5025" y2="-85.1925" width="0.1524" layer="1"/>
@@ -12696,11 +12698,9 @@ Your Multi-CB Team
 </signal>
 <signal name="CONTACTOR_1_CONTROL">
 <contactref element="R1007" pad="2"/>
-<wire x1="67.525" y1="-63.8175" x2="67.525" y2="-65.14375" width="0.1524" layer="1"/>
-<wire x1="67.525" y1="-65.14375" x2="67.945" y2="-65.56375" width="0.1524" layer="1"/>
-<wire x1="67.945" y1="-65.56375" x2="72.39" y2="-65.56375" width="0.1524" layer="1"/>
-<wire x1="72.39" y1="-65.56375" x2="72.7075" y2="-65.88125" width="0.1524" layer="1"/>
-<wire x1="72.7075" y1="-65.88125" x2="88.9" y2="-65.88125" width="0.1524" layer="1"/>
+<wire x1="67.525" y1="-63.8175" x2="67.525" y2="-65.46125" width="0.1524" layer="1"/>
+<wire x1="67.525" y1="-65.46125" x2="67.945" y2="-65.88125" width="0.1524" layer="1"/>
+<wire x1="67.945" y1="-65.88125" x2="88.9" y2="-65.88125" width="0.1524" layer="1"/>
 <wire x1="88.9" y1="-65.88125" x2="89.535" y2="-65.24625" width="0.1524" layer="1"/>
 <wire x1="89.535" y1="-65.24625" x2="92.71" y2="-65.24625" width="0.1524" layer="1"/>
 <wire x1="92.71" y1="-65.24625" x2="93.0725" y2="-65.60875" width="0.1524" layer="1"/>
@@ -14052,9 +14052,9 @@ Your Multi-CB Team
 <wire x1="116.5725" y1="-78.46625" x2="116.955" y2="-78.46625" width="0.1524" layer="1"/>
 </signal>
 <signal name="FMC_MCU_0_RAM_D3">
-<wire x1="92.86875" y1="-75.08875" x2="113.18875" y2="-75.08875" width="0.1524" layer="1"/>
-<wire x1="113.18875" y1="-75.08875" x2="114.45875" y2="-76.35875" width="0.1524" layer="1"/>
-<wire x1="114.45875" y1="-76.35875" x2="114.538125" y2="-76.35875" width="0.1524" layer="1"/>
+<wire x1="92.86875" y1="-75.08875" x2="112.87125" y2="-75.08875" width="0.1524" layer="1"/>
+<wire x1="112.87125" y1="-75.08875" x2="114.3" y2="-76.5175" width="0.1524" layer="1"/>
+<wire x1="114.3" y1="-76.5175" x2="114.538125" y2="-76.35875" width="0.1524" layer="1"/>
 <via x="114.538125" y="-76.35875" extent="1-16" drill="0.3"/>
 <wire x1="92.19875" y1="-73.46625" x2="92.55125" y2="-73.81875" width="0.1524" layer="1"/>
 <wire x1="92.55125" y1="-73.81875" x2="92.55125" y2="-74.77125" width="0.1524" layer="1"/>
@@ -14076,8 +14076,9 @@ Your Multi-CB Team
 <wire x1="92.19875" y1="-73.46625" x2="91.0725" y2="-73.46625" width="0.1524" layer="1"/>
 </signal>
 <signal name="FMC_MCU_0_RAM_D2">
-<wire x1="93.345" y1="-74.77125" x2="113.9825" y2="-74.77125" width="0.1524" layer="1"/>
-<wire x1="113.9825" y1="-74.77125" x2="114.6175" y2="-75.40625" width="0.1524" layer="1"/>
+<wire x1="93.345" y1="-74.77125" x2="113.18875" y2="-74.77125" width="0.1524" layer="1"/>
+<wire x1="113.18875" y1="-74.77125" x2="113.82375" y2="-75.40625" width="0.1524" layer="1"/>
+<wire x1="113.82375" y1="-75.40625" x2="114.6175" y2="-75.40625" width="0.1524" layer="1"/>
 <via x="114.6175" y="-75.40625" extent="1-16" drill="0.3"/>
 <wire x1="114.6175" y1="-75.40625" x2="119.0625" y2="-75.40625" width="0.1524" layer="16"/>
 <wire x1="92.33375" y1="-72.96625" x2="92.86875" y2="-73.50125" width="0.1524" layer="1"/>
@@ -14367,9 +14368,7 @@ Your Multi-CB Team
 <wire x1="90.0475" y1="-74.96625" x2="91.0725" y2="-74.96625" width="0.1524" layer="1"/>
 </signal>
 <signal name="MCU_TO_MCU_INTERFACE_MCU_0_CS">
-<wire x1="62.70625" y1="-66.51625" x2="71.91375" y2="-66.51625" width="0.1524" layer="1"/>
-<wire x1="71.91375" y1="-66.51625" x2="72.23125" y2="-66.83375" width="0.1524" layer="1"/>
-<wire x1="72.23125" y1="-66.83375" x2="89.69375" y2="-66.83375" width="0.1524" layer="1"/>
+<wire x1="48.26" y1="-66.83375" x2="89.69375" y2="-66.83375" width="0.1524" layer="1"/>
 <wire x1="89.69375" y1="-66.83375" x2="90.01125" y2="-66.51625" width="0.1524" layer="1"/>
 <via x="90.01125" y="-66.51625" extent="1-16" drill="0.3"/>
 <wire x1="90.01125" y1="-66.51625" x2="90.64625" y2="-67.31" width="0.1524" layer="16"/>
@@ -14382,14 +14381,11 @@ Your Multi-CB Team
 <via x="113.18875" y="-64.29375" extent="1-16" drill="0.3"/>
 <wire x1="113.18875" y1="-64.29375" x2="113.03" y2="-64.4525" width="0.1524" layer="1"/>
 <wire x1="113.03" y1="-64.4525" x2="113.03" y2="-66.42375" width="0.1524" layer="1"/>
+<wire x1="48.26" y1="-66.83375" x2="46.6725" y2="-64.61125" width="0.1524" layer="1"/>
 <contactref element="IC601" pad="12"/>
-<wire x1="45.405625" y1="-64.61125" x2="47.14875" y2="-64.61125" width="0.1524" layer="1"/>
+<wire x1="45.405625" y1="-64.61125" x2="46.6725" y2="-64.61125" width="0.1524" layer="1"/>
 <contactref element="IC402" pad="92"/>
 <wire x1="113.03" y1="-66.42375" x2="113.0725" y2="-66.46625" width="0.1524" layer="1"/>
-<wire x1="62.70625" y1="-66.51625" x2="48.10125" y2="-66.51625" width="0.1524" layer="1"/>
-<wire x1="48.10125" y1="-66.51625" x2="47.625" y2="-66.04" width="0.1524" layer="1"/>
-<wire x1="47.625" y1="-66.04" x2="47.625" y2="-65.0875" width="0.1524" layer="1"/>
-<wire x1="47.625" y1="-65.0875" x2="47.14875" y2="-64.61125" width="0.1524" layer="1"/>
 </signal>
 <signal name="MCU_TO_MCU_INTERFACE_MCU_0_MISO">
 <wire x1="90.32875" y1="-67.15125" x2="90.96375" y2="-66.51625" width="0.1524" layer="1"/>
@@ -14399,18 +14395,16 @@ Your Multi-CB Team
 <wire x1="92.86875" y1="-66.83375" x2="93.0275" y2="-66.675" width="0.1524" layer="16"/>
 <wire x1="93.0275" y1="-66.675" x2="111.86375" y2="-66.675" width="0.1524" layer="16"/>
 <via x="111.76" y="-63.97625" extent="1-16" drill="0.3"/>
-<wire x1="71.755" y1="-66.83375" x2="72.0725" y2="-67.15125" width="0.1524" layer="1"/>
-<wire x1="72.0725" y1="-67.15125" x2="90.32875" y2="-67.15125" width="0.1524" layer="1"/>
+<wire x1="47.14875" y1="-65.88125" x2="48.10125" y2="-67.15125" width="0.1524" layer="1"/>
+<wire x1="48.10125" y1="-67.15125" x2="90.32875" y2="-67.15125" width="0.1524" layer="1"/>
 <contactref element="IC601" pad="11"/>
+<wire x1="45.405625" y1="-65.88125" x2="47.14875" y2="-65.88125" width="0.1524" layer="1"/>
 <contactref element="IC402" pad="94"/>
 <wire x1="112.0725" y1="-66.46625" x2="112.0725" y2="-64.28875" width="0.1524" layer="1"/>
 <wire x1="112.0725" y1="-64.28875" x2="111.76" y2="-63.97625" width="0.1524" layer="1"/>
 <wire x1="111.86375" y1="-66.675" x2="112.0725" y2="-66.46625" width="0.1524" layer="16"/>
 <wire x1="112.0725" y1="-66.46625" x2="112.0725" y2="-64.28875" width="0.1524" layer="16"/>
 <wire x1="112.0725" y1="-64.28875" x2="111.76" y2="-63.97625" width="0.1524" layer="16"/>
-<wire x1="71.755" y1="-66.83375" x2="47.78375" y2="-66.83375" width="0.1524" layer="1"/>
-<wire x1="45.405625" y1="-65.88125" x2="46.83125" y2="-65.88125" width="0.1524" layer="1"/>
-<wire x1="46.83125" y1="-65.88125" x2="47.78375" y2="-66.83375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1402" pad="1"/>
@@ -15532,9 +15526,9 @@ Your Multi-CB Team
 <via x="86.0425" y="-95.5675" extent="1-16" drill="0.3"/>
 <wire x1="70.64375" y1="-77.1525" x2="70.64375" y2="-83.97875" width="0.1524" layer="16"/>
 <wire x1="70.64375" y1="-83.97875" x2="70.1675" y2="-84.455" width="0.1524" layer="16"/>
-<wire x1="55.40375" y1="-68.73875" x2="56.35625" y2="-68.73875" width="0.1524" layer="16"/>
-<wire x1="56.35625" y1="-68.73875" x2="56.67375" y2="-69.05625" width="0.1524" layer="16"/>
-<wire x1="56.67375" y1="-69.05625" x2="56.67375" y2="-76.2" width="0.1524" layer="16"/>
+<wire x1="55.40375" y1="-68.8975" x2="56.35625" y2="-68.8975" width="0.1524" layer="16"/>
+<wire x1="56.35625" y1="-68.8975" x2="56.67375" y2="-69.215" width="0.1524" layer="16"/>
+<wire x1="56.67375" y1="-69.215" x2="56.67375" y2="-76.2" width="0.1524" layer="16"/>
 <wire x1="56.67375" y1="-76.2" x2="56.99125" y2="-76.5175" width="0.1524" layer="16"/>
 <wire x1="56.99125" y1="-76.5175" x2="70.00875" y2="-76.5175" width="0.1524" layer="16"/>
 <wire x1="70.00875" y1="-76.5175" x2="70.64375" y2="-77.1525" width="0.1524" layer="16"/>

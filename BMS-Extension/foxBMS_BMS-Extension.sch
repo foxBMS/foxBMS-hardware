@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14963,8 +14963,8 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2017-05-09"/>
-<attribute name="TITLE" value="foxBMS BMS-Extension"/>
+<attribute name="REL-DATE" value="2017-04-13"/>
+<attribute name="TITLE" value="foxBMS BMS-Master Extension"/>
 <attribute name="VERSION" value="1.0.1"/>
 </attributes>
 <variantdefs>
@@ -15546,6 +15546,8 @@ Current Source</text>
 <text x="246.38" y="134.62" size="1.778" layer="105">Isolated Digital</text>
 <wire x1="215.9" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="105"/>
 <wire x1="152.4" y1="238.76" x2="152.4" y2="259.08" width="0.1524" layer="105"/>
+<text x="20.32" y="5.08" size="2.54" layer="105">Please Note: 
+As the foxBMS BMS-Master was designed as one unit, the schematic of BMS-Master Basic or Extension may include blank pages.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -15560,7 +15562,6 @@ Current Source</text>
 <description>Supply_0 (Primary)</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">SUPPLY_0</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -15575,7 +15576,6 @@ Current Source</text>
 <description>Supply_1 (Secondary)</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">SUPPLY_1</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -15590,7 +15590,6 @@ Current Source</text>
 <description>MCU_0 (Primary)</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">MCU_0 (PRIMARY)</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15605,7 +15604,6 @@ Current Source</text>
 <description>MCU_1 (Secondary)</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">MCU_1 (SECONDARY)</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -15620,7 +15618,6 @@ Current Source</text>
 <description>MCU to MCU Interface</description>
 <plain>
 <text x="336.042" y="24.13" size="2.54" layer="105">MCU_0 to MCU_1 Isolated Interface (SPI)</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0"/>
@@ -15635,7 +15632,6 @@ Current Source</text>
 <description>Bender Interface</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="105">BENDER Isometer Interface</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
@@ -17113,7 +17109,6 @@ and pin compatible LT1785! </text>
 <description>Isolated USB</description>
 <plain>
 <text x="336.042" y="24.13" size="2.54" layer="105">Isolated USB MCU_0 + MCU_1</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME13" gate="G$1" x="0" y="0"/>
@@ -17353,7 +17348,6 @@ and pin compatible LT1785! </text>
 <description>BMS-Interface Interface</description>
 <plain>
 <text x="336.296" y="24.384" size="2.54" layer="105">BMS-Interface Interface</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME15" gate="G$1" x="0" y="0"/>
@@ -17808,7 +17802,6 @@ divider is needed</text>
 <description>SDRAM</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">8MB SDRAM</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME17" gate="G$1" x="0" y="0"/>
@@ -19042,9 +19035,8 @@ divider is needed</text>
 </nets>
 </sheet>
 <sheet>
-<description>Connector BMS-Master to BMS-Extension</description>
 <plain>
-<text x="336.042" y="24.13" size="2.54" layer="105">Connectors to BMS-Master</text>
+<text x="336.042" y="24.13" size="2.54" layer="105">Connectors to Basic Board</text>
 </plain>
 <instances>
 <instance part="JP2201" gate="A" x="208.28" y="190.5"/>

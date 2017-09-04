@@ -31344,8 +31344,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2017-05-09"/>
-<attribute name="TITLE" value="foxBMS BMS-Master"/>
+<attribute name="REL-DATE" value="2017-04-13"/>
+<attribute name="TITLE" value="foxBMS BMS-Master Basic"/>
 <attribute name="VERSION" value="1.0.1"/>
 </attributes>
 <variantdefs>
@@ -32092,6 +32092,8 @@ Current Source</text>
 <text x="246.38" y="134.62" size="1.778" layer="105">Isolated Digital</text>
 <wire x1="215.9" y1="238.76" x2="152.4" y2="238.76" width="0.1524" layer="105"/>
 <wire x1="152.4" y1="238.76" x2="152.4" y2="259.08" width="0.1524" layer="105"/>
+<text x="30.48" y="5.08" size="2.54" layer="105">Please Note:
+As the BMS-Master was designed as one unit, the schematic of BMS-Master Basic or Extension may include blank pages.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -37648,7 +37650,6 @@ to extension board</text>
 <description>RS485</description>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="105">Isolated RS485</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME12" gate="G$1" x="0" y="0"/>
@@ -38751,7 +38752,6 @@ BMS-Master Basic to BMS-Interface</text>
 <description>Analog Inputs</description>
 <plain>
 <text x="336.042" y="24.384" size="2.54" layer="105">Analog Inputs</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME16" gate="G$1" x="0" y="0"/>
@@ -39140,7 +39140,6 @@ same 8MB SDRAM, same interface and pins</text>
 <description>Isolated GPIO MCU_0 Primary</description>
 <plain>
 <text x="336.296" y="24.13" size="2.54" layer="105">Isolated GPIO 4x In /  4x Out</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME18" gate="G$1" x="0" y="0"/>
@@ -39155,7 +39154,6 @@ same 8MB SDRAM, same interface and pins</text>
 <description>Isolated Normally Open Contacts</description>
 <plain>
 <text x="336.296" y="24.13" size="2.54" layer="105">Isolated Normally Open Contacts</text>
-<text x="307.34" y="35.56" size="2.54" layer="105">This page was intentionally left blank. </text>
 </plain>
 <instances>
 <instance part="FRAME19" gate="G$1" x="0" y="0"/>
@@ -39268,9 +39266,9 @@ same 8MB SDRAM, same interface and pins</text>
 </nets>
 </sheet>
 <sheet>
-<description>Connector BMS-Master to BMS-Extension</description>
+<description>Basic to Extension Connector</description>
 <plain>
-<text x="336.296" y="24.13" size="2.54" layer="105">Connectors to BMS-Extension</text>
+<text x="336.296" y="24.13" size="2.54" layer="105">Connectors to Extension Board</text>
 </plain>
 <instances>
 <instance part="JP2201" gate="A" x="149.86" y="139.7"/>

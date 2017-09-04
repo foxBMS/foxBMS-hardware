@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -237,8 +237,12 @@ CONTROL </text>
 <text x="54.356" y="-13.081" size="0.7112" layer="25" font="vector" rot="R90">GND</text>
 <text x="12.827" y="-18.796" size="0.7112" layer="25" font="vector" rot="R180">+3.3V</text>
 <text x="57.785" y="-18.796" size="0.7112" layer="25" font="vector" rot="R180">+3.3V</text>
+<text x="114.8715" y="-17.4625" size="0.8128" layer="1" font="vector">Fraunhofer IISB
+L21686</text>
 <text x="153.035" y="9.2075" size="0.8128" layer="1" font="vector">TOP</text>
 <text x="149.225" y="9.2075" size="0.8128" layer="16" font="vector" rot="MR0">BOT</text>
+<text x="114.8715" y="-17.4625" size="0.8128" layer="29" font="vector">Fraunhofer IISB
+L21686</text>
 <polygon width="0.2032" layer="25">
 <vertex x="87.1245" y="-13.2715"/>
 <vertex x="87.1245" y="-19.049"/>
@@ -1535,7 +1539,7 @@ CONTROL </text>
 <text x="81.915" y="91.1225" size="0.7112" layer="25">X1201</text>
 <text x="89.2175" y="90.805" size="0.7112" layer="25">X2001</text>
 <text x="112.7125" y="90.805" size="0.7112" layer="25">X1701</text>
-<text x="88.5825" y="-12.7" size="0.8128" layer="25">foxBMS BMS-Extension V1.0.1</text>
+<text x="88.5825" y="-12.7" size="0.8128" layer="25">foxBMS BMS-Master Extension V1.0.1</text>
 <text x="139.7" y="-17.78" size="1.778" layer="25">foxBMS.org</text>
 <polygon width="0.0254" layer="25">
 <vertex x="147.613821875" y="-10.570828125"/>
