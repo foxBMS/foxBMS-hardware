@@ -65,6 +65,9 @@
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="5" fill="1" visible="no" active="no"/>
 <layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -77,8 +80,9 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="silk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="102" name="Body" color="14" fill="1" visible="no" active="yes"/>
+<layer number="103" name="silk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="104" name="VCC" color="9" fill="1" visible="no" active="yes"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
@@ -90,6 +94,7 @@
 <layer number="114" name="SPECIAL_PIN" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="Comment" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="120" name="Descript" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -99,13 +104,16 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="bKeepout_Name" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="tKeepout_Value" color="7" fill="1" visible="no" active="yes"/>
 <layer number="154" name="bKeepout_Value" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="values" color="7" fill="1" visible="no" active="no"/>
 <layer number="194" name="Altern." color="7" fill="1" visible="no" active="yes"/>
 <layer number="198" name="Logo2" color="11" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
@@ -136,6 +144,10 @@
 <layer number="224" name="224bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="225" name="Innnenlage_2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="226" name="Innnenlage_15" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
@@ -2221,75 +2233,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <package name="CUSTOM_PAD_VIA_3,8MM">
 <pad name="P$1" x="0" y="0" drill="3.8" shape="octagon"/>
 </package>
-<package name="TR_SMD_SOIC-16_(12,70MMX9,53MMX5,97MM)_R_PULSE_REV01">
-<description>&lt;b&gt;SOIC-16 - Pulse Electronic&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://productfinder.pulseeng.com/products/datasheets/HX1188NL.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:/Eagle-Datasheet/Transformer/HX1188NL_Pulse.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-- SOIC-16 - Package&lt;br&gt;
-- Size: 12,70mm x 9,53mm x 5,97mm&lt;br&gt;
-- Reflow&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;21.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<circle x="-4.445" y="-2.4" radius="0.5" width="0" layer="51"/>
-<circle x="-4.445" y="-2.4" radius="0.5" width="0" layer="21"/>
-<wire x1="-6.35" y1="3.555" x2="6.35" y2="3.555" width="0.01" layer="51"/>
-<wire x1="6.35" y1="3.555" x2="6.35" y2="-3.555" width="0.01" layer="51"/>
-<wire x1="6.35" y1="-3.555" x2="-6.35" y2="-3.555" width="0.01" layer="51"/>
-<wire x1="-6.35" y1="-3.555" x2="-6.35" y2="3.555" width="0.01" layer="51"/>
-<wire x1="5.70625" y1="-3.13625" x2="5.70625" y2="3.13625" width="0.0254" layer="21"/>
-<wire x1="-5.70625" y1="3.13625" x2="-5.70625" y2="-3.13625" width="0.0254" layer="21"/>
-<rectangle x1="-4.7" y1="-4.95" x2="-4.19" y2="-3.555" layer="51"/>
-<rectangle x1="4.19" y1="-4.95" x2="4.7" y2="-3.555" layer="51"/>
-<rectangle x1="-3.43" y1="-4.95" x2="-2.92" y2="-3.555" layer="51"/>
-<rectangle x1="2.92" y1="-4.95" x2="3.43" y2="-3.555" layer="51"/>
-<rectangle x1="-2.16" y1="-4.95" x2="-1.65" y2="-3.555" layer="51"/>
-<rectangle x1="1.65" y1="-4.95" x2="2.16" y2="-3.555" layer="51"/>
-<rectangle x1="-0.89" y1="-4.95" x2="-0.38" y2="-3.555" layer="51"/>
-<rectangle x1="0.38" y1="-4.95" x2="0.89" y2="-3.555" layer="51"/>
-<rectangle x1="4.19" y1="3.555" x2="4.7" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="-4.7" y1="3.555" x2="-4.19" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="2.92" y1="3.555" x2="3.43" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="-3.43" y1="3.555" x2="-2.92" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="1.65" y1="3.555" x2="2.16" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="-2.16" y1="3.555" x2="-1.65" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="0.38" y1="3.555" x2="0.89" y2="4.95" layer="51" rot="R180"/>
-<rectangle x1="-0.89" y1="3.555" x2="-0.38" y2="4.95" layer="51" rot="R180"/>
-<smd name="1" x="-4.445" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="2" x="-3.175" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="3" x="-1.905" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="4" x="-0.635" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="5" x="0.635" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="6" x="1.905" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="7" x="3.175" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="8" x="4.445" y="-4.255" dx="1.65" dy="0.76" layer="1" rot="R90"/>
-<smd name="9" x="4.445" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="10" x="3.175" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="11" x="1.905" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="12" x="0.635" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="13" x="-0.635" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="14" x="-1.905" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="15" x="-3.175" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<smd name="16" x="-4.445" y="4.255" dx="1.65" dy="0.76" layer="1" rot="R270"/>
-<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
-<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
-<polygon width="0" layer="39" spacing="40" pour="hatch">
-<vertex x="-6.3" y="-3.8"/>
-<vertex x="-5" y="-3.8"/>
-<vertex x="-5" y="-5.2"/>
-<vertex x="5" y="-5.2"/>
-<vertex x="5" y="-3.8"/>
-<vertex x="6.5" y="-3.8"/>
-<vertex x="6.5" y="3.8"/>
-<vertex x="5" y="3.8"/>
-<vertex x="5" y="5.2"/>
-<vertex x="-5" y="5.2"/>
-<vertex x="-5" y="3.8"/>
-<vertex x="-6.5" y="3.8"/>
-<vertex x="-6.5" y="-3.8"/>
-</polygon>
-</package>
 <package name="448_SERIES_LITTELFUSE">
 <wire x1="-1.24075" y1="1.4585" x2="1.24075" y2="1.4585" width="0.0254" layer="21"/>
 <wire x1="1.24075" y1="-1.4585" x2="-1.24075" y2="-1.4585" width="0.0254" layer="21"/>
@@ -3093,43 +3036,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <smd name="20" x="2.6924" y="2.921" dx="1.7018" dy="0.3556" layer="1"/>
 <text x="-4.4196" y="4.1148" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.6896" y="-6.0198" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-<package name="IC_SMD_SOT23-5_R_MICROCHIP_REV01">
-<description>&lt;b&gt;SOT23-5 - Microchip&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005202A.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Speicher\24AA02UID_Microchip.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-- SOT23-5 Package&lt;br&gt;
-- Size: 3,10mm x 3,20mm x 1,45mm&lt;br&gt;
-- Reflow&lt;br&gt;
-
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;25.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<circle x="-0.95" y="-0.65" radius="0.15" width="0" layer="51"/>
-<wire x1="-1.5" y1="0.9" x2="1.5" y2="0.9" width="0.01" layer="51"/>
-<wire x1="1.5" y1="0.9" x2="1.5" y2="-0.9" width="0.01" layer="51"/>
-<wire x1="1.5" y1="-0.9" x2="-1.5" y2="-0.9" width="0.01" layer="51"/>
-<wire x1="-1.5" y1="-0.9" x2="-1.5" y2="0.9" width="0.01" layer="51"/>
-<wire x1="-1.6" y1="0.83" x2="-1.6" y2="-0.83" width="0.0254" layer="21"/>
-<wire x1="1.6" y1="-0.83" x2="1.6" y2="0.83" width="0.0254" layer="21"/>
-<rectangle x1="0.695" y1="0.9" x2="1.205" y2="1.6" layer="51"/>
-<rectangle x1="-1.205" y1="0.9" x2="-0.695" y2="1.6" layer="51"/>
-<rectangle x1="-1.205" y1="-1.6" x2="-0.695" y2="-0.9" layer="51"/>
-<rectangle x1="-0.255" y1="-1.6" x2="0.255" y2="-0.9" layer="51"/>
-<rectangle x1="0.695" y1="-1.6" x2="1.205" y2="-0.9" layer="51"/>
-<smd name="1" x="-0.95" y="-1.4" dx="0.6" dy="1.1" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-1.4" dx="0.6" dy="1.1" layer="1"/>
-<smd name="3" x="0.95" y="-1.4" dx="0.6" dy="1.1" layer="1" rot="R180"/>
-<smd name="4" x="0.95" y="1.4" dx="0.6" dy="1.1" layer="1"/>
-<smd name="5" x="-0.95" y="1.4" dx="0.6" dy="1.1" layer="1"/>
-<text x="0" y="0" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
-<polygon width="0" layer="39" spacing="20" pour="hatch">
-<vertex x="-1.6" y="2.1"/>
-<vertex x="1.6" y="2.1"/>
-<vertex x="1.6" y="-2.1"/>
-<vertex x="-1.6" y="-2.1"/>
-</polygon>
 </package>
 <package name="SOT95P280X145-5N">
 <wire x1="-0.6096" y1="-1.5494" x2="0.6096" y2="-1.5494" width="0.0254" layer="21"/>
@@ -4655,78 +4561,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <pin name="MP" x="0" y="0" visible="off" length="point" direction="pas" rot="R90"/>
 <text x="2.54" y="-0.635" size="1.524" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="TR_6_(HX1188NL)_REV01">
-<description>&lt;b&gt;Schematic symbol for 6-Pin Transformer (HX1188NL)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;21.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<circle x="-7.493" y="6.985" radius="0.15875" width="0" layer="94"/>
-<circle x="-5.207" y="6.985" radius="0.15875" width="0" layer="94"/>
-<circle x="-7.493" y="-3.175" radius="0.15875" width="0" layer="94"/>
-<circle x="-5.207" y="-3.175" radius="0.15875" width="0" layer="94"/>
-<circle x="0.635" y="-1.143" radius="0.15875" width="0" layer="94"/>
-<circle x="0.635" y="1.143" radius="0.15875" width="0" layer="94"/>
-<circle x="-7.62" y="0" radius="0.254" width="0" layer="94"/>
-<circle x="-5.08" y="0" radius="0.254" width="0" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="6.35" x2="-7.62" y2="5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="3.81" x2="-7.62" y2="2.54" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="6.35" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="6.35" x2="-5.08" y2="5.08" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.81" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="3.81" x2="-5.08" y2="2.54" width="0.1524" layer="94" curve="180"/>
-<wire x1="-6.35" y1="7.366" x2="-6.35" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-3.81" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-5.08" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-6.35" width="0.1524" layer="94" curve="180"/>
-<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-7.62" width="0.1524" layer="94" curve="180"/>
-<wire x1="-6.35" y1="-2.794" x2="-6.35" y2="-7.366" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
-<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94" curve="180"/>
-<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="94" curve="180"/>
-<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94" curve="180"/>
-<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94" curve="180"/>
-<wire x1="0.254" y1="0" x2="4.826" y2="0" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-1.27" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
-<pin name="CMT" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="CT" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="D+" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
-<pin name="D-" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
-<pin name="X+" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="X-" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="0" y="8.89" size="1.4224" layer="95" font="vector" rot="R180" align="top-center">&gt;NAME</text>
-<text x="0" y="-8.89" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
-</symbol>
-<symbol name="NC_1_REV01">
-<description>&lt;b&gt;Schematic symbol for Not Connected&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<pin name="NC" x="0" y="-5.08" visible="pad" length="short" direction="nc" rot="R90"/>
-<text x="0" y="0" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
-</symbol>
 <symbol name="+3.0V_VREF2_0">
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
@@ -4763,6 +4597,7 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <text x="-2.54" y="1.27" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="SICHERUNGSWIDERSTAND">
+<description>Littelfuse 448 Series SMD Fuse</description>
 <wire x1="-2.54" y1="0.9525" x2="2.54" y2="0.9525" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.9525" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0" x2="2.54" y2="-0.9525" width="0.254" layer="94"/>
@@ -5736,33 +5571,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <pin name="VSS" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
 <text x="-4.572" y="20.066" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-4.953" y="-25.4762" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-</symbol>
-<symbol name="IC_2_(SDA-SCL)_REV01">
-<description>&lt;b&gt;Schematic symbol for 2-Pin IC (SDA_SCL)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;25.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="SCL" x="-5.08" y="-2.54" visible="pad" length="short"/>
-<pin name="SDA" x="-5.08" y="2.54" visible="pad" length="short"/>
-<text x="-1.905" y="2.54" size="1.4224" layer="94" font="vector" align="center-left">SDA</text>
-<text x="0" y="5.715" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
-<text x="0" y="-5.715" size="1.4224" layer="96" font="vector" rot="R180" align="bottom-center">&gt;UVAL</text>
-<text x="-1.905" y="-2.54" size="1.4224" layer="94" font="vector" align="center-left">SCL</text>
-</symbol>
-<symbol name="PWR_2_(VCC-VSS)_REV01">
-<description>&lt;b&gt;Schematic symbol for Power-Pins (VCC - VSS)&lt;/b&gt;&lt;br&gt;
-&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
-<pin name="VCC" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="VSS" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-<text x="2.54" y="5.08" size="1.4224" layer="95" font="vector" align="center-left">VCC</text>
-<text x="2.54" y="-5.08" size="1.4224" layer="95" font="vector" align="center-left">VSS</text>
-<text x="0" y="0" size="1.4224" layer="95" font="vector" align="center">&gt;Name</text>
 </symbol>
 <symbol name="MCP9800A0T-M/OT">
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.4064" layer="94"/>
@@ -10650,538 +10458,6 @@ Source: www.kingbright.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="270R?*_REV_01" prefix="R">
-<description>&lt;p&gt;&lt;b&gt;270R SMD - CHIP - Dickschichtwiderstand
-      &lt;/b&gt;
-      &lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
-      &lt;/b&gt;
-      &lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
-      &lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
-      &lt;/b&gt; &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-
-
-
-      &lt;p&gt;Dickschichtwiderstand</description>
-<gates>
-<gate name="G$1" symbol="R_CHIP_2_REV_01" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="26E564" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,03" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9239162" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,079" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp " constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0402FR-07270RL " constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="62,5mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm " constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="50,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-<attribute name="UVMAX" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="2141320" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,0116 / 100St" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="71-CRCW0603-270-E3" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,009 / 100St" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Vishay" constant="no"/>
-<attribute name="HERSTELLER-NR" value="CRCW0603270RFKEA" constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="0603" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="100mW" constant="no"/>
-<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="75,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin " constant="no"/>
-<attribute name="DISTRI_1-NR" value="26E778" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,02" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9238417" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,077" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0603FR-07270RL" constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="0603" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="100mW" constant="no"/>
-<attribute name="URISO" value="= 10 GOhm  " constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="50,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-<attribute name="UVMAX" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1652970" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,0119 / 100St" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="71-CRCW0805-270-E3" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,024 / 100St" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Vishay" constant="no"/>
-<attribute name="HERSTELLER-NR" value="CRCW0805270RFKEA" constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="0805" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="125mW" constant="no"/>
-<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="150V" constant="no"/>
-<attribute name="UVISO" value="200V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="11E166" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,03" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell " constant="no"/>
-<attribute name="DISTRI_2-NR" value="9237410" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,091" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0805FR-07270RL" constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="0805" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="125mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm " constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="150V" constant="no"/>
-<attribute name="UVISO" value="300V" constant="no"/>
-<attribute name="UVMAX" value="300V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="11E468" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,04" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9236783" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,128" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC1206FR-07270RL" constant="no"/>
-<attribute name="MARKING" value="2700" constant="no"/>
-<attribute name="SIZE" value="1206" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="250mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="400V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_5%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="08E258" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,04" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC1210JR-07270RL" constant="no"/>
-<attribute name="MARKING" value="271" constant="no"/>
-<attribute name="SIZE" value="2010" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="750mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="5%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="500V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_5%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="08E758" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,05" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC2512JK-07270RL" constant="no"/>
-<attribute name="MARKING" value="271" constant="no"/>
-<attribute name="SIZE" value="2512" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="1,00W" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="5%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="270R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="500V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="820R?*_REV_01" prefix="R">
 <description>&lt;p&gt;&lt;b&gt;820R SMD - CHIP - Dickschichtwiderstand
       &lt;/b&gt;
@@ -13620,73 +12896,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </device>
 </devices>
 </deviceset>
-<deviceset name="HX1188NL" prefix="TR">
-<description>&lt;b&gt;HX1188NL - Pulse Electronic&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://productfinder.pulseeng.com/products/datasheets/HX1188NL.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:/Eagle-Datasheet/Transformer/HX1188NL_Pulse.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;hr&gt;
-Ethernet Transformator HX1188NL - Pulse Electronic&lt;p&gt;
-- Isolierspannung: 1,50kV&lt;br&gt;
-- Frequenz: 100kHz - 100MHz&lt;br&gt;
-- Nicht kurzschlussfest&lt;br&gt;
-- unshielded&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;21.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<gates>
-<gate name="-RECEIVE" symbol="TR_6_(HX1188NL)_REV01" x="17.78" y="0"/>
-<gate name="-TRANSMIT" symbol="TR_6_(HX1188NL)_REV01" x="-17.78" y="0"/>
-<gate name="NC1" symbol="NC_1_REV01" x="35.56" y="0" addlevel="request" swaplevel="1"/>
-<gate name="NC2" symbol="NC_1_REV01" x="45.72" y="0" addlevel="request" swaplevel="1"/>
-<gate name="NC3" symbol="NC_1_REV01" x="55.88" y="0" addlevel="request" swaplevel="1"/>
-<gate name="NC4" symbol="NC_1_REV01" x="66.04" y="0" addlevel="request" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="TR_SMD_SOIC-16_(12,70MMX9,53MMX5,97MM)_R_PULSE_REV01">
-<connects>
-<connect gate="-RECEIVE" pin="CMT" pad="10"/>
-<connect gate="-RECEIVE" pin="CT" pad="7"/>
-<connect gate="-RECEIVE" pin="D+" pad="6"/>
-<connect gate="-RECEIVE" pin="D-" pad="8"/>
-<connect gate="-RECEIVE" pin="X+" pad="11"/>
-<connect gate="-RECEIVE" pin="X-" pad="9"/>
-<connect gate="-TRANSMIT" pin="CMT" pad="15"/>
-<connect gate="-TRANSMIT" pin="CT" pad="2"/>
-<connect gate="-TRANSMIT" pin="D+" pad="1"/>
-<connect gate="-TRANSMIT" pin="D-" pad="3"/>
-<connect gate="-TRANSMIT" pin="X+" pad="16"/>
-<connect gate="-TRANSMIT" pin="X-" pad="14"/>
-<connect gate="NC1" pin="NC" pad="4"/>
-<connect gate="NC2" pin="NC" pad="5"/>
-<connect gate="NC3" pin="NC" pad="12"/>
-<connect gate="NC4" pin="NC" pad="13"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
-<attribute name="DISTRI_1-NR" value="553-1340-ND" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="4,80" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Pulse Electronic" constant="no"/>
-<attribute name="HERSTELLER-NR" value="HX1188NL" constant="no"/>
-<attribute name="MARKING" value="HX1188NL" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:/Eagle-Datasheet/Transformer/HX1188NL_Pulse.pdf" constant="no"/>
-<attribute name="SIZE" value="SOIC-16" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="85°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="Transformer" constant="no"/>
-<attribute name="UVAL" value="HX1188NL" constant="no"/>
-<attribute name="UVISO" value="1,65kV" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="+3.0V_VREF2_0">
 <gates>
 <gate name="G$1" symbol="+3.0V_VREF2_0" x="0" y="0"/>
@@ -13776,6 +12985,13 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <attribute name="DISTRI_1-PREIS" value="0,758 " constant="no"/>
 <attribute name="UPACKAGE" value="" constant="no"/>
 <attribute name="UVAL" value="500mA, 125V, 0.380R" constant="no"/>
+</technology>
+<technology name="2A">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="UPACKAGE" value="" constant="no"/>
+<attribute name="UVAL" value="2A, 125V, 0.03529R" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15423,628 +14639,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <attribute name="UVZ" value="DUMMY" constant="no"/>
 <attribute name="UVZMAX" value="" constant="no"/>
 <attribute name="UVZMIN" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="18,0R?*_REV_01" prefix="R">
-<description>&lt;p&gt;&lt;b&gt;18,0R SMD - CHIP - Dickschichtwiderstand
-      &lt;/b&gt;
-      &lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
-      &lt;/b&gt;
-      &lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
-      &lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
-      &lt;/b&gt; &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-      &lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
-      &lt;br&gt; &lt;br&gt;
-
-
-
-      &lt;p&gt;Dickschichtwiderstand</description>
-<gates>
-<gate name="G$1" symbol="R_CHIP_2_REV_01" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="26E536" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,03" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9239022" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,074" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0402FR-0718RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0402" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="62,5mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm " constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="50,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-<attribute name="UVMAX" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1652846" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,03 / 100St" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="71-CRCW0603-18-E3" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,009 / 100St" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Vishay" constant="no"/>
-<attribute name="HERSTELLER-NR" value="CRCW060318R0FKEA" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0603" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="100mW" constant="no"/>
-<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="75,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin " constant="no"/>
-<attribute name="DISTRI_1-NR" value="26E750" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,02" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9238271" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,018" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0603FR-0718RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0603" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="100mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="50,0V" constant="no"/>
-<attribute name="UVISO" value="100V" constant="no"/>
-<attribute name="UVMAX" value="100V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1738935" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,0499 / 100St" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="71-CRCW080518R0FKEA" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,024 / 100St" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Vishay" constant="no"/>
-<attribute name="HERSTELLER-NR" value="CRCW080518R0FKEA" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0805" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="125mW" constant="no"/>
-<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="150V" constant="no"/>
-<attribute name="UVISO" value="200V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="11E112" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,03" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9237275" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,082" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC0805FR-0718RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0805" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="125mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="150V" constant="no"/>
-<attribute name="UVISO" value="300V" constant="no"/>
-<attribute name="UVMAX" value="300V" constant="no"/>
-</technology>
-<technology name="_1%_TK200">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="12E118" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,06" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="0805" constant="no"/>
-<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="250mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="200PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="300V" constant="no"/>
-<attribute name="UVMAX" value="300V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_1%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="11E412" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,04" constant="no"/>
-<attribute name="DISTRI_2" value="Farnell" constant="no"/>
-<attribute name="DISTRI_2-NR" value="9236678" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,064" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC1206FR-0718RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="1206" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="250mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="400V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-<technology name="_1%_TK200">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="33E518" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,06" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="1206" constant="no"/>
-<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="500mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="200PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="400V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_5%_TK100">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="1887572" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,0437  " constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC1210JR-0718RL" constant="no"/>
-<attribute name="MARKING" value="180" constant="no"/>
-<attribute name="SIZE" value="2010" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="750mW" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="5%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="500V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="" constant="no"/>
-<attribute name="DISTRI_1-NR" value="" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="" constant="no"/>
-<attribute name="HERSTELLER-NR" value="" constant="no"/>
-<attribute name="MARKING" value="" constant="no"/>
-<attribute name="SIZE" value="" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="" constant="no"/>
-<attribute name="UMAT" value="" constant="no"/>
-<attribute name="UPV" value="" constant="no"/>
-<attribute name="URISO" value="" constant="no"/>
-<attribute name="UTERM" value="" constant="no"/>
-<attribute name="UTK" value="" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="" constant="no"/>
-<attribute name="UTYP" value="" constant="no"/>
-<attribute name="UVAL" value="" constant="no"/>
-<attribute name="UVDC" value="" constant="no"/>
-<attribute name="UVISO" value="" constant="no"/>
-<attribute name="UVMAX" value="" constant="no"/>
-</technology>
-<technology name="_5%_TK100">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="08E730" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,05" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC2512JK-0718RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="2512" constant="no"/>
-<attribute name="TEMP" value="" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="1,00W" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="100PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="155°C" constant="no"/>
-<attribute name="UTMIN" value="-55°C" constant="no"/>
-<attribute name="UTOL" value="1%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="500V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
-</technology>
-<technology name="_5%_TK200">
-<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
-<attribute name="DISTRI_1-NR" value="09E118" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,22" constant="no"/>
-<attribute name="DISTRI_2" value="" constant="no"/>
-<attribute name="DISTRI_2-NR" value="" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
-<attribute name="HERSTELLER-NR" value="RC2512JK-7W18RL" constant="no"/>
-<attribute name="MARKING" value="18R0" constant="no"/>
-<attribute name="SIZE" value="2512" constant="no"/>
-<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UMAT" value="Met" constant="no"/>
-<attribute name="UPV" value="2,00W" constant="no"/>
-<attribute name="URISO" value="=10,0GOhm" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTK" value="200PPM/°C" constant="no"/>
-<attribute name="UTMAX" value="" constant="no"/>
-<attribute name="UTMIN" value="" constant="no"/>
-<attribute name="UTOL" value="5%" constant="no"/>
-<attribute name="UTYP" value="Thickfilm" constant="no"/>
-<attribute name="UVAL" value="18.0R" constant="no"/>
-<attribute name="UVDC" value="200V" constant="no"/>
-<attribute name="UVISO" value="400V" constant="no"/>
-<attribute name="UVMAX" value="500V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18181,82 +16775,6 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </device>
 </devices>
 </deviceset>
-<deviceset name="24AA02UID" prefix="IC">
-<description>&lt;b&gt;24AA02UID - Microchip&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005202A.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
-&lt;a href="file:///C:\Eagle-Datasheet\Speicher\24AA02UID_Microchip.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
-2K I2C Serial EEPROMs with Unique 32-bit Serial Number&lt;p&gt;
-- Preprogrammed 32-Bit Serial Number:&lt;br&gt;
-- Unique across all UID-family EEPROMs&lt;br&gt;
-- Scalable to 48-bit, 64-bit, 128-bit, 256-bit, and other lengths&lt;br&gt;
-- Single Supply with Operation Down to 1.7V&lt;br&gt;
-- Low-Power CMOS Technology:&lt;br&gt;
-- Read current 1 mA, max.&lt;br&gt;
-- Standby current 1 ?A, max.&lt;br&gt;
-- 2-Wire Serial Interface, I2C Compatible&lt;br&gt;
-- Schmitt Trigger Inputs for Noise Suppression&lt;br&gt;
-- Output Slope Control to Eliminate Ground Bounce&lt;br&gt;
-- 100 kHz and 400 kHz Clock Compatibility&lt;br&gt;
-- Page Write Time 3 ms, typical&lt;br&gt;
-- Self-Timed Erase/Write Cycle&lt;br&gt;
-- Page Write Buffer:&lt;br&gt;
-- 8-byte page (24AA02UID)&lt;br&gt;
-- 16-byte page (24AA025UID)&lt;br&gt;
-- ESD Protection &gt;4,000V&lt;br&gt;
-- More than 1 Million Erase/Write Cycles&lt;br&gt;
-- Data Retention &gt;200 Years&lt;br&gt;
-- Factory Programming Available&lt;br&gt;
-- 8-lead PDIP, 8-lead SOIC, and 5-lead SOT-23 (24AA02UID)&lt;br&gt;
-- 8-lead PDIP, 8-lead SOIC, and 6-lead SOT-23 (24AA025UID)&lt;br&gt;
-- RoHS Compliant&lt;br&gt;
-- Temperature Ranges: Industrial (I): -40°C to +85°C&lt;br&gt;
-&lt;p&gt;
-Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
-------------------------------------------------------------------------------------------&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;24.04.2016&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="IC_2_(SDA-SCL)_REV01" x="-7.62" y="0"/>
-<gate name="NC" symbol="NC_1_REV01" x="10.16" y="0" addlevel="request"/>
-<gate name="PWR" symbol="PWR_2_(VCC-VSS)_REV01" x="0" y="0" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="IC_SMD_SOT23-5_R_MICROCHIP_REV01">
-<connects>
-<connect gate="G$1" pin="SCL" pad="1"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="NC" pin="NC" pad="5"/>
-<connect gate="PWR" pin="VCC" pad="4"/>
-<connect gate="PWR" pin="VSS" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DISTRI_1" value="Farnell" constant="no"/>
-<attribute name="DISTRI_1-NR" value="2345557" constant="no"/>
-<attribute name="DISTRI_1-PREIS" value="0,184" constant="no"/>
-<attribute name="DISTRI_2" value="Mouser" constant="no"/>
-<attribute name="DISTRI_2-NR" value="579-24AA02UIDT-I/OT" constant="no"/>
-<attribute name="DISTRI_2-PREIS" value="0,217" constant="no"/>
-<attribute name="DNI" value="" constant="no"/>
-<attribute name="HERSTELLER" value="Microchip" constant="no"/>
-<attribute name="HERSTELLER-NR" value="24AA02UIDT-I/OT" constant="no"/>
-<attribute name="MARKING" value="AAAFY" constant="no"/>
-<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Speicher\24AA02UID_Microchip.pdf" constant="no"/>
-<attribute name="SIZE" value="SOT23-5" constant="no"/>
-<attribute name="UFREQ" value="400kHz" constant="no"/>
-<attribute name="UKAT" value="I" constant="no"/>
-<attribute name="UPS" value="32-Bit" constant="no"/>
-<attribute name="UTERM" value="Sn" constant="no"/>
-<attribute name="UTMAX" value="85°C" constant="no"/>
-<attribute name="UTMIN" value="-40°C" constant="no"/>
-<attribute name="UTYP" value="EEPROM" constant="no"/>
-<attribute name="UVAL" value="24AA02UIDT-I/OT" constant="no"/>
-<attribute name="UVCC_MAX" value="5,50V" constant="no"/>
-<attribute name="UVCC_MIN" value="1,70V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MCP9800A0T-M/OT" prefix="IC">
 <description>Temperature Sensor</description>
 <gates>
@@ -18895,17 +17413,5781 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </device>
 </devices>
 </deviceset>
+<deviceset name="1,250A_LITTELFUSE_466_1206" prefix="F">
+<gates>
+<gate name="G$1" symbol="SICHERUNGSWIDERSTAND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R_SMD_CHIP_1206_R_LITTLEFUSE_REV_01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="0.057R" constant="no"/>
+<attribute name="UVAL" value="1.25A, 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="transformer_custom">
+<packages>
+<package name="HM2102NL">
+<circle x="-6.35" y="-4.94" radius="0.5" width="0" layer="21"/>
+<wire x1="7.29375" y1="-7.58125" x2="7.29375" y2="7.58125" width="0.0254" layer="21"/>
+<wire x1="-7.29375" y1="7.58125" x2="-7.29375" y2="-7.58125" width="0.0254" layer="21"/>
+<smd name="1" x="-5" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="2" x="-3" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="4" x="1" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="5" x="3" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="6" x="5" y="-6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="7" x="5" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="8" x="3" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R90"/>
+<smd name="9" x="1" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R270"/>
+<smd name="10" x="-1" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R270"/>
+<smd name="11" x="-3" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R270"/>
+<smd name="12" x="-5" y="6.89" dx="1.71" dy="1.02" layer="1" rot="R270"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="1.5875" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0.00508125" layer="39" spacing="40" pour="hatch">
+<vertex x="-7.5" y="7.75"/>
+<vertex x="-7.5" y="-7.75"/>
+<vertex x="7.5" y="-7.75"/>
+<vertex x="7.5" y="7.75"/>
+</polygon>
+</package>
+<package name="WUERTH_CUSTOM">
+<circle x="5.3975" y="-6.845" radius="0.5" width="0" layer="21"/>
+<wire x1="6.67" y1="-7.62" x2="6.67" y2="7.62" width="0.2" layer="21"/>
+<wire x1="-6.67" y1="7.62" x2="-6.67" y2="-7.62" width="0.2" layer="21"/>
+<smd name="1" x="3.735" y="-6.78" dx="2.08" dy="1.07" layer="1" rot="R90"/>
+<smd name="2" x="1.245" y="-6.78" dx="2.08" dy="1.07" layer="1" rot="R90"/>
+<smd name="3" x="-1.245" y="-6.78" dx="2.08" dy="1.07" layer="1" rot="R90"/>
+<smd name="4" x="-3.735" y="-6.78" dx="2.08" dy="1.07" layer="1" rot="R270"/>
+<smd name="5" x="-3.735" y="6.78" dx="2.08" dy="1.07" layer="1" rot="R270"/>
+<smd name="6" x="-1.245" y="6.78" dx="2.08" dy="1.07" layer="1" rot="R270"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.8128" layer="27" font="vector" ratio="10" align="bottom-center">&gt;Value</text>
+<polygon width="0.00508125" layer="39" spacing="40" pour="hatch">
+<vertex x="-6.5475" y="7.75"/>
+<vertex x="-6.5475" y="-7.75"/>
+<vertex x="6.5475" y="-7.75"/>
+<vertex x="6.5475" y="7.75"/>
+</polygon>
+<smd name="7" x="1.245" y="6.78" dx="2.08" dy="1.07" layer="1" rot="R270"/>
+<smd name="8" x="3.735" y="6.78" dx="2.08" dy="1.07" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="HM2102NL">
+<circle x="-7.493" y="6.985" radius="0.15875" width="0" layer="94"/>
+<circle x="-5.207" y="6.985" radius="0.15875" width="0" layer="94"/>
+<circle x="-7.493" y="-3.175" radius="0.15875" width="0" layer="94"/>
+<circle x="-5.207" y="-3.175" radius="0.15875" width="0" layer="94"/>
+<circle x="0.635" y="-1.143" radius="0.15875" width="0" layer="94"/>
+<circle x="0.635" y="1.143" radius="0.15875" width="0" layer="94"/>
+<circle x="-7.62" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="-5.08" y="0" radius="0.254" width="0" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="6.35" x2="-7.62" y2="5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="6.35" x2="-5.08" y2="5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-6.35" y1="7.366" x2="-6.35" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-7.62" width="0.1524" layer="94" curve="180"/>
+<wire x1="-6.35" y1="-2.794" x2="-6.35" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94" curve="180"/>
+<wire x1="0.254" y1="0" x2="4.826" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<pin name="CMT" x="10.16" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="CT" x="-10.16" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="D+" x="-10.16" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="D-" x="-10.16" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="X+" x="10.16" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="X-" x="10.16" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="8.89" size="1.4224" layer="95" font="vector" rot="R180" align="top-center">&gt;NAME</text>
+<text x="0" y="-8.89" size="1.4224" layer="96" font="vector" align="top-center">&gt;UVal</text>
+</symbol>
+<symbol name="WUERTH_CUSTOM">
+<circle x="-0.635" y="1.905" radius="0.15875" width="0" layer="94"/>
+<circle x="2.413" y="3.175" radius="0.15875" width="0" layer="94"/>
+<circle x="2.413" y="-6.985" radius="0.15875" width="0" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="2.54" width="0.1524" layer="94" curve="180"/>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.762" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-3.81" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-5.08" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-6.35" width="0.1524" layer="94" curve="180"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-7.62" width="0.1524" layer="94" curve="180"/>
+<pin name="PIN2" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="PIN4" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="PIN5" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="1.016" y="10.16" size="1.4224" layer="95" font="vector" rot="R180" align="top-center">&gt;NAME</text>
+<text x="1.016" y="-8.89" size="1.4224" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-0.762" y1="7.62" x2="-0.762" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="-0.762" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="PIN7" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="PIN6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="PIN8" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="0.508" y1="7.366" x2="0.508" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="7.366" x2="1.27" y2="-7.366" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="-7.62" x2="-0.762" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-3.302" y1="7.62" x2="-0.762" y2="7.62" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="HM2102NL" prefix="TR">
+<description>isoSPI Transformer</description>
+<gates>
+<gate name="-1" symbol="HM2102NL" x="-17.78" y="0"/>
+<gate name="-2" symbol="HM2102NL" x="17.78" y="0"/>
+</gates>
+<devices>
+<device name="" package="HM2102NL">
+<connects>
+<connect gate="-1" pin="CMT" pad="11"/>
+<connect gate="-1" pin="CT" pad="2"/>
+<connect gate="-1" pin="D+" pad="1"/>
+<connect gate="-1" pin="D-" pad="3"/>
+<connect gate="-1" pin="X+" pad="12"/>
+<connect gate="-1" pin="X-" pad="10"/>
+<connect gate="-2" pin="CMT" pad="8"/>
+<connect gate="-2" pin="CT" pad="5"/>
+<connect gate="-2" pin="D+" pad="4"/>
+<connect gate="-2" pin="D-" pad="6"/>
+<connect gate="-2" pin="X+" pad="9"/>
+<connect gate="-2" pin="X-" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UVAL" value="HM2102NL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE_750313457" prefix="TR">
+<description>Flyback Transformer</description>
+<gates>
+<gate name="G$1" symbol="WUERTH_CUSTOM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WUERTH_CUSTOM">
+<connects>
+<connect gate="G$1" pin="PIN2" pad="1 2"/>
+<connect gate="G$1" pin="PIN4" pad="3 4"/>
+<connect gate="G$1" pin="PIN5" pad="5"/>
+<connect gate="G$1" pin="PIN6" pad="6"/>
+<connect gate="G$1" pin="PIN7" pad="7"/>
+<connect gate="G$1" pin="PIN8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="linear_custom">
+<packages>
+<package name="S8E">
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="7" x="-0.635" y="2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="3" x="0.635" y="-2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="4" x="1.905" y="-2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="8" x="-1.905" y="2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="6" x="0.635" y="2.6015" dx="0.76" dy="1.143" layer="1"/>
+<smd name="5" x="1.905" y="2.6015" dx="0.76" dy="1.143" layer="1"/>
+<text x="-2.8575" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.8575" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<smd name="P$1" x="0" y="0" dx="2.4" dy="3.2" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-1.6" y1="-0.25" x2="1.6" y2="0.25" layer="31"/>
+<rectangle x1="-1.6" y1="0.6" x2="1.6" y2="1" layer="31"/>
+<rectangle x1="-1.6" y1="-1" x2="1.6" y2="-0.6" layer="31"/>
+<rectangle x1="-1.4" y1="-1.2" x2="-1" y2="1.2" layer="31"/>
+<rectangle x1="1" y1="-1.2" x2="1.4" y2="1.2" layer="31"/>
+<rectangle x1="-0.3" y1="-1.2" x2="0.3" y2="1.2" layer="31"/>
+<wire x1="2.4" y1="1.74125" x2="2.4" y2="-1.7175" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1.74125" x2="2.4" y2="1.74125" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.0825" x2="-2.4" y2="1.74125" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.74125" x2="-1.74625" y2="-1.74625" width="0.2032" layer="21"/>
+<wire x1="-1.74625" y1="-1.74625" x2="-2.4" y2="-1.11625" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LT8302">
+<wire x1="-12.7" y1="-33.02" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
+<pin name="EN/UVLO" x="-15.24" y="7.62" length="short"/>
+<pin name="V_IN" x="0" y="20.32" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-35.56" length="short" direction="pwr" rot="R90"/>
+<pin name="SW" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="R_FB" x="15.24" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<text x="-10.16" y="20.32" size="1.4224" layer="95" font="vector">&gt;Name</text>
+<text x="-10.16" y="-38.1" size="1.4224" layer="95" font="vector">&gt;Value</text>
+<pin name="INTVCC" x="-15.24" y="-12.7" length="short"/>
+<pin name="R_REF" x="15.24" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="TC" x="15.24" y="-27.94" length="short" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LT8302" prefix="IC">
+<description>Flyback DC/DC Controller</description>
+<gates>
+<gate name="G$1" symbol="LT8302" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="S8E">
+<connects>
+<connect gate="G$1" pin="EN/UVLO" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4 P$1"/>
+<connect gate="G$1" pin="INTVCC" pad="2"/>
+<connect gate="G$1" pin="R_FB" pad="6"/>
+<connect gate="G$1" pin="R_REF" pad="7"/>
+<connect gate="G$1" pin="SW" pad="5"/>
+<connect gate="G$1" pin="TC" pad="8"/>
+<connect gate="G$1" pin="V_IN" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT">
+<packages>
+<package name="R_SMD_0402_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 0402 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-0.45" y="0" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$2" x="0.45" y="0" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.01" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.01" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.01" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.01" layer="51"/>
+<wire x1="-0.85" y1="-0.5" x2="0.85" y2="-0.5" width="0" layer="21"/>
+<wire x1="0.85" y1="-0.5" x2="0.85" y2="0.5" width="0" layer="21"/>
+<wire x1="0.85" y1="0.5" x2="-0.85" y2="0.5" width="0" layer="21"/>
+<wire x1="-0.85" y1="0.5" x2="-0.85" y2="-0.5" width="0" layer="21"/>
+<text x="0" y="0" size="0.4064" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-0.85" y="0.5"/>
+<vertex x="0.85" y="0.5"/>
+<vertex x="0.85" y="-0.5"/>
+<vertex x="-0.85" y="-0.5"/>
+</polygon>
+</package>
+<package name="R_SMD_0603_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 0603 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-0.75" y="0" dx="0.5" dy="0.9" layer="1"/>
+<smd name="P$2" x="0.75" y="0" dx="0.5" dy="0.9" layer="1"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0" layer="21"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0" layer="21"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0" layer="21"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.01" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.01" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.01" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.01" layer="51"/>
+<text x="0" y="0" size="0.75" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.75" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-1.2" y="0.65"/>
+<vertex x="1.2" y="0.65"/>
+<vertex x="1.2" y="-0.65"/>
+<vertex x="-1.2" y="-0.65"/>
+</polygon>
+</package>
+<package name="R_SMD_0805_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 0805 - Yageo/Phycomp - Reflow</description>
+<wire x1="-1.05" y1="0.6" x2="1.05" y2="0.6" width="0.01" layer="51"/>
+<wire x1="1.05" y1="0.6" x2="1.05" y2="-0.6" width="0.01" layer="51"/>
+<wire x1="1.05" y1="-0.6" x2="-1.05" y2="-0.6" width="0.01" layer="51"/>
+<wire x1="-1.05" y1="-0.6" x2="-1.05" y2="0.6" width="0.01" layer="51"/>
+<wire x1="-1.5" y1="0.85" x2="1.5" y2="0.85" width="0" layer="21"/>
+<wire x1="1.5" y1="0.85" x2="1.5" y2="-0.85" width="0" layer="21"/>
+<wire x1="1.5" y1="-0.85" x2="-1.5" y2="-0.85" width="0" layer="21"/>
+<wire x1="-1.5" y1="-0.85" x2="-1.5" y2="0.85" width="0" layer="21"/>
+<smd name="P$1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<smd name="P$2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<text x="0" y="0" size="1.1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.1" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-1.5" y="0.85"/>
+<vertex x="1.5" y="0.85"/>
+<vertex x="1.5" y="-0.85"/>
+<vertex x="-1.5" y="-0.85"/>
+</polygon>
+</package>
+<package name="R_SMD_1206_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 1206 - Yageo/Phycomp - Reflow</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.01" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.01" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.01" layer="51"/>
+<wire x1="-2.1" y1="1.05" x2="2.1" y2="1.05" width="0" layer="21"/>
+<wire x1="2.1" y1="1.05" x2="2.1" y2="-1.05" width="0" layer="21"/>
+<wire x1="2.1" y1="-1.05" x2="-2.1" y2="-1.05" width="0" layer="21"/>
+<wire x1="-2.1" y1="-1.05" x2="-2.1" y2="1.05" width="0" layer="21"/>
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.1" y="1.05"/>
+<vertex x="2.1" y="1.05"/>
+<vertex x="2.1" y="-1.05"/>
+<vertex x="-2.1" y="-1.05"/>
+</polygon>
+</package>
+<package name="R_SMD_2010_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 2010 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-2.45" y="0" dx="1" dy="2.5" layer="1"/>
+<smd name="P$2" x="2.45" y="0" dx="1" dy="2.5" layer="1"/>
+<wire x1="-2.5" y1="1.25" x2="2.5" y2="1.25" width="0.01" layer="51"/>
+<wire x1="2.5" y1="1.25" x2="2.5" y2="-1.25" width="0.01" layer="51"/>
+<wire x1="2.5" y1="-1.25" x2="-2.5" y2="-1.25" width="0.01" layer="51"/>
+<wire x1="-2.5" y1="-1.25" x2="-2.5" y2="1.25" width="0.01" layer="51"/>
+<wire x1="-3.15" y1="1.45" x2="3.15" y2="1.45" width="0" layer="21"/>
+<wire x1="3.15" y1="1.45" x2="3.15" y2="-1.45" width="0" layer="21"/>
+<wire x1="3.15" y1="-1.45" x2="-3.15" y2="-1.45" width="0" layer="21"/>
+<wire x1="-3.15" y1="-1.45" x2="-3.15" y2="1.45" width="0" layer="21"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-3.15" y="1.45"/>
+<vertex x="3.15" y="1.45"/>
+<vertex x="3.15" y="-1.45"/>
+<vertex x="-3.15" y="-1.45"/>
+</polygon>
+</package>
+<package name="R_SMD_2512_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 2512 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-3.1" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="P$2" x="3.1" y="0" dx="1" dy="3.2" layer="1"/>
+<wire x1="-3.15" y1="1.55" x2="3.15" y2="1.55" width="0.01" layer="51"/>
+<wire x1="3.15" y1="1.55" x2="3.15" y2="-1.55" width="0.01" layer="51"/>
+<wire x1="3.15" y1="-1.55" x2="-3.15" y2="-1.55" width="0.01" layer="51"/>
+<wire x1="-3.15" y1="-1.55" x2="-3.15" y2="1.55" width="0.01" layer="51"/>
+<wire x1="-3.8" y1="1.8" x2="3.8" y2="1.8" width="0" layer="21"/>
+<wire x1="3.8" y1="1.8" x2="3.8" y2="-1.8" width="0" layer="21"/>
+<wire x1="3.8" y1="-1.8" x2="-3.8" y2="-1.8" width="0" layer="21"/>
+<wire x1="-3.8" y1="-1.8" x2="-3.8" y2="1.8" width="0" layer="21"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-3.8" y="1.8"/>
+<vertex x="3.8" y="1.8"/>
+<vertex x="3.8" y="-1.8"/>
+<vertex x="-3.8" y="-1.8"/>
+</polygon>
+</package>
+<package name="R_SMD_0603_R_VISHAY_REV01">
+<description>&lt;b&gt;0603 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0603 Package (1,65mm x 0,95mm x 0,50mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-0.75" y="0" dx="0.5" dy="0.9" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.5" dy="0.9" layer="1"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0" layer="21"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0" layer="21"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0" layer="21"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0" layer="21"/>
+<wire x1="-0.825" y1="0.475" x2="0.825" y2="0.475" width="0.01" layer="51"/>
+<wire x1="0.825" y1="0.475" x2="0.825" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="0.825" y1="-0.475" x2="-0.825" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="-0.825" y1="-0.475" x2="-0.825" y2="0.475" width="0.01" layer="51"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-1.2" y="0.65"/>
+<vertex x="1.2" y="0.65"/>
+<vertex x="1.2" y="-0.65"/>
+<vertex x="-1.2" y="-0.65"/>
+</polygon>
+</package>
+<package name="R_SMD_0805_R_VISHAY_REV01">
+<description>&lt;b&gt;0805 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0805 Package (2,20mm x 1,40mm x 0,50mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.01" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.01" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.01" layer="51"/>
+<wire x1="-1.5" y1="0.85" x2="1.5" y2="0.85" width="0" layer="21"/>
+<wire x1="1.5" y1="0.85" x2="1.5" y2="-0.85" width="0" layer="21"/>
+<wire x1="1.5" y1="-0.85" x2="-1.5" y2="-0.85" width="0" layer="21"/>
+<wire x1="-1.5" y1="-0.85" x2="-1.5" y2="0.85" width="0" layer="21"/>
+<smd name="1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
+<text x="0" y="0" size="0.6096" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.4064" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-1.5" y="0.85"/>
+<vertex x="1.5" y="0.85"/>
+<vertex x="1.5" y="-0.85"/>
+<vertex x="-1.5" y="-0.85"/>
+</polygon>
+</package>
+<package name="R_SMD_1210_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 1210 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.01" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.01" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.01" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.01" layer="51"/>
+<wire x1="-2.1" y1="1.45" x2="2.1" y2="1.45" width="0" layer="21"/>
+<wire x1="2.1" y1="1.45" x2="2.1" y2="-1.45" width="0" layer="21"/>
+<wire x1="2.1" y1="-1.45" x2="-2.1" y2="-1.45" width="0" layer="21"/>
+<wire x1="-2.1" y1="-1.45" x2="-2.1" y2="1.45" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.1" y="1.45"/>
+<vertex x="2.1" y="1.45"/>
+<vertex x="2.1" y="-1.45"/>
+<vertex x="-2.1" y="-1.45"/>
+</polygon>
+</package>
+<package name="R_SMD_1218_R_YAGEO_REV01">
+<description>Dickschicht-Chipwiderstand - 1218 - Yageo/Phycomp - Reflow</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.05" dy="4.9" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.05" dy="4.9" layer="1"/>
+<wire x1="-1.6" y1="2.3" x2="1.6" y2="2.3" width="0.01" layer="51"/>
+<wire x1="1.6" y1="2.3" x2="1.6" y2="-2.3" width="0.01" layer="51"/>
+<wire x1="1.6" y1="-2.3" x2="-1.6" y2="-2.3" width="0.01" layer="51"/>
+<wire x1="-1.6" y1="-2.3" x2="-1.6" y2="2.3" width="0.01" layer="51"/>
+<wire x1="-2.25" y1="2.65" x2="2.25" y2="2.65" width="0" layer="21"/>
+<wire x1="2.25" y1="2.65" x2="2.25" y2="-2.65" width="0" layer="21"/>
+<wire x1="2.25" y1="-2.65" x2="-2.25" y2="-2.65" width="0" layer="21"/>
+<wire x1="-2.25" y1="-2.65" x2="-2.25" y2="2.65" width="0" layer="21"/>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVal</text>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;Name</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.25" y="2.65"/>
+<vertex x="2.25" y="2.65"/>
+<vertex x="2.25" y="-2.65"/>
+<vertex x="-2.25" y="-2.65"/>
+</polygon>
+</package>
+<package name="R_SMD_0402_R_VISHAY_REV01">
+<description>&lt;b&gt;0402 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0402 Package (1,05mm x 0,55mm x 0,40mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-0.45" y="0" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="0.45" y="0" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.01" layer="51"/>
+<wire x1="0.525" y1="0.275" x2="0.525" y2="-0.275" width="0.01" layer="51"/>
+<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.01" layer="51"/>
+<wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.01" layer="51"/>
+<wire x1="-0.85" y1="-0.5" x2="0.85" y2="-0.5" width="0" layer="21"/>
+<wire x1="0.85" y1="-0.5" x2="0.85" y2="0.5" width="0" layer="21"/>
+<wire x1="0.85" y1="0.5" x2="-0.85" y2="0.5" width="0" layer="21"/>
+<wire x1="-0.85" y1="0.5" x2="-0.85" y2="-0.5" width="0" layer="21"/>
+<text x="0" y="0" size="0.4064" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-0.85" y="0.5"/>
+<vertex x="0.85" y="0.5"/>
+<vertex x="0.85" y="-0.5"/>
+<vertex x="-0.85" y="-0.5"/>
+</polygon>
+</package>
+<package name="R_SMD_2512_R_VISHAY_REV01">
+<description>&lt;b&gt;2512 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 2512 Package (6,50mm x 3,30mm x 0,70mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-3.1" y="0" dx="1" dy="3.2" layer="1"/>
+<smd name="2" x="3.1" y="0" dx="1" dy="3.2" layer="1"/>
+<wire x1="-3.25" y1="1.65" x2="3.25" y2="1.65" width="0.01" layer="51"/>
+<wire x1="3.25" y1="1.65" x2="3.25" y2="-1.65" width="0.01" layer="51"/>
+<wire x1="3.25" y1="-1.65" x2="-3.25" y2="-1.65" width="0.01" layer="51"/>
+<wire x1="-3.25" y1="-1.65" x2="-3.25" y2="1.65" width="0.01" layer="51"/>
+<wire x1="-3.8" y1="1.8" x2="3.8" y2="1.8" width="0" layer="21"/>
+<wire x1="3.8" y1="1.8" x2="3.8" y2="-1.8" width="0" layer="21"/>
+<wire x1="3.8" y1="-1.8" x2="-3.8" y2="-1.8" width="0" layer="21"/>
+<wire x1="-3.8" y1="-1.8" x2="-3.8" y2="1.8" width="0" layer="21"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-3.8" y="1.8"/>
+<vertex x="3.8" y="1.8"/>
+<vertex x="3.8" y="-1.8"/>
+<vertex x="-3.8" y="-1.8"/>
+</polygon>
+</package>
+<package name="R_SMD_2010_R_VISHAY_REV01">
+<description>&lt;b&gt;2010 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 2010 Package (6,15mm x 2,65mm x 0,70mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-2.45" y="0" dx="1" dy="2.5" layer="1"/>
+<smd name="2" x="2.45" y="0" dx="1" dy="2.5" layer="1"/>
+<wire x1="-2.575" y1="1.325" x2="2.575" y2="1.325" width="0.01" layer="51"/>
+<wire x1="2.575" y1="1.325" x2="2.575" y2="-1.325" width="0.01" layer="51"/>
+<wire x1="2.575" y1="-1.325" x2="-2.575" y2="-1.325" width="0.01" layer="51"/>
+<wire x1="-2.575" y1="-1.325" x2="-2.575" y2="1.325" width="0.01" layer="51"/>
+<wire x1="-3.15" y1="1.45" x2="3.15" y2="1.45" width="0" layer="21"/>
+<wire x1="3.15" y1="1.45" x2="3.15" y2="-1.45" width="0" layer="21"/>
+<wire x1="3.15" y1="-1.45" x2="-3.15" y2="-1.45" width="0" layer="21"/>
+<wire x1="-3.15" y1="-1.45" x2="-3.15" y2="1.45" width="0" layer="21"/>
+<text x="0" y="0" size="1.4224" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.4224" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-3.15" y="1.45"/>
+<vertex x="3.15" y="1.45"/>
+<vertex x="3.15" y="-1.45"/>
+<vertex x="-3.15" y="-1.45"/>
+</polygon>
+</package>
+<package name="R_SMD_1206_R_VISHAY_REV01">
+<description>&lt;b&gt;1206 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1206 Package (3,30mm x 1,75mm x 0,60mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<wire x1="-1.65" y1="0.875" x2="1.65" y2="0.875" width="0.01" layer="51"/>
+<wire x1="1.65" y1="0.875" x2="1.65" y2="-0.875" width="0.01" layer="51"/>
+<wire x1="1.65" y1="-0.875" x2="-1.65" y2="-0.875" width="0.01" layer="51"/>
+<wire x1="-1.65" y1="-0.875" x2="-1.65" y2="0.875" width="0.01" layer="51"/>
+<wire x1="-2.1" y1="1.05" x2="2.1" y2="1.05" width="0" layer="21"/>
+<wire x1="2.1" y1="1.05" x2="2.1" y2="-1.05" width="0" layer="21"/>
+<wire x1="2.1" y1="-1.05" x2="-2.1" y2="-1.05" width="0" layer="21"/>
+<wire x1="-2.1" y1="-1.05" x2="-2.1" y2="1.05" width="0" layer="21"/>
+<smd name="1" x="-1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<smd name="2" x="1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.1" y="1.05"/>
+<vertex x="2.1" y="1.05"/>
+<vertex x="2.1" y="-1.05"/>
+<vertex x="-2.1" y="-1.05"/>
+</polygon>
+</package>
+<package name="R_SMD_1210_R_VISHAY_REV01">
+<description>&lt;b&gt;1210 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1210 Package (3,40mm x 2,70mm x 0,60mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<smd name="2" x="1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="-2.1" y1="1.45" x2="2.1" y2="1.45" width="0" layer="21"/>
+<wire x1="2.1" y1="1.45" x2="2.1" y2="-1.45" width="0" layer="21"/>
+<wire x1="2.1" y1="-1.45" x2="-2.1" y2="-1.45" width="0" layer="21"/>
+<wire x1="-2.1" y1="-1.45" x2="-2.1" y2="1.45" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.1" y="1.45"/>
+<vertex x="2.1" y="1.45"/>
+<vertex x="2.1" y="-1.45"/>
+<vertex x="-2.1" y="-1.45"/>
+</polygon>
+</package>
+<package name="R_SMD_1218_R_VISHAY_REV01">
+<description>&lt;b&gt;1218 - Vishay&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.vishay.com/docs/20008/dcrcw.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1218 Package (3,30mm x 4,75mm x 0,60mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="1.05" dy="4.9" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1.05" dy="4.9" layer="1"/>
+<wire x1="-1.6" y1="2.3" x2="1.6" y2="2.3" width="0.01" layer="51"/>
+<wire x1="1.6" y1="2.3" x2="1.6" y2="-2.3" width="0.01" layer="51"/>
+<wire x1="1.6" y1="-2.3" x2="-1.6" y2="-2.3" width="0.01" layer="51"/>
+<wire x1="-1.6" y1="-2.3" x2="-1.6" y2="2.3" width="0.01" layer="51"/>
+<wire x1="-2.25" y1="2.65" x2="2.25" y2="2.65" width="0" layer="21"/>
+<wire x1="2.25" y1="2.65" x2="2.25" y2="-2.65" width="0" layer="21"/>
+<wire x1="2.25" y1="-2.65" x2="-2.25" y2="-2.65" width="0" layer="21"/>
+<wire x1="-2.25" y1="-2.65" x2="-2.25" y2="2.65" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<polygon width="0" layer="39" spacing="10" pour="hatch">
+<vertex x="-2.25" y="2.65"/>
+<vertex x="2.25" y="2.65"/>
+<vertex x="2.25" y="-2.65"/>
+<vertex x="-2.25" y="-2.65"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="R_SMD_2_REV01">
+<description>&lt;b&gt;Schematic symbol for 2-Pin Resistor&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-2.54" y1="0.9525" x2="2.54" y2="0.9525" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.9525" x2="2.54" y2="-0.9525" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.9525" x2="-2.54" y2="-0.9525" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.9525" x2="-2.54" y2="0.9525" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="1.27" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="0" size="1.016" layer="95" font="vector" align="center">&gt;SIZE</text>
+<text x="-0.508" y="-1.27" size="1.016" layer="96" font="vector" align="top-right">&gt;UVAL</text>
+<text x="0.508" y="-1.27" size="1.016" layer="112" font="vector" align="top-left">&gt;UTOL</text>
+<text x="0" y="-1.27" size="1.016" layer="112" font="vector" align="top-center">/</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10,0K?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;10,0K SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E602" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9239359" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,005€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402FR-0710KL" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E816" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9238603" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,074€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="MARKING" value="1002" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E242" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell " constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237755" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,091€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-0710KL" constant="no"/>
+<attribute name="MARKING" value="1002" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E544" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9241000" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,051€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-0710KL" constant="no"/>
+<attribute name="MARKING" value="1002" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E296" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1210JR-0710KL" constant="no"/>
+<attribute name="MARKING" value="103" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="750mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E796" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-0710KL" constant="no"/>
+<attribute name="MARKING" value="103" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469748" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,019€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW060310K0FKEA" constant="no"/>
+<attribute name="MARKING" value="1002" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469856" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,021€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW080510K0FKEA" constant="no"/>
+<attribute name="MARKING" value="1002" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="10.0K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="390K?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;390K SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E640" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9239545" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,038€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402FR-07390KL" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥ 10 GOhm  " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E854" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9238794" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,037€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603FR-07390KL" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E318" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237941" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,081€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-07390KL" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E620" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9236970" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,01€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-07390KL" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E334" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1210JR-07390KL" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="750mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2138557" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0095€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-390K-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,009€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0603390KFKEA" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2139075" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,024€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0805390KFKEA" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,024€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0805390KFKEA" constant="no"/>
+<attribute name="MARKING" value="3903" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="390K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="86,6K?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;86,6K SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1652901" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,013€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-86.6K-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,009€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW060386K6FKEA" constant="no"/>
+<attribute name="MARKING" value="8662" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="86.6K" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2139025" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0805-86.6K-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,024€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW080586K6FKEA" constant="no"/>
+<attribute name="MARKING" value="8662" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="86.6K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="127K?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;127K SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2138509" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0141€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-127K-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,009€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0603127KFKEA" constant="no"/>
+<attribute name="MARKING" value="1273" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="127K" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2139037" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0805-127K-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,024€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0805127KFKEA" constant="no"/>
+<attribute name="MARKING" value="1273" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="127K" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0,00R?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;0,00R SMD - CHIP - Dickschichtwiderstand&lt;/b&gt;&lt;br&gt;&lt;p&gt;
+						&lt;b&gt;Vishay&lt;/b&gt;&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+						&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="10E950" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="311-0.0CRCT-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0083€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-070R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E700" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9233130" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,077€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603JR-070R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="250PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E500" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9232516" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0721€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402JR-070R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="33E100" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="311-0.0ERCT-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0083€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206JR-070RL" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469739" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,019€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-0-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,007€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW06030000Z0EA" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469846" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,018€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0805-0-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,022€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW08050000Z0EA" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="9235825" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,054€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="603-RC2512JK-070RL" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,035€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-070RL" constant="no"/>
+<attribute name="MARKING" value="000" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="0.00R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DUMMY_R_CHIP" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;DUMMY - SMD - CHIP - Dickschichtwiderstand&lt;/b&gt;&lt;br&gt;&lt;p&gt;
+						&lt;b&gt;Vishay&lt;/b&gt;&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+						&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210_R_YAGEO" package="R_SMD_1210_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="500mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1218_R_YAGEO" package="R_SMD_1218_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="1218" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="750mW" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="&gt;10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_VISHAY" package="R_SMD_0402_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_VISHAY" package="R_SMD_2512_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_VISHAY" package="R_SMD_2010_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_VISHAY" package="R_SMD_1206_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210_R_VISHAY" package="R_SMD_1210_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1218_R_VISHAY" package="R_SMD_1218_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DISTRI_1" value="" constant="no"/>
+<attribute name="DISTRI_1-NR" value="" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="TBD" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="39,0R?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;39,0R SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E758" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9238310" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,038€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E544" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9239065" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,074€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥ 10 GOhm  " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E128" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237313" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,043€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+<technology name="_1%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="12E126" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237313" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0443€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E428" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9236708 " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,127€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+<technology name="_1%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="33E526" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="500mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E238" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1210JR-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="750mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E738" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-0739RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+<technology name="_5%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="09E126" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,22€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-7W39RL" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="2,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Mouser" constant="no"/>
+<attribute name="DISTRI_1-NR" value="71-CRCW0603-39-E3" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,01€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="1738886" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0474€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW060339R0FKEA" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1738941" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0572€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW080539R0FKEA" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,028€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW080539R0FKEA" constant="no"/>
+<attribute name="MARKING" value="39R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="39.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="330R?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;330R SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E170" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237429" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,09€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-07330RL" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E780" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9238425" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,038€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603FR-07330RL" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E566" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9239170" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,058€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402FR-07330RL" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥ 10 GOhm  " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E472" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="311-330FRCT-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0112€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-07330RL" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E260" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="603-RC1210JR-07330RL" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,023€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1210JR-07330RL" constant="no"/>
+<attribute name="MARKING" value="331" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="500mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E760" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-07330RL" constant="no"/>
+<attribute name="MARKING" value="331" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469803" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0116€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-330-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,009€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0603330RFKEA" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469918" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,021€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0805-330-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,024€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW0805330RFKEA" constant="no"/>
+<attribute name="MARKING" value="3300" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="330R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="68,0R?*_REV_01" prefix="R">
+<description>&lt;p&gt;&lt;b&gt;68,0R SMD - CHIP - Dickschichtwiderstand
+						&lt;/b&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Vishay
+						&lt;/b&gt;
+						&lt;p&gt;&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\CRCW_Vishay.pdf"&gt;D/CRCW_Vishay_Datasheet&lt;/a&gt; &lt;br&gt;
+						&lt;br&gt;&lt;p&gt;&lt;b&gt;Yageo/Phycomp
+						&lt;/b&gt; &lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0402_Yageo-Phycomp.pdf"&gt; RC0402_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0402_Datasheet&lt;/a&gt;                                                                                                             
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0603_Yageo-Phycomp.pdf"&gt; RC0603_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0603_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC0805_Yageo-Phycomp.pdf"&gt; RC0805_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL0805_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL0805_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1206_Yageo-Phycomp.pdf"&gt; RC1206_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1206_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0805_1206_High-Power_Yageo-Phycomp.pdf"&gt; RL1206_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1210_Yageo-Phycomp.pdf"&gt;RC1210_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1210_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC1218_Yageo-Phycomp.pdf"&gt;RC1218_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL1218_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2010_Yageo-Phycomp.pdf"&gt;RC2010_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2010_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_Yageo-Phycomp.pdf"&gt;RC2512_Datasheet&lt;/a&gt;_____&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RL0402_0603_0805_1206_1210_1218_2010_2512_Yageo-Phycomp.pdf"&gt;RL2512_Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+						&lt;a href="file:///C:\Eagle-Datasheet\Widerstaende\RC2512_High-Power_Yageo-Phycomp.pdf"&gt;RC2512_High-Power Datasheet&lt;/a&gt;
+						&lt;br&gt; &lt;br&gt;
+
+
+
+						&lt;p&gt;Dickschichtwiderstand</description>
+<gates>
+<gate name="G$1" symbol="R_SMD_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0805_R_YAGEO" package="R_SMD_0805_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E140" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell " constant="no"/>
+<attribute name="DISTRI_2-NR" value="9237348" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,043€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+<technology name="_1%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="12E132" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0805FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="300V" constant="no"/>
+<attribute name="UVMAX" value="300V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_YAGEO" package="R_SMD_0603_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin " constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E764" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,02€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9238344" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,006€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0603FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0402_R_YAGEO" package="R_SMD_0402_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="26E550" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,03€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9239090" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,076€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC0402FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0402" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="62,5mW" constant="no"/>
+<attribute name="URISO" value="≥ 10 GOhm  " constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="50,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+<attribute name="UVMAX" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206_R_YAGEO" package="R_SMD_1206_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="11E440" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Farnell" constant="no"/>
+<attribute name="DISTRI_2-NR" value="9236740" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,13€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="250mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+<technology name="_1%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="33E532" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1206FR-0768RL" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="500mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2010_R_YAGEO" package="R_SMD_2010_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E244" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC1210JR-0768RL" constant="no"/>
+<attribute name="MARKING" value="680" constant="no"/>
+<attribute name="SIZE" value="2010" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="750mW" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2512_R_YAGEO" package="R_SMD_2512_R_YAGEO_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_5%_TK100">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="08E744" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="603-RC2512JK-0768RL" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,05€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-0768RL" constant="no"/>
+<attribute name="MARKING" value="680" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="1,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="500V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+<technology name="_5%_TK200">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="09E132" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,22€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Yageo / Phycomp" constant="no"/>
+<attribute name="HERSTELLER-NR" value="RC2512JK-7W68RL" constant="no"/>
+<attribute name="MARKING" value="680" constant="no"/>
+<attribute name="SIZE" value="2512" constant="no"/>
+<attribute name="TEMP" value="-55 bis 185°C" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="2,00W" constant="no"/>
+<attribute name="URISO" value="≥10,0GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="200PPM/°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="200V" constant="no"/>
+<attribute name="UVISO" value="400V" constant="no"/>
+<attribute name="UVMAX" value="500V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603_R_VISHAY" package="R_SMD_0603_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1469833" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0095€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW0603-68-E3" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,01€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW060368R0FKEA" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="100mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="75,0V" constant="no"/>
+<attribute name="UVISO" value="100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_R_VISHAY" package="R_SMD_0805_R_VISHAY_REV01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_1%_TK100">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1738944" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0544€ / 100St" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="71-CRCW080568R0FKEA" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,028€ / 100St" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Vishay" constant="no"/>
+<attribute name="HERSTELLER-NR" value="CRCW080568R0FKEA" constant="no"/>
+<attribute name="MARKING" value="68R0" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="I" constant="no"/>
+<attribute name="UMAT" value="Met" constant="no"/>
+<attribute name="UPV" value="125mW" constant="no"/>
+<attribute name="URISO" value="&gt;1,00GOhm" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="100PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="155°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="1%" constant="no"/>
+<attribute name="UTYP" value="Thickfilm" constant="no"/>
+<attribute name="UVAL" value="68.0R" constant="no"/>
+<attribute name="UVDC" value="150V" constant="no"/>
+<attribute name="UVISO" value="200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="0_LES_KAPAZITAET.SMD.MLCC.KEMET">
+<description>&lt;b&gt;Kapazitäten - SMD - MLCC - Hersteller: KEMET&lt;/b&gt;</description>
+<packages>
+<package name="1206">
+<description>&lt;b&gt;1206 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.01" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.01" layer="51"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="21"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="21"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="21"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="21"/>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="39"/>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+</package>
+<package name="1210">
+<description>&lt;b&gt;1210 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="-2.35" y1="1.55" x2="2.35" y2="1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="1.55" x2="2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="-1.55" x2="-2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="-2.35" y1="-1.55" x2="-2.35" y2="1.55" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-2.36" y="1.56"/>
+<vertex x="2.36" y="1.56"/>
+<vertex x="2.36" y="-1.56"/>
+<vertex x="-2.36" y="-1.56"/>
+</polygon>
+</package>
+<package name="2220">
+<description>&lt;b&gt;2220 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-2.575" y="0" dx="1.85" dy="5.5" layer="1"/>
+<smd name="P$2" x="2.575" y="0" dx="1.85" dy="5.5" layer="1"/>
+<wire x1="-3" y1="2.7" x2="3" y2="2.7" width="0.01" layer="51"/>
+<wire x1="3" y1="2.7" x2="3" y2="-2.7" width="0.01" layer="51"/>
+<wire x1="3" y1="-2.7" x2="-3" y2="-2.7" width="0.01" layer="51"/>
+<wire x1="-3" y1="-2.7" x2="-3" y2="2.7" width="0.01" layer="51"/>
+<wire x1="-3.6" y1="2.85" x2="3.6" y2="2.85" width="0" layer="21"/>
+<wire x1="3.6" y1="2.85" x2="3.6" y2="-2.85" width="0" layer="21"/>
+<wire x1="3.6" y1="-2.85" x2="-3.6" y2="-2.85" width="0" layer="21"/>
+<wire x1="-3.6" y1="-2.85" x2="-3.6" y2="2.85" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-3.61" y="2.86"/>
+<vertex x="3.61" y="2.86"/>
+<vertex x="3.61" y="-2.86"/>
+<vertex x="-3.61" y="-2.86"/>
+</polygon>
+</package>
+<package name="0805">
+<description>&lt;b&gt;0805 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="-1.76" y1="0.91" x2="1.76" y2="0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="0.91" x2="1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="153"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="153"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.76" y="0.91"/>
+<vertex x="1.76" y="0.91"/>
+<vertex x="1.76" y="-0.91"/>
+<vertex x="-1.76" y="-0.91"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="C">
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<text x="-1.143" y="0.635" size="1.4224" layer="95" font="vector" align="bottom-right">&gt;NAME</text>
+<rectangle x1="0.762" y1="-2.032" x2="1.016" y2="2.032" layer="94"/>
+<rectangle x1="-1.016" y1="-2.032" x2="-0.762" y2="2.032" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.143" y="0.635" size="1.4224" layer="96" font="vector">&gt;UVAL</text>
+<text x="0" y="0" size="1.4224" layer="112" font="vector" rot="R90" align="center">&gt;UTOL</text>
+<text x="-1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-right">&gt;UU</text>
+<text x="1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-left">&gt;UPackage</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="10µF?" prefix="C">
+<description>&lt;p&gt;&lt;b&gt;10µF Keramik-Kondensator&lt;/b&gt;
+&lt;br&gt; &lt;br&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kondensatoren\MLCC_Kemet.pdf"&gt; Data sheet &lt;/a&gt;
+
+&lt;p&gt;KEMET-Keramikkondensator</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1206" package="1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_16V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D3428" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,15€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C106K4R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,144€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C106K4R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="16V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_25V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2118134" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="25V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_16V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D382" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,38€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C106K4R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,144€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C106K4R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="1210" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="16V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_25V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D383" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,16€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1210C106K3R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="1,16€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C106K3R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="1210" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="25V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2220" package="2220">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D411" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="1,19€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C2220C106K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="3,05€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C2220C106K5R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="2220" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_10V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DATENBLATT" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2118132" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C106K8RACTU" constant="no"/>
+<attribute name="ISOLATIONSSPANNUNG" value="" constant="no"/>
+<attribute name="ISOLATIONSWIDERSTAND" value="" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="UPACKAGE" value="0805" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="10V" constant="no"/>
+<attribute name="UVAL" value="10uF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="diodes_custom">
+<packages>
+<package name="POWER_DI_5">
+<smd name="A1" x="-0.92" y="-3.175" dx="1.4" dy="1.4" layer="1"/>
+<smd name="K" x="0" y="0.807" dx="3.36" dy="4.86" layer="1" rot="R180"/>
+<text x="-2.14" y="-0.635" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<smd name="A2" x="0.92" y="-3.175" dx="1.4" dy="1.4" layer="1"/>
+<wire x1="-1.76" y1="3.45" x2="1.76" y2="3.45" width="0" layer="21"/>
+<wire x1="1.76" y1="3.45" x2="1.76" y2="-4.085" width="0" layer="21"/>
+<wire x1="1.76" y1="-4.085" x2="-1.76" y2="-4.085" width="0" layer="21"/>
+<wire x1="-1.76" y1="-4.085" x2="-1.76" y2="3.45" width="0" layer="21"/>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.76" y="3.45"/>
+<vertex x="1.76" y="3.45"/>
+<vertex x="1.76" y="-4.085"/>
+<vertex x="-1.76" y="-4.085"/>
+</polygon>
+</package>
+<package name="POWER_DI_123">
+<smd name="A" x="0" y="-1" dx="1.5" dy="1.05" layer="1"/>
+<smd name="K" x="0" y="1.375" dx="1.5" dy="2.4" layer="1" rot="R180"/>
+<text x="-1.1875" y="0.635" size="0.8128" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center">&gt;Name</text>
+<wire x1="-0.96625" y1="2.815" x2="0.96625" y2="2.815" width="0" layer="21"/>
+<wire x1="0.96625" y1="2.815" x2="0.96625" y2="-1.70375" width="0" layer="21"/>
+<wire x1="0.96625" y1="-1.70375" x2="-0.96625" y2="-1.70375" width="0" layer="21"/>
+<wire x1="-0.96625" y1="-1.70375" x2="-0.96625" y2="2.815" width="0" layer="21"/>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-0.8075" y="2.65625"/>
+<vertex x="0.8075" y="2.65625"/>
+<vertex x="0.8075" y="-1.5748"/>
+<vertex x="-0.8075" y="-1.5748"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="0" y="2.286" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.4224" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="ZENER">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="C" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="0" y="2.286" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.286" size="1.4224" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DI_PDS3200" prefix="D">
+<description>Schottky Diode</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_DI_5">
+<connects>
+<connect gate="G$1" pin="A" pad="A1 A2"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DI_DFLZ36" prefix="D">
+<description>Schottky Diode</description>
+<gates>
+<gate name="G$1" symbol="ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_DI_123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DI_DFLS1100" prefix="D">
+<description>Schottky Diode</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWER_DI_123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="0_LES_KAPAZITAET.SMD.MLCC">
+<description>&lt;b&gt;Kapazitäten - SMD - MLCC - Hersteller: KEMET&lt;/b&gt;</description>
+<packages>
+<package name="C_SMD_1206_(3216)_R_KEMET_REV01">
+<description>&lt;b&gt;1206 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1206 Package (3,20mm x 1,60mm x 0,90mm/0,95mm/1,00mm/1,10mm/1,20mm/1,25mm/1,60mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.01" layer="21"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.01" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.01" layer="21"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.01" layer="21"/>
+<text x="0" y="0" size="0.4064" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="151"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="151"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="151"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="151"/>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="39"/>
+<text x="0" y="0" size="0.4064" layer="112" font="vector" align="center">/</text>
+<text x="0.3" y="0" size="0.4064" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.3" y="0" size="0.4064" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.4064" layer="27" font="vector" align="center">&gt;UVal</text>
+</package>
+<package name="C_SMD_1210_(3225)_R_KEMET_REV01">
+<description>&lt;b&gt;1210 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1210 Package (3,20mm x 2,50mm x 0,90mm/0,95mm/1,00mm/1,10mm/1,20mm/1,25mm/1,40mm/1,55mm/1,70mm/1,85mm/1,90mm/2,00mm/2,10mm/2,50mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="-2.35" y1="1.55" x2="2.35" y2="1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="1.55" x2="2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="-1.55" x2="-2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="-2.35" y1="-1.55" x2="-2.35" y2="1.55" width="0" layer="21"/>
+<text x="0" y="0" size="0.4064" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.4064" layer="112" font="vector" align="center">/</text>
+<text x="0.3" y="0" size="0.4064" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.3" y="0" size="0.4064" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.4064" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-2.36" y="1.56"/>
+<vertex x="2.36" y="1.56"/>
+<vertex x="2.36" y="-1.56"/>
+<vertex x="-2.36" y="-1.56"/>
+</polygon>
+</package>
+<package name="C_SMD_0603_(1608)_R_KEMET_REV01">
+<description>&lt;b&gt;0603 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0603 Package (1,60mm x 0,80mm x 0,80mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-0.865" y="0" dx="1.08" dy="1.05" layer="1"/>
+<smd name="2" x="0.865" y="0" dx="1.08" dy="1.05" layer="1"/>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.01" layer="51"/>
+<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.01" layer="51"/>
+<wire x1="1.51" y1="0.63" x2="1.51" y2="-0.63" width="0" layer="21"/>
+<wire x1="1.51" y1="-0.63" x2="-1.51" y2="-0.63" width="0" layer="21"/>
+<wire x1="-1.51" y1="-0.63" x2="-1.51" y2="0.63" width="0" layer="21"/>
+<text x="0" y="0" size="0.254" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-1.51" y1="0.63" x2="1.51" y2="0.63" width="0" layer="151"/>
+<wire x1="1.51" y1="0.63" x2="1.51" y2="-0.63" width="0" layer="151"/>
+<wire x1="1.51" y1="-0.63" x2="-1.51" y2="-0.63" width="0" layer="151"/>
+<wire x1="-1.51" y1="-0.63" x2="-1.51" y2="0.63" width="0" layer="151"/>
+<wire x1="-1.51" y1="0.63" x2="1.51" y2="0.63" width="0" layer="21"/>
+<wire x1="1.51" y1="0.63" x2="1.51" y2="-0.63" width="0" layer="153"/>
+<wire x1="1.51" y1="-0.63" x2="-1.51" y2="-0.63" width="0" layer="153"/>
+<wire x1="-1.51" y1="-0.63" x2="-1.51" y2="0.63" width="0" layer="153"/>
+<text x="0" y="0" size="0.254" layer="112" font="vector" align="center">/</text>
+<text x="0.2" y="0" size="0.254" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.2" y="0" size="0.254" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.254" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.51" y="0.63"/>
+<vertex x="1.51" y="0.63"/>
+<vertex x="1.51" y="-0.63"/>
+<vertex x="-1.51" y="-0.63"/>
+</polygon>
+</package>
+<package name="C_SMD_0805_(2012)_R_KEMET_REV01">
+<description>&lt;b&gt;0805 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0805 Package (1,60mm x 0,80mm x 0,70mm/0,80mm/0,90mm/1,00mm/1,25mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="-1.76" y1="0.91" x2="1.76" y2="0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="0.91" x2="1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="153"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="153"/>
+<text x="0" y="0" size="0.3048" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="21"/>
+<text x="0" y="0" size="0.3048" layer="112" font="vector" align="center">/</text>
+<text x="0.2" y="0" size="0.3048" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.2" y="0" size="0.3048" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.76" y="0.91"/>
+<vertex x="1.76" y="0.91"/>
+<vertex x="1.76" y="-0.91"/>
+<vertex x="-1.76" y="-0.91"/>
+</polygon>
+</package>
+<package name="C_SMD_1206_(3216)_R_MURATA_REV01">
+<description>&lt;b&gt;1206 - Murata&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Murata.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1206 Package (3,20mm x 1,60mm x 0,95mm/1,00mm/1,25mm/1,30mm/1,80mm/1,90mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.01" layer="21"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.01" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.01" layer="21"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.01" layer="21"/>
+<text x="0" y="0" size="0.4064" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="151"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="151"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="151"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="151"/>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="39"/>
+<text x="0" y="0" size="0.4064" layer="112" font="vector" align="center">/</text>
+<text x="0.3" y="0" size="0.4064" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.3" y="0" size="0.4064" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.4064" layer="27" font="vector" align="center">&gt;UVal</text>
+</package>
+<package name="C_SMD_2220_(5750)_R_KEMET_REV01">
+<description>&lt;b&gt;2220 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 2220 Package (5,70mm x 5,00mm x 1,00mm/1,10mm/1,30mm/1,40mm/1,50mm/2,40mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-2.575" y="0" dx="1.85" dy="5.5" layer="1"/>
+<smd name="P$2" x="2.575" y="0" dx="1.85" dy="5.5" layer="1"/>
+<wire x1="-3" y1="2.7" x2="3" y2="2.7" width="0.01" layer="51"/>
+<wire x1="3" y1="2.7" x2="3" y2="-2.7" width="0.01" layer="51"/>
+<wire x1="3" y1="-2.7" x2="-3" y2="-2.7" width="0.01" layer="51"/>
+<wire x1="-3" y1="-2.7" x2="-3" y2="2.7" width="0.01" layer="51"/>
+<wire x1="-3.6" y1="2.85" x2="3.6" y2="2.85" width="0" layer="21"/>
+<wire x1="3.6" y1="2.85" x2="3.6" y2="-2.85" width="0" layer="21"/>
+<wire x1="3.6" y1="-2.85" x2="-3.6" y2="-2.85" width="0" layer="21"/>
+<wire x1="-3.6" y1="-2.85" x2="-3.6" y2="2.85" width="0" layer="21"/>
+<text x="0" y="0" size="0.6096" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.6096" layer="112" font="vector" align="center">/</text>
+<text x="0.4" y="0" size="0.6096" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.4" y="0" size="0.6096" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.6096" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-3.61" y="2.86"/>
+<vertex x="3.61" y="2.86"/>
+<vertex x="3.61" y="-2.86"/>
+<vertex x="-3.61" y="-2.86"/>
+</polygon>
+</package>
+<package name="C_SMD_1812_(4532)_R_KEMET_REV01">
+<description>&lt;b&gt;1812 - KEMET&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/364/KEM_CC101_COMM_SMD.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 1812 Package (4,50mm x 3,20mm x 1,00mm/1,10mm/1,25mm/1,30mm/1,40mm/1,55mm/1,60mm/1,70mm/2,50mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-2.05" y="0" dx="1.8" dy="3.7" layer="1"/>
+<smd name="P$2" x="2.05" y="0" dx="1.8" dy="3.7" layer="1"/>
+<wire x1="-2.4" y1="1.75" x2="2.4" y2="1.75" width="0.01" layer="51"/>
+<wire x1="2.4" y1="1.75" x2="2.4" y2="-1.75" width="0.01" layer="51"/>
+<wire x1="2.4" y1="-1.75" x2="-2.4" y2="-1.75" width="0.01" layer="51"/>
+<wire x1="-2.4" y1="-1.75" x2="-2.4" y2="1.75" width="0.01" layer="51"/>
+<wire x1="-3.05" y1="1.95" x2="3.05" y2="1.95" width="0" layer="21"/>
+<wire x1="3.05" y1="1.95" x2="3.05" y2="-1.95" width="0" layer="21"/>
+<wire x1="3.05" y1="-1.95" x2="-3.05" y2="-1.95" width="0" layer="21"/>
+<wire x1="-3.05" y1="-1.95" x2="-3.05" y2="1.95" width="0" layer="21"/>
+<text x="0" y="0" size="0.6096" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.6096" layer="112" font="vector" align="center">/</text>
+<text x="0.4" y="0" size="0.6096" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.4" y="0" size="0.6096" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.6096" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-3.06" y="1.96"/>
+<vertex x="3.06" y="1.96"/>
+<vertex x="3.06" y="-1.96"/>
+<vertex x="-3.06" y="-1.96"/>
+</polygon>
+</package>
+<package name="C_SMD_0805_(2012)_R_MULTICOMP_REV01">
+<description>&lt;b&gt;0805 - Multicomp&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.farnell.com/datasheets/1723208.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Multicomp.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0805 Package (2,00mm x 1,25mm x 0,60mm/0,80mm/1,25mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="P$1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="-1.76" y1="0.91" x2="1.76" y2="0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="0.91" x2="1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="153"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="153"/>
+<text x="0" y="0" size="0.3048" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="21"/>
+<text x="0" y="0" size="0.3048" layer="112" font="vector" align="center">/</text>
+<text x="0.2" y="0" size="0.3048" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.2" y="0" size="0.3048" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.76" y="0.91"/>
+<vertex x="1.76" y="0.91"/>
+<vertex x="1.76" y="-0.91"/>
+<vertex x="-1.76" y="-0.91"/>
+</polygon>
+</package>
+<package name="C_SMD_0805_(2012)_R_TAIYO_YUDEN_REV01">
+<description>&lt;b&gt;0805 - Taiyo Yuden&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Packages\Taiyo_Yuden - Packages\mlcc01_all_e_Taiyo_Yuden.pdf"&gt;Datasheet local&lt;/a&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+- 0805 Package (2,00mm x 1,25mm x 0,45mm/0,85mm/1,25mm)&lt;br&gt;
+- 2-Pins&lt;br&gt;
+- Reflow&lt;br&gt;
+
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;08.07.2015&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<smd name="1" x="-1.2" y="0" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="1.2" y="0" dx="1.2" dy="1.6" layer="1"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.01" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.01" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.01" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.01" layer="51"/>
+<wire x1="-1.96" y1="0.91" x2="1.96" y2="0.91" width="0" layer="21"/>
+<wire x1="1.96" y1="0.91" x2="1.96" y2="-0.91" width="0" layer="21"/>
+<text x="0" y="0" size="0.3048" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="1.96" y1="-0.91" x2="-1.96" y2="-0.91" width="0" layer="21"/>
+<wire x1="-1.96" y1="-0.91" x2="-1.96" y2="0.91" width="0" layer="21"/>
+<text x="0" y="0" size="0.3048" layer="112" font="vector" align="center">/</text>
+<text x="0.2" y="0" size="0.3048" layer="112" font="vector" align="center-left">&gt;UMAT</text>
+<text x="-0.2" y="0" size="0.3048" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="0.3048" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.96" y="0.91"/>
+<vertex x="1.96" y="0.91"/>
+<vertex x="1.96" y="-0.91"/>
+<vertex x="-1.96" y="-0.91"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="C_2_REV01">
+<description>&lt;b&gt;Schematic symbol for 2-Pin Capacitor (Visible Off)&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;01.01.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung</description>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<text x="-1.143" y="0.635" size="1.4224" layer="95" font="vector" align="bottom-right">&gt;NAME</text>
+<rectangle x1="0.762" y1="-2.032" x2="1.016" y2="2.032" layer="94"/>
+<rectangle x1="-1.016" y1="-2.032" x2="-0.762" y2="2.032" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.143" y="0.635" size="1.4224" layer="96" font="vector">&gt;UVAL</text>
+<text x="0" y="0" size="1.4224" layer="112" font="vector" rot="R90" align="center">&gt;UMAT</text>
+<text x="-1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-right">&gt;UVDC</text>
+<text x="1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-left">&gt;SIZE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="4,70µF?" prefix="C">
+<description>&lt;p&gt;&lt;b&gt;4,70µF Keramik-Kondensator&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+KEMET-Keramikkondensator:&lt;p&gt;
+&lt;a href="https://www.buerklin.com/datenblaetter/D104520_TD.pdf?ch=72100"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Multicomp-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.farnell.com/datasheets/1723208.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Multicomp.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+MURATA-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Murata.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+TAIYO YUDEN-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_TAIYO_YUDEN.pdf"&gt;Datasheet local&lt;/a&gt;&lt;hr&gt;
+MLCC - Keramikkondensator&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;06.11.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="C_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_1206" package="C_SMD_1206_(3216)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_25V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D3424" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,15€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C475K3R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,125€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C475K3R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="4.70uF" constant="no"/>
+<attribute name="UVDC" value="25.0V" constant="no"/>
+<attribute name="UVF" value="3,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="C_SMD_1210_(3225)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_25V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D378" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,36€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1210C475K3R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,268€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C475K3R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="4.70uF" constant="no"/>
+<attribute name="UVDC" value="25.0V" constant="no"/>
+<attribute name="UVF" value="3,5%" constant="no"/>
+</technology>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D379" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,35€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1210C475K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,295€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C475K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="4.70uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="470PF?" prefix="C">
+<description>&lt;p&gt;&lt;b&gt;470pF Keramik-Kondensator&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+KEMET-Keramikkondensator:&lt;p&gt;
+&lt;a href="https://www.buerklin.com/datenblaetter/D104520_TD.pdf?ch=72100"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Multicomp-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.farnell.com/datasheets/1723208.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Multicomp.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+MURATA-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Murata.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+TAIYO YUDEN-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_TAIYO_YUDEN.pdf"&gt;Datasheet local&lt;/a&gt;&lt;hr&gt;
+MLCC - Keramikkondensator&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;06.11.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="C_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="C_SMD_0603_(1608)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2026" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,09€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0603C471J5G" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,014€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0603C471J5G" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="C0G" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="0,10%" constant="no"/>
+</technology>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2028" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0603C471K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,026€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0603C471K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="C_SMD_0805_(2012)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D239" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,08€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0805C471J5G" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,03€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C471J5G" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="C0G" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="0,10%" constant="no"/>
+</technology>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D284" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0805C471K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,016€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C471K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="C_SMD_1206_(3216)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D258" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C471K5G " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,114€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C471K5G" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="C0G" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="0,10%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_120" package="C_SMD_1206_(3216)_R_MURATA_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="6_630V_C0G_MURATA">
+<attribute name="DISTRI_1" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_1-NR" value="GRM31A5C2J471JW01D-ND" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,398€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="81-GRM31A5C2J471JW1D" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,379€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="MURATA" constant="no"/>
+<attribute name="HERSTELLER-NR" value="GRM31A5C2J471JW01D" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Murata.pdf" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="C0G" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="5%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="470pF" constant="no"/>
+<attribute name="UVDC" value="630V" constant="no"/>
+<attribute name="UVF" value="0,10%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1,00µF?" prefix="C">
+<description>&lt;p&gt;&lt;b&gt;1,00µF Keramik-Kondensator&lt;/b&gt;&lt;p&gt;&lt;hr&gt;&lt;br&gt;
+KEMET-Keramikkondensator:&lt;p&gt;
+&lt;a href="https://www.buerklin.com/datenblaetter/D104520_TD.pdf?ch=72100"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Multicomp-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.farnell.com/datasheets/1723208.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Multicomp.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+MURATA-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Murata.pdf"&gt;Datasheet local&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+TAIYO YUDEN-Keramikkondensator:&lt;p&gt;
+&lt;a href="http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf"&gt;Datasheet www&lt;/a&gt;&lt;p&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_TAIYO_YUDEN.pdf"&gt;Datasheet local&lt;/a&gt;&lt;hr&gt;
+MLCC - Keramikkondensator&lt;br&gt;
+&lt;p&gt;
+Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;changed by&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Changes&lt;br&gt;
+------------------------------------------------------------------------------------------&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;V1.0&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;06.11.2014&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SC&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ersterstellung&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="C_2_REV01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="C_SMD_0603_(1608)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="_16V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2081" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,07€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0603C105K4R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,158€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0603C105K4R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0603" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="16.0V" constant="no"/>
+<attribute name="UVF" value="3,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="C_SMD_0805_(2012)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_25V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2422" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,06€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0805C105K3R " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,058€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C105K3R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="25.0V" constant="no"/>
+<attribute name="UVF" value="3,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="C_SMD_1206_(3216)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_16V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2400" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,12€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C105K4R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,057€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C105K4R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="0,05pF" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="16.0V" constant="no"/>
+<attribute name="UVF" value="3,5%" constant="no"/>
+</technology>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D3416" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,09€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C105K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,095€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C105K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1206" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_2220" package="C_SMD_2220_(5750)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D408" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,48€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C2220C105K5R " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,639€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C2220C105K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="2220" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1812" package="C_SMD_1812_(4532)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D406" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,45€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1812C105K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,627€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1812C105K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1812" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="C_SMD_1210_(3225)_R_KEMET_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_X7R_KEMET">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D370" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,07€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1210C105K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,219€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C105K5R" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Kemet.pdf" constant="no"/>
+<attribute name="SIZE" value="1210" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="15%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+<attribute name="UVF" value="2,5%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805_" package="C_SMD_0805_(2012)_R_MULTICOMP_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="25V_X7R_MULTICOMP">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="2320827" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,0182€" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="MULTICOMP" constant="no"/>
+<attribute name="HERSTELLER-NR" value="MC0805B105K250CT" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Kapazitaeten\MLCC_Multicomp.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="30PPM/°C" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="25.0V" constant="no"/>
+<attribute name="UVF" value="3,50%" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_08" package="C_SMD_0805_(2012)_R_TAIYO_YUDEN_REV01">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="05_25V_X7R_TAIYO_YUDEN">
+<attribute name="DISTRI_1" value="Mouser" constant="no"/>
+<attribute name="DISTRI_1-NR" value="963-TMK212B7105KG-T" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,068€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="587-1281-1-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0886€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Taiyo Yuden" constant="no"/>
+<attribute name="HERSTELLER-NR" value="TMK212B7105KG-T" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Packages\Taiyo_Yuden - Packages\mlcc01_all_e_Taiyo_Yuden.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="10%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="25.0V" constant="no"/>
+</technology>
+<technology name="05_35V_X7R_TAIYO_YUDEN">
+<attribute name="DISTRI_1" value="Mouser" constant="no"/>
+<attribute name="DISTRI_1-NR" value="963-GMK212B7105KG-T" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,103€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="587-1281-1-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,1323€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Taiyo Yuden" constant="no"/>
+<attribute name="HERSTELLER-NR" value="GMK212B7105KG-T" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Packages\Taiyo_Yuden - Packages\mlcc01_all_e_Taiyo_Yuden.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="10%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="35.0V" constant="no"/>
+</technology>
+<technology name="05_50V_X7R_TAIYO_YUDEN">
+<attribute name="DISTRI_1" value="Mouser" constant="no"/>
+<attribute name="DISTRI_1-NR" value="963-UMK212B7105KG-T" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,073€" constant="no"/>
+<attribute name="DISTRI_2" value="Digi-Key" constant="no"/>
+<attribute name="DISTRI_2-NR" value="587-2910-1-ND" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,0943€" constant="no"/>
+<attribute name="DNI" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Taiyo Yuden" constant="no"/>
+<attribute name="HERSTELLER-NR" value="UMK212B7105KG-T" constant="no"/>
+<attribute name="MARKING" value="-" constant="no"/>
+<attribute name="PDF-LOCAL" value="file:///C:\Eagle-Datasheet\Packages\Taiyo_Yuden - Packages\mlcc01_all_e_Taiyo_Yuden.pdf" constant="no"/>
+<attribute name="SIZE" value="0805" constant="no"/>
+<attribute name="UKAT" value="C" constant="no"/>
+<attribute name="UMAT" value="X7R" constant="no"/>
+<attribute name="UTERM" value="Sn" constant="no"/>
+<attribute name="UTK" value="10%" constant="no"/>
+<attribute name="UTMAX" value="125°C" constant="no"/>
+<attribute name="UTMIN" value="-55°C" constant="no"/>
+<attribute name="UTOL" value="10%" constant="no"/>
+<attribute name="UTYP" value="MLCC" constant="no"/>
+<attribute name="UVAL" value="1.00uF" constant="no"/>
+<attribute name="UVDC" value="50.0V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="L21596_V1.0">
+<description>Generated from &lt;b&gt;L21596_V1.0.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="SOD123">
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="21"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="21"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="21"/>
+<wire x1="2.2098" y1="0.762" x2="-2.2098" y2="0.762" width="0" layer="39"/>
+<wire x1="-2.2098" y1="0.762" x2="-2.2098" y2="-0.762" width="0" layer="39"/>
+<wire x1="-2.2098" y1="-0.762" x2="2.2098" y2="-0.762" width="0" layer="39"/>
+<wire x1="2.2098" y1="-0.762" x2="2.2098" y2="0.762" width="0" layer="39"/>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="21"/>
+<smd name="A" x="1.646" y="0" dx="0.9144" dy="1.2192" layer="1"/>
+<smd name="C" x="-1.646" y="0" dx="0.9144" dy="1.2192" layer="1"/>
+<text x="-2.116" y="-1.792" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-1.862" y="1" size="0.8128" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ZD_SOD23">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="K" x="5.08" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="0" y="2.032" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="1.4224" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MMSZ524CBT1" prefix="D">
+<description>ON SEMICONDUCTOR - Zener Voltage Regulators 500 mW SOD?123 Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="ZD_SOD23" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="eeprom_custom">
+<packages>
+<package name="SOIC127P600X175-8N">
+<smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="3" x="-2.4638" y="-0.635" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="4" x="-2.4638" y="-1.905" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="5" x="2.4638" y="-1.905" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="6" x="2.4638" y="-0.635" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5334" layer="1"/>
+<smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5334" layer="1"/>
+<wire x1="-2.0066" y1="1.6764" x2="-2.0066" y2="2.1336" width="0" layer="51"/>
+<wire x1="-2.0066" y1="2.1336" x2="-3.0988" y2="2.1336" width="0" layer="51"/>
+<wire x1="-3.0988" y1="2.1336" x2="-3.0988" y2="1.6764" width="0" layer="51"/>
+<wire x1="-3.0988" y1="1.6764" x2="-2.0066" y2="1.6764" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.4064" x2="-2.0066" y2="0.8636" width="0" layer="51"/>
+<wire x1="-2.0066" y1="0.8636" x2="-3.0988" y2="0.8636" width="0" layer="51"/>
+<wire x1="-3.0988" y1="0.8636" x2="-3.0988" y2="0.4064" width="0" layer="51"/>
+<wire x1="-3.0988" y1="0.4064" x2="-2.0066" y2="0.4064" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.8636" x2="-2.0066" y2="-0.4064" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-0.4064" x2="-3.0988" y2="-0.4064" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-0.4064" x2="-3.0988" y2="-0.8636" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-0.8636" x2="-2.0066" y2="-0.8636" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-2.1336" x2="-2.0066" y2="-1.6764" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-1.6764" x2="-3.0988" y2="-1.6764" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-1.6764" x2="-3.0988" y2="-2.1336" width="0" layer="51"/>
+<wire x1="-3.0988" y1="-2.1336" x2="-2.0066" y2="-2.1336" width="0" layer="51"/>
+<wire x1="2.0066" y1="-1.6764" x2="2.0066" y2="-2.1336" width="0" layer="51"/>
+<wire x1="2.0066" y1="-2.1336" x2="3.0988" y2="-2.1336" width="0" layer="51"/>
+<wire x1="3.0988" y1="-2.1336" x2="3.0988" y2="-1.6764" width="0" layer="51"/>
+<wire x1="3.0988" y1="-1.6764" x2="2.0066" y2="-1.6764" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.4064" x2="2.0066" y2="-0.8636" width="0" layer="51"/>
+<wire x1="2.0066" y1="-0.8636" x2="3.0988" y2="-0.8636" width="0" layer="51"/>
+<wire x1="3.0988" y1="-0.8636" x2="3.0988" y2="-0.4064" width="0" layer="51"/>
+<wire x1="3.0988" y1="-0.4064" x2="2.0066" y2="-0.4064" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.8636" x2="2.0066" y2="0.4064" width="0" layer="51"/>
+<wire x1="2.0066" y1="0.4064" x2="3.0988" y2="0.4064" width="0" layer="51"/>
+<wire x1="3.0988" y1="0.4064" x2="3.0988" y2="0.8636" width="0" layer="51"/>
+<wire x1="3.0988" y1="0.8636" x2="2.0066" y2="0.8636" width="0" layer="51"/>
+<wire x1="2.0066" y1="2.1336" x2="2.0066" y2="1.6764" width="0" layer="51"/>
+<wire x1="2.0066" y1="1.6764" x2="3.0988" y2="1.6764" width="0" layer="51"/>
+<wire x1="3.0988" y1="1.6764" x2="3.0988" y2="2.1336" width="0" layer="51"/>
+<wire x1="3.0988" y1="2.1336" x2="2.0066" y2="2.1336" width="0" layer="51"/>
+<wire x1="-2.0066" y1="-2.4892" x2="2.0066" y2="-2.4892" width="0" layer="51"/>
+<wire x1="2.0066" y1="-2.4892" x2="2.0066" y2="2.4892" width="0" layer="51"/>
+<wire x1="2.0066" y1="2.4892" x2="0.3048" y2="2.4892" width="0" layer="51"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="51"/>
+<wire x1="-0.3048" y1="2.4892" x2="-2.0066" y2="2.4892" width="0" layer="51"/>
+<wire x1="-2.0066" y1="2.4892" x2="-2.0066" y2="-2.4892" width="0" layer="51"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0" layer="51" curve="-180"/>
+<wire x1="-1.4224" y1="-2.4892" x2="1.4224" y2="-2.4892" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="2.4892" x2="0.3048" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="2.4892" x2="-1.4224" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="21" curve="-180"/>
+<text x="-3.4544" y="4.445" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-5.715" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<circle x="-2.54" y="2.8575" radius="0.2032" width="0.4064" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="M24M02-DR">
+<pin name="VCC" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="E2" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SCL" x="17.78" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="!WC" x="17.78" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VSS" x="-17.78" y="-10.16" length="middle" direction="pas"/>
+<pin name="SDA" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
+<text x="-12.7" y="17.78" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="M24M02-DR" prefix="IC">
+<description>I2C EEPROM with ECC</description>
+<gates>
+<gate name="G$1" symbol="M24M02-DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="!WC" pad="7"/>
+<connect gate="G$1" pin="E2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="inductor_custom">
+<packages>
+<package name="WE-LQS">
+<smd name="1" x="-1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="1.525" y="0" dx="3.6" dy="1.5" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0" layer="21"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0" layer="21"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0" layer="21"/>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-2.5" y="2"/>
+<vertex x="2.5" y="2"/>
+<vertex x="2.5" y="-2"/>
+<vertex x="-2.5" y="-2"/>
+</polygon>
+<text x="0" y="2.2225" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.2225" size="0.8128" layer="27" font="vector" ratio="10" rot="R180" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="INDUCTOR">
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-0.635" size="1.4224" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.905" size="1.4224" layer="95" font="vector" align="bottom-center">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-74404042100" prefix="L">
+<description>Power Inductor</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WE-LQS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="0_LES_KAPAZITAET.SMD.MLCC.KEMET_custom">
+<description>&lt;b&gt;Kapazitäten - SMD - MLCC - Hersteller: KEMET&lt;/b&gt;</description>
+<packages>
+<package name="0603">
+<description>&lt;b&gt;0603 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-0.865" y="0" dx="1.08" dy="1.05" layer="1"/>
+<smd name="P$2" x="0.865" y="0" dx="1.08" dy="1.05" layer="1"/>
+<wire x1="-0.875" y1="0.475" x2="0.875" y2="0.475" width="0.01" layer="51"/>
+<wire x1="0.875" y1="0.475" x2="0.875" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="0.875" y1="-0.475" x2="-0.875" y2="-0.475" width="0.01" layer="51"/>
+<wire x1="-0.875" y1="-0.475" x2="-0.875" y2="0.475" width="0.01" layer="51"/>
+<wire x1="-1.51" y1="0.63" x2="1.51" y2="0.63" width="0" layer="21"/>
+<wire x1="1.51" y1="0.63" x2="1.51" y2="-0.63" width="0" layer="21"/>
+<wire x1="1.51" y1="-0.63" x2="-1.51" y2="-0.63" width="0" layer="21"/>
+<wire x1="-1.51" y1="-0.63" x2="-1.51" y2="0.63" width="0" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-1.51" y1="0.63" x2="1.51" y2="0.63" width="0" layer="21"/>
+<wire x1="1.51" y1="0.63" x2="1.51" y2="-0.63" width="0" layer="153"/>
+<wire x1="1.51" y1="-0.63" x2="-1.51" y2="-0.63" width="0" layer="153"/>
+<wire x1="-1.51" y1="-0.63" x2="-1.51" y2="0.63" width="0" layer="153"/>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.51" y="0.63"/>
+<vertex x="1.51" y="0.63"/>
+<vertex x="1.51" y="-0.63"/>
+<vertex x="-1.51" y="-0.63"/>
+</polygon>
+</package>
+<package name="0805">
+<description>&lt;b&gt;0805 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-0.89" y="0" dx="1.24" dy="1.56" layer="1"/>
+<smd name="P$2" x="0.89" y="0" dx="1.24" dy="1.56" layer="1"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.01" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.01" layer="51"/>
+<wire x1="-1.76" y1="0.91" x2="1.76" y2="0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="0.91" x2="1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="153"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="153"/>
+<text x="0" y="1.905" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="1.76" y1="-0.91" x2="-1.76" y2="-0.91" width="0" layer="21"/>
+<wire x1="-1.76" y1="-0.91" x2="-1.76" y2="0.91" width="0" layer="21"/>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-1.785" y="1.055"/>
+<vertex x="1.785" y="1.055"/>
+<vertex x="1.785" y="-1.055"/>
+<vertex x="-1.785" y="-1.055"/>
+</polygon>
+</package>
+<package name="1206">
+<description>&lt;b&gt;1206 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2" layer="1"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.01" layer="51"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.01" layer="51"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="21"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="21"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="21"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="21"/>
+<wire x1="-2.35" y1="1.1" x2="2.35" y2="1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="1.1" x2="2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="2.35" y1="-1.1" x2="-2.35" y2="-1.1" width="0" layer="39"/>
+<wire x1="-2.35" y1="-1.1" x2="-2.35" y2="1.1" width="0" layer="39"/>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+</package>
+<package name="1210">
+<description>&lt;b&gt;1210 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<smd name="P$2" x="1.5" y="0" dx="1.5" dy="2.9" layer="1"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="1.35" x2="1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.01" layer="51"/>
+<wire x1="-1.7" y1="-1.35" x2="-1.7" y2="1.35" width="0.01" layer="51"/>
+<wire x1="-2.35" y1="1.55" x2="2.35" y2="1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="1.55" x2="2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="2.35" y1="-1.55" x2="-2.35" y2="-1.55" width="0" layer="21"/>
+<wire x1="-2.35" y1="-1.55" x2="-2.35" y2="1.55" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-2.36" y="1.56"/>
+<vertex x="2.36" y="1.56"/>
+<vertex x="2.36" y="-1.56"/>
+<vertex x="-2.36" y="-1.56"/>
+</polygon>
+</package>
+<package name="1812">
+<description>&lt;b&gt;1812 Keramik Kondensator - KEMET&lt;/b&gt;&lt;p&gt;
+&lt;a href="file:///D:\Eagle\Datenblätter\Kondensatoren\Kemet.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<smd name="P$1" x="-2.05" y="0" dx="1.8" dy="3.7" layer="1"/>
+<smd name="P$2" x="2.05" y="0" dx="1.8" dy="3.7" layer="1"/>
+<wire x1="-2.4" y1="1.75" x2="2.4" y2="1.75" width="0.01" layer="51"/>
+<wire x1="2.4" y1="1.75" x2="2.4" y2="-1.75" width="0.01" layer="51"/>
+<wire x1="2.4" y1="-1.75" x2="-2.4" y2="-1.75" width="0.01" layer="51"/>
+<wire x1="-2.4" y1="-1.75" x2="-2.4" y2="1.75" width="0.01" layer="51"/>
+<wire x1="-3.05" y1="1.95" x2="3.05" y2="1.95" width="0" layer="21"/>
+<wire x1="3.05" y1="1.95" x2="3.05" y2="-1.95" width="0" layer="21"/>
+<wire x1="3.05" y1="-1.95" x2="-3.05" y2="-1.95" width="0" layer="21"/>
+<wire x1="-3.05" y1="-1.95" x2="-3.05" y2="1.95" width="0" layer="21"/>
+<text x="0" y="0" size="1.016" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="0" y="0" size="1.016" layer="112" font="vector" align="center">/</text>
+<text x="0.508" y="0" size="1.016" layer="112" font="vector" align="center-left">&gt;UTol</text>
+<text x="-0.508" y="0" size="1.016" layer="112" font="vector" align="center-right">&gt;UVal</text>
+<text x="0" y="0" size="1.016" layer="27" font="vector" align="center">&gt;UVal</text>
+<polygon width="0" layer="39" spacing="20" pour="hatch">
+<vertex x="-3.06" y="1.96"/>
+<vertex x="3.06" y="1.96"/>
+<vertex x="3.06" y="-1.96"/>
+<vertex x="-3.06" y="-1.96"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="C">
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<text x="-1.143" y="0.635" size="1.4224" layer="95" font="vector" align="bottom-right">&gt;NAME</text>
+<rectangle x1="0.762" y1="-2.032" x2="1.016" y2="2.032" layer="94"/>
+<rectangle x1="-1.016" y1="-2.032" x2="-0.762" y2="2.032" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="1.143" y="0.635" size="1.4224" layer="96" font="vector">&gt;UVAL</text>
+<text x="0" y="0" size="1.4224" layer="112" font="vector" rot="R90" align="center">&gt;UTOL</text>
+<text x="-1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-right">&gt;UU</text>
+<text x="1.143" y="-0.635" size="1.4224" layer="112" font="vector" align="top-left">&gt;UPackage</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="4,7NF?" prefix="C">
+<description>&lt;p&gt;&lt;b&gt;4,7nF Keramik-Kondensator&lt;/b&gt;
+&lt;br&gt; &lt;br&gt;
+&lt;a href="file:///C:\Eagle-Datasheet\Kondensatoren\MLCC_Kemet.pdf"&gt; Data sheet &lt;/a&gt;
+
+&lt;p&gt;KEMET-Keramikkondensator</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0603" package="0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2039" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,22€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0603C472J5G " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,071€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0603C472J5G" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="30PPM/°C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="UPACKAGE" value="0603" constant="no"/>
+<attribute name="UTOL" value="C0G" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_50V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2042" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0603C472K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,011€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0603C472K5R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="0603" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D295" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,36€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0805C472J5G" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,299€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C472J5G" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="30PPM/°C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="UPACKAGE" value="0805" constant="no"/>
+<attribute name="UTOL" value="C0G" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_50V_X7R">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D296" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,05€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C0805C472K5R" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,012€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C0805C472K5R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="0805" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_1000V_X7R">
+<attribute name="DISTRI_1" value="Farnell" constant="no"/>
+<attribute name="DISTRI_1-NR" value="1886043" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="" constant="no"/>
+<attribute name="DISTRI_2" value="" constant="no"/>
+<attribute name="DISTRI_2-NR" value="" constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="" constant="no"/>
+<attribute name="HERSTELLER" value="Johanson Dielectrics" constant="no"/>
+<attribute name="HERSTELLER-NR" value="102R18W472KV4E" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TEMP" value="" constant="no"/>
+<attribute name="TK" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="1000V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_50V_C0G">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D269" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,12€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C472J5G " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,239€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C472J5G" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TEMP" value="" constant="no"/>
+<attribute name="TK" value="30PPM/°C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="C0G" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+<technology name="_50V_X7R">
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D320" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,04€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1206C472K5R " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,054€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1206C472K5R" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TEMP" value="" constant="no"/>
+<attribute name="TK" value="15%" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="UPACKAGE" value="1206" constant="no"/>
+<attribute name="UTOL" value="X7R" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="_50V_C0G">
+<attribute name="BETRIEBSTEMPERATUR" value="" constant="no"/>
+<attribute name="DISTRI_1" value="Bürklin" constant="no"/>
+<attribute name="DISTRI_1-NR" value="53D2686" constant="no"/>
+<attribute name="DISTRI_1-PREIS" value="0,36€" constant="no"/>
+<attribute name="DISTRI_2" value="Mouser" constant="no"/>
+<attribute name="DISTRI_2-NR" value="80-C1210C472J5G " constant="no"/>
+<attribute name="DISTRI_2-PREIS" value="0,289€" constant="no"/>
+<attribute name="HERSTELLER" value="Kemet" constant="no"/>
+<attribute name="HERSTELLER-NR" value="C1210C472J5G" constant="no"/>
+<attribute name="P" value="" constant="no"/>
+<attribute name="SMD_CODE" value="" constant="no"/>
+<attribute name="TK" value="30PPM/°C" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="UPACKAGE" value="1210" constant="no"/>
+<attribute name="UTOL" value="C0G" constant="no"/>
+<attribute name="UU" value="50V" constant="no"/>
+<attribute name="UVAL" value="4,7nF" constant="no"/>
+<attribute name="WERKSTOFF" value="MLCC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1812" package="1812">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="UVAL" value="4.70nF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="custom_connector">
+<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="MA02-2_SMD">
+<wire x1="2.54" y1="1.25" x2="-2.54" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="1.25" x2="-2.54" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.25" x2="2.54" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.25" x2="2.54" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="4.22" x2="2.6" y2="4.22" width="0" layer="39"/>
+<wire x1="2.6" y1="4.22" x2="2.6" y2="-4.22" width="0" layer="39"/>
+<wire x1="2.6" y1="-4.22" x2="-2.6" y2="-4.22" width="0" layer="39"/>
+<wire x1="-2.6" y1="-4.22" x2="-2.6" y2="4.22" width="0" layer="39"/>
+<wire x1="-2.54" y1="1.25" x2="-2.07" y2="1.25" width="0.127" layer="21"/>
+<wire x1="2.07" y1="-1.25" x2="2.54" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-0.47" y1="1.25" x2="0.47" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.25" x2="-2.07" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-0.47" y1="-1.25" x2="0.47" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="2.07" y1="1.25" x2="2.54" y2="1.25" width="0.127" layer="21"/>
+<smd name="2" x="-1.27" y="2.5" dx="1.27" dy="3.2" layer="1" rot="R180"/>
+<smd name="3" x="1.27" y="-2.5" dx="1.27" dy="3.2" layer="1" rot="R180"/>
+<smd name="4" x="1.27" y="2.5" dx="1.27" dy="3.2" layer="1" rot="R180"/>
+<smd name="1" x="-1.27" y="-2.5" dx="1.27" dy="3.2" layer="1"/>
+<text x="-2" y="4.6" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="-5.4" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="51">1</text>
+<text x="3.175" y="2.54" size="1.27" layer="51">4</text>
+<text x="-3.81" y="2.54" size="1.27" layer="51">2</text>
+</package>
+<package name="MA02-2">
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="2.6924" x2="2.6416" y2="2.6924" width="0" layer="39"/>
+<wire x1="2.6416" y1="2.6924" x2="2.6416" y2="-2.667" width="0" layer="39"/>
+<wire x1="2.6416" y1="-2.667" x2="-2.667" y2="-2.667" width="0" layer="39"/>
+<wire x1="-2.667" y1="-2.667" x2="-2.667" y2="2.6924" width="0" layer="39"/>
+<pad name="1" x="-1.27" y="-1.27" drill="1.016" first="yes"/>
+<pad name="3" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-3.33375" y="-2.54" size="0.8128" layer="21" font="vector" ratio="10">1</text>
+<text x="3.4925" y="2.54" size="0.8128" layer="21" font="vector" ratio="10" rot="R180">4</text>
+<text x="0" y="2.8575" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+</package>
+<package name="MA02-1A">
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.6" y1="1.35" x2="-2.6" y2="-1.35" width="0" layer="39"/>
+<wire x1="-2.6" y1="-1.35" x2="2.6" y2="-1.35" width="0" layer="39"/>
+<wire x1="2.6" y1="-1.35" x2="2.6" y2="1.35" width="0" layer="39"/>
+<wire x1="2.6" y1="1.35" x2="-2.6" y2="1.35" width="0" layer="39"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="octagon" first="yes"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="octagon"/>
+<text x="-2.69875" y="0" size="0.8128" layer="21" font="vector" ratio="10" align="center-right">1</text>
+<text x="-1.8415" y="-2.8575" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="1.524" size="0.8128" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+</package>
+<package name="MA02-1">
+<description>Pin Header</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.651" x2="2.54" y2="1.651" width="0" layer="39"/>
+<wire x1="2.54" y1="1.651" x2="2.54" y2="-1.651" width="0" layer="39"/>
+<wire x1="2.54" y1="-1.651" x2="-2.54" y2="-1.651" width="0" layer="39"/>
+<wire x1="-2.54" y1="-1.651" x2="-2.54" y2="1.651" width="0" layer="39"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-2.159" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.905" y="0.254" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="1.651" size="1.27" layer="111">&gt;NAME</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+<package name="MA02-1_SMD">
+<wire x1="2.54" y1="1.25" x2="-2.54" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="1.25" x2="-2.54" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.25" x2="2.54" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.25" x2="2.54" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="3.3" x2="2.6" y2="3.3" width="0" layer="39"/>
+<wire x1="2.6" y1="3.3" x2="2.6" y2="-3.3" width="0" layer="39"/>
+<wire x1="2.6" y1="-3.3" x2="-2.6" y2="-3.3" width="0" layer="39"/>
+<wire x1="-2.6" y1="-3.3" x2="-2.6" y2="3.3" width="0" layer="39"/>
+<wire x1="-2.54" y1="1.25" x2="-2.07" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-0.47" y1="1.25" x2="2.54" y2="1.25" width="0.127" layer="21"/>
+<wire x1="2.07" y1="-1.25" x2="2.54" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.25" x2="0.47" y2="-1.25" width="0.127" layer="21"/>
+<smd name="1" x="-1.27" y="1.6" dx="1.27" dy="3.2" layer="1" rot="R180"/>
+<smd name="2" x="1.27" y="-1.6" dx="1.27" dy="3.2" layer="1" rot="R180"/>
+<text x="-2" y="3.6" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="-4.4" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MA02-2">
+<wire x1="6.35" y1="-5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="3.81" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-2.54" width="0.6096" layer="94"/>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="10.16" y="-2.54" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="2.54" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="-10.16" y="2.54" length="middle"/>
+<pin name="2" x="-10.16" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="MA02-1">
+<wire x1="1.27" y1="-5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="5.08" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="5.08" y="2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MA02-2" prefix="X">
+<description>PIN HEADER</description>
+<gates>
+<gate name="G$1" symbol="MA02-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA02-2_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_TH" package="MA02-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MA02-1" prefix="X">
+<description>PIN HEADER</description>
+<gates>
+<gate name="G$1" symbol="MA02-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_TH" package="MA02-1A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="MA02-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SMD" package="MA02-1_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="Fraunhofer IISB foxBMS Team"/>
-<attribute name="REL-DATE" value="2017-04-13"/>
+<attribute name="REL-DATE" value="2017-09-04"/>
 <attribute name="TITLE" value="foxBMS BMS-Slave 12-Cell"/>
-<attribute name="VERSION" value="2.0.3"/>
+<attribute name="VERSION" value="2.1.0"/>
 </attributes>
 <variantdefs>
-<variantdef name="foxBMS_Standard"/>
+<variantdef name="foxBMS_Standard" current="yes"/>
+<variantdef name="foxBMS_Debug"/>
+<variantdef name="foxBMS_DC-DC-only"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -18914,106 +23196,367 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 </class>
 </classes>
 <parts>
-<part name="C506" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C505" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C504" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C503" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C502" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C501" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C518" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C517" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C516" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C515" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C514" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C513" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="Z501" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z502" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z503" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z504" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z505" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z506" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z507" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z508" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z509" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z510" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z511" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z512" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="R706" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R712" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T706" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R718" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R705" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R711" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T705" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R717" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="C902" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="C903" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="R909" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01"/>
-<part name="C904" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="R704" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R710" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T704" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R716" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R703" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R709" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T703" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R715" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R702" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R708" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T702" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R714" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R701" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R707" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T701" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R713" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R724" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R730" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T712" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R736" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R723" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R729" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T711" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R735" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R722" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R728" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T710" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R734" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R721" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R727" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T709" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R733" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R720" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R726" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T708" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R732" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
-<part name="R719" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="R725" library="foxBMS_BMS-Slave_12cell" deviceset="18,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="18R, 1%, 0.4W"/>
-<part name="T707" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P"/>
-<part name="R731" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W"/>
+<part name="C506" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C505" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C504" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C503" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C502" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C501" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C518" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C517" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C516" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C515" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C514" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C513" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z501" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z502" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z503" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z504" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z505" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z506" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z507" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z508" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z509" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z510" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z511" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z512" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R706" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R712" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T706" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R718" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R705" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R711" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T705" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R717" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C902" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C903" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R909" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C904" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R704" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R710" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T704" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R716" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R703" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R709" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T703" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R715" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R702" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R708" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T702" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R714" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R701" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R707" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T701" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R713" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R724" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R730" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T712" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R736" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R723" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R729" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T711" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R735" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R722" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R728" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T710" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R734" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R721" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R727" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T709" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R733" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R720" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R726" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T708" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R732" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R719" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R725" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="68,0R?*_REV_01" device="_2010_R_YAGEO" technology="_5%_TK100" value="72R, 1%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T707" library="foxBMS_BMS-Slave_12cell" deviceset="NX2301P" device="" technology=",215" value="NX2301P">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R731" library="foxBMS_BMS-Slave_12cell" deviceset="3,30K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="3.3k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$86" library="foxBMS_BMS-Slave_12cell" deviceset="VBAT+" device=""/>
 <part name="VBAT-2" library="foxBMS_BMS-Slave_12cell" deviceset="VBAT-" device=""/>
 <part name="U$9" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$19" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$37" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="C906" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="C906" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$4" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_0" device=""/>
 <part name="U$5" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_0" device=""/>
 <part name="U$6" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_1" device=""/>
-<part name="F414" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F413" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F412" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F411" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F410" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F409" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F408" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F407" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F406" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F405" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F404" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F403" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F402" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R"/>
-<part name="F415" library="foxBMS_BMS-Slave_12cell" deviceset="0,500A_LITTELFUSE_448" device="" value="0.5A, 63V, 0.25R"/>
-<part name="F401" library="foxBMS_BMS-Slave_12cell" deviceset="0,500A_LITTELFUSE_448" device="" value="0.5A, 63V, 0.25R"/>
+<part name="F414" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F413" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F412" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F411" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F410" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F409" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F408" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F407" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F406" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F405" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F404" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F403" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F402" library="foxBMS_BMS-Slave_12cell" deviceset="0,250A_LITTELFUSE_466_1206" device="" value="FUSE: 0.250A, 32V, 0.57R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F415" library="foxBMS_BMS-Slave_12cell" deviceset="0,500A_LITTELFUSE_448" device="" value="0.5A, 63V, 0.25R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="F401" library="foxBMS_BMS-Slave_12cell" deviceset="0,500A_LITTELFUSE_448" device="" value="0.5A, 63V, 0.25R">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$13" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$14" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT+" device=""/>
 <part name="VBAT-" library="foxBMS_BMS-Slave_12cell" deviceset="VBAT-" device=""/>
@@ -19022,54 +23565,142 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="U$65" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$66" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$68" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="SJ901" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT"/>
+<part name="SJ901" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$72" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$87" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$71" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C606" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C605" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C604" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C603" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C602" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C601" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C618" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C617" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C616" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C615" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C614" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C613" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="Z601" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z602" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z603" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z604" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z605" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z606" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z607" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z608" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z609" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z610" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z611" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
-<part name="Z612" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW"/>
+<part name="C606" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C605" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C604" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C603" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C602" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C601" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C618" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C617" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C616" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C615" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C614" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C613" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z601" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z602" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z603" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z604" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z605" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z606" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z607" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z608" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z609" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z610" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z611" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="Z612" library="foxBMS_BMS-Slave_12cell" deviceset="MMSZ4?" device="" technology="692_T1G" value="6.8V, 500mW">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$88" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$89" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="SJ402" library="foxBMS_BMS-Slave_12cell" deviceset="SJ" device=""/>
-<part name="SJ401" library="foxBMS_BMS-Slave_12cell" deviceset="SJ" device=""/>
+<part name="SJ402" library="foxBMS_BMS-Slave_12cell" deviceset="SJ" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="SJ401" library="foxBMS_BMS-Slave_12cell" deviceset="SJ" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$83" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$81" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$92" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_0" device=""/>
 <part name="U$93" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_1" device=""/>
 <part name="U$94" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$95" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="U$106" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
-<part name="C1301" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
-<part name="U$107" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC903" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C"/>
+<part name="C1301" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC903" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$122" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$123" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$124" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1301" library="foxBMS_BMS-Slave_12cell" deviceset="24AA02UID" device=""/>
-<part name="IC201" library="foxBMS_BMS-Slave_12cell" deviceset="0_LES_BATTERIE-MANAGEMENT.SMD_LTC6804*G-1" device="" technology="H"/>
-<part name="IC301" library="foxBMS_BMS-Slave_12cell" deviceset="0_LES_BATTERIE-MANAGEMENT.SMD_LTC6804*G-1" device="" technology="H"/>
+<part name="IC201" library="foxBMS_BMS-Slave_12cell" deviceset="0_LES_BATTERIE-MANAGEMENT.SMD_LTC6804*G-1" device="" technology="H">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC301" library="foxBMS_BMS-Slave_12cell" deviceset="0_LES_BATTERIE-MANAGEMENT.SMD_LTC6804*G-1" device="" technology="H">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="FRAME4" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
 <part name="FRAME20" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
 <part name="FRAME1" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
@@ -19081,157 +23712,384 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="FRAME15" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
 <part name="FRAME6" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
 <part name="FRAME16" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
-<part name="R201" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W"/>
-<part name="C201" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V"/>
+<part name="R203" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C202" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$50" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT+" device=""/>
-<part name="C203" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="R202" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W"/>
-<part name="C202" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V"/>
-<part name="C206" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="C205" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="C203" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R202" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C201" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C206" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C205" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$62" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
-<part name="TP205" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP204" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP203" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="T201" library="foxBMS_BMS-Slave_12cell" deviceset="PBHV8115Z" device=""/>
+<part name="TP205" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP204" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP203" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T201" library="foxBMS_BMS-Slave_12cell" deviceset="PBHV8115Z" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$100" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R205" library="foxBMS_BMS-Slave_12cell" deviceset="820R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="820R, 1%, 1/10W"/>
-<part name="R207" library="foxBMS_BMS-Slave_12cell" deviceset="1,21K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.21k, 1%, 1/10W"/>
-<part name="R218" library="foxBMS_BMS-Slave_12cell" deviceset="1,00M?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1M, 10%, 1/10W"/>
+<part name="R206" library="foxBMS_BMS-Slave_12cell" deviceset="820R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="820R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R208" library="foxBMS_BMS-Slave_12cell" deviceset="1,21K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.21k, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R219" library="foxBMS_BMS-Slave_12cell" deviceset="1,00M?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1M, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$105" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$109" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$110" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R219" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R220" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
-<variant name="foxBMS_Standard" populate="no"/>
+<part name="R220" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="C204" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V"/>
-<part name="C207" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V"/>
-<part name="R203" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W"/>
-<part name="R206" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W"/>
-<part name="U$111" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="TP201" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP202" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP207" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP208" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TR201" library="foxBMS_BMS-Slave_12cell" deviceset="HX1188NL" device=""/>
-<part name="U$112" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R305" library="foxBMS_BMS-Slave_12cell" deviceset="820R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="820R, 1%, 1/10W"/>
-<part name="R307" library="foxBMS_BMS-Slave_12cell" deviceset="1,21K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.21k, 1%, 1/10W"/>
-<part name="U$7" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C304" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V"/>
-<part name="C307" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V"/>
-<part name="R303" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W"/>
-<part name="R306" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W"/>
-<part name="U$20" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="TP301" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP302" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP307" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP308" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TR301" library="foxBMS_BMS-Slave_12cell" deviceset="HX1188NL" device=""/>
-<part name="U$25" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R318" library="foxBMS_BMS-Slave_12cell" deviceset="1,00M?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1M, 10%, 1/10W"/>
-<part name="U$27" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R319" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R320" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R221" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C204" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C207" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R204" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R207" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$111" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="TP201" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP207" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$112" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="R306" library="foxBMS_BMS-Slave_12cell" deviceset="820R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="820R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R308" library="foxBMS_BMS-Slave_12cell" deviceset="1,21K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.21k, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$7" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="C304" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C307" library="foxBMS_BMS-Slave_12cell" deviceset="100PF?" device="_0603" technology="_50V_C0G_KEMET" value="100pF, 15%, 25V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R304" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R307" library="foxBMS_BMS-Slave_12cell" deviceset="120R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="120R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$20" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="TP301" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP307" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$25" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="R319" library="foxBMS_BMS-Slave_12cell" deviceset="1,00M?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1M, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$27" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="R320" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R321" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="U$31" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
 <part name="U$32" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R301" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W"/>
-<part name="C301" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V"/>
-<part name="U$33" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT+" device=""/>
-<part name="C303" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="R302" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W"/>
-<part name="C302" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V"/>
-<part name="C306" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="C305" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="TP305" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP304" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP303" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="T301" library="foxBMS_BMS-Slave_12cell" deviceset="PBHV8115Z" device=""/>
+<part name="R303" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C302" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C303" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R302" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100" value="100R, 1%, 1/10W">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C301" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0805_" technology="100V_X7R_MULTICOMP" value="100nF, 10%, 100V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C306" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C305" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP305" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP304" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP303" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="T301" library="foxBMS_BMS-Slave_12cell" deviceset="PBHV8115Z" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$69" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R217" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R216" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
-<variant name="foxBMS_Standard" populate="no"/>
+<part name="R218" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R214" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R217" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R215" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R208" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R215" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R209" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R221" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W"/>
-<part name="R222" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W"/>
+<part name="R216" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R209" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R210" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R222" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R223" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$8" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
-<part name="R317" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R316" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
-<variant name="foxBMS_Standard" populate="no"/>
+<part name="R318" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R314" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R317" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R315" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R308" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R315" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R309" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R321" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W"/>
-<part name="R322" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W"/>
+<part name="R316" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R309" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R310" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R322" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R323" library="foxBMS_BMS-Slave_12cell" deviceset="1,20K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="1.2k, 10%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$17" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="X1509" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
-<part name="X1510" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
-<part name="X1511" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
-<part name="X1512" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
-<part name="C901" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="X1509" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1510" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1511" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1512" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C901" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$26" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C908" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="C908" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$28" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$30" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$35" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$36" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R910" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01"/>
-<part name="C905" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
+<part name="R910" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C905" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$38" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
-<part name="C907" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="C907" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$46" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="SJ902" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT"/>
+<part name="SJ902" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$52" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC904" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C"/>
+<part name="IC904" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$57" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$67" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R210" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R211" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R211" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="C1002" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="C1003" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
-<part name="R1009" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01"/>
-<part name="C1004" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C1006" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="R212" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1002" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1003" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1009" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1004" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1006" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$79" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$80" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$82" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$84" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="SJ1001" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT"/>
+<part name="SJ1001" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$85" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1003" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C"/>
+<part name="IC1003" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$101" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="FRAME2" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
-<part name="C1001" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1001" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$104" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C1008" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="C1008" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$114" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$117" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="R1010" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01"/>
-<part name="C1005" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%"/>
-<part name="C1007" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="R1010" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="100R_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1005" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1007" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$119" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="SJ1002" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT"/>
+<part name="SJ1002" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_JUMPER_SJ" device="" value="OPT">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$120" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1004" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C"/>
+<part name="IC1004" library="foxBMS_BMS-Slave_12cell" deviceset="LTC6255*?" device="S6" technology="C">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$121" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$125" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$73" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_1" device=""/>
@@ -19246,266 +24104,771 @@ Revision&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&a
 <part name="FRAME5" library="foxBMS_BMS-Slave_12cell" deviceset="FRAME_B_L" device=""/>
 <part name="U$23" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$24" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C1101" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1101" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$58" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$59" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="FRAME7" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
 <part name="FRAME11" library="foxBMS_BMS-Slave_12cell" deviceset="FRAME_B_L" device=""/>
 <part name="U$22" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C1201" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1201" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$60" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C1401" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
-<part name="U$78" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1401" library="foxBMS_BMS-Slave_12cell" deviceset="24AA02UID" device=""/>
+<part name="C1401" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="FRAME17" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
-<part name="U$90" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="C1302" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1302" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$91" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$96" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1302" library="foxBMS_BMS-Slave_12cell" deviceset="MCP9800A0T-M/OT" device="" value="MCP9800A0T-M/OT"/>
-<part name="C1402" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="IC1302" library="foxBMS_BMS-Slave_12cell" deviceset="MCP9800A0T-M/OT" device="" value="MCP9800A0T-M/OT">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1402" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$103" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="IC1402" library="foxBMS_BMS-Slave_12cell" deviceset="MCP9800A0T-M/OT" device=""/>
+<part name="IC1402" library="foxBMS_BMS-Slave_12cell" deviceset="MCP9800A0T-M/OT" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$102" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="R1301" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01"/>
+<part name="R1301" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$63" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
-<part name="R1401" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01"/>
+<part name="R1401" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$126" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="LD201" library="foxBMS_BMS-Slave_12cell" deviceset="LED" device="CHIP-LED0603" value="Green"/>
-<part name="R204" library="foxBMS_BMS-Slave_12cell" deviceset="270R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="270R, 1%, 1/10W"/>
+<part name="LD201" library="foxBMS_BMS-Slave_12cell" deviceset="LED" device="CHIP-LED0603" value="Green">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R205" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="330R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="330R, 1%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$131" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$132" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="LD301" library="foxBMS_BMS-Slave_12cell" deviceset="LED" device="CHIP-LED0603" value="Green"/>
-<part name="R304" library="foxBMS_BMS-Slave_12cell" deviceset="270R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="270R, 1%, 1/10W"/>
+<part name="LD301" library="foxBMS_BMS-Slave_12cell" deviceset="LED" device="CHIP-LED0603" value="Green">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R305" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="330R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="330R, 1%, 1/10W">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$134" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$133" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
 <part name="U$1" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$2" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="R310" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R311" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R311" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R212" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R312" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R213" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R213" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
-<part name="R312" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
+<part name="R214" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R313" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="OPT">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R313" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R"/>
+<part name="R314" library="foxBMS_BMS-Slave_12cell" deviceset="0,00R?*_REV_01" device="_0603_R_VISHAY" value="0R">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$12" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
 <part name="U$16" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
 <part name="C507" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C508" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C509" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C510" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C511" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C512" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C519" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C520" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C521" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C522" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C523" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C524" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C607" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C608" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C609" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C610" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C611" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C612" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C619" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C620" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C621" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C622" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C623" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
 <part name="C624" library="foxBMS_BMS-Slave_12cell" deviceset="10,0NF?" device="_0603_" technology="_100V_X7R_KEMET" value="10nF, 100V, 10%">
 <variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
 </part>
-<part name="R501" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R502" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R503" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R504" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R505" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R506" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R507" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R508" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R509" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R510" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R511" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R512" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R513" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R601" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R602" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R603" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R604" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R605" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R606" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R607" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R608" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R609" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R610" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R611" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R612" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R613" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R901" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R902" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R903" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R904" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R905" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R906" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R907" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R908" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1001" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1002" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1003" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1004" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1005" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1006" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1007" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1008" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1101" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1102" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1103" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1104" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1105" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1106" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1107" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1108" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1201" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1202" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1203" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1204" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1205" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1206" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1207" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R1208" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="R501" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R502" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R503" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R504" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R505" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R506" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R507" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R508" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R509" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R510" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R511" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R512" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R513" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R601" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R602" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R603" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R604" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R605" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R606" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R607" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R608" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R609" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R610" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R611" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R612" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R613" library="foxBMS_BMS-Slave_12cell" deviceset="100R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R901" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R902" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R903" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R904" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R905" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R906" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R907" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R908" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1001" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1002" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1003" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1004" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1005" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1006" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1007" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1008" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1101" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1102" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1103" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1104" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1105" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1106" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1107" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1108" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1201" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1202" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1203" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1204" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1205" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1206" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1207" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R1208" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$40" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$41" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="X1508" library="foxBMS_BMS-Slave_12cell" deviceset="MA10-2" device=""/>
-<part name="X1503" library="foxBMS_BMS-Slave_12cell" deviceset="43045-24?*_MOLEX_24PIN" device="0" technology="0"/>
-<part name="D201" library="foxBMS_BMS-Slave_12cell" deviceset="SMAJ*CA" device="_VISHAY" technology="60"/>
-<part name="D301" library="foxBMS_BMS-Slave_12cell" deviceset="SMAJ*CA" device="_VISHAY" technology="60"/>
-<part name="IC802" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E"/>
-<part name="IC801" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E"/>
-<part name="IC803" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E"/>
-<part name="IC1101" library="foxBMS_BMS-Slave_12cell" deviceset="PCF8574TS/3" device="" value="PCA8574TS"/>
-<part name="IC1201" library="foxBMS_BMS-Slave_12cell" deviceset="PCF8574TS/3" device="" value="PCA8574TS"/>
-<part name="TP209" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP210" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP309" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP310" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="D801" library="foxBMS_BMS-Slave_12cell" deviceset="BAT54C" device=""/>
-<part name="C801" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="X1508" library="foxBMS_BMS-Slave_12cell" deviceset="MA10-2" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1503" library="foxBMS_BMS-Slave_12cell" deviceset="43045-24?*_MOLEX_24PIN" device="0" technology="0">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="D202" library="foxBMS_BMS-Slave_12cell" deviceset="SMAJ*CA" device="_VISHAY" technology="60">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="D302" library="foxBMS_BMS-Slave_12cell" deviceset="SMAJ*CA" device="_VISHAY" technology="60">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC802" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC801" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC803" library="foxBMS_BMS-Slave_12cell" deviceset="ACPL-247" device="-500E">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1101" library="foxBMS_BMS-Slave_12cell" deviceset="PCF8574TS/3" device="" value="PCA8574TS">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1201" library="foxBMS_BMS-Slave_12cell" deviceset="PCF8574TS/3" device="" value="PCA8574TS">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP209" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP210" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP309" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP310" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="D801" library="foxBMS_BMS-Slave_12cell" deviceset="BAT54C" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C801" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$15" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="X1506" library="foxBMS_BMS-Slave_12cell" deviceset="43045-16?*_MOLEX_16PIN" device="0" technology="0"/>
-<part name="X1507" library="foxBMS_BMS-Slave_12cell" deviceset="43045-16?*_MOLEX_16PIN" device="0" technology="0"/>
+<part name="X1506" library="foxBMS_BMS-Slave_12cell" deviceset="43045-16?*_MOLEX_16PIN" device="0" technology="0">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1507" library="foxBMS_BMS-Slave_12cell" deviceset="43045-16?*_MOLEX_16PIN" device="0" technology="0">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$3" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$42" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_0" device=""/>
-<part name="C1501" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1501" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$43" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="X1501" library="foxBMS_BMS-Slave_12cell" deviceset="MA09-2" device=""/>
+<part name="X1501" library="foxBMS_BMS-Slave_12cell" deviceset="MA09-2" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$29" library="foxBMS_BMS-Slave_12cell" deviceset="+3.0V_VREF2_1" device=""/>
-<part name="C1502" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1502" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$34" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="X1502" library="foxBMS_BMS-Slave_12cell" deviceset="MA09-2" device=""/>
+<part name="X1502" library="foxBMS_BMS-Slave_12cell" deviceset="MA09-2" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$39" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$44" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
 <part name="U$45" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="C1503" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1503" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$47" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$48" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
-<part name="C1504" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="C1504" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$49" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="X1504" library="foxBMS_BMS-Slave_12cell" deviceset="MA05-2" device=""/>
-<part name="X1505" library="foxBMS_BMS-Slave_12cell" deviceset="MA05-2" device=""/>
-<part name="C1506" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
-<part name="C1505" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
-<part name="C1507" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
-<part name="C1508" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="X1504" library="foxBMS_BMS-Slave_12cell" deviceset="MA05-2" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1505" library="foxBMS_BMS-Slave_12cell" deviceset="MA05-2" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1506" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1505" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1507" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="C1508" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="U$51" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$53" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$11" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
 <part name="U$21" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
-<part name="TP206" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="TP306" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM"/>
-<part name="R806" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R805" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R804" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R803" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R802" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R801" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R812" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R811" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R810" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R809" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R808" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R807" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
-<part name="R813" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="TP206" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TP306" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R806" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R805" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R804" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R803" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R802" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R801" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R812" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R811" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R810" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R809" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R808" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R807" library="foxBMS_BMS-Slave_12cell" deviceset="150R?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R813" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
 <part name="FRAME13" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
-<part name="IC901" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
-<part name="IC1001" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
-<part name="IC905" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
-<part name="IC902" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
-<part name="IC1005" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
-<part name="IC1002" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ"/>
+<part name="IC901" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1001" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC905" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC902" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1005" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1002" library="foxBMS_BMS-Slave_12cell" deviceset="ADG728BRUZ" device="" value="ADG728BRUZ">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TR201" library="transformer_custom" deviceset="HM2102NL" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="TR301" library="transformer_custom" deviceset="HM2102NL" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1513" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
+<part name="FRAME18" library="foxBMS_BMS-Slave_12cell" deviceset="FOXBMS_BMS-MASTER_V1.00_A_FRAME_B_L" device=""/>
+<part name="IC1601" library="linear_custom" deviceset="LT8302" device=""/>
+<part name="R1606" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="R1601" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="390K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="R1602" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="86,6K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="C1605" library="foxBMS_BMS-Slave_12cell" deviceset="1,00µF?" device="_0603" technology="_16V_X7R_KEMET" value="1uF, 20%, 16V"/>
+<part name="R1605" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="127K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100"/>
+<part name="R1604" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="DUMMY_R_CHIP" device="_0603_R_VISHAY">
+<variant name="foxBMS_Standard" populate="no"/>
+</part>
+<part name="C1603" library="0_LES_KAPAZITAET.SMD.MLCC.KEMET" deviceset="10µF?" device="_1210" technology="_25V_X7R"/>
+<part name="TR1601" library="transformer_custom" deviceset="WE_750313457" device=""/>
+<part name="D1604" library="diodes_custom" deviceset="DI_PDS3200" device=""/>
+<part name="C1608" library="0_LES_KAPAZITAET.SMD.MLCC" deviceset="4,70µF?" device="_1206" technology="_25V_X7R_KEMET"/>
+<part name="C1609" library="0_LES_KAPAZITAET.SMD.MLCC" deviceset="4,70µF?" device="_1206" technology="_25V_X7R_KEMET"/>
+<part name="C1610" library="0_LES_KAPAZITAET.SMD.MLCC" deviceset="4,70µF?" device="_1206" technology="_25V_X7R_KEMET"/>
+<part name="D1605" library="L21596_V1.0" deviceset="MMSZ524CBT1" device="" value="MMSZ5263B"/>
+<part name="R1603" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="39,0R?*_REV_01" device="_0805_R_VISHAY" technology="_1%_TK100"/>
+<part name="C1602" library="0_LES_KAPAZITAET.SMD.MLCC.KEMET" deviceset="10µF?" device="_1210" technology="_25V_X7R"/>
+<part name="C1606" library="0_LES_KAPAZITAET.SMD.MLCC" deviceset="470PF?" device="_0805" technology="_50V_X7R_KEMET"/>
+<part name="C1601" library="0_LES_KAPAZITAET.SMD.MLCC" deviceset="1,00µF?" device="_0805" technology="_25V_X7R_KEMET"/>
+<part name="F1601" library="foxBMS_BMS-Slave_12cell" deviceset="1,250A_LITTELFUSE_466_1206" device=""/>
+<part name="X1514" library="foxBMS_BMS-Slave_12cell" deviceset="43045-02?*_MOLEX_2PIN" device="0" technology="0"/>
+<part name="D1603" library="diodes_custom" deviceset="DI_DFLS1100" device="">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="D1602" library="diodes_custom" deviceset="DI_DFLZ36" device="">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="IC1301" library="eeprom_custom" deviceset="M24M02-DR" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$18" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
+<part name="U$54" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="R1302" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$61" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_0" device=""/>
+<part name="U$70" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="IC1401" library="eeprom_custom" deviceset="M24M02-DR" device="">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$75" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="R1402" library="foxBMS_BMS-Slave_12cell" deviceset="10,0K?*_REV_01" device="_0603_R_VISHAY" technology="_1%_TK100" value="10,0K_0603_R_VISHAY_1%_TK100_REV_01">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$99" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="U$76" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
+<part name="U$74" library="foxBMS_BMS-Slave_12cell" deviceset="+5.0V_VREG_1" device=""/>
+<part name="L1601" library="inductor_custom" deviceset="WE-74404042100" device=""/>
+<part name="D1601" library="diodes_custom" deviceset="DI_DFLS1100" device=""/>
+<part name="C1607" library="0_LES_KAPAZITAET.SMD.MLCC.KEMET_custom" deviceset="4,7NF?" device="_1812"/>
+<part name="U$78" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT-" device=""/>
+<part name="D201" library="diodes_custom" deviceset="DI_DFLS1100" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R201" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="0,00R?*_REV_01" device="_0805_R_VISHAY">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="U$90" library="foxBMS_BMS-Slave_12cell" deviceset="FUSED_VBAT+" device=""/>
+<part name="D301" library="diodes_custom" deviceset="DI_DFLS1100" device="">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="R301" library="0_LES_WIDERSTAND.SMD.CHIP.DICKSCHICHT" deviceset="0,00R?*_REV_01" device="_0805_R_VISHAY">
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1515" library="custom_connector" deviceset="MA02-2" device="_TH">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+</part>
+<part name="X1601" library="custom_connector" deviceset="MA02-1" device="_TH">
+<variant name="foxBMS_Standard" populate="no"/>
+<variant name="foxBMS_Debug" populate="no"/>
+</part>
+<part name="C1604" library="foxBMS_BMS-Slave_12cell" deviceset="100NF?" device="_0603" technology="_16V_X7R_KEMET" value="100nF, 20%, 16V"/>
+<part name="TP1601" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+<variant name="foxBMS_Standard" populate="no"/>
+</part>
+<part name="TP1603" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+<variant name="foxBMS_Standard" populate="no"/>
+</part>
+<part name="TP1602" library="foxBMS_BMS-Slave_12cell" deviceset="CUSTOM_PAD_PAD_" device="2.0X1.5MM">
+<variant name="foxBMS_Debug" populate="no"/>
+<variant name="foxBMS_DC-DC-only" populate="no"/>
+<variant name="foxBMS_Standard" populate="no"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <description>Overview</description>
 <plain>
-<text x="81.28" y="205.74" size="3.81" layer="115" font="vector">LTC6804/11
+<text x="81.28" y="205.74" size="3.81" layer="115" font="vector">LTC6804-1
+LTC6811-1
 Primary
 
 including 
 power supply</text>
 <wire x1="71.12" y1="271.78" x2="71.12" y2="208.28" width="0.4064" layer="115"/>
-<wire x1="71.12" y1="208.28" x2="71.12" y2="139.7" width="0.4064" layer="115"/>
+<wire x1="71.12" y1="208.28" x2="71.12" y2="149.86" width="0.4064" layer="115"/>
+<wire x1="71.12" y1="149.86" x2="71.12" y2="139.7" width="0.4064" layer="115"/>
 <wire x1="71.12" y1="139.7" x2="124.46" y2="139.7" width="0.4064" layer="115"/>
 <wire x1="124.46" y1="139.7" x2="124.46" y2="271.78" width="0.4064" layer="115"/>
 <wire x1="124.46" y1="271.78" x2="71.12" y2="271.78" width="0.4064" layer="115"/>
@@ -19536,12 +24899,14 @@ power supply</text>
 <wire x1="160.02" y1="35.56" x2="160.02" y2="25.4" width="0.4064" layer="115"/>
 <wire x1="160.02" y1="25.4" x2="302.26" y2="25.4" width="0.4064" layer="115"/>
 <wire x1="302.26" y1="25.4" x2="302.26" y2="35.56" width="0.4064" layer="115"/>
-<text x="81.28" y="60.96" size="3.81" layer="115" font="vector">LTC6804/11
+<text x="81.28" y="60.96" size="3.81" layer="115" font="vector">LTC6804-1
+LTC6811-1
 Secondary
 
 including 
 power supply</text>
-<wire x1="71.12" y1="129.54" x2="71.12" y2="66.04" width="0.4064" layer="115"/>
+<wire x1="71.12" y1="129.54" x2="71.12" y2="119.38" width="0.4064" layer="115"/>
+<wire x1="71.12" y1="119.38" x2="71.12" y2="66.04" width="0.4064" layer="115"/>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="2.54" width="0.4064" layer="115"/>
 <wire x1="71.12" y1="2.54" x2="124.46" y2="2.54" width="0.4064" layer="115"/>
 <wire x1="124.46" y1="2.54" x2="124.46" y2="129.54" width="0.4064" layer="115"/>
@@ -19597,15 +24962,12 @@ global balancing feedback</text>
 <text x="12.7" y="134.62" size="3.81" layer="115" font="vector" align="center-left">battery 
 cell
 supply
-11 - 60V
+11 - 60 V
 via fuses</text>
 <wire x1="53.34" y1="134.62" x2="53.34" y2="208.28" width="0.4064" layer="115"/>
 <wire x1="53.34" y1="208.28" x2="71.12" y2="208.28" width="0.508" layer="115"/>
 <wire x1="53.34" y1="134.62" x2="53.34" y2="66.04" width="0.4064" layer="115"/>
 <wire x1="53.34" y1="66.04" x2="71.12" y2="66.04" width="0.4064" layer="115"/>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <wire x1="43.18" y1="134.62" x2="53.34" y2="134.62" width="0.4064" layer="115"/>
 <text x="337.82" y="25.4" size="2.54" layer="115" align="center-left">Overview</text>
 <text x="165.1" y="144.78" size="3.81" layer="115" font="vector">board temperature sensor
@@ -19624,6 +24986,17 @@ EEPROM with unique ID</text>
 <wire x1="248.92" y1="5.08" x2="248.92" y2="20.32" width="0.4064" layer="115"/>
 <wire x1="124.46" y1="12.7" x2="160.02" y2="12.7" width="0.1524" layer="115"/>
 <text x="127" y="15.24" size="2.54" layer="115" font="vector">read</text>
+<text x="12.7" y="96.52" size="3.81" layer="115" font="vector" align="center-left">optional
+ext. DC
+supply
+8 - 24 V</text>
+<wire x1="58.42" y1="119.38" x2="71.12" y2="119.38" width="0.4064" layer="115"/>
+<wire x1="58.42" y1="149.86" x2="58.42" y2="119.38" width="0.4064" layer="115"/>
+<wire x1="58.42" y1="149.86" x2="71.12" y2="149.86" width="0.4064" layer="115"/>
+<wire x1="58.42" y1="119.38" x2="58.42" y2="96.52" width="0.4064" layer="115"/>
+<wire x1="55.88" y1="96.52" x2="58.42" y2="96.52" width="0.4064" layer="115"/>
+<wire x1="43.18" y1="96.52" x2="50.8" y2="96.52" width="0.4064" layer="115"/>
+<wire x1="50.8" y1="96.52" x2="55.88" y2="96.52" width="0.4064" layer="115" curve="-180"/>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -19635,12 +25008,9 @@ EEPROM with unique ID</text>
 </nets>
 </sheet>
 <sheet>
-<description>Primary LTC6804/11</description>
+<description>Primary LTC6804</description>
 <plain>
-<text x="335.788" y="24.13" size="2.54" layer="115">Primary LTC6804/11</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
+<text x="335.788" y="24.13" size="2.54" layer="115">Primary LTC6804/LTC6811</text>
 <text x="265.684" y="157.48" size="3.81" layer="115" align="bottom-center">GPIO Pins</text>
 <text x="154.94" y="157.48" size="3.81" layer="115" align="bottom-center">Cell balancing control</text>
 <text x="66.04" y="157.48" size="3.81" layer="115" align="bottom-center">Cell voltage sense inputs</text>
@@ -19651,9 +25021,9 @@ EEPROM with unique ID</text>
 Pull-up: on 
 Pull-down: off (standard)</text>
 <text x="345.44" y="236.22" size="1.778" layer="115" align="center-left">Watchdog timer pull-up</text>
-<text x="363.22" y="63.5" size="1.778" layer="115" align="center-left">next LTC6804
+<text x="363.22" y="63.5" size="1.778" layer="115" align="center-left">next LTC6804/LTC6811
 in daisy-chain</text>
-<text x="66.04" y="63.5" size="1.778" layer="115" rot="MR180" align="center-right">previous LTC6804
+<text x="66.04" y="63.5" size="1.778" layer="115" rot="MR180" align="center-right">previous LTC6804/LTC6811
 in daisy-chain</text>
 <text x="124.46" y="76.2" size="1.778" layer="115" rot="MR0" align="bottom-center">isolation transformer</text>
 <text x="7.62" y="40.64" size="1.778" layer="115">Layout:</text>
@@ -19680,18 +25050,18 @@ in daisy-chain</text>
 <text x="78.74" y="228.6" size="1.778" layer="115" rot="R90" align="bottom-center">100V</text>
 <text x="48.26" y="220.98" size="1.778" layer="115" rot="R90" align="bottom-center">min. 66.7V
 max. 73.7V @ 1mA</text>
-<text x="312.42" y="180.34" size="1.778" layer="115" align="center-left">R210: GPIO1 connected to pin header
-R211: GPIO1 connected to temperature MUX</text>
-<text x="312.42" y="160.02" size="1.778" layer="115" align="center-left">R212: GPIO2 connected to pin header
-R213: GPIO2 connected to user MUX</text>
-<text x="312.42" y="139.7" size="1.778" layer="115" align="center-left">R214: GPIO3 connected to pin header
-R215: GPIO3 connected to balancing feedback</text>
-<text x="312.42" y="119.38" size="1.778" layer="115" align="center-left">R216: GPIO4 connected to pin header
-R217: GPIO4 connected to I2C SDA</text>
-<text x="312.42" y="99.06" size="1.778" layer="115" align="center-left">R218: GPIO5 connected to pin header
-R219: GPIO5 connected to I2C SCL</text>
-<text x="198.12" y="204.47" size="1.778" layer="115" align="center-left">LED on: LTC6804 in STANDBY, REFUP or MEASURE
-LED off: LTC6804 in SLEEP mode</text>
+<text x="312.42" y="180.34" size="1.778" layer="115" align="center-left">R209: GPIO1 connected to pin header
+R210: GPIO1 connected to temperature MUX</text>
+<text x="312.42" y="160.02" size="1.778" layer="115" align="center-left">R211: GPIO2 connected to pin header
+R212: GPIO2 connected to user MUX</text>
+<text x="312.42" y="139.7" size="1.778" layer="115" align="center-left">R213: GPIO3 connected to pin header
+R214: GPIO3 connected to balancing feedback</text>
+<text x="312.42" y="119.38" size="1.778" layer="115" align="center-left">R215: GPIO4 connected to pin header
+R216: GPIO4 connected to I2C SDA</text>
+<text x="312.42" y="99.06" size="1.778" layer="115" align="center-left">R217: GPIO5 connected to pin header
+R218: GPIO5 connected to I2C SCL</text>
+<text x="198.12" y="204.47" size="1.778" layer="115" align="center-left">LED on: LTC in STANDBY, REFUP or MEASURE
+LED off: LTC in SLEEP mode</text>
 </plain>
 <instances>
 <instance part="U$5" gate="G$1" x="127" y="223.52"/>
@@ -19702,12 +25072,12 @@ LED off: LTC6804 in SLEEP mode</text>
 <instance part="IC201" gate="-PWR" x="111.76" y="226.06"/>
 <instance part="FRAME20" gate="G$1" x="0" y="0"/>
 <instance part="FRAME20" gate="G$2" x="307.34" y="2.54"/>
-<instance part="R201" gate="G$1" x="91.44" y="236.22"/>
-<instance part="C201" gate="G$1" x="99.06" y="228.6" rot="R270"/>
-<instance part="U$50" gate="G$1" x="53.34" y="241.3" rot="MR0"/>
+<instance part="R203" gate="G$1" x="91.44" y="236.22"/>
+<instance part="C202" gate="G$1" x="99.06" y="228.6" rot="R270"/>
+<instance part="U$50" gate="G$1" x="20.32" y="251.46"/>
 <instance part="C203" gate="G$1" x="144.78" y="195.58" rot="R90"/>
 <instance part="R202" gate="G$1" x="83.82" y="228.6" rot="R90"/>
-<instance part="C202" gate="G$1" x="68.58" y="213.36" rot="R270"/>
+<instance part="C201" gate="G$1" x="68.58" y="213.36" rot="R270"/>
 <instance part="C206" gate="G$1" x="165.1" y="226.06" rot="R90"/>
 <instance part="C205" gate="G$1" x="154.94" y="210.82" rot="R90"/>
 <instance part="U$62" gate="G$1" x="127" y="210.82"/>
@@ -19716,52 +25086,49 @@ LED off: LTC6804 in SLEEP mode</text>
 <instance part="TP203" gate="G$1" x="134.62" y="238.76"/>
 <instance part="T201" gate="G$1" x="86.36" y="215.9" rot="MR0"/>
 <instance part="U$100" gate="G$1" x="165.1" y="182.88"/>
-<instance part="R205" gate="G$1" x="236.22" y="81.28" rot="R180"/>
-<instance part="R207" gate="G$1" x="256.54" y="81.28" rot="R180"/>
-<instance part="R218" gate="G$1" x="320.04" y="236.22"/>
+<instance part="R206" gate="G$1" x="236.22" y="81.28" rot="R180"/>
+<instance part="R208" gate="G$1" x="256.54" y="81.28" rot="R180"/>
+<instance part="R219" gate="G$1" x="320.04" y="236.22"/>
 <instance part="U$105" gate="G$1" x="342.9" y="241.3"/>
 <instance part="U$109" gate="G$1" x="266.7" y="76.2"/>
 <instance part="U$110" gate="G$1" x="327.66" y="208.28"/>
-<instance part="R219" gate="G$1" x="327.66" y="218.44" rot="R90"/>
-<instance part="R220" gate="G$1" x="335.28" y="226.06"/>
+<instance part="R220" gate="G$1" x="327.66" y="218.44" rot="R90"/>
+<instance part="R221" gate="G$1" x="335.28" y="226.06"/>
 <instance part="C204" gate="G$1" x="144.78" y="63.5" rot="MR0"/>
 <instance part="C207" gate="G$1" x="287.02" y="63.5"/>
-<instance part="R203" gate="G$1" x="187.96" y="63.5" rot="MR0"/>
-<instance part="R206" gate="G$1" x="241.3" y="63.5"/>
+<instance part="R204" gate="G$1" x="187.96" y="63.5" rot="MR0"/>
+<instance part="R207" gate="G$1" x="241.3" y="63.5"/>
 <instance part="U$111" gate="G$1" x="276.86" y="60.96"/>
 <instance part="TP201" gate="G$1" x="81.28" y="73.66" rot="MR0"/>
-<instance part="TP202" gate="G$1" x="81.28" y="58.42" rot="MR0"/>
 <instance part="TP207" gate="G$1" x="350.52" y="73.66"/>
-<instance part="TP208" gate="G$1" x="350.52" y="58.42"/>
-<instance part="TR201" gate="-TRANSMIT" x="307.34" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="307.34" y="72.39" size="1.4224" layer="95" font="vector" rot="MR180" align="top-center"/>
-<attribute name="UVAL" x="307.34" y="54.61" size="1.4224" layer="96" font="vector" rot="MR0" align="top-center"/>
-</instance>
-<instance part="TR201" gate="-RECEIVE" x="124.46" y="63.5"/>
 <instance part="U$112" gate="G$1" x="154.94" y="60.96" rot="MR0"/>
 <instance part="IC201" gate="-CONTROL" x="304.8" y="231.14" rot="R180"/>
 <instance part="IC201" gate="-COM" x="208.28" y="73.66"/>
-<instance part="R217" gate="G$1" x="302.26" y="93.98" rot="MR0"/>
-<instance part="R216" gate="G$1" x="302.26" y="104.14" rot="MR0"/>
-<instance part="R214" gate="G$1" x="302.26" y="124.46" rot="MR0"/>
-<instance part="R215" gate="G$1" x="302.26" y="114.3" rot="MR0"/>
-<instance part="R208" gate="G$1" x="302.26" y="185.42" rot="MR0"/>
-<instance part="R209" gate="G$1" x="302.26" y="175.26" rot="MR0"/>
-<instance part="R221" gate="G$1" x="388.62" y="121.92" rot="MR90"/>
-<instance part="R222" gate="G$1" x="396.24" y="121.92" rot="MR90"/>
-<instance part="U$8" gate="G$1" x="396.24" y="137.16" rot="MR0"/>
-<instance part="R210" gate="G$1" x="302.26" y="165.1" rot="MR0"/>
-<instance part="R211" gate="G$1" x="302.26" y="154.94" rot="MR0"/>
+<instance part="R218" gate="G$1" x="302.26" y="93.98" rot="MR0"/>
+<instance part="R217" gate="G$1" x="302.26" y="104.14" rot="MR0"/>
+<instance part="R215" gate="G$1" x="302.26" y="124.46" rot="MR0"/>
+<instance part="R216" gate="G$1" x="302.26" y="114.3" rot="MR0"/>
+<instance part="R209" gate="G$1" x="302.26" y="185.42" rot="MR0"/>
+<instance part="R210" gate="G$1" x="302.26" y="175.26" rot="MR0"/>
+<instance part="R222" gate="G$1" x="388.62" y="121.92" rot="MR90"/>
+<instance part="R223" gate="G$1" x="396.24" y="121.92" rot="MR90"/>
+<instance part="U$8" gate="G$1" x="396.24" y="137.16"/>
+<instance part="R211" gate="G$1" x="302.26" y="165.1" rot="MR0"/>
+<instance part="R212" gate="G$1" x="302.26" y="154.94" rot="MR0"/>
 <instance part="LD201" gate="G$1" x="190.5" y="205.74"/>
-<instance part="R204" gate="G$1" x="190.5" y="193.04" rot="R90"/>
+<instance part="R205" gate="G$1" x="190.5" y="193.04" rot="R90"/>
 <instance part="U$131" gate="G$1" x="190.5" y="213.36"/>
 <instance part="U$132" gate="G$1" x="190.5" y="182.88"/>
-<instance part="R212" gate="G$1" x="302.26" y="144.78" rot="MR0"/>
-<instance part="R213" gate="G$1" x="302.26" y="134.62" rot="MR0"/>
-<instance part="D201" gate="G$1" x="53.34" y="220.98" rot="R90"/>
+<instance part="R213" gate="G$1" x="302.26" y="144.78" rot="MR0"/>
+<instance part="R214" gate="G$1" x="302.26" y="134.62" rot="MR0"/>
+<instance part="D202" gate="G$1" x="53.34" y="220.98" rot="R90"/>
 <instance part="TP209" gate="G$1" x="388.62" y="109.22" rot="R180"/>
 <instance part="TP210" gate="G$1" x="388.62" y="99.06" rot="R180"/>
-<instance part="TP206" gate="G$1" x="134.62" y="190.5"/>
+<instance part="TP206" gate="G$1" x="134.62" y="190.5" rot="R90"/>
+<instance part="TR201" gate="-1" x="307.34" y="63.5" rot="MR0"/>
+<instance part="TR201" gate="-2" x="124.46" y="63.5"/>
+<instance part="D201" gate="G$1" x="43.18" y="243.84"/>
+<instance part="R201" gate="G$1" x="30.48" y="243.84"/>
 </instances>
 <busses>
 </busses>
@@ -19861,9 +25228,9 @@ LED off: LTC6804 in SLEEP mode</text>
 <segment>
 <wire x1="246.38" y1="81.28" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R205" gate="G$1" pin="1"/>
+<pinref part="R206" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="81.28" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R207" gate="G$1" pin="2"/>
+<pinref part="R208" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="81.28" x2="251.46" y2="81.28" width="0.1524" layer="91"/>
 <junction x="246.38" y="81.28"/>
 <pinref part="IC201" gate="-COM" pin="ICMP"/>
@@ -19871,8 +25238,8 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="PRIMARY-SWTEN" class="0">
 <segment>
-<pinref part="R219" gate="G$1" pin="2"/>
-<pinref part="R220" gate="G$1" pin="1"/>
+<pinref part="R220" gate="G$1" pin="2"/>
+<pinref part="R221" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="223.52" x2="327.66" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="226.06" x2="330.2" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="226.06" x2="327.66" y2="226.06" width="0.1524" layer="91"/>
@@ -19901,8 +25268,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="297.18" y1="93.98" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="93.98" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="99.06" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R218" gate="G$1" pin="2"/>
 <pinref part="R217" gate="G$1" pin="2"/>
-<pinref part="R216" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="104.14" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="104.14" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
 <junction x="292.1" y="99.06"/>
@@ -19913,8 +25280,8 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="PRIMARY-GPIO3" class="0">
 <segment>
-<pinref part="R214" gate="G$1" pin="2"/>
 <pinref part="R215" gate="G$1" pin="2"/>
+<pinref part="R216" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="114.3" x2="292.1" y2="119.38" width="0.1524" layer="91"/>
@@ -19954,12 +25321,12 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="T201" gate="G$1" pin="E"/>
 </segment>
 <segment>
-<pinref part="R220" gate="G$1" pin="2"/>
+<pinref part="R221" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="226.06" x2="340.36" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="231.14" x2="342.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="231.14" x2="342.9" y2="236.22" width="0.1524" layer="91"/>
 <junction x="342.9" y="231.14"/>
-<pinref part="R218" gate="G$1" pin="2"/>
+<pinref part="R219" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="236.22" x2="325.12" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="236.22" x2="342.9" y2="238.76" width="0.1524" layer="91"/>
 <junction x="342.9" y="236.22"/>
@@ -19968,11 +25335,11 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="IC201" gate="-CONTROL" pin="ISOMD"/>
 </segment>
 <segment>
-<pinref part="R222" gate="G$1" pin="2"/>
+<pinref part="R223" gate="G$1" pin="2"/>
 <wire x1="396.24" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="127" x2="396.24" y2="129.54" width="0.1524" layer="91"/>
 <junction x="396.24" y="129.54"/>
-<pinref part="R221" gate="G$1" pin="2"/>
+<pinref part="R222" gate="G$1" pin="2"/>
 <wire x1="388.62" y1="129.54" x2="388.62" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="+5.0V_VREG_0"/>
 <wire x1="396.24" y1="134.62" x2="396.24" y2="129.54" width="0.1524" layer="91"/>
@@ -20062,61 +25429,61 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="PRIMARY-IN_P1" class="1">
 <segment>
-<pinref part="R203" gate="G$1" pin="1"/>
+<pinref part="R204" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="63.5" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-COM" pin="SCK/IPA"/>
-<pinref part="TR201" gate="-RECEIVE" pin="X+"/>
 <wire x1="134.62" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="195.58" y="71.12"/>
+<pinref part="TR201" gate="-2" pin="X+"/>
 </segment>
 </net>
 <net name="PRIMARY-IN_N1" class="1">
 <segment>
-<pinref part="R203" gate="G$1" pin="2"/>
+<pinref part="R204" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="63.5" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-COM" pin="CSB/IMA"/>
-<pinref part="TR201" gate="-RECEIVE" pin="X-"/>
 <wire x1="134.62" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="180.34" y="55.88"/>
+<pinref part="TR201" gate="-2" pin="X-"/>
 </segment>
 </net>
 <net name="PRIMARY-OUT_N1" class="1">
 <segment>
-<pinref part="R206" gate="G$1" pin="2"/>
+<pinref part="R207" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="63.5" x2="248.92" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="63.5" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="55.88" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-COM" pin="IMB"/>
-<pinref part="TR201" gate="-TRANSMIT" pin="X-"/>
 <wire x1="297.18" y1="55.88" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
 <junction x="248.92" y="55.88"/>
+<pinref part="TR201" gate="-1" pin="X-"/>
 </segment>
 </net>
 <net name="PRIMARY-OUT_P1" class="1">
 <segment>
-<pinref part="R206" gate="G$1" pin="1"/>
+<pinref part="R207" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="63.5" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-COM" pin="IPB"/>
-<pinref part="TR201" gate="-TRANSMIT" pin="X+"/>
 <wire x1="233.68" y1="71.12" x2="297.18" y2="71.12" width="0.1524" layer="91"/>
 <junction x="233.68" y="71.12"/>
+<pinref part="TR201" gate="-1" pin="X+"/>
 </segment>
 </net>
 <net name="PRIMARY-GPIO0" class="0">
 <segment>
 <wire x1="297.18" y1="175.26" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="R210" gate="G$1" pin="2"/>
 <pinref part="R209" gate="G$1" pin="2"/>
-<pinref part="R208" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="185.42" x2="292.1" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="185.42" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="180.34" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
@@ -20127,28 +25494,13 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="271.78" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FUSED_VBAT+" class="0">
-<segment>
-<pinref part="U$50" gate="G$1" pin="FUSED_VBAT+"/>
-<wire x1="53.34" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="R202" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="233.68" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="D201" gate="G$1" pin="K2"/>
-<wire x1="53.34" y1="226.06" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
-<junction x="53.34" y="236.22"/>
-<pinref part="R201" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
-<junction x="83.82" y="236.22"/>
-<wire x1="53.34" y1="238.76" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="83.82" y1="220.98" x2="68.58" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="R202" gate="G$1" pin="1"/>
 <pinref part="T201" gate="G$1" pin="C"/>
 <junction x="83.82" y="220.98"/>
-<pinref part="C202" gate="G$1" pin="P$1"/>
+<pinref part="C201" gate="G$1" pin="P$1"/>
 <wire x1="68.58" y1="220.98" x2="68.58" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="220.98" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
 </segment>
@@ -20156,12 +25508,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="PRIMARY-IN-" class="0">
 <segment>
 <label x="68.58" y="55.88" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="TP202" gate="G$1" pin="MP"/>
-<wire x1="81.28" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="58.42" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TR201" gate="-RECEIVE" pin="D-"/>
-<wire x1="81.28" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<junction x="81.28" y="55.88"/>
+<wire x1="68.58" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="TR201" gate="-2" pin="D-"/>
 </segment>
 </net>
 <net name="PRIMARY-IN+" class="0">
@@ -20170,20 +25518,16 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="TP201" gate="G$1" pin="MP"/>
 <wire x1="81.28" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="73.66" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="TR201" gate="-RECEIVE" pin="D+"/>
 <wire x1="81.28" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <junction x="81.28" y="71.12"/>
+<pinref part="TR201" gate="-2" pin="D+"/>
 </segment>
 </net>
 <net name="PRIMARY-OUT-" class="0">
 <segment>
 <label x="360.68" y="55.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP208" gate="G$1" pin="MP"/>
-<wire x1="350.52" y1="55.88" x2="360.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="58.42" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TR201" gate="-TRANSMIT" pin="D-"/>
-<wire x1="317.5" y1="55.88" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
-<junction x="350.52" y="55.88"/>
+<wire x1="317.5" y1="55.88" x2="360.68" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="TR201" gate="-1" pin="D-"/>
 </segment>
 </net>
 <net name="PRIMARY-OUT+" class="0">
@@ -20192,15 +25536,15 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="TP207" gate="G$1" pin="MP"/>
 <wire x1="350.52" y1="71.12" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="73.66" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="TR201" gate="-TRANSMIT" pin="D+"/>
 <wire x1="317.5" y1="71.12" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="350.52" y="71.12"/>
+<pinref part="TR201" gate="-1" pin="D+"/>
 </segment>
 </net>
 <net name="PRIMARY-WDT" class="0">
 <segment>
 <wire x1="309.88" y1="236.22" x2="314.96" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="R218" gate="G$1" pin="1"/>
+<pinref part="R219" gate="G$1" pin="1"/>
 <pinref part="IC201" gate="-CONTROL" pin="WDT"/>
 <wire x1="314.96" y1="236.22" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
 <junction x="314.96" y="236.22"/>
@@ -20232,43 +25576,43 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R205" gate="G$1" pin="2"/>
+<pinref part="R206" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-COM" pin="IBIAS"/>
 </segment>
 </net>
 <net name="PRIMARY-GPIO5-OPT" class="0">
 <segment>
-<pinref part="R216" gate="G$1" pin="1"/>
+<pinref part="R217" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="312.42" y="104.14" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="PRIMARY-GPIO4-OPT" class="0">
 <segment>
-<pinref part="R214" gate="G$1" pin="1"/>
+<pinref part="R215" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="124.46" x2="312.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="312.42" y="124.46" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="PRIMARY-MUX-DATA_USER" class="0">
 <segment>
-<pinref part="R211" gate="G$1" pin="1"/>
+<pinref part="R212" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="154.94" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="312.42" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="PRIMARY-GPIO1-OPT" class="0">
 <segment>
-<pinref part="R208" gate="G$1" pin="1"/>
+<pinref part="R209" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
 <label x="312.42" y="185.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="PRIMARY-SCL_0" class="0">
 <segment>
-<pinref part="R222" gate="G$1" pin="1"/>
-<pinref part="R217" gate="G$1" pin="1"/>
+<pinref part="R223" gate="G$1" pin="1"/>
+<pinref part="R218" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="93.98" x2="388.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="398.78" y="93.98" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="388.62" y1="93.98" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
@@ -20283,8 +25627,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="PRIMARY-GPIO1" class="0">
 <segment>
 <wire x1="297.18" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R212" gate="G$1" pin="2"/>
 <pinref part="R211" gate="G$1" pin="2"/>
-<pinref part="R210" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="165.1" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="160.02" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
@@ -20297,14 +25641,14 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="PRIMARY-GPIO2-OPT" class="0">
 <segment>
-<pinref part="R210" gate="G$1" pin="1"/>
+<pinref part="R211" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
 <label x="312.42" y="165.1" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="PRIMARY-MUX-DATA_TEMP" class="0">
 <segment>
-<pinref part="R209" gate="G$1" pin="1"/>
+<pinref part="R210" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <label x="312.42" y="175.26" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
@@ -20312,15 +25656,15 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="N$34" class="0">
 <segment>
 <pinref part="LD201" gate="G$1" pin="C"/>
-<pinref part="R204" gate="G$1" pin="2"/>
+<pinref part="R205" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="200.66" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRIMARY-GPIO5" class="0">
 <segment>
 <wire x1="297.18" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R214" gate="G$1" pin="2"/>
 <pinref part="R213" gate="G$1" pin="2"/>
-<pinref part="R212" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="144.78" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="144.78" x2="292.1" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="139.7" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
@@ -20331,14 +25675,14 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="PRIMARY-GPIO3-OPT" class="0">
 <segment>
-<pinref part="R212" gate="G$1" pin="1"/>
+<pinref part="R213" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
 <label x="312.42" y="144.78" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="GLOBAL-BALANCING-FEEDBACK" class="0">
 <segment>
-<pinref part="R213" gate="G$1" pin="1"/>
+<pinref part="R214" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
 <label x="312.42" y="134.62" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
@@ -20364,7 +25708,7 @@ LED off: LTC6804 in SLEEP mode</text>
 </segment>
 <segment>
 <wire x1="53.34" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C202" gate="G$1" pin="P$2"/>
+<pinref part="C201" gate="G$1" pin="P$2"/>
 <wire x1="68.58" y1="208.28" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="IC201" gate="-PWR" pin="V-2"/>
 <wire x1="101.6" y1="210.82" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
@@ -20373,25 +25717,25 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="68.58" y1="205.74" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
 <junction x="68.58" y="205.74"/>
 <junction x="99.06" y="205.74"/>
-<pinref part="D201" gate="G$1" pin="K1"/>
+<pinref part="D202" gate="G$1" pin="K1"/>
 <wire x1="53.34" y1="215.9" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
 <junction x="53.34" y="205.74"/>
 <pinref part="U$87" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="53.34" y1="185.42" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C201" gate="G$1" pin="P$2"/>
+<pinref part="C202" gate="G$1" pin="P$2"/>
 <wire x1="99.06" y1="223.52" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
 <junction x="99.06" y="205.74"/>
 <junction x="99.06" y="210.82"/>
 <wire x1="99.06" y1="210.82" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R204" gate="G$1" pin="1"/>
+<pinref part="R205" gate="G$1" pin="1"/>
 <pinref part="U$132" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="190.5" y1="187.96" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$110" gate="G$1" pin="FUSED_VBAT-"/>
-<pinref part="R219" gate="G$1" pin="1"/>
+<pinref part="R220" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="210.82" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -20407,15 +25751,15 @@ LED off: LTC6804 in SLEEP mode</text>
 <segment>
 <pinref part="U$109" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="266.7" y1="81.28" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R207" gate="G$1" pin="1"/>
+<pinref part="R208" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="81.28" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRIMARY-SDA_0" class="0">
 <segment>
-<pinref part="R221" gate="G$1" pin="1"/>
+<pinref part="R222" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="116.84" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R215" gate="G$1" pin="1"/>
+<pinref part="R216" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="114.3" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="398.78" y="114.3" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="388.62" y1="114.3" x2="398.78" y2="114.3" width="0.1524" layer="91"/>
@@ -20426,10 +25770,10 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="R201" gate="G$1" pin="2"/>
+<pinref part="R203" gate="G$1" pin="2"/>
 <pinref part="IC201" gate="-PWR" pin="V+"/>
 <wire x1="96.52" y1="236.22" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="C201" gate="G$1" pin="P$1"/>
+<pinref part="C202" gate="G$1" pin="P$1"/>
 <wire x1="99.06" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="233.68" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
 <junction x="99.06" y="236.22"/>
@@ -20438,32 +25782,62 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C207" gate="G$1" pin="P$2"/>
-<pinref part="TR201" gate="-TRANSMIT" pin="CMT"/>
 <wire x1="292.1" y1="63.5" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TR201" gate="-1" pin="CMT"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="TR201" gate="-RECEIVE" pin="CMT"/>
 <pinref part="C204" gate="G$1" pin="P$2"/>
 <wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TR201" gate="-2" pin="CMT"/>
+</segment>
+</net>
+<net name="EXT_DC_ISO+" class="0">
+<segment>
+<label x="43.18" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="53.34" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R202" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="233.68" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="D202" gate="G$1" pin="K2"/>
+<wire x1="53.34" y1="226.06" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R203" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
+<junction x="83.82" y="236.22"/>
+<junction x="53.34" y="236.22"/>
+<wire x1="43.18" y1="236.22" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="D201" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="243.84" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="243.84" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="R201" gate="G$1" pin="2"/>
+<pinref part="D201" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="243.84" x2="38.1" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FUSED_VBAT+" class="0">
+<segment>
+<pinref part="R201" gate="G$1" pin="1"/>
+<pinref part="U$50" gate="G$1" pin="FUSED_VBAT+"/>
+<wire x1="25.4" y1="243.84" x2="20.32" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="243.84" x2="20.32" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 <sheet>
-<description>Secondary LTC6804/11</description>
+<description>Secondary LTC6804</description>
 <plain>
-<text x="335.534" y="24.13" size="2.54" layer="115">Secondary LTC6804/11</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
-<text x="154.94" y="132.08" size="1.778" layer="115">Cell balancing control
-(not used on secondary LTC6804)</text>
+<text x="335.534" y="24.13" size="2.54" layer="115">Secondary LTC6804/LTC6811</text>
+<text x="154.94" y="134.62" size="1.778" layer="115" align="center-left">Cell balancing control
+(not used on secondary)</text>
 <text x="256.54" y="86.36" size="1.778" layer="115" align="bottom-center">differential signal voltage amplitude adjustment</text>
-<text x="363.22" y="63.5" size="1.778" layer="115" align="center-left">next LTC6804
+<text x="363.22" y="63.5" size="1.778" layer="115" align="center-left">next LTC6804/LTC6811
 in daisy-chain</text>
-<text x="66.04" y="63.5" size="1.778" layer="115" rot="MR180" align="center-right">previous LTC6804
+<text x="66.04" y="63.5" size="1.778" layer="115" rot="MR180" align="center-right">previous LTC6804/LTC6811
 in daisy-chain</text>
 <text x="124.46" y="76.2" size="1.778" layer="115" rot="MR0" align="bottom-center">isolation transformer</text>
 <text x="214.63" y="96.52" size="3.81" layer="115" align="bottom-center">Communication Circuit</text>
@@ -20494,23 +25868,23 @@ in daisy-chain</text>
 <text x="78.74" y="228.6" size="1.778" layer="115" rot="R90" align="bottom-center">100V</text>
 <text x="48.26" y="220.98" size="1.778" layer="115" rot="R90" align="bottom-center">min. 66.7V
 max. 73.7V @ 1mA</text>
-<text x="312.42" y="180.34" size="1.778" layer="115" align="center-left">R310: GPIO1 connected to pin header
-R311: GPIO1 connected to temperature MUX</text>
-<text x="312.42" y="160.02" size="1.778" layer="115" align="center-left">R312: GPIO2 connected to pin header
-R313: GPIO2 connected to user MUX</text>
-<text x="312.42" y="139.7" size="1.778" layer="115" align="center-left">R314: GPIO3 connected to pin header
-R315: GPIO3 connected to balancing feedback</text>
-<text x="312.42" y="119.38" size="1.778" layer="115" align="center-left">R316: GPIO4 connected to pin header
-R317: GPIO4 connected to I2C SDA</text>
-<text x="312.42" y="99.06" size="1.778" layer="115" align="center-left">R318: GPIO5 connected to pin header
-R319: GPIO5 connected to I2C SCL</text>
+<text x="312.42" y="180.34" size="1.778" layer="115" align="center-left">R309: GPIO1 connected to pin header
+R310: GPIO1 connected to temperature MUX</text>
+<text x="312.42" y="160.02" size="1.778" layer="115" align="center-left">R311: GPIO2 connected to pin header
+R312: GPIO2 connected to user MUX</text>
+<text x="312.42" y="139.7" size="1.778" layer="115" align="center-left">R313: GPIO3 connected to pin header
+R314: GPIO3 connected to balancing feedback</text>
+<text x="312.42" y="119.38" size="1.778" layer="115" align="center-left">R315: GPIO4 connected to pin header
+R316: GPIO4 connected to I2C SDA</text>
+<text x="312.42" y="99.06" size="1.778" layer="115" align="center-left">R317: GPIO5 connected to pin header
+R318: GPIO5 connected to I2C SCL</text>
 <text x="345.44" y="231.14" size="1.778" layer="115" align="center-left">communication mode (ISOMD connected to VREG = isoSPI)</text>
 <text x="345.44" y="223.52" size="1.778" layer="115" align="center-left">Software timer configuration:
 Pull-up: on 
 Pull-down: off (standard)</text>
 <text x="345.44" y="236.22" size="1.778" layer="115" align="center-left">Watchdog timer pull-up</text>
-<text x="198.12" y="204.47" size="1.778" layer="115" align="center-left">LED on: LTC6804 in STANDBY, REFUP or MEASURE mode
-LED off: LTC6804 in SLEEP mode</text>
+<text x="198.12" y="204.47" size="1.778" layer="115" align="center-left">LED on: LTC in STANDBY, REFUP or MEASURE mode
+LED off: LTC in SLEEP mode</text>
 </plain>
 <instances>
 <instance part="U$37" gate="G$1" x="127" y="210.82"/>
@@ -20523,36 +25897,28 @@ LED off: LTC6804 in SLEEP mode</text>
 <instance part="FRAME1" gate="G$2" x="307.34" y="2.54"/>
 <instance part="IC301" gate="-CONTROL" x="304.8" y="231.14" rot="R180"/>
 <instance part="IC301" gate="-COM" x="208.28" y="73.66"/>
-<instance part="R305" gate="G$1" x="236.22" y="81.28" rot="R180"/>
-<instance part="R307" gate="G$1" x="256.54" y="81.28" rot="R180"/>
+<instance part="R306" gate="G$1" x="236.22" y="81.28" rot="R180"/>
+<instance part="R308" gate="G$1" x="256.54" y="81.28" rot="R180"/>
 <instance part="U$7" gate="G$1" x="266.7" y="76.2"/>
 <instance part="C304" gate="G$1" x="144.78" y="63.5" rot="MR0"/>
 <instance part="C307" gate="G$1" x="287.02" y="63.5"/>
-<instance part="R303" gate="G$1" x="187.96" y="63.5" rot="MR0"/>
-<instance part="R306" gate="G$1" x="241.3" y="63.5"/>
+<instance part="R304" gate="G$1" x="187.96" y="63.5" rot="MR0"/>
+<instance part="R307" gate="G$1" x="241.3" y="63.5"/>
 <instance part="U$20" gate="G$1" x="276.86" y="60.96"/>
 <instance part="TP301" gate="G$1" x="81.28" y="73.66" rot="MR0"/>
-<instance part="TP302" gate="G$1" x="81.28" y="58.42" rot="MR0"/>
 <instance part="TP307" gate="G$1" x="350.52" y="73.66"/>
-<instance part="TP308" gate="G$1" x="350.52" y="58.42"/>
-<instance part="TR301" gate="-TRANSMIT" x="307.34" y="63.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="307.34" y="72.39" size="1.4224" layer="95" font="vector" rot="MR180" align="top-center"/>
-<attribute name="UVAL" x="307.34" y="54.61" size="1.4224" layer="96" font="vector" rot="MR0" align="top-center"/>
-</instance>
-<instance part="TR301" gate="-RECEIVE" x="124.46" y="63.5"/>
 <instance part="U$25" gate="G$1" x="154.94" y="60.96" rot="MR0"/>
-<instance part="R318" gate="G$1" x="320.04" y="236.22"/>
+<instance part="R319" gate="G$1" x="320.04" y="236.22"/>
 <instance part="U$27" gate="G$1" x="327.66" y="208.28"/>
-<instance part="R319" gate="G$1" x="327.66" y="218.44" rot="R90"/>
-<instance part="R320" gate="G$1" x="335.28" y="226.06"/>
+<instance part="R320" gate="G$1" x="327.66" y="218.44" rot="R90"/>
+<instance part="R321" gate="G$1" x="335.28" y="226.06"/>
 <instance part="U$31" gate="G$1" x="342.9" y="241.3"/>
 <instance part="U$32" gate="G$1" x="53.34" y="182.88"/>
-<instance part="R301" gate="G$1" x="91.44" y="236.22"/>
-<instance part="C301" gate="G$1" x="99.06" y="228.6" rot="R270"/>
-<instance part="U$33" gate="G$1" x="53.34" y="243.84" rot="MR0"/>
+<instance part="R303" gate="G$1" x="91.44" y="236.22"/>
+<instance part="C302" gate="G$1" x="99.06" y="228.6" rot="R270"/>
 <instance part="C303" gate="G$1" x="144.78" y="195.58" rot="R90"/>
 <instance part="R302" gate="G$1" x="83.82" y="228.6" rot="R90"/>
-<instance part="C302" gate="G$1" x="68.58" y="213.36" rot="R270"/>
+<instance part="C301" gate="G$1" x="68.58" y="213.36" rot="R270"/>
 <instance part="C306" gate="G$1" x="165.1" y="226.06" rot="R90"/>
 <instance part="C305" gate="G$1" x="154.94" y="210.82" rot="R90"/>
 <instance part="TP305" gate="G$1" x="134.62" y="208.28"/>
@@ -20560,27 +25926,32 @@ LED off: LTC6804 in SLEEP mode</text>
 <instance part="TP303" gate="G$1" x="134.62" y="238.76"/>
 <instance part="T301" gate="G$1" x="86.36" y="215.9" rot="MR0"/>
 <instance part="U$69" gate="G$1" x="165.1" y="182.88"/>
-<instance part="R317" gate="G$1" x="302.26" y="93.98" rot="MR0"/>
-<instance part="R316" gate="G$1" x="302.26" y="104.14" rot="MR0"/>
-<instance part="R314" gate="G$1" x="302.26" y="124.46" rot="MR0"/>
-<instance part="R315" gate="G$1" x="302.26" y="114.3" rot="MR0"/>
-<instance part="R308" gate="G$1" x="302.26" y="185.42" rot="MR0"/>
-<instance part="R309" gate="G$1" x="302.26" y="175.26" rot="MR0"/>
-<instance part="R321" gate="G$1" x="388.62" y="121.92" rot="MR90"/>
-<instance part="R322" gate="G$1" x="396.24" y="121.92" rot="MR90"/>
-<instance part="U$17" gate="G$1" x="396.24" y="137.16" rot="MR0"/>
+<instance part="R318" gate="G$1" x="302.26" y="93.98" rot="MR0"/>
+<instance part="R317" gate="G$1" x="302.26" y="104.14" rot="MR0"/>
+<instance part="R315" gate="G$1" x="302.26" y="124.46" rot="MR0"/>
+<instance part="R316" gate="G$1" x="302.26" y="114.3" rot="MR0"/>
+<instance part="R309" gate="G$1" x="302.26" y="185.42" rot="MR0"/>
+<instance part="R310" gate="G$1" x="302.26" y="175.26" rot="MR0"/>
+<instance part="R322" gate="G$1" x="388.62" y="121.92" rot="MR90"/>
+<instance part="R323" gate="G$1" x="396.24" y="121.92" rot="MR90"/>
+<instance part="U$17" gate="G$1" x="396.24" y="137.16"/>
 <instance part="LD301" gate="G$1" x="190.5" y="205.74"/>
-<instance part="R304" gate="G$1" x="190.5" y="193.04" rot="R90"/>
+<instance part="R305" gate="G$1" x="190.5" y="193.04" rot="R90"/>
 <instance part="U$134" gate="G$1" x="190.5" y="182.88"/>
 <instance part="U$133" gate="G$1" x="190.5" y="213.36"/>
-<instance part="R310" gate="G$1" x="302.26" y="165.1" rot="MR0"/>
-<instance part="R311" gate="G$1" x="302.26" y="154.94" rot="MR0"/>
-<instance part="R312" gate="G$1" x="302.26" y="144.78" rot="MR0"/>
-<instance part="R313" gate="G$1" x="302.26" y="134.62" rot="MR0"/>
-<instance part="D301" gate="G$1" x="53.34" y="220.98" rot="R90"/>
+<instance part="R311" gate="G$1" x="302.26" y="165.1" rot="MR0"/>
+<instance part="R312" gate="G$1" x="302.26" y="154.94" rot="MR0"/>
+<instance part="R313" gate="G$1" x="302.26" y="144.78" rot="MR0"/>
+<instance part="R314" gate="G$1" x="302.26" y="134.62" rot="MR0"/>
+<instance part="D302" gate="G$1" x="53.34" y="220.98" rot="R90"/>
 <instance part="TP309" gate="G$1" x="388.62" y="109.22" rot="R180"/>
 <instance part="TP310" gate="G$1" x="388.62" y="99.06" rot="R180"/>
-<instance part="TP306" gate="G$1" x="134.62" y="190.5"/>
+<instance part="TP306" gate="G$1" x="134.62" y="190.5" rot="R90"/>
+<instance part="TR301" gate="-1" x="307.34" y="63.5" rot="MR0"/>
+<instance part="TR301" gate="-2" x="124.46" y="63.5"/>
+<instance part="U$90" gate="G$1" x="20.32" y="251.46"/>
+<instance part="D301" gate="G$1" x="43.18" y="243.84"/>
+<instance part="R301" gate="G$1" x="30.48" y="243.84"/>
 </instances>
 <busses>
 </busses>
@@ -20694,12 +26065,12 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="+5.0V_VREG_1" class="0">
 <segment>
-<pinref part="R320" gate="G$1" pin="2"/>
+<pinref part="R321" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="226.06" x2="340.36" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="231.14" x2="342.9" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="231.14" x2="342.9" y2="236.22" width="0.1524" layer="91"/>
 <junction x="342.9" y="231.14"/>
-<pinref part="R318" gate="G$1" pin="2"/>
+<pinref part="R319" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="236.22" x2="325.12" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="236.22" x2="342.9" y2="238.76" width="0.1524" layer="91"/>
 <junction x="342.9" y="236.22"/>
@@ -20727,10 +26098,10 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="IC301" gate="-PWR" pin="VREG"/>
 </segment>
 <segment>
-<pinref part="R321" gate="G$1" pin="2"/>
+<pinref part="R322" gate="G$1" pin="2"/>
 <wire x1="388.62" y1="129.54" x2="388.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="129.54" x2="388.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R322" gate="G$1" pin="2"/>
+<pinref part="R323" gate="G$1" pin="2"/>
 <wire x1="396.24" y1="127" x2="396.24" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="+5.0V_VREG_1"/>
 <wire x1="396.24" y1="134.62" x2="396.24" y2="129.54" width="0.1524" layer="91"/>
@@ -20761,8 +26132,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="SECONDARY-GPIO0" class="0">
 <segment>
 <wire x1="297.18" y1="175.26" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="R310" gate="G$1" pin="2"/>
 <pinref part="R309" gate="G$1" pin="2"/>
-<pinref part="R308" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="185.42" x2="292.1" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="185.42" x2="292.1" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="180.34" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
@@ -20778,8 +26149,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="297.18" y1="93.98" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="93.98" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="99.06" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R318" gate="G$1" pin="2"/>
 <pinref part="R317" gate="G$1" pin="2"/>
-<pinref part="R316" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="104.14" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="104.14" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
 <junction x="292.1" y="99.06"/>
@@ -20788,28 +26159,13 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="281.94" y1="129.54" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FUSED_VBAT+" class="0">
-<segment>
-<wire x1="53.34" y1="241.3" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U$33" gate="G$1" pin="FUSED_VBAT+"/>
-<pinref part="R302" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="233.68" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="D301" gate="G$1" pin="K2"/>
-<wire x1="53.34" y1="226.06" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
-<junction x="53.34" y="236.22"/>
-<pinref part="R301" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
-<junction x="83.82" y="236.22"/>
-</segment>
-</net>
 <net name="PRIMARY-ICMP1" class="0">
 <segment>
 <wire x1="246.38" y1="81.28" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R305" gate="G$1" pin="1"/>
+<pinref part="R306" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="81.28" x2="246.38" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R307" gate="G$1" pin="2"/>
+<pinref part="R308" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="81.28" x2="251.46" y2="81.28" width="0.1524" layer="91"/>
 <junction x="246.38" y="81.28"/>
 <pinref part="IC301" gate="-COM" pin="ICMP"/>
@@ -20817,15 +26173,15 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="R305" gate="G$1" pin="2"/>
+<pinref part="R306" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC301" gate="-COM" pin="IBIAS"/>
 </segment>
 </net>
 <net name="PRIMARY-SWTEN1" class="0">
 <segment>
-<pinref part="R319" gate="G$1" pin="2"/>
-<pinref part="R320" gate="G$1" pin="1"/>
+<pinref part="R320" gate="G$1" pin="2"/>
+<pinref part="R321" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="223.52" x2="327.66" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="226.06" x2="330.2" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="226.06" x2="327.66" y2="226.06" width="0.1524" layer="91"/>
@@ -20839,7 +26195,7 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="R302" gate="G$1" pin="1"/>
 <pinref part="T301" gate="G$1" pin="C"/>
 <junction x="83.82" y="220.98"/>
-<pinref part="C302" gate="G$1" pin="P$1"/>
+<pinref part="C301" gate="G$1" pin="P$1"/>
 <wire x1="68.58" y1="220.98" x2="68.58" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="220.98" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
 </segment>
@@ -20853,37 +26209,37 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="SECONDARY-GPIO5-OPT" class="0">
 <segment>
-<pinref part="R316" gate="G$1" pin="1"/>
+<pinref part="R317" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
 <label x="312.42" y="104.14" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="SECONDARY-GPIO4-OPT" class="0">
 <segment>
-<pinref part="R314" gate="G$1" pin="1"/>
+<pinref part="R315" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="124.46" x2="312.42" y2="124.46" width="0.1524" layer="91"/>
 <label x="312.42" y="124.46" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="SECONDARY-MUX-DATA_USER" class="0">
 <segment>
-<pinref part="R311" gate="G$1" pin="1"/>
+<pinref part="R312" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="154.94" x2="312.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="312.42" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="SECONDARY-GPIO1-OPT" class="0">
 <segment>
-<pinref part="R308" gate="G$1" pin="1"/>
+<pinref part="R309" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="185.42" x2="312.42" y2="185.42" width="0.1524" layer="91"/>
 <label x="312.42" y="185.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="SECONDARY-SDA_1" class="0">
 <segment>
-<pinref part="R321" gate="G$1" pin="1"/>
+<pinref part="R322" gate="G$1" pin="1"/>
 <wire x1="388.62" y1="116.84" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R315" gate="G$1" pin="1"/>
+<pinref part="R316" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="114.3" x2="388.62" y2="114.3" width="0.1524" layer="91"/>
 <label x="398.78" y="114.3" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="388.62" y1="114.3" x2="398.78" y2="114.3" width="0.1524" layer="91"/>
@@ -20894,8 +26250,8 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="SECONDARY-SCL_1" class="0">
 <segment>
-<pinref part="R322" gate="G$1" pin="1"/>
-<pinref part="R317" gate="G$1" pin="1"/>
+<pinref part="R323" gate="G$1" pin="1"/>
+<pinref part="R318" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="93.98" x2="388.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="398.78" y="93.98" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="388.62" y1="93.98" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
@@ -20910,15 +26266,15 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="N$38" class="0">
 <segment>
 <pinref part="LD301" gate="G$1" pin="C"/>
-<pinref part="R304" gate="G$1" pin="2"/>
+<pinref part="R305" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="200.66" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SECONDARY-GPIO1" class="0">
 <segment>
 <wire x1="297.18" y1="154.94" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R312" gate="G$1" pin="2"/>
 <pinref part="R311" gate="G$1" pin="2"/>
-<pinref part="R310" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="165.1" x2="292.1" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="165.1" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="160.02" x2="292.1" y2="154.94" width="0.1524" layer="91"/>
@@ -20931,23 +26287,23 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="SECONDARY-MUX-DATA_TEMP" class="0">
 <segment>
-<pinref part="R309" gate="G$1" pin="1"/>
+<pinref part="R310" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="175.26" x2="312.42" y2="175.26" width="0.1524" layer="91"/>
 <label x="312.42" y="175.26" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="SECONDARY-GPIO2-OPT" class="0">
 <segment>
-<pinref part="R310" gate="G$1" pin="1"/>
+<pinref part="R311" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="165.1" x2="312.42" y2="165.1" width="0.1524" layer="91"/>
 <label x="312.42" y="165.1" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="R315" gate="G$1" pin="2"/>
+<pinref part="R316" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R314" gate="G$1" pin="2"/>
+<pinref part="R315" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="124.46" x2="292.1" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="124.46" x2="292.1" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="119.38" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
@@ -20961,8 +26317,8 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="SECONDARY-GPIO5" class="0">
 <segment>
 <wire x1="297.18" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R314" gate="G$1" pin="2"/>
 <pinref part="R313" gate="G$1" pin="2"/>
-<pinref part="R312" gate="G$1" pin="2"/>
 <wire x1="297.18" y1="144.78" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="144.78" x2="292.1" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="139.7" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
@@ -20973,14 +26329,14 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="SECONDARY-GPIO3-OPT" class="0">
 <segment>
-<pinref part="R312" gate="G$1" pin="1"/>
+<pinref part="R313" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
 <label x="312.42" y="144.78" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="GLOBAL-BALANCING-FEEDBACK" class="0">
 <segment>
-<pinref part="R313" gate="G$1" pin="1"/>
+<pinref part="R314" gate="G$1" pin="1"/>
 <wire x1="307.34" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
 <label x="312.42" y="134.62" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
@@ -20988,7 +26344,7 @@ LED off: LTC6804 in SLEEP mode</text>
 <net name="SECONDARY-WDT" class="0">
 <segment>
 <wire x1="309.88" y1="236.22" x2="314.96" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="R318" gate="G$1" pin="1"/>
+<pinref part="R319" gate="G$1" pin="1"/>
 <pinref part="IC301" gate="-CONTROL" pin="WDT"/>
 <wire x1="314.96" y1="236.22" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
 <junction x="314.96" y="236.22"/>
@@ -21001,20 +26357,16 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="TP301" gate="G$1" pin="MP"/>
 <wire x1="81.28" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="73.66" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="TR301" gate="-RECEIVE" pin="D+"/>
 <wire x1="81.28" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <junction x="81.28" y="71.12"/>
+<pinref part="TR301" gate="-2" pin="D+"/>
 </segment>
 </net>
 <net name="SECONDARY-IN-" class="0">
 <segment>
 <label x="68.58" y="55.88" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<pinref part="TP302" gate="G$1" pin="MP"/>
-<wire x1="81.28" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="58.42" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TR301" gate="-RECEIVE" pin="D-"/>
-<wire x1="81.28" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<junction x="81.28" y="55.88"/>
+<wire x1="68.58" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="TR301" gate="-2" pin="D-"/>
 </segment>
 </net>
 <net name="SECONDARY-OUT+" class="0">
@@ -21023,72 +26375,68 @@ LED off: LTC6804 in SLEEP mode</text>
 <pinref part="TP307" gate="G$1" pin="MP"/>
 <wire x1="350.52" y1="71.12" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="73.66" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="TR301" gate="-TRANSMIT" pin="D+"/>
 <wire x1="317.5" y1="71.12" x2="350.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="350.52" y="71.12"/>
+<pinref part="TR301" gate="-1" pin="D+"/>
 </segment>
 </net>
 <net name="SECONDARY-OUT-" class="0">
 <segment>
 <label x="360.68" y="55.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP308" gate="G$1" pin="MP"/>
-<wire x1="350.52" y1="55.88" x2="360.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="58.42" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="TR301" gate="-TRANSMIT" pin="D-"/>
-<wire x1="317.5" y1="55.88" x2="350.52" y2="55.88" width="0.1524" layer="91"/>
-<junction x="350.52" y="55.88"/>
+<wire x1="317.5" y1="55.88" x2="360.68" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="TR301" gate="-1" pin="D-"/>
 </segment>
 </net>
 <net name="SECONDARY-OUT_P1" class="1">
 <segment>
-<pinref part="R306" gate="G$1" pin="1"/>
+<pinref part="R307" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="63.5" x2="233.68" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC301" gate="-COM" pin="IPB"/>
-<pinref part="TR301" gate="-TRANSMIT" pin="X+"/>
 <wire x1="233.68" y1="71.12" x2="297.18" y2="71.12" width="0.1524" layer="91"/>
 <junction x="233.68" y="71.12"/>
+<pinref part="TR301" gate="-1" pin="X+"/>
 </segment>
 </net>
 <net name="SECONDARY-OUT_N1" class="1">
 <segment>
-<pinref part="R306" gate="G$1" pin="2"/>
+<pinref part="R307" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="63.5" x2="248.92" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="63.5" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="55.88" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC301" gate="-COM" pin="IMB"/>
-<pinref part="TR301" gate="-TRANSMIT" pin="X-"/>
 <wire x1="248.92" y1="55.88" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="248.92" y="55.88"/>
+<pinref part="TR301" gate="-1" pin="X-"/>
 </segment>
 </net>
 <net name="SECONDARY-IN_P1" class="1">
 <segment>
-<pinref part="R303" gate="G$1" pin="1"/>
+<pinref part="R304" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="63.5" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC301" gate="-COM" pin="SCK/IPA"/>
-<pinref part="TR301" gate="-RECEIVE" pin="X+"/>
 <wire x1="134.62" y1="71.12" x2="195.58" y2="71.12" width="0.1524" layer="91"/>
 <junction x="195.58" y="71.12"/>
+<pinref part="TR301" gate="-2" pin="X+"/>
 </segment>
 </net>
 <net name="SECONDARY-IN_N1" class="1">
 <segment>
-<pinref part="R303" gate="G$1" pin="2"/>
+<pinref part="R304" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="63.5" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="55.88" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="66.04" x2="200.66" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC301" gate="-COM" pin="CSB/IMA"/>
-<pinref part="TR301" gate="-RECEIVE" pin="X-"/>
 <wire x1="134.62" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <junction x="180.34" y="55.88"/>
+<pinref part="TR301" gate="-2" pin="X-"/>
 </segment>
 </net>
 <net name="FUSED_VBAT-" class="0">
@@ -21096,7 +26444,7 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="53.34" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="U$32" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="53.34" y1="185.42" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="C302" gate="G$1" pin="P$2"/>
+<pinref part="C301" gate="G$1" pin="P$2"/>
 <wire x1="68.58" y1="208.28" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="210.82" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="205.74" x2="99.06" y2="205.74" width="0.1524" layer="91"/>
@@ -21106,10 +26454,10 @@ LED off: LTC6804 in SLEEP mode</text>
 <junction x="99.06" y="205.74"/>
 <pinref part="IC301" gate="-PWR" pin="V-1"/>
 <pinref part="IC301" gate="-PWR" pin="V-2"/>
-<pinref part="D301" gate="G$1" pin="K1"/>
+<pinref part="D302" gate="G$1" pin="K1"/>
 <wire x1="53.34" y1="215.9" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
 <junction x="53.34" y="205.74"/>
-<pinref part="C301" gate="G$1" pin="P$2"/>
+<pinref part="C302" gate="G$1" pin="P$2"/>
 <wire x1="99.06" y1="223.52" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
 <junction x="99.06" y="210.82"/>
 </segment>
@@ -21132,13 +26480,13 @@ LED off: LTC6804 in SLEEP mode</text>
 <wire x1="134.62" y1="187.96" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R304" gate="G$1" pin="1"/>
+<pinref part="R305" gate="G$1" pin="1"/>
 <pinref part="U$134" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="190.5" y1="187.96" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$27" gate="G$1" pin="FUSED_VBAT-"/>
-<pinref part="R319" gate="G$1" pin="1"/>
+<pinref part="R320" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="210.82" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -21149,7 +26497,7 @@ LED off: LTC6804 in SLEEP mode</text>
 <segment>
 <pinref part="U$7" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="266.7" y1="81.28" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R307" gate="G$1" pin="1"/>
+<pinref part="R308" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="81.28" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -21160,10 +26508,10 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R301" gate="G$1" pin="2"/>
+<pinref part="R303" gate="G$1" pin="2"/>
 <pinref part="IC301" gate="-PWR" pin="V+"/>
 <wire x1="96.52" y1="236.22" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="C301" gate="G$1" pin="P$1"/>
+<pinref part="C302" gate="G$1" pin="P$1"/>
 <wire x1="99.06" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="233.68" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
 <junction x="99.06" y="236.22"/>
@@ -21171,16 +26519,49 @@ LED off: LTC6804 in SLEEP mode</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="TR301" gate="-RECEIVE" pin="CMT"/>
 <pinref part="C304" gate="G$1" pin="P$2"/>
 <wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TR301" gate="-2" pin="CMT"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="C307" gate="G$1" pin="P$2"/>
-<pinref part="TR301" gate="-TRANSMIT" pin="CMT"/>
 <wire x1="292.1" y1="63.5" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TR301" gate="-1" pin="CMT"/>
+</segment>
+</net>
+<net name="EXT_DC_ISO+" class="0">
+<segment>
+<label x="43.18" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="43.18" y1="236.22" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="D301" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="243.84" x2="53.34" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="R302" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="236.22" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="233.68" x2="83.82" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="D302" gate="G$1" pin="K2"/>
+<wire x1="53.34" y1="226.06" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R303" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="236.22" x2="86.36" y2="236.22" width="0.1524" layer="91"/>
+<junction x="83.82" y="236.22"/>
+<wire x1="53.34" y1="243.84" x2="53.34" y2="236.22" width="0.1524" layer="91"/>
+<junction x="53.34" y="236.22"/>
+</segment>
+</net>
+<net name="N$96" class="0">
+<segment>
+<pinref part="R301" gate="G$1" pin="2"/>
+<pinref part="D301" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="243.84" x2="38.1" y2="243.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FUSED_VBAT+" class="0">
+<segment>
+<pinref part="R301" gate="G$1" pin="1"/>
+<pinref part="U$90" gate="G$1" pin="FUSED_VBAT+"/>
+<wire x1="25.4" y1="243.84" x2="20.32" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="243.84" x2="20.32" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -21485,9 +26866,6 @@ Differential capacitor low-pass filter (lower cost):
 C = 100nF -&gt; fg = 11kHz
 C = 22nF -&gt; fg = 50kHz
 C = 10nF -&gt; fg = 112kHz</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <wire x1="134.62" y1="254" x2="134.62" y2="63.5" width="0.1524" layer="115" style="longdash"/>
 <wire x1="134.62" y1="254" x2="154.94" y2="254" width="0.1524" layer="115" style="longdash"/>
 <wire x1="154.94" y1="254" x2="154.94" y2="63.5" width="0.1524" layer="115" style="longdash"/>
@@ -22029,9 +27407,6 @@ Differential capacitor low-pass filter (lower cost):
 C = 100nF -&gt; fg = 11kHz
 C = 22nF -&gt; fg = 50kHz
 C = 10nF -&gt; fg = 112kHz</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <wire x1="134.62" y1="254" x2="154.94" y2="254" width="0.1524" layer="115" style="longdash"/>
 <wire x1="154.94" y1="254" x2="154.94" y2="63.5" width="0.1524" layer="115" style="longdash"/>
 <wire x1="154.94" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="115" style="longdash"/>
@@ -22563,62 +27938,59 @@ filter</text>
 <description>Passive Cell Balancing</description>
 <plain>
 <text x="335.534" y="24.13" size="2.54" layer="115">Passive Cell Balancing</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
-<text x="99.06" y="229.87" size="1.778" layer="115" align="center-left">139mA @ 5.0V
-117mA @ 4.2V
-111mA @ 4.0V
-106mA @ 3.8V
-100mA @ 3.6V
+<text x="99.06" y="229.87" size="1.778" layer="115" align="center-left">147mA @ 5.0V
+123mA @ 4.2V
+118mA @ 4.0V
+112mA @ 3.8V
+106mA @ 3.6V
 </text>
 </plain>
 <instances>
-<instance part="R706" gate="G$1" x="83.82" y="27.94" rot="R90"/>
+<instance part="R706" gate="G$1" x="83.82" y="25.4" rot="R90"/>
 <instance part="R712" gate="G$1" x="93.98" y="25.4" rot="R90"/>
 <instance part="T706" gate="G$1" x="91.44" y="53.34" rot="MR0"/>
 <instance part="R718" gate="G$1" x="119.38" y="55.88"/>
-<instance part="R705" gate="G$1" x="83.82" y="71.12" rot="R90"/>
+<instance part="R705" gate="G$1" x="83.82" y="68.58" rot="R90"/>
 <instance part="R711" gate="G$1" x="93.98" y="68.58" rot="R90"/>
 <instance part="T705" gate="G$1" x="91.44" y="93.98" rot="MR0"/>
 <instance part="R717" gate="G$1" x="119.38" y="96.52"/>
-<instance part="R704" gate="G$1" x="83.82" y="111.76" rot="R90"/>
+<instance part="R704" gate="G$1" x="83.82" y="109.22" rot="R90"/>
 <instance part="R710" gate="G$1" x="93.98" y="109.22" rot="R90"/>
 <instance part="T704" gate="G$1" x="91.44" y="134.62" rot="MR0"/>
 <instance part="R716" gate="G$1" x="119.38" y="137.16"/>
-<instance part="R703" gate="G$1" x="83.82" y="152.4" rot="R90"/>
+<instance part="R703" gate="G$1" x="83.82" y="149.86" rot="R90"/>
 <instance part="R709" gate="G$1" x="93.98" y="149.86" rot="R90"/>
 <instance part="T703" gate="G$1" x="91.44" y="175.26" rot="MR0"/>
 <instance part="R715" gate="G$1" x="119.38" y="177.8"/>
-<instance part="R702" gate="G$1" x="83.82" y="193.04" rot="R90"/>
+<instance part="R702" gate="G$1" x="83.82" y="190.5" rot="R90"/>
 <instance part="R708" gate="G$1" x="93.98" y="190.5" rot="R90"/>
 <instance part="T702" gate="G$1" x="91.44" y="215.9" rot="MR0"/>
 <instance part="R714" gate="G$1" x="119.38" y="218.44"/>
-<instance part="R701" gate="G$1" x="83.82" y="233.68" rot="R90"/>
+<instance part="R701" gate="G$1" x="83.82" y="231.14" rot="R90"/>
 <instance part="R707" gate="G$1" x="93.98" y="231.14" rot="R90"/>
 <instance part="T701" gate="G$1" x="91.44" y="256.54" rot="MR0"/>
 <instance part="R713" gate="G$1" x="119.38" y="259.08"/>
-<instance part="R724" gate="G$1" x="248.92" y="30.48" rot="R90"/>
+<instance part="R724" gate="G$1" x="248.92" y="27.94" rot="R90"/>
 <instance part="R730" gate="G$1" x="259.08" y="27.94" rot="R90"/>
 <instance part="T712" gate="G$1" x="256.54" y="53.34" rot="MR0"/>
 <instance part="R736" gate="G$1" x="284.48" y="55.88"/>
-<instance part="R723" gate="G$1" x="248.92" y="71.12" rot="R90"/>
+<instance part="R723" gate="G$1" x="248.92" y="68.58" rot="R90"/>
 <instance part="R729" gate="G$1" x="259.08" y="68.58" rot="R90"/>
 <instance part="T711" gate="G$1" x="256.54" y="96.52" rot="MR0"/>
 <instance part="R735" gate="G$1" x="284.48" y="99.06"/>
-<instance part="R722" gate="G$1" x="248.92" y="114.3" rot="R90"/>
+<instance part="R722" gate="G$1" x="248.92" y="111.76" rot="R90"/>
 <instance part="R728" gate="G$1" x="259.08" y="111.76" rot="R90"/>
 <instance part="T710" gate="G$1" x="256.54" y="137.16" rot="MR0"/>
 <instance part="R734" gate="G$1" x="284.48" y="139.7"/>
-<instance part="R721" gate="G$1" x="248.92" y="154.94" rot="R90"/>
+<instance part="R721" gate="G$1" x="248.92" y="152.4" rot="R90"/>
 <instance part="R727" gate="G$1" x="259.08" y="152.4" rot="R90"/>
 <instance part="T709" gate="G$1" x="256.54" y="177.8" rot="MR0"/>
 <instance part="R733" gate="G$1" x="284.48" y="180.34"/>
-<instance part="R720" gate="G$1" x="248.92" y="195.58" rot="R90"/>
+<instance part="R720" gate="G$1" x="248.92" y="193.04" rot="R90"/>
 <instance part="R726" gate="G$1" x="259.08" y="193.04" rot="R90"/>
 <instance part="T708" gate="G$1" x="256.54" y="218.44" rot="MR0"/>
 <instance part="R732" gate="G$1" x="284.48" y="220.98"/>
-<instance part="R719" gate="G$1" x="248.92" y="236.22" rot="R90"/>
+<instance part="R719" gate="G$1" x="248.92" y="233.68" rot="R90"/>
 <instance part="R725" gate="G$1" x="259.08" y="233.68" rot="R90"/>
 <instance part="T707" gate="G$1" x="256.54" y="259.08" rot="MR0"/>
 <instance part="R731" gate="G$1" x="284.48" y="261.62"/>
@@ -22673,13 +28045,17 @@ filter</text>
 <net name="CELL7_FEEDBACK+" class="0">
 <segment>
 <pinref part="R723" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="76.2" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="73.66" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="T711" gate="G$1" pin="D"/>
 <wire x1="254" y1="91.44" x2="254" y2="78.74" width="0.1524" layer="91"/>
 <junction x="254" y="78.74"/>
-<wire x1="254" y1="78.74" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="254" y1="78.74" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
 <label x="274.32" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="R729" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="78.74" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="73.66" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
+<junction x="259.08" y="78.74"/>
 </segment>
 </net>
 <net name="N$63" class="0">
@@ -22692,13 +28068,17 @@ filter</text>
 <net name="CELL8_FEEDBACK+" class="0">
 <segment>
 <pinref part="R722" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="119.38" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="116.84" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="121.92" x2="254" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="T710" gate="G$1" pin="D"/>
 <wire x1="254" y1="132.08" x2="254" y2="121.92" width="0.1524" layer="91"/>
 <junction x="254" y="121.92"/>
-<wire x1="254" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="254" y1="121.92" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
 <label x="276.86" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="R728" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="116.84" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
+<junction x="259.08" y="121.92"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -22711,13 +28091,17 @@ filter</text>
 <net name="CELL9_FEEDBACK+" class="0">
 <segment>
 <pinref part="R721" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="160.02" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="157.48" x2="248.92" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="162.56" x2="254" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="T709" gate="G$1" pin="D"/>
 <wire x1="254" y1="172.72" x2="254" y2="162.56" width="0.1524" layer="91"/>
 <junction x="254" y="162.56"/>
-<wire x1="254" y1="162.56" x2="276.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="254" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <label x="276.86" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="R727" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="162.56" x2="276.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="157.48" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
+<junction x="259.08" y="162.56"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -22730,13 +28114,17 @@ filter</text>
 <net name="CELL10_FEEDBACK+" class="0">
 <segment>
 <pinref part="R720" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="200.66" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="198.12" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="203.2" x2="254" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="T708" gate="G$1" pin="D"/>
 <wire x1="254" y1="213.36" x2="254" y2="203.2" width="0.1524" layer="91"/>
 <junction x="254" y="203.2"/>
-<wire x1="254" y1="203.2" x2="276.86" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="254" y1="203.2" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
 <label x="276.86" y="203.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="R726" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="203.2" x2="276.86" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="198.12" x2="259.08" y2="203.2" width="0.1524" layer="91"/>
+<junction x="259.08" y="203.2"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -22749,13 +28137,17 @@ filter</text>
 <net name="CELL11_FEEDBACK+" class="0">
 <segment>
 <pinref part="R719" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="241.3" x2="248.92" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="238.76" x2="248.92" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="243.84" x2="254" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="T707" gate="G$1" pin="D"/>
 <wire x1="254" y1="254" x2="254" y2="243.84" width="0.1524" layer="91"/>
 <junction x="254" y="243.84"/>
-<wire x1="254" y1="243.84" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="254" y1="243.84" x2="259.08" y2="243.84" width="0.1524" layer="91"/>
 <label x="276.86" y="243.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="R725" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="243.84" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="238.76" x2="259.08" y2="243.84" width="0.1524" layer="91"/>
+<junction x="259.08" y="243.84"/>
 </segment>
 </net>
 <net name="N$78" class="0">
@@ -22774,70 +28166,94 @@ filter</text>
 </net>
 <net name="FUSED_CELL_0+" class="0">
 <segment>
-<wire x1="88.9" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <label x="66.04" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T706" gate="G$1" pin="S"/>
+<wire x1="83.82" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="58.42" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R711" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="63.5" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <junction x="88.9" y="60.96"/>
+<pinref part="R705" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="63.5" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
+<junction x="83.82" y="60.96"/>
 </segment>
 </net>
 <net name="FUSED_CELL_1+" class="0">
 <segment>
 <label x="66.04" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="88.9" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="T705" gate="G$1" pin="S"/>
+<wire x1="83.82" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R710" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="104.14" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="101.6" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <junction x="88.9" y="101.6"/>
+<pinref part="R704" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<junction x="83.82" y="101.6"/>
 </segment>
 </net>
 <net name="FUSED_CELL_2+" class="0">
 <segment>
-<wire x1="88.9" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
 <label x="66.04" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T704" gate="G$1" pin="S"/>
+<wire x1="83.82" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="139.7" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R709" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="144.78" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
 <junction x="88.9" y="142.24"/>
+<pinref part="R703" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="144.78" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
+<junction x="83.82" y="142.24"/>
 </segment>
 </net>
 <net name="FUSED_CELL_3+" class="0">
 <segment>
 <label x="66.04" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="88.9" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="T703" gate="G$1" pin="S"/>
+<wire x1="83.82" y1="182.88" x2="66.04" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="180.34" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R708" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="185.42" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="91"/>
 <junction x="88.9" y="182.88"/>
+<pinref part="R702" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="185.42" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
+<junction x="83.82" y="182.88"/>
 </segment>
 </net>
 <net name="FUSED_CELL_4+" class="0">
 <segment>
-<wire x1="88.9" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="223.52" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
 <label x="66.04" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T702" gate="G$1" pin="S"/>
+<wire x1="83.82" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="220.98" x2="88.9" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R707" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="226.06" x2="93.98" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="223.52" x2="88.9" y2="223.52" width="0.1524" layer="91"/>
 <junction x="88.9" y="223.52"/>
+<pinref part="R701" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="226.06" x2="83.82" y2="223.52" width="0.1524" layer="91"/>
+<junction x="83.82" y="223.52"/>
 </segment>
 </net>
 <net name="FUSED_CELL_5+" class="0">
 <segment>
-<wire x1="259.08" y1="20.32" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="20.32" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
 <label x="231.14" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R730" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="20.32" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="22.86" x2="259.08" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R724" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="22.86" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<junction x="248.92" y="20.32"/>
 </segment>
 <segment>
 <pinref part="T701" gate="G$1" pin="S"/>
@@ -22848,62 +28264,82 @@ filter</text>
 </net>
 <net name="FUSED_CELL_6+" class="0">
 <segment>
-<wire x1="254" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="254" y1="60.96" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <label x="231.14" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T712" gate="G$1" pin="S"/>
+<wire x1="248.92" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="254" y1="58.42" x2="254" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R729" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="63.5" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
 <junction x="254" y="60.96"/>
+<pinref part="R723" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="63.5" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
+<junction x="248.92" y="60.96"/>
 </segment>
 </net>
 <net name="FUSED_CELL_7+" class="0">
 <segment>
 <pinref part="T711" gate="G$1" pin="S"/>
 <wire x1="254" y1="104.14" x2="254" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="254" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="254" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 <label x="231.14" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R728" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="106.68" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="104.14" x2="254" y2="104.14" width="0.1524" layer="91"/>
 <junction x="254" y="104.14"/>
+<pinref part="R722" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="106.68" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<junction x="248.92" y="104.14"/>
 </segment>
 </net>
 <net name="FUSED_CELL_8+" class="0">
 <segment>
-<wire x1="254" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="254" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
 <label x="231.14" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T710" gate="G$1" pin="S"/>
+<wire x1="248.92" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="254" y1="144.78" x2="254" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R727" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="147.32" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
 <junction x="254" y="144.78"/>
+<pinref part="R721" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="147.32" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
+<junction x="248.92" y="144.78"/>
 </segment>
 </net>
 <net name="FUSED_CELL_9+" class="0">
 <segment>
 <wire x1="254" y1="185.42" x2="254" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="T709" gate="G$1" pin="S"/>
-<wire x1="254" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="254" y1="185.42" x2="248.92" y2="185.42" width="0.1524" layer="91"/>
 <label x="231.14" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R726" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="187.96" x2="259.08" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="185.42" x2="254" y2="185.42" width="0.1524" layer="91"/>
 <junction x="254" y="185.42"/>
+<pinref part="R720" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="187.96" x2="248.92" y2="185.42" width="0.1524" layer="91"/>
+<junction x="248.92" y="185.42"/>
 </segment>
 </net>
 <net name="FUSED_CELL_10+" class="0">
 <segment>
-<wire x1="254" y1="226.06" x2="231.14" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="254" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
 <label x="231.14" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="T708" gate="G$1" pin="S"/>
+<wire x1="248.92" y1="226.06" x2="231.14" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="254" y1="226.06" x2="254" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R725" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="228.6" x2="259.08" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="226.06" x2="254" y2="226.06" width="0.1524" layer="91"/>
 <junction x="254" y="226.06"/>
+<pinref part="R719" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="228.6" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
+<junction x="248.92" y="226.06"/>
 </segment>
 </net>
 <net name="FUSED_CELL_11+" class="0">
@@ -23000,225 +28436,125 @@ filter</text>
 <net name="CELL0_FEEDBACK+" class="0">
 <segment>
 <pinref part="R706" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="33.02" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="30.48" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="T706" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="48.26" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <junction x="88.9" y="35.56"/>
 <label x="114.3" y="35.56" size="1.27" layer="95" xref="yes"/>
-<wire x1="88.9" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="R712" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="35.56" x2="114.3" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<junction x="93.98" y="35.56"/>
 </segment>
 </net>
 <net name="CELL1_FEEDBACK+" class="0">
 <segment>
 <pinref part="R705" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="76.2" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="73.66" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="T705" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
 <junction x="88.9" y="78.74"/>
-<wire x1="88.9" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="114.3" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="R711" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="73.66" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<junction x="93.98" y="78.74"/>
 </segment>
 </net>
 <net name="CELL2_FEEDBACK+" class="0">
 <segment>
 <pinref part="R704" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="116.84" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="T704" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="129.54" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
 <junction x="88.9" y="119.38"/>
-<wire x1="88.9" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="114.3" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="R710" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="93.98" y="119.38"/>
 </segment>
 </net>
 <net name="CELL3_FEEDBACK+" class="0">
 <segment>
 <pinref part="R703" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="157.48" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="154.94" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="T703" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="170.18" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
 <junction x="88.9" y="160.02"/>
-<wire x1="88.9" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
 <label x="114.3" y="160.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="R709" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="160.02" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
+<junction x="93.98" y="160.02"/>
 </segment>
 </net>
 <net name="CELL4_FEEDBACK+" class="0">
 <segment>
 <pinref part="R702" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="198.12" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="195.58" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="200.66" x2="88.9" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="T702" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="210.82" x2="88.9" y2="200.66" width="0.1524" layer="91"/>
 <junction x="88.9" y="200.66"/>
-<wire x1="88.9" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="200.66" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
 <label x="111.76" y="200.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="R708" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="195.58" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
+<junction x="93.98" y="200.66"/>
 </segment>
 </net>
 <net name="CELL5_FEEDBACK+" class="0">
 <segment>
 <pinref part="R701" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="238.76" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="236.22" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="241.3" x2="88.9" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="T701" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="251.46" x2="88.9" y2="241.3" width="0.1524" layer="91"/>
 <junction x="88.9" y="241.3"/>
-<wire x1="88.9" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="241.3" x2="93.98" y2="241.3" width="0.1524" layer="91"/>
 <label x="111.76" y="241.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="R707" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="241.3" x2="111.76" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="236.22" x2="93.98" y2="241.3" width="0.1524" layer="91"/>
+<junction x="93.98" y="241.3"/>
 </segment>
 </net>
 <net name="CELL6_FEEDBACK+" class="0">
 <segment>
 <pinref part="R724" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="35.56" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="33.02" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="38.1" x2="254" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="T712" gate="G$1" pin="D"/>
 <wire x1="254" y1="48.26" x2="254" y2="38.1" width="0.1524" layer="91"/>
 <junction x="254" y="38.1"/>
-<wire x1="254" y1="38.1" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="254" y1="38.1" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
 <label x="276.86" y="38.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R706" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="22.86" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="20.32" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R712" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="33.02" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R705" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="66.04" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="63.5" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R711" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="76.2" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R704" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="106.68" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="104.14" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R710" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="116.84" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R703" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="147.32" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="144.78" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R709" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="157.48" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="R702" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="187.96" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="185.42" x2="88.9" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="185.42" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="198.12" x2="93.98" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="R708" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="198.12" x2="93.98" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="R701" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="228.6" x2="83.82" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="226.06" x2="88.9" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="226.06" x2="88.9" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="238.76" x2="93.98" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R707" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="238.76" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R719" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="231.14" x2="248.92" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="228.6" x2="254" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="254" y1="228.6" x2="254" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="254" y1="241.3" x2="259.08" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="R725" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="241.3" x2="259.08" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="R720" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="190.5" x2="248.92" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="187.96" x2="254" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="254" y1="187.96" x2="254" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="254" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R726" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="200.66" x2="259.08" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="R721" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="149.86" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="147.32" x2="254" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="254" y1="147.32" x2="254" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="254" y1="160.02" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="R727" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="160.02" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="R722" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="109.22" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="106.68" x2="254" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="254" y1="106.68" x2="254" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="254" y1="119.38" x2="259.08" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R728" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="119.38" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="R723" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="66.04" x2="248.92" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="254" y1="63.5" x2="254" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="254" y1="76.2" x2="259.08" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R729" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="76.2" x2="259.08" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="R724" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="25.4" x2="248.92" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="22.86" x2="254" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="254" y1="22.86" x2="254" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="254" y1="35.56" x2="259.08" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R730" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="35.56" x2="259.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="38.1" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="33.02" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
+<junction x="259.08" y="38.1"/>
 </segment>
 </net>
 <net name="FUSED_CELL_0-" class="0">
 <segment>
-<wire x1="93.98" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R712" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="15.24" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 <label x="66.04" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R706" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="20.32" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
+<junction x="83.82" y="15.24"/>
 </segment>
 </net>
 </nets>
@@ -23228,9 +28564,6 @@ filter</text>
 <plain>
 <text x="335.788" y="24.13" size="2.54" layer="115">Passive Balancing Feedback</text>
 <text x="312.42" y="22.86" size="5.08" layer="91"></text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <text x="68.58" y="220.98" size="1.778" layer="115" align="bottom-center">1.3mA  @ 1.5V
 15.0mA @ 3.6V
 25.0mA @ 5.0V</text>
@@ -23679,9 +29012,6 @@ filter</text>
 7-bit MUX address 0x4E primary I²C
 1001110</text>
 <text x="335.534" y="24.13" size="2.54" layer="115">Primary Analog Inputs</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <text x="347.98" y="228.6" size="1.778" layer="115">8 Additional Temperature Sensors / Analog Inputs
 7-bit MUX address 0x4D primary I²C
 1001101</text>
@@ -25317,9 +30647,10 @@ max. sink current: 20mA</text>
 <description>Primary EEPROM and T-SENSOR</description>
 <plain>
 <text x="335.788" y="24.384" size="2.54" layer="115">Primary EEPROM and Board T-Sensor</text>
-<text x="177.8" y="147.32" size="1.778" layer="115">EEPROM
-7-bit address 0x50 primary I²C
-1010000</text>
+<text x="177.8" y="187.96" size="1.778" layer="115">EEPROM
+7-bit base address 0x50 primary I²C
+10100 (A17) (A16)
+A17, A16: MSB address bits</text>
 <text x="177.8" y="106.68" size="1.778" layer="115">Temperature Sensor
 7-bit address 0x48 primary I²C
 1001000</text>
@@ -25330,13 +30661,15 @@ max. sink current: 20mA</text>
 <text x="261.62" y="81.28" size="1.778" layer="115" align="center-left">Attention: use -A0T Type (I2C address conflict otherwise)!
 
 Alert temperature can be configured via I2C</text>
+<text x="264.16" y="167.64" size="1.778" layer="115" align="center-left">!WC:
+floating: write operation enabled
+pulled high: write operations disabled
+
+When Write Control (WC) is driven high, device select and address bytes are acknowledged, 
+data bytes are not acknowledged.</text>
 </plain>
 <instances>
-<instance part="U$106" gate="G$1" x="243.84" y="149.86"/>
-<instance part="C1301" gate="G$1" x="243.84" y="137.16" rot="R90"/>
-<instance part="U$107" gate="G$1" x="243.84" y="124.46"/>
-<instance part="IC1301" gate="G$1" x="208.28" y="137.16"/>
-<instance part="IC1301" gate="PWR" x="228.6" y="137.16"/>
+<instance part="C1301" gate="G$1" x="198.12" y="157.48" rot="R90"/>
 <instance part="FRAME16" gate="G$1" x="0" y="0"/>
 <instance part="FRAME16" gate="G$2" x="307.34" y="2.54"/>
 <instance part="C1302" gate="G$1" x="243.84" y="88.9" rot="R90"/>
@@ -25345,21 +30678,17 @@ Alert temperature can be configured via I2C</text>
 <instance part="IC1302" gate="A" x="220.98" y="91.44"/>
 <instance part="R1301" gate="G$1" x="167.64" y="91.44" rot="MR90"/>
 <instance part="U$63" gate="G$1" x="167.64" y="101.6"/>
+<instance part="IC1301" gate="G$1" x="220.98" y="157.48"/>
+<instance part="U$18" gate="G$1" x="198.12" y="180.34"/>
+<instance part="U$54" gate="G$1" x="198.12" y="134.62"/>
+<instance part="R1302" gate="G$1" x="248.92" y="167.64" rot="MR180"/>
+<instance part="U$61" gate="G$1" x="259.08" y="180.34"/>
+<instance part="U$70" gate="G$1" x="259.08" y="157.48"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="+5.0V_VREG_0" class="0">
-<segment>
-<wire x1="228.6" y1="142.24" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="U$106" gate="G$1" pin="+5.0V_VREG_0"/>
-<pinref part="C1301" gate="G$1" pin="P$2"/>
-<wire x1="243.84" y1="144.78" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
-<junction x="243.84" y="144.78"/>
-<pinref part="IC1301" gate="PWR" pin="VCC"/>
-</segment>
 <segment>
 <pinref part="C1302" gate="G$1" pin="P$2"/>
 <wire x1="238.76" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
@@ -25373,11 +30702,26 @@ Alert temperature can be configured via I2C</text>
 <pinref part="U$63" gate="G$1" pin="+5.0V_VREG_0"/>
 <wire x1="167.64" y1="99.06" x2="167.64" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="+5.0V_VREG_0"/>
+<pinref part="C1301" gate="G$1" pin="P$2"/>
+<wire x1="198.12" y1="177.8" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="IC1301" gate="G$1" pin="VCC"/>
+<wire x1="198.12" y1="167.64" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<junction x="198.12" y="167.64"/>
+</segment>
+<segment>
+<pinref part="U$61" gate="G$1" pin="+5.0V_VREG_0"/>
+<wire x1="259.08" y1="177.8" x2="259.08" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R1302" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PRIMARY-SCL_0" class="0">
 <segment>
-<wire x1="203.2" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="198.12" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="238.76" y1="152.4" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="243.84" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1301" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
@@ -25388,8 +30732,8 @@ Alert temperature can be configured via I2C</text>
 </net>
 <net name="PRIMARY-SDA_0" class="0">
 <segment>
-<wire x1="203.2" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<label x="198.12" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="238.76" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<label x="243.84" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1301" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
@@ -25411,22 +30755,34 @@ Alert temperature can be configured via I2C</text>
 </net>
 <net name="FUSED_VBAT-" class="0">
 <segment>
-<wire x1="228.6" y1="132.08" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC1301" gate="PWR" pin="VSS"/>
-<pinref part="C1301" gate="G$1" pin="P$1"/>
-<pinref part="U$107" gate="G$1" pin="FUSED_VBAT-"/>
-<wire x1="243.84" y1="127" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="129.54" x2="243.84" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<junction x="243.84" y="129.54"/>
-</segment>
-<segment>
 <pinref part="C1302" gate="G$1" pin="P$1"/>
 <wire x1="238.76" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$96" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="243.84" y1="83.82" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
 <junction x="243.84" y="83.82"/>
 <pinref part="IC1302" gate="A" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$54" gate="G$1" pin="FUSED_VBAT-"/>
+<pinref part="C1301" gate="G$1" pin="P$1"/>
+<wire x1="198.12" y1="137.16" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="IC1301" gate="G$1" pin="VSS"/>
+<wire x1="198.12" y1="147.32" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<junction x="198.12" y="147.32"/>
+</segment>
+<segment>
+<pinref part="IC1301" gate="G$1" pin="E2"/>
+<pinref part="U$70" gate="G$1" pin="FUSED_VBAT-"/>
+<wire x1="238.76" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="162.56" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$94" class="0">
+<segment>
+<pinref part="IC1301" gate="G$1" pin="!WC"/>
+<pinref part="R1302" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="167.64" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -25435,9 +30791,6 @@ Alert temperature can be configured via I2C</text>
 <description>Secondary EEPROM and T-SENSOR</description>
 <plain>
 <text x="335.788" y="24.384" size="2.54" layer="115">Secondary EEPROM and Board T-Sensor</text>
-<text x="177.8" y="147.32" size="1.778" layer="115">EEPROM
-7-bit address 0x50 secondary I²C
-1010000</text>
 <text x="177.8" y="106.68" size="1.778" layer="115">Temperature Sensor
 7-bit address 0x48 secondary I²C
 1001000</text>
@@ -25448,29 +30801,41 @@ Alert temperature can be configured via I2C</text>
 <text x="261.62" y="81.28" size="1.778" layer="115" align="center-left">Attention: use -A0T Type (I2C address conflict otherwise)!
 
 Alert temperature can be configured via I2C</text>
+<text x="177.8" y="190.5" size="1.778" layer="115">EEPROM
+7-bit base address 0x50 secondary I²C
+10100 (A17) (A16)
+A17, A16: MSB address bits</text>
+<text x="264.16" y="170.18" size="1.778" layer="115" align="center-left">!WC:
+floating: write operation enabled
+pulled high: write operations disabled
+
+When Write Control (WC) is driven high, device select and address bytes are acknowledged, 
+data bytes are not acknowledged.</text>
 </plain>
 <instances>
-<instance part="C1401" gate="G$1" x="243.84" y="137.16" rot="R90"/>
-<instance part="U$78" gate="G$1" x="243.84" y="124.46"/>
-<instance part="IC1401" gate="G$1" x="208.28" y="137.16"/>
-<instance part="IC1401" gate="PWR" x="228.6" y="137.16"/>
+<instance part="C1401" gate="G$1" x="198.12" y="160.02" rot="R90"/>
 <instance part="FRAME17" gate="G$1" x="0" y="0"/>
 <instance part="FRAME17" gate="G$2" x="307.34" y="2.54"/>
-<instance part="U$90" gate="G$1" x="243.84" y="149.86"/>
 <instance part="C1402" gate="G$1" x="243.84" y="88.9" rot="R90"/>
 <instance part="U$103" gate="G$1" x="243.84" y="78.74"/>
 <instance part="IC1402" gate="A" x="220.98" y="91.44"/>
 <instance part="U$102" gate="G$1" x="243.84" y="101.6"/>
 <instance part="R1401" gate="G$1" x="167.64" y="91.44" rot="MR90"/>
 <instance part="U$126" gate="G$1" x="167.64" y="101.6"/>
+<instance part="IC1401" gate="G$1" x="220.98" y="160.02"/>
+<instance part="U$75" gate="G$1" x="198.12" y="137.16"/>
+<instance part="R1402" gate="G$1" x="248.92" y="170.18" rot="MR180"/>
+<instance part="U$99" gate="G$1" x="259.08" y="160.02"/>
+<instance part="U$76" gate="G$1" x="259.08" y="182.88"/>
+<instance part="U$74" gate="G$1" x="198.12" y="182.88"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="SECONDARY-SDA_1" class="0">
 <segment>
-<wire x1="203.2" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<label x="198.12" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="238.76" y1="149.86" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
+<label x="243.84" y="149.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1401" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
@@ -25481,8 +30846,8 @@ Alert temperature can be configured via I2C</text>
 </net>
 <net name="SECONDARY-SCL_1" class="0">
 <segment>
-<wire x1="203.2" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="198.12" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="238.76" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
+<label x="243.84" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="IC1401" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
@@ -25492,16 +30857,6 @@ Alert temperature can be configured via I2C</text>
 </segment>
 </net>
 <net name="+5.0V_VREG_1" class="0">
-<segment>
-<wire x1="228.6" y1="142.24" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C1401" gate="G$1" pin="P$2"/>
-<wire x1="243.84" y1="144.78" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
-<junction x="243.84" y="144.78"/>
-<pinref part="IC1401" gate="PWR" pin="VCC"/>
-<pinref part="U$90" gate="G$1" pin="+5.0V_VREG_1"/>
-</segment>
 <segment>
 <pinref part="C1402" gate="G$1" pin="P$2"/>
 <wire x1="238.76" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
@@ -25514,6 +30869,21 @@ Alert temperature can be configured via I2C</text>
 <pinref part="R1401" gate="G$1" pin="2"/>
 <pinref part="U$126" gate="G$1" pin="+5.0V_VREG_1"/>
 <wire x1="167.64" y1="96.52" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="259.08" y1="180.34" x2="259.08" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="R1402" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U$76" gate="G$1" pin="+5.0V_VREG_1"/>
+</segment>
+<segment>
+<wire x1="198.12" y1="180.34" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="IC1401" gate="G$1" pin="VCC"/>
+<wire x1="198.12" y1="170.18" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<junction x="198.12" y="170.18"/>
+<pinref part="C1401" gate="G$1" pin="P$2"/>
+<pinref part="U$74" gate="G$1" pin="+5.0V_VREG_1"/>
 </segment>
 </net>
 <net name="SECONDARY-TEMP-ALERT" class="0">
@@ -25529,22 +30899,34 @@ Alert temperature can be configured via I2C</text>
 </net>
 <net name="FUSED_VBAT-" class="0">
 <segment>
-<wire x1="228.6" y1="132.08" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC1401" gate="PWR" pin="VSS"/>
-<pinref part="C1401" gate="G$1" pin="P$1"/>
-<pinref part="U$78" gate="G$1" pin="FUSED_VBAT-"/>
-<wire x1="243.84" y1="127" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="129.54" x2="243.84" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="129.54" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<junction x="243.84" y="129.54"/>
-</segment>
-<segment>
 <pinref part="C1402" gate="G$1" pin="P$1"/>
 <wire x1="238.76" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$103" gate="G$1" pin="FUSED_VBAT-"/>
 <wire x1="243.84" y1="83.82" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
 <junction x="243.84" y="83.82"/>
 <pinref part="IC1402" gate="A" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$75" gate="G$1" pin="FUSED_VBAT-"/>
+<wire x1="198.12" y1="139.7" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC1401" gate="G$1" pin="VSS"/>
+<wire x1="198.12" y1="149.86" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<junction x="198.12" y="149.86"/>
+<pinref part="C1401" gate="G$1" pin="P$1"/>
+</segment>
+<segment>
+<pinref part="IC1401" gate="G$1" pin="E2"/>
+<pinref part="U$99" gate="G$1" pin="FUSED_VBAT-"/>
+<wire x1="238.76" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="165.1" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$95" class="0">
+<segment>
+<pinref part="IC1401" gate="G$1" pin="!WC"/>
+<pinref part="R1402" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="170.18" x2="243.84" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -25559,13 +30941,11 @@ Alert temperature can be configured via I2C</text>
 <text x="335.28" y="248.92" size="3.81" layer="115" align="bottom-center">Daisy Chain Connectors</text>
 <text x="373.38" y="231.14" size="1.778" layer="115" align="center-left">Primary Daisy-Chain</text>
 <text x="373.38" y="210.82" size="1.778" layer="115" align="center-left">Secondary Daisy-Chain</text>
-<text x="345.44" y="25.4" size="3.81" layer="105">Status: A</text>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="124.46" width="0.1524" layer="105"/>
-<wire x1="137.16" y1="58.42" x2="137.16" y2="27.94" width="0.1524" layer="105"/>
 <text x="104.14" y="162.56" size="3.81" layer="115" align="bottom-center">Pin-Header for additional analog and digital inputs/outputs</text>
 <text x="76.2" y="246.38" size="1.778" layer="115" align="top-center">24p connector equal for 12/15/18/20 cell version</text>
 <text x="228.6" y="246.38" size="1.778" layer="115" align="top-center">2x 16p connector equal for 12/15/18/20 cell version</text>
 <text x="335.28" y="246.38" size="1.778" layer="115" align="top-center">4x 2p connector equal for 12/15/18/20 cell version</text>
+<text x="386.08" y="162.56" size="3.81" layer="115" align="bottom-center">External Power Supply</text>
 </plain>
 <instances>
 <instance part="U$86" gate="G$2" x="88.9" y="220.98"/>
@@ -25614,6 +30994,9 @@ Alert temperature can be configured via I2C</text>
 <instance part="U$53" gate="G$1" x="330.2" y="127"/>
 <instance part="U$11" gate="G$1" x="210.82" y="193.04"/>
 <instance part="U$21" gate="G$1" x="269.24" y="193.04" rot="MR0"/>
+<instance part="X1513" gate="G$1" x="386.08" y="152.4"/>
+<instance part="X1514" gate="G$1" x="386.08" y="144.78"/>
+<instance part="X1515" gate="G$1" x="386.08" y="132.08" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -26569,6 +31952,363 @@ Alert temperature can be configured via I2C</text>
 <wire x1="88.9" y1="215.9" x2="88.9" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="EXT_DC_IN+" class="0">
+<segment>
+<wire x1="370.84" y1="152.4" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
+<label x="370.84" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1515" gate="G$1" pin="3"/>
+<wire x1="375.92" y1="129.54" x2="373.38" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="129.54" x2="373.38" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="X1515" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="134.62" x2="373.38" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="144.78" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="134.62" x2="373.38" y2="134.62" width="0.1524" layer="91"/>
+<junction x="373.38" y="134.62"/>
+<pinref part="X1513" gate="G$1" pin="1"/>
+<wire x1="378.46" y1="152.4" x2="373.38" y2="152.4" width="0.1524" layer="91"/>
+<junction x="373.38" y="152.4"/>
+<pinref part="X1514" gate="G$1" pin="1"/>
+<wire x1="378.46" y1="144.78" x2="373.38" y2="144.78" width="0.1524" layer="91"/>
+<junction x="373.38" y="144.78"/>
+</segment>
+</net>
+<net name="EXT_DC_IN-" class="0">
+<segment>
+<wire x1="401.32" y1="152.4" x2="398.78" y2="152.4" width="0.1524" layer="91"/>
+<label x="401.32" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="X1515" gate="G$1" pin="4"/>
+<wire x1="396.24" y1="129.54" x2="398.78" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="129.54" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="X1515" gate="G$1" pin="2"/>
+<wire x1="398.78" y1="134.62" x2="398.78" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="144.78" x2="398.78" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="134.62" x2="398.78" y2="134.62" width="0.1524" layer="91"/>
+<junction x="398.78" y="134.62"/>
+<pinref part="X1514" gate="G$1" pin="2"/>
+<wire x1="393.7" y1="144.78" x2="398.78" y2="144.78" width="0.1524" layer="91"/>
+<junction x="398.78" y="144.78"/>
+<pinref part="X1513" gate="G$1" pin="2"/>
+<wire x1="393.7" y1="152.4" x2="398.78" y2="152.4" width="0.1524" layer="91"/>
+<junction x="398.78" y="152.4"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<description>Ext. Power Supply</description>
+<plain>
+<text x="336.042" y="24.13" size="2.54" layer="115">External Power Supply</text>
+<text x="63.5" y="170.18" size="2.54" layer="115" ratio="10" rot="R180" align="center-left">V_IN = 8 .. 24 V</text>
+<text x="114.3" y="180.34" size="2.54" layer="115" ratio="10" align="bottom-center">Fuse +
+Reverse Polarity Protection</text>
+<text x="274.32" y="180.34" size="2.54" layer="115" ratio="10" align="bottom-center">Flyback Transformer</text>
+<text x="243.84" y="142.24" size="2.54" layer="115" ratio="10" rot="R180" align="bottom-center">Snubber</text>
+<text x="238.76" y="101.6" size="2.54" layer="115" ratio="10" rot="R180" align="bottom-center">Temperature
+Compensation</text>
+</plain>
+<instances>
+<instance part="FRAME18" gate="G$1" x="0" y="0"/>
+<instance part="FRAME18" gate="G$2" x="307.34" y="2.54"/>
+<instance part="IC1601" gate="G$1" x="218.44" y="137.16"/>
+<instance part="R1606" gate="G$1" x="259.08" y="116.84" rot="R90"/>
+<instance part="R1601" gate="G$1" x="182.88" y="154.94" rot="R90"/>
+<instance part="R1602" gate="G$1" x="182.88" y="134.62" rot="R90"/>
+<instance part="C1605" gate="G$1" x="193.04" y="114.3" rot="R90"/>
+<instance part="R1605" gate="G$1" x="259.08" y="137.16" rot="R90"/>
+<instance part="R1604" gate="G$1" x="238.76" y="116.84" rot="R90"/>
+<instance part="C1603" gate="G$1" x="162.56" y="154.94" rot="R90"/>
+<instance part="TR1601" gate="G$1" x="274.32" y="165.1"/>
+<instance part="D1604" gate="G$1" x="294.64" y="172.72"/>
+<instance part="C1608" gate="G$1" x="307.34" y="163.83" rot="R90"/>
+<instance part="C1609" gate="G$1" x="312.42" y="163.83" rot="R90"/>
+<instance part="C1610" gate="G$1" x="317.5" y="163.83" rot="R90"/>
+<instance part="D1605" gate="G$1" x="325.12" y="165.1" rot="R90"/>
+<instance part="R1603" gate="G$1" x="238.76" y="152.4" rot="R90"/>
+<instance part="C1602" gate="G$1" x="152.4" y="154.94" rot="R90"/>
+<instance part="C1606" gate="G$1" x="238.76" y="165.1" rot="R90"/>
+<instance part="C1601" gate="G$1" x="132.08" y="154.94" rot="R90"/>
+<instance part="F1601" gate="G$1" x="106.68" y="172.72"/>
+<instance part="D1603" gate="G$1" x="248.92" y="152.4" rot="R90"/>
+<instance part="D1602" gate="G$1" x="248.92" y="165.1" rot="R270"/>
+<instance part="L1601" gate="G$1" x="142.24" y="172.72"/>
+<instance part="D1601" gate="G$1" x="121.92" y="172.72"/>
+<instance part="C1607" gate="G$1" x="274.32" y="149.86"/>
+<instance part="U$78" gate="G$1" x="335.28" y="152.4"/>
+<instance part="X1601" gate="G$1" x="350.52" y="170.18" rot="R180"/>
+<instance part="C1604" gate="G$1" x="172.72" y="134.62" rot="R90"/>
+<instance part="TP1601" gate="G$1" x="116.84" y="91.44" rot="MR0"/>
+<instance part="TP1603" gate="G$1" x="340.36" y="157.48" rot="MR180"/>
+<instance part="TP1602" gate="G$1" x="132.08" y="177.8" rot="MR180"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="EXT_DC_IN+" class="0">
+<segment>
+<wire x1="101.6" y1="172.72" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
+<label x="86.36" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="F1601" gate="G$1" pin="P$1"/>
+</segment>
+</net>
+<net name="EXT_DC_IN-" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="GND"/>
+<wire x1="218.44" y1="101.6" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C1605" gate="G$1" pin="P$1"/>
+<wire x1="193.04" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="109.22" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
+<junction x="193.04" y="91.44"/>
+<pinref part="R1602" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="129.54" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<junction x="182.88" y="91.44"/>
+<pinref part="R1606" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="91.44" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
+<junction x="218.44" y="91.44"/>
+<wire x1="162.56" y1="149.86" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
+<junction x="162.56" y="91.44"/>
+<pinref part="C1603" gate="G$1" pin="P$1"/>
+<wire x1="132.08" y1="149.86" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<junction x="132.08" y="91.44"/>
+<pinref part="C1602" gate="G$1" pin="P$1"/>
+<wire x1="152.4" y1="91.44" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="91.44"/>
+<wire x1="132.08" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="167.64" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
+<label x="86.36" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C1601" gate="G$1" pin="P$1"/>
+<wire x1="269.24" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="149.86" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="91.44" x2="259.08" y2="91.44" width="0.1524" layer="91"/>
+<junction x="259.08" y="91.44"/>
+<pinref part="C1607" gate="G$1" pin="P$1"/>
+<pinref part="C1604" gate="G$1" pin="P$1"/>
+<wire x1="172.72" y1="129.54" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
+<junction x="172.72" y="91.44"/>
+<pinref part="TP1601" gate="G$1" pin="MP"/>
+<wire x1="116.84" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<junction x="121.92" y="91.44"/>
+</segment>
+</net>
+<net name="N$68" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="EN/UVLO"/>
+<pinref part="R1601" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="144.78" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R1602" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="139.7" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
+<junction x="182.88" y="144.78"/>
+<pinref part="C1604" gate="G$1" pin="P$2"/>
+<wire x1="182.88" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="144.78" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="INTVCC"/>
+<pinref part="C1605" gate="G$1" pin="P$2"/>
+<wire x1="203.2" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="124.46" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$77" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="R_REF"/>
+<pinref part="R1606" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="124.46" x2="259.08" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="124.46" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R1604" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="121.92" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+<junction x="238.76" y="124.46"/>
+</segment>
+</net>
+<net name="N$79" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="R_FB"/>
+<pinref part="R1605" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="129.54" x2="259.08" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="SW"/>
+<pinref part="R1605" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="144.78" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="TR1601" gate="G$1" pin="PIN2"/>
+<wire x1="269.24" y1="157.48" x2="259.08" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="157.48" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
+<junction x="259.08" y="144.78"/>
+<pinref part="R1603" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="147.32" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
+<junction x="238.76" y="144.78"/>
+<pinref part="D1603" gate="G$1" pin="A"/>
+<wire x1="248.92" y1="147.32" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
+<junction x="248.92" y="144.78"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="TC"/>
+<pinref part="R1604" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="109.22" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$74" class="0">
+<segment>
+<pinref part="TR1601" gate="G$1" pin="PIN7"/>
+<wire x1="279.4" y1="167.64" x2="281.94" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="167.64" x2="281.94" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="TR1601" gate="G$1" pin="PIN6"/>
+<wire x1="281.94" y1="162.56" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="TR1601" gate="G$1" pin="PIN5"/>
+<wire x1="279.4" y1="172.72" x2="289.56" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="D1604" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="EXT_DC_ISO+" class="0">
+<segment>
+<pinref part="D1604" gate="G$1" pin="C"/>
+<wire x1="299.72" y1="172.72" x2="307.34" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="172.72" x2="312.42" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C1609" gate="G$1" pin="P$2"/>
+<wire x1="312.42" y1="168.91" x2="312.42" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C1608" gate="G$1" pin="P$2"/>
+<wire x1="307.34" y1="168.91" x2="307.34" y2="172.72" width="0.1524" layer="91"/>
+<junction x="307.34" y="172.72"/>
+<wire x1="312.42" y1="172.72" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
+<junction x="312.42" y="172.72"/>
+<pinref part="C1610" gate="G$1" pin="P$2"/>
+<wire x1="317.5" y1="172.72" x2="325.12" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="168.91" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
+<junction x="317.5" y="172.72"/>
+<pinref part="D1605" gate="G$1" pin="K"/>
+<wire x1="325.12" y1="172.72" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
+<junction x="325.12" y="172.72"/>
+<pinref part="X1601" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="172.72" x2="335.28" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="172.72" x2="345.44" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="172.72" x2="335.28" y2="177.8" width="0.1524" layer="91"/>
+<junction x="335.28" y="172.72"/>
+<label x="335.28" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="C1606" gate="G$1" pin="P$1"/>
+<pinref part="R1603" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="160.02" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="F1601" gate="G$1" pin="P$2"/>
+<wire x1="111.76" y1="172.72" x2="116.84" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="D1601" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$91" class="0">
+<segment>
+<wire x1="127" y1="172.72" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C1601" gate="G$1" pin="P$2"/>
+<wire x1="132.08" y1="172.72" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="160.02" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
+<junction x="132.08" y="172.72"/>
+<pinref part="L1601" gate="G$1" pin="1"/>
+<pinref part="D1601" gate="G$1" pin="C"/>
+<pinref part="TP1602" gate="G$1" pin="MP"/>
+<wire x1="132.08" y1="177.8" x2="132.08" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$92" class="0">
+<segment>
+<pinref part="D1602" gate="G$1" pin="C"/>
+<pinref part="D1603" gate="G$1" pin="C"/>
+<wire x1="248.92" y1="160.02" x2="248.92" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1254" class="0">
+<segment>
+<pinref part="IC1601" gate="G$1" pin="V_IN"/>
+<wire x1="218.44" y1="157.48" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="172.72" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R1601" gate="G$1" pin="2"/>
+<wire x1="182.88" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="160.02" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
+<junction x="182.88" y="172.72"/>
+<wire x1="162.56" y1="160.02" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<junction x="162.56" y="172.72"/>
+<pinref part="C1603" gate="G$1" pin="P$2"/>
+<pinref part="TR1601" gate="G$1" pin="PIN4"/>
+<wire x1="218.44" y1="172.72" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
+<junction x="218.44" y="172.72"/>
+<pinref part="C1602" gate="G$1" pin="P$2"/>
+<wire x1="238.76" y1="172.72" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="172.72" x2="269.24" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="160.02" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C1606" gate="G$1" pin="P$2"/>
+<wire x1="238.76" y1="170.18" x2="238.76" y2="172.72" width="0.1524" layer="91"/>
+<junction x="238.76" y="172.72"/>
+<wire x1="147.32" y1="172.72" x2="152.4" y2="172.72" width="0.1524" layer="91"/>
+<junction x="152.4" y="172.72"/>
+<pinref part="D1602" gate="G$1" pin="A"/>
+<wire x1="248.92" y1="170.18" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
+<junction x="248.92" y="172.72"/>
+<pinref part="L1601" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="FUSED_VBAT-" class="0">
+<segment>
+<pinref part="TR1601" gate="G$1" pin="PIN8"/>
+<wire x1="279.4" y1="157.48" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C1608" gate="G$1" pin="P$1"/>
+<wire x1="284.48" y1="157.48" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="157.48" x2="307.34" y2="158.75" width="0.1524" layer="91"/>
+<pinref part="C1609" gate="G$1" pin="P$1"/>
+<wire x1="307.34" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="157.48" x2="312.42" y2="158.75" width="0.1524" layer="91"/>
+<junction x="307.34" y="157.48"/>
+<wire x1="312.42" y1="157.48" x2="317.5" y2="157.48" width="0.1524" layer="91"/>
+<junction x="312.42" y="157.48"/>
+<pinref part="C1610" gate="G$1" pin="P$1"/>
+<wire x1="317.5" y1="157.48" x2="325.12" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="158.75" x2="317.5" y2="157.48" width="0.1524" layer="91"/>
+<junction x="317.5" y="157.48"/>
+<pinref part="D1605" gate="G$1" pin="A"/>
+<wire x1="325.12" y1="157.48" x2="325.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="157.48" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
+<junction x="325.12" y="157.48"/>
+<wire x1="279.4" y1="149.86" x2="284.48" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="149.86" x2="284.48" y2="157.48" width="0.1524" layer="91"/>
+<junction x="284.48" y="157.48"/>
+<pinref part="C1607" gate="G$1" pin="P$2"/>
+<pinref part="U$78" gate="G$1" pin="FUSED_VBAT-"/>
+<wire x1="335.28" y1="154.94" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="X1601" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="167.64" x2="335.28" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="167.64" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
+<junction x="335.28" y="157.48"/>
+<pinref part="TP1603" gate="G$1" pin="MP"/>
+<wire x1="340.36" y1="157.48" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -26602,125 +32342,140 @@ Alert temperature can be configured via I2C</text>
 <wire x1="55.88" y1="246.38" x2="55.88" y2="236.22" width="0.8128" layer="115"/>
 <text x="58.42" y="241.3" size="3.81" layer="115" align="center-left">2016-09-29</text>
 <text x="111.76" y="241.3" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
-<text x="20.32" y="241.3" size="3.81" layer="115" align="center-left">2.00</text>
+<text x="20.32" y="241.3" size="3.81" layer="115" align="center-left">2.0.0</text>
 <text x="182.88" y="241.3" size="3.81" layer="115" align="center-left">Initial Version</text>
-<text x="20.32" y="231.14" size="3.81" layer="115" align="center-left">2.01</text>
+<text x="20.32" y="231.14" size="3.81" layer="115" align="center-left">2.0.1</text>
 <text x="58.42" y="231.14" size="3.81" layer="115" align="center-left">2016-11-15</text>
 <text x="111.76" y="231.14" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
 <text x="182.88" y="231.14" size="3.81" layer="115" align="center-left">Added missing cooling areas on bottom side, adjusted silk screen</text>
-<text x="182.88" y="220.98" size="3.81" layer="115" align="center-left">Enlarged PCB tracks, R201/202/301/302 other package</text>
-<wire x1="109.22" y1="195.58" x2="109.22" y2="236.22" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="236.22" x2="180.34" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="195.58" x2="109.22" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="195.58" x2="416.56" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="236.22" x2="55.88" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="195.58" x2="109.22" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="236.22" x2="15.24" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="195.58" x2="55.88" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="416.56" y1="195.58" x2="416.56" y2="236.22" width="0.8128" layer="115"/>
-<text x="182.88" y="210.82" size="3.81" layer="115" align="center-left">Enlarged T201/301 cooling area</text>
-<text x="182.88" y="200.66" size="3.81" layer="115" align="center-left">Replaced PCF8574 with PCA8574 (400 kHz I2C)</text>
-<text x="20.32" y="106.68" size="5.08" layer="115" align="center-left">Device</text>
-<text x="124.46" y="106.68" size="5.08" layer="115" align="center-left">I2C Address (without R/W bit)</text>
-<wire x1="248.92" y1="111.76" x2="119.38" y2="111.76" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="111.76" x2="15.24" y2="111.76" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="111.76" x2="15.24" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="111.76" x2="119.38" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="111.76" x2="248.92" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="101.6" x2="119.38" y2="101.6" width="0.8128" layer="115"/>
-<text x="20.32" y="96.52" size="3.81" layer="115" align="center-left">MUX Temp. Sens. 0-7</text>
-<wire x1="119.38" y1="101.6" x2="15.24" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="91.44" x2="119.38" y2="91.44" width="0.8128" layer="115"/>
-<text x="124.46" y="96.52" size="3.81" layer="115" align="center-left">0x4C</text>
-<wire x1="119.38" y1="91.44" x2="15.24" y2="91.44" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="101.6" x2="119.38" y2="91.44" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="101.6" x2="15.24" y2="91.44" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="101.6" x2="248.92" y2="91.44" width="0.8128" layer="115"/>
-<text x="124.46" y="86.36" size="3.81" layer="115" align="center-left">0x4D</text>
-<text x="124.46" y="76.2" size="3.81" layer="115" align="center-left">0x4E</text>
-<wire x1="119.38" y1="81.28" x2="15.24" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="81.28" x2="119.38" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="91.44" x2="119.38" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="91.44" x2="248.92" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="81.28" x2="248.92" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="81.28" x2="119.38" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="71.12" x2="119.38" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="71.12" x2="119.38" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="71.12" x2="248.92" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="60.96" x2="119.38" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="91.44" x2="15.24" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="81.28" x2="15.24" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="71.12" x2="15.24" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="71.12" x2="15.24" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="60.96" x2="15.24" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="60.96" x2="15.24" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="50.8" x2="15.24" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="60.96" x2="119.38" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="50.8" x2="119.38" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="60.96" x2="248.92" y2="50.8" width="0.8128" layer="115"/>
-<text x="20.32" y="86.36" size="3.81" layer="115" align="center-left">MUX Analog In 0-7</text>
-<text x="20.32" y="76.2" size="3.81" layer="115" align="center-left">MUX Analog In 8-15</text>
-<text x="20.32" y="66.04" size="3.81" layer="115" align="center-left">Port Expander</text>
-<text x="20.32" y="55.88" size="3.81" layer="115" align="center-left">EEPROM</text>
-<text x="124.46" y="66.04" size="3.81" layer="115" align="center-left">0x20</text>
-<text x="124.46" y="55.88" size="3.81" layer="115" align="center-left">0x50</text>
-<text x="124.46" y="45.72" size="3.81" layer="115" align="center-left">0x48</text>
-<wire x1="248.92" y1="40.64" x2="119.38" y2="40.64" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="40.64" width="0.8128" layer="115"/>
-<wire x1="248.92" y1="50.8" x2="248.92" y2="40.64" width="0.8128" layer="115"/>
-<wire x1="119.38" y1="40.64" x2="15.24" y2="40.64" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="50.8" x2="15.24" y2="40.64" width="0.8128" layer="115"/>
-<text x="20.32" y="45.72" size="3.81" layer="115" align="center-left">Board Temp. Sens.</text>
-<text x="20.32" y="190.5" size="3.81" layer="115" align="center-left">2.02</text>
-<text x="58.42" y="190.5" size="3.81" layer="115" align="center-left">2016-11-24</text>
-<text x="111.76" y="190.5" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
-<text x="182.88" y="190.5" size="3.81" layer="115" align="center-left">Replaced LTC1380 MUXs with ADG728 (400 kHz I2C)</text>
-<text x="182.88" y="180.34" size="3.81" layer="115" align="center-left">Adjusted connection of 100 ohm resistors for V+ / V_REG supply </text>
-<wire x1="109.22" y1="162.56" x2="109.22" y2="195.58" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="195.58" x2="180.34" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="162.56" x2="109.22" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="162.56" x2="416.56" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="195.58" x2="55.88" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="162.56" x2="109.22" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="195.58" x2="15.24" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="162.56" x2="55.88" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="416.56" y1="162.56" x2="416.56" y2="195.58" width="0.8128" layer="115"/>
-<text x="182.88" y="170.18" size="3.81" layer="115" align="center-left">Reduced value of I2C pullups to 1k2</text>
-<wire x1="320.04" y1="111.76" x2="248.92" y2="111.76" width="0.8128" layer="115"/>
-<text x="254" y="106.68" size="5.08" layer="115" align="center-left">max. I2C clock</text>
-<wire x1="320.04" y1="111.76" x2="320.04" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="101.6" x2="248.92" y2="101.6" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="101.6" x2="320.04" y2="91.44" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="91.44" x2="320.04" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="91.44" x2="248.92" y2="91.44" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="81.28" x2="248.92" y2="81.28" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="71.12" x2="248.92" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="60.96" x2="248.92" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="50.8" x2="248.92" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="40.64" x2="248.92" y2="40.64" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="81.28" x2="320.04" y2="71.12" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="71.12" x2="320.04" y2="60.96" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="60.96" x2="320.04" y2="50.8" width="0.8128" layer="115"/>
-<wire x1="320.04" y1="50.8" x2="320.04" y2="40.64" width="0.8128" layer="115"/>
-<text x="254" y="96.52" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="254" y="86.36" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="254" y="76.2" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="254" y="66.04" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="254" y="55.88" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="254" y="45.72" size="3.81" layer="115" align="center-left">400 kHz</text>
-<text x="20.32" y="157.48" size="3.81" layer="115" align="center-left">2.03</text>
-<text x="58.42" y="157.48" size="3.81" layer="115" align="center-left">2017-04-13</text>
-<text x="111.76" y="157.48" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
-<text x="182.88" y="157.48" size="3.81" layer="115" align="center-left">fixed isoSPI transformer CMC issue</text>
-<wire x1="109.22" y1="114.3" x2="109.22" y2="162.56" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="162.56" x2="180.34" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="114.3" x2="109.22" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="180.34" y1="114.3" x2="416.56" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="162.56" x2="55.88" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="55.88" y1="114.3" x2="109.22" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="162.56" x2="15.24" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="15.24" y1="114.3" x2="55.88" y2="114.3" width="0.8128" layer="115"/>
-<wire x1="416.56" y1="114.3" x2="416.56" y2="162.56" width="0.8128" layer="115"/>
+<text x="182.88" y="223.52" size="3.81" layer="115" align="center-left">Enlarged PCB tracks, R201/202/301/302 other package</text>
+<wire x1="109.22" y1="203.2" x2="109.22" y2="236.22" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="236.22" x2="180.34" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="203.2" x2="109.22" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="203.2" x2="416.56" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="236.22" x2="55.88" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="203.2" x2="109.22" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="236.22" x2="15.24" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="203.2" x2="55.88" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="416.56" y1="203.2" x2="416.56" y2="236.22" width="0.8128" layer="115"/>
+<text x="182.88" y="215.9" size="3.81" layer="115" align="center-left">Enlarged T201/301 cooling area</text>
+<text x="182.88" y="208.28" size="3.81" layer="115" align="center-left">Replaced PCF8574 with PCA8574 (400 kHz I2C)</text>
+<text x="20.32" y="71.12" size="5.08" layer="115" align="center-left">Device</text>
+<text x="124.46" y="71.12" size="5.08" layer="115" align="center-left">I2C Address (without R/W bit)</text>
+<wire x1="248.92" y1="76.2" x2="119.38" y2="76.2" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="76.2" x2="15.24" y2="76.2" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="76.2" x2="15.24" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="76.2" x2="119.38" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="76.2" x2="248.92" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="66.04" x2="119.38" y2="66.04" width="0.8128" layer="115"/>
+<text x="20.32" y="60.96" size="3.81" layer="115" align="center-left">MUX Temp. Sens. 0-7</text>
+<wire x1="119.38" y1="66.04" x2="15.24" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="55.88" x2="119.38" y2="55.88" width="0.8128" layer="115"/>
+<text x="124.46" y="60.96" size="3.81" layer="115" align="center-left">0x4C</text>
+<wire x1="119.38" y1="55.88" x2="15.24" y2="55.88" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="66.04" x2="119.38" y2="55.88" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="66.04" x2="15.24" y2="55.88" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="66.04" x2="248.92" y2="55.88" width="0.8128" layer="115"/>
+<text x="124.46" y="50.8" size="3.81" layer="115" align="center-left">0x4D</text>
+<text x="124.46" y="40.64" size="3.81" layer="115" align="center-left">0x4E</text>
+<wire x1="119.38" y1="45.72" x2="15.24" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="45.72" x2="119.38" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="55.88" x2="119.38" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="55.88" x2="248.92" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="45.72" x2="248.92" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="45.72" x2="119.38" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="35.56" x2="119.38" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="35.56" x2="119.38" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="35.56" x2="248.92" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="25.4" x2="119.38" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="55.88" x2="15.24" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="35.56" x2="15.24" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="35.56" x2="15.24" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="25.4" x2="15.24" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="15.24" x2="15.24" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="25.4" x2="119.38" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="15.24" x2="119.38" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="25.4" x2="248.92" y2="15.24" width="0.8128" layer="115"/>
+<text x="20.32" y="50.8" size="3.81" layer="115" align="center-left">MUX Analog In 0-7</text>
+<text x="20.32" y="40.64" size="3.81" layer="115" align="center-left">MUX Analog In 8-15</text>
+<text x="20.32" y="30.48" size="3.81" layer="115" align="center-left">Port Expander</text>
+<text x="20.32" y="20.32" size="3.81" layer="115" align="center-left">EEPROM</text>
+<text x="124.46" y="30.48" size="3.81" layer="115" align="center-left">0x20</text>
+<text x="124.46" y="20.32" size="3.81" layer="115" align="center-left">0x50 (see manual for MSB addressing)</text>
+<text x="124.46" y="10.16" size="3.81" layer="115" align="center-left">0x48</text>
+<wire x1="248.92" y1="5.08" x2="119.38" y2="5.08" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="15.24" x2="119.38" y2="5.08" width="0.8128" layer="115"/>
+<wire x1="248.92" y1="15.24" x2="248.92" y2="5.08" width="0.8128" layer="115"/>
+<wire x1="119.38" y1="5.08" x2="15.24" y2="5.08" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="5.08" width="0.8128" layer="115"/>
+<text x="20.32" y="10.16" size="3.81" layer="115" align="center-left">Board Temp. Sens.</text>
+<text x="20.32" y="198.12" size="3.81" layer="115" align="center-left">2.0.2</text>
+<text x="58.42" y="198.12" size="3.81" layer="115" align="center-left">2016-11-24</text>
+<text x="111.76" y="198.12" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
+<text x="182.88" y="198.12" size="3.81" layer="115" align="center-left">Replaced LTC1380 MUXs with ADG728 (400 kHz I2C)</text>
+<text x="182.88" y="190.5" size="3.81" layer="115" align="center-left">Adjusted connection of 100 ohm resistors for V+ / V_REG supply </text>
+<text x="182.88" y="182.88" size="3.81" layer="115" align="center-left">Reduced value of I2C pullups to 1k2</text>
+<wire x1="302.26" y1="76.2" x2="248.92" y2="76.2" width="0.8128" layer="115"/>
+<text x="254" y="71.12" size="5.08" layer="115" align="center-left">I2C clock</text>
+<wire x1="302.26" y1="76.2" x2="302.26" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="66.04" x2="248.92" y2="66.04" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="66.04" x2="302.26" y2="55.88" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="55.88" x2="302.26" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="55.88" x2="248.92" y2="55.88" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="45.72" x2="248.92" y2="45.72" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="35.56" x2="248.92" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="25.4" x2="248.92" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="15.24" x2="248.92" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="5.08" x2="248.92" y2="5.08" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="45.72" x2="302.26" y2="35.56" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="35.56" x2="302.26" y2="25.4" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="25.4" x2="302.26" y2="15.24" width="0.8128" layer="115"/>
+<wire x1="302.26" y1="15.24" x2="302.26" y2="5.08" width="0.8128" layer="115"/>
+<text x="254" y="60.96" size="3.81" layer="115" align="center-left">400 kHz (max.)</text>
+<wire x1="180.34" y1="177.8" x2="109.22" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="177.8" x2="416.56" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="177.8" x2="109.22" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="177.8" x2="55.88" y2="177.8" width="0.8128" layer="115"/>
+<text x="20.32" y="172.72" size="3.81" layer="115" align="center-left">2.0.3</text>
+<text x="58.42" y="172.72" size="3.81" layer="115" align="center-left">2017-04-13</text>
+<text x="111.76" y="172.72" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
+<text x="182.88" y="172.72" size="3.81" layer="115" align="center-left">Fixed isoSPI transformer CMC issue</text>
+<wire x1="109.22" y1="167.64" x2="109.22" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="177.8" x2="180.34" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="177.8" x2="55.88" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="177.8" x2="15.24" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="416.56" y1="167.64" x2="416.56" y2="177.8" width="0.8128" layer="115"/>
+<text x="254" y="50.8" size="3.81" layer="115" align="center-left">400 kHz (max.)</text>
+<text x="254" y="40.64" size="3.81" layer="115" align="center-left">400 kHz (max.)</text>
+<text x="254" y="30.48" size="3.81" layer="115" align="center-left">400 kHz (max.)</text>
+<text x="254" y="20.32" size="3.81" layer="115" align="center-left">1 MHz (max.)</text>
+<text x="254" y="10.16" size="3.81" layer="115" align="center-left">400 kHz (max.)</text>
+<wire x1="109.22" y1="177.8" x2="109.22" y2="203.2" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="203.2" x2="180.34" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="167.64" x2="109.22" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="167.64" x2="416.56" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="203.2" x2="55.88" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="167.64" x2="109.22" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="203.2" x2="15.24" y2="177.8" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="167.64" x2="55.88" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="416.56" y1="177.8" x2="416.56" y2="203.2" width="0.8128" layer="115"/>
+<text x="20.32" y="162.56" size="3.81" layer="115" align="center-left">2.1.0</text>
+<text x="58.42" y="162.56" size="3.81" layer="115" align="center-left">2017-09-04</text>
+<text x="111.76" y="162.56" size="3.81" layer="115" align="center-left">Sebastian Wacker</text>
+<text x="182.88" y="154.94" size="3.81" layer="115" align="center-left">Replaced I2C EEPROM 24AA02UID with M24M02-DR (ECC)</text>
+<text x="182.88" y="147.32" size="3.81" layer="115" align="center-left">Switched connection of balancing resistors from serial to parallel</text>
+<wire x1="109.22" y1="142.24" x2="109.22" y2="167.64" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="167.64" x2="180.34" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="167.64" x2="55.88" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="167.64" x2="15.24" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="416.56" y1="142.24" x2="416.56" y2="167.64" width="0.8128" layer="115"/>
+<text x="182.88" y="162.56" size="3.81" layer="115" align="center-left">Added 8-24 V isolated external power supply</text>
+<wire x1="180.34" y1="142.24" x2="109.22" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="180.34" y1="142.24" x2="416.56" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="55.88" y1="142.24" x2="109.22" y2="142.24" width="0.8128" layer="115"/>
+<wire x1="15.24" y1="142.24" x2="55.88" y2="142.24" width="0.8128" layer="115"/>
 </plain>
 <instances>
 <instance part="FRAME13" gate="G$1" x="0" y="0"/>
@@ -26739,8 +32494,6 @@ Alert temperature can be configured via I2C</text>
 <approved hash="102,15,88.9,177.8,VBAT-(FUSED),VBAT-,,,,"/>
 <approved hash="104,9,381,124.46,IC903PWR,V+,+5.0V_VREG_0,,,"/>
 <approved hash="104,9,381,114.3,IC903PWR,V-,FUSED_VBAT-,,,"/>
-<approved hash="104,13,228.6,142.24,IC1301PWR,VCC,+5.0V_VREG_0,,,"/>
-<approved hash="104,13,228.6,132.08,IC1301PWR,VSS,FUSED_VBAT-,,,"/>
 <approved hash="104,2,101.6,236.22,IC201-PWR,V+,N$17,,,"/>
 <approved hash="104,2,101.6,205.74,IC201-PWR,V-1,FUSED_VBAT-,,,"/>
 <approved hash="104,2,101.6,210.82,IC201-PWR,V-2,FUSED_VBAT-,,,"/>
@@ -26759,8 +32512,6 @@ Alert temperature can be configured via I2C</text>
 <approved hash="104,10,381,114.3,IC1003PWR,V-,FUSED_VBAT-,,,"/>
 <approved hash="104,10,381,78.74,IC1004PWR,V+,+5.0V_VREG_1,,,"/>
 <approved hash="104,10,381,68.58,IC1004PWR,V-,FUSED_VBAT-,,,"/>
-<approved hash="104,14,228.6,142.24,IC1401PWR,VCC,+5.0V_VREG_1,,,"/>
-<approved hash="104,14,228.6,132.08,IC1401PWR,VSS,FUSED_VBAT-,,,"/>
 <approved hash="104,13,238.76,93.98,IC1302,VDD,+5.0V_VREG_0,,,"/>
 <approved hash="104,14,238.76,93.98,IC1402,VDD,+5.0V_VREG_1,,,"/>
 <approved hash="104,11,180.34,144.78,IC1101,VDD,+5.0V_VREG_0,,,"/>
@@ -26773,6 +32524,14 @@ Alert temperature can be configured via I2C</text>
 <approved hash="104,9,193.04,81.28,IC902,VCC,+5.0V_VREG_0,,,"/>
 <approved hash="104,10,381,205.74,IC1005,VCC,+5.0V_VREG_1,,,"/>
 <approved hash="104,10,193.04,81.28,IC1002,VCC,+5.0V_VREG_1,,,"/>
+<approved hash="104,16,218.44,157.48,IC1601,V_IN,N$1254,,,"/>
+<approved hash="104,16,218.44,101.6,IC1601,GND,EXT_DC_IN-,,,"/>
+<approved hash="104,16,233.68,144.78,IC1601,SW,N$80,,,"/>
+<approved hash="104,16,233.68,129.54,IC1601,R_FB,N$79,,,"/>
+<approved hash="104,16,233.68,124.46,IC1601,R_REF,N$77,,,"/>
+<approved hash="104,16,233.68,109.22,IC1601,TC,N$82,,,"/>
+<approved hash="104,13,203.2,167.64,IC1301,VCC,+5.0V_VREG_0,,,"/>
+<approved hash="104,14,203.2,170.18,IC1401,VCC,+5.0V_VREG_1,,,"/>
 <approved hash="113,4,128.024,91.44,SJ402,,,,,"/>
 <approved hash="113,4,128.024,203.2,SJ401,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME4,,,,,"/>
@@ -26792,7 +32551,8 @@ Alert temperature can be configured via I2C</text>
 <approved hash="113,12,215.796,139.596,FRAME7,,,,,"/>
 <approved hash="113,12,365.531,17.5514,FRAME11,,,,,"/>
 <approved hash="113,14,215.796,139.596,FRAME17,,,,,"/>
-<approved hash="113,16,215.796,139.596,FRAME13,,,,,"/>
+<approved hash="113,17,215.796,139.596,FRAME13,,,,,"/>
+<approved hash="113,16,215.796,139.596,FRAME18,,,,,"/>
 </errors>
 </schematic>
 </drawing>
